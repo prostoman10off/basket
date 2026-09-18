@@ -158,9 +158,9 @@ body::before {
 .hero-text h1 {
   max-width: 790px;
   margin: 0;
-  font-size: clamp(38px, 6.2vw, 76px);
+  font-size: clamp(44px, 7vw, 88px);
   line-height: 0.93;
-  letter-spacing: -3.4px;
+  letter-spacing: -3.8px;
   text-shadow: 0 10px 38px rgba(0,0,0,0.55);
 }
 
@@ -171,6 +171,60 @@ body::before {
   line-height: 1.62;
   margin: 24px 0 0;
   text-shadow: 0 2px 16px rgba(0,0,0,0.38);
+}
+
+/* Участники */
+.friends-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.friend-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 13px 8px 8px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.58);
+  border: 1px solid rgba(255,255,255,0.22);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.22);
+  animation: friendFloat 4s ease-in-out infinite;
+}
+
+.friend-card:nth-child(2) {
+  animation-delay: 0.45s;
+}
+
+.friend-card:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.friend-card img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.72);
+  box-shadow: 0 0 0 4px rgba(255,122,24,0.18);
+}
+
+.friend-card span {
+  font-size: 14px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+@keyframes friendFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 .hero-card {
@@ -271,7 +325,6 @@ body::before {
   backdrop-filter: blur(14px);
 }
 
-/* Главное изменение: 4 карточки в строке */
 .games-grid,
 .results-list {
   display: grid;
@@ -289,6 +342,20 @@ body::before {
   box-shadow: 0 12px 34px rgba(0,0,0,0.28);
   backdrop-filter: blur(18px);
   min-width: 0;
+  transform: translateY(0) scale(1);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease,
+    background 0.22s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-7px) scale(1.025);
+  box-shadow: 0 22px 58px rgba(0,0,0,0.42);
+  border-color: rgba(255, 184, 107, 0.55);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.24), rgba(15,23,42,0.68));
 }
 
 .game-card::before {
@@ -453,7 +520,6 @@ body::before {
 
 .team-meta {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 5px;
   margin-top: 4px;
@@ -466,14 +532,6 @@ body::before {
   display: inline-flex;
   align-items: center;
   gap: 3px;
-}
-
-.team-standing {
-  color: #bfdbfe;
-  max-width: 145px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .team-side {
@@ -491,13 +549,6 @@ body::before {
 .team-score.pending {
   color: #ffb86b;
   font-size: 18px;
-}
-
-.team-seed {
-  margin-top: 3px;
-  color: #cbd5e1;
-  font-size: 10px;
-  white-space: nowrap;
 }
 
 .nba-empty-logo {
@@ -545,47 +596,6 @@ body::before {
 .empty-state p {
   color: #dbe3ef;
   margin: 9px 0 0;
-}
-
-.loading-card {
-  grid-column: 1 / -1;
-  border: 1px solid rgba(255,255,255,0.22);
-  border-radius: 26px;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,0.18), rgba(15,23,42,0.6));
-  backdrop-filter: blur(20px);
-  padding: 20px;
-}
-
-.loading-title {
-  font-weight: 900;
-  margin-bottom: 6px;
-}
-
-.loading-text {
-  color: var(--muted);
-  font-size: 14px;
-  margin-bottom: 14px;
-}
-
-.progress-track {
-  height: 10px;
-  background: rgba(255,255,255,0.12);
-  border-radius: 999px;
-  overflow: hidden;
-}
-
-.progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, #ff7a18, #7c3aed, #38bdf8);
-  border-radius: 999px;
-  transition: width 0.2s ease;
-}
-
-.progress-meta {
-  margin-top: 12px;
-  color: var(--muted);
-  font-size: 13px;
 }
 
 .skeleton-card {
@@ -655,10 +665,6 @@ body::before {
   .games-grid,
   .results-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .team-standing {
-    max-width: 110px;
   }
 }
 
