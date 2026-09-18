@@ -1,16 +1,22 @@
 const fs = require("fs");
 const path = require("path");
 
-const SEASON_LABEL = "2026-2027";
+const CURRENT_SEASON_LABEL = "2026-2027";
 
-const SEASON_START = new Date(2026, 9, 1); // 1 октября 2026
-const SEASON_END = new Date(2027, 9, 1, 23, 59, 59, 999); // 1 октября 2027 включительно
+const CURRENT_SEASON_START = new Date(2026, 9, 1); // 1 октября 2026
+const CURRENT_SEASON_END = new Date(2027, 9, 1, 23, 59, 59, 999); // 1 октября 2027
+
+const PREVIOUS_YEAR = 2026;
+const PREVIOUS_YEAR_START = new Date(2026, 0, 1); // 1 января 2026
+const PREVIOUS_YEAR_END = new Date(2026, 8, 30, 23, 59, 59, 999); // 30 сентября 2026
 
 const ESPN_SCOREBOARD_API_URL =
   "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
 
 const DATA_DIR = path.join(process.cwd(), "data");
-const DATA_FILE = path.join(DATA_DIR, "nba-2026-2027.json");
+
+const CURRENT_SEASON_FILE = path.join(DATA_DIR, "nba-2026-2027.json");
+const PREVIOUS_SEASON_FILE = path.join(DATA_DIR, "nba-2026.json");
 
 const DAYS_AHEAD = 3;
 const RECENT_DAYS_TO_REFRESH = 10;
@@ -19,29 +25,41 @@ const CONCURRENT_REQUESTS = 4;
 main();
 
 async function main() {
-  console.log(`Starting NBA data update for season ${SEASON_LABEL}...`);
+  console.log("Starting NBA data update...");
 
   ensureDataDir();
 
-  const existingData = readExistingData();
+  const previousData = readJsonFile(PREVIOUS_SEASON_FILE, getEmptyPreviousSeasonData());
+  const currentData = readJsonFile(CURRENT_SEASON_FILE, getEmptyCurrentSeasonData());
 
-  const seasonGames = await updateSeasonGames(existingData.seasonGames || []);
+  const previousSeasonGames = await updatePreviousSeasonGames(previousData.pastGames || []);
+  const currentSeasonGames = await updateCurrentSeasonGames(currentData.seasonGames || []);
   const upcomingGames = await loadUpcomingGames();
 
-  const output = {
-    season: SEASON_LABEL,
+  const previousOutput = {
+    year: PREVIOUS_YEAR,
+    updatedAt: new Date().toISOString(),
+    source: "ESPN API",
+    pastGames: previousSeasonGames,
+    upcomingGames: []
+  };
+
+  const currentOutput = {
+    season: CURRENT_SEASON_LABEL,
     seasonStart: "2026-10-01",
     seasonEnd: "2027-10-01",
     updatedAt: new Date().toISOString(),
     source: "ESPN API",
-    seasonGames,
+    seasonGames: currentSeasonGames,
     upcomingGames
   };
 
-  fs.writeFileSync(DATA_FILE, JSON.stringify(output, null, 2), "utf8");
+  fs.writeFileSync(PREVIOUS_SEASON_FILE, JSON.stringify(previousOutput, null, 2), "utf8");
+  fs.writeFileSync(CURRENT_SEASON_FILE, JSON.stringify(currentOutput, null, 2), "utf8");
 
   console.log("Done.");
-  console.log(`Season games: ${seasonGames.length}`);
+  console.log(`Previous season games: ${previousSeasonGames.length}`);
+  console.log(`Current season games: ${currentSeasonGames.length}`);
   console.log(`Upcoming games: ${upcomingGames.length}`);
 }
 
@@ -51,23 +69,33 @@ function ensureDataDir() {
   }
 }
 
-function readExistingData() {
-  if (!fs.existsSync(DATA_FILE)) {
-    return getEmptyData();
+function readJsonFile(filePath, fallback) {
+  if (!fs.existsSync(filePath)) {
+    return fallback;
   }
 
   try {
-    const raw = fs.readFileSync(DATA_FILE, "utf8");
+    const raw = fs.readFileSync(filePath, "utf8");
     return JSON.parse(raw);
   } catch (error) {
-    console.warn("Could not read existing JSON. Starting fresh.", error);
-    return getEmptyData();
+    console.warn(`Could not read ${filePath}. Starting fresh.`, error);
+    return fallback;
   }
 }
 
-function getEmptyData() {
+function getEmptyPreviousSeasonData() {
   return {
-    season: SEASON_LABEL,
+    year: PREVIOUS_YEAR,
+    updatedAt: null,
+    source: "ESPN API",
+    pastGames: [],
+    upcomingGames: []
+  };
+}
+
+function getEmptyCurrentSeasonData() {
+  return {
+    season: CURRENT_SEASON_LABEL,
     seasonStart: "2026-10-01",
     seasonEnd: "2027-10-01",
     updatedAt: null,
@@ -78,48 +106,46 @@ function getEmptyData() {
 }
 
 /*
-  Сезонные матчи:
-  - первый запуск: собираем с 01.10.2026 до текущей даты/конца сезона;
-  - следующие запуски: обновляем последние 10 дней;
-  - завершённые матчи остаются в JSON и не грузятся заново каждый раз.
+  Прошлый сезон / старые матчи:
+  Берём завершённые матчи с 01.01.2026 по 30.09.2026.
+  Это возвращает тот самый старый блок результатов.
 */
-async function updateSeasonGames(existingSeasonGames) {
-  const now = new Date();
-  const today = startOfDay(now);
+async function updatePreviousSeasonGames(existingGames) {
+  const today = startOfDay(new Date());
 
-  if (today < SEASON_START) {
-    console.log("Season has not started yet.");
+  if (today < PREVIOUS_YEAR_START) {
+    console.log("Previous season range has not started yet.");
     return [];
   }
 
-  let fetchEnd = today;
+  let fetchEnd = addDays(today, -1);
 
-  if (fetchEnd > SEASON_END) {
-    fetchEnd = startOfDay(SEASON_END);
+  if (fetchEnd > PREVIOUS_YEAR_END) {
+    fetchEnd = startOfDay(PREVIOUS_YEAR_END);
+  }
+
+  if (fetchEnd < PREVIOUS_YEAR_START) {
+    return existingGames;
   }
 
   let fetchStart;
 
-  if (!existingSeasonGames.length) {
-    fetchStart = startOfDay(SEASON_START);
-    console.log("Initial season load: fetching from season start.");
+  if (!existingGames.length) {
+    fetchStart = startOfDay(PREVIOUS_YEAR_START);
+    console.log("Initial previous season load: fetching from Jan 1 2026.");
   } else {
     fetchStart = maxDate(
-      startOfDay(SEASON_START),
+      startOfDay(PREVIOUS_YEAR_START),
       addDays(fetchEnd, -RECENT_DAYS_TO_REFRESH)
     );
 
-    console.log(`Incremental load: refreshing last ${RECENT_DAYS_TO_REFRESH} days.`);
-  }
-
-  if (fetchEnd < fetchStart) {
-    return existingSeasonGames;
+    console.log(`Previous season incremental load: refreshing last ${RECENT_DAYS_TO_REFRESH} days.`);
   }
 
   const dates = buildDatesRange(fetchStart, fetchEnd);
 
   console.log(
-    `Fetching season dates: ${toESPNDate(fetchStart)} - ${toESPNDate(fetchEnd)} (${dates.length} days)`
+    `Fetching previous season dates: ${toESPNDate(fetchStart)} - ${toESPNDate(fetchEnd)} (${dates.length} days)`
   );
 
   const eventsByDay = await runWithConcurrency(
@@ -127,32 +153,97 @@ async function updateSeasonGames(existingSeasonGames) {
     CONCURRENT_REQUESTS,
     async date => {
       const events = await fetchESPNEventsByDate(date);
-      console.log(`${toESPNDate(date)}: ${events.length} events`);
+      console.log(`Previous ${toESPNDate(date)}: ${events.length} events`);
       return events;
     }
   );
 
   const freshGames = normalizeEvents(eventsByDay.flat())
     .filter(game => game.isCompleted)
-    .filter(game => isDateInsideSeason(new Date(game.date)));
+    .filter(game => isDateInsidePreviousSeason(new Date(game.date)));
 
   const freshIds = new Set(freshGames.map(game => String(game.id)));
 
-  const oldGames = existingSeasonGames
+  const oldGames = existingGames
     .filter(game => !freshIds.has(String(game.id)))
-    .filter(game => isDateInsideSeason(new Date(game.date)));
+    .filter(game => isDateInsidePreviousSeason(new Date(game.date)));
 
-  const merged = [...oldGames, ...freshGames];
-
-  return dedupeGames(merged)
+  return dedupeGames([...oldGames, ...freshGames])
     .filter(game => game.isCompleted)
-    .filter(game => isDateInsideSeason(new Date(game.date)))
+    .filter(game => isDateInsidePreviousSeason(new Date(game.date)))
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+}
+
+/*
+  Новый сезон 2026-2027.
+*/
+async function updateCurrentSeasonGames(existingGames) {
+  const today = startOfDay(new Date());
+
+  if (today < CURRENT_SEASON_START) {
+    console.log("Current season has not started yet.");
+    return [];
+  }
+
+  let fetchEnd = addDays(today, -1);
+
+  if (fetchEnd > CURRENT_SEASON_END) {
+    fetchEnd = startOfDay(CURRENT_SEASON_END);
+  }
+
+  if (fetchEnd < CURRENT_SEASON_START) {
+    return existingGames;
+  }
+
+  let fetchStart;
+
+  if (!existingGames.length) {
+    fetchStart = startOfDay(CURRENT_SEASON_START);
+    console.log("Initial current season load: fetching from season start.");
+  } else {
+    fetchStart = maxDate(
+      startOfDay(CURRENT_SEASON_START),
+      addDays(fetchEnd, -RECENT_DAYS_TO_REFRESH)
+    );
+
+    console.log(`Current season incremental load: refreshing last ${RECENT_DAYS_TO_REFRESH} days.`);
+  }
+
+  const dates = buildDatesRange(fetchStart, fetchEnd);
+
+  console.log(
+    `Fetching current season dates: ${toESPNDate(fetchStart)} - ${toESPNDate(fetchEnd)} (${dates.length} days)`
+  );
+
+  const eventsByDay = await runWithConcurrency(
+    dates,
+    CONCURRENT_REQUESTS,
+    async date => {
+      const events = await fetchESPNEventsByDate(date);
+      console.log(`Current ${toESPNDate(date)}: ${events.length} events`);
+      return events;
+    }
+  );
+
+  const freshGames = normalizeEvents(eventsByDay.flat())
+    .filter(game => game.isCompleted)
+    .filter(game => isDateInsideCurrentSeason(new Date(game.date)));
+
+  const freshIds = new Set(freshGames.map(game => String(game.id)));
+
+  const oldGames = existingGames
+    .filter(game => !freshIds.has(String(game.id)))
+    .filter(game => isDateInsideCurrentSeason(new Date(game.date)));
+
+  return dedupeGames([...oldGames, ...freshGames])
+    .filter(game => game.isCompleted)
+    .filter(game => isDateInsideCurrentSeason(new Date(game.date)))
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
 /*
   Ближайшие матчи:
-  смотрим сегодня + следующие 2 дня = максимум 3 календарных дня.
+  сегодня + следующие 2 дня.
 */
 async function loadUpcomingGames() {
   const today = startOfDay(new Date());
@@ -162,13 +253,13 @@ async function loadUpcomingGames() {
   for (let i = 0; i < DAYS_AHEAD; i++) {
     const date = addDays(today, i);
 
-    if (isDateInsideSeason(date)) {
+    if (isDateInsideCurrentSeason(date)) {
       dates.push(date);
     }
   }
 
   if (!dates.length) {
-    console.log("No upcoming dates inside season.");
+    console.log("No upcoming dates inside current season.");
     return [];
   }
 
@@ -186,7 +277,7 @@ async function loadUpcomingGames() {
 
   return normalizeEvents(eventsByDay.flat())
     .filter(game => !game.isCompleted)
-    .filter(game => isDateInsideSeason(new Date(game.date)))
+    .filter(game => isDateInsideCurrentSeason(new Date(game.date)))
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 }
 
@@ -420,8 +511,12 @@ function dedupeGames(games) {
   return Array.from(map.values());
 }
 
-function isDateInsideSeason(date) {
-  return date >= SEASON_START && date <= SEASON_END;
+function isDateInsidePreviousSeason(date) {
+  return date >= PREVIOUS_YEAR_START && date <= PREVIOUS_YEAR_END;
+}
+
+function isDateInsideCurrentSeason(date) {
+  return date >= CURRENT_SEASON_START && date <= CURRENT_SEASON_END;
 }
 
 async function fetchWithTimeout(url, timeoutMs) {
