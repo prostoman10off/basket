@@ -5,7 +5,7 @@ on:
 
   schedule:
     # Каждый день в 09:20 UTC.
-    # Это примерно 12:20 по Москве, если UTC+3.
+    # Примерно 12:20 по Москве.
     - cron: "20 9 * * *"
 
 permissions:
@@ -30,5 +30,5 @@ jobs:
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update NBA data"
-          file_pattern: data/nba-2026.json
+          commit_message: "Update NBA season data"
+          file_pattern: data/nba-2026-2027.json
