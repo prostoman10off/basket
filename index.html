@@ -10,7 +10,8 @@
 </head>
 <body>
 
-  <div class="page-bg"></div>
+  <div class="background-image"></div>
+  <div class="background-overlay"></div>
 
   <header class="hero">
     <nav class="topbar">
@@ -18,35 +19,43 @@
         <div class="brand-logo">🏀</div>
         <div>
           <div class="brand-title">NBA Friends League</div>
-          <div class="brand-subtitle">результаты, матчи, прогнозы скоро</div>
+          <div class="brand-subtitle">матчи, прогнозы и рейтинг друзей</div>
         </div>
       </div>
 
       <button id="refreshBtn" class="refresh-btn" type="button">
-        Обновить
+        Обновить данные
       </button>
     </nav>
 
     <section class="hero-content">
       <div class="hero-text">
         <div class="eyebrow">private league / 3 friends</div>
-        <h1>NBA-лендинг для матчей, голосований и рейтинга</h1>
+
+        <h1>NBA-центр для вашей мини-лиги</h1>
+
         <p>
-          Сначала собираем базу: ближайшие игры, прошедшие результаты,
-          счёт и команды. Потом добавим выбор победителя, баллы и таблицу друзей.
+          Сначала собираем матчи NBA: ближайшие игры, результаты, команды,
+          счёт и логотипы. Следующим этапом добавим голосование за победителя,
+          баллы и рейтинг участников.
         </p>
       </div>
 
       <div class="hero-card">
         <div class="hero-card-label">Сезонный фид</div>
+
         <div class="hero-card-number" id="gamesCount">—</div>
-        <div class="hero-card-text">матчей загружено за год</div>
+
+        <div class="hero-card-text">
+          завершённых матчей найдено
+        </div>
 
         <div class="mini-stats">
           <div>
             <span id="upcomingCount">—</span>
             <small>скоро</small>
           </div>
+
           <div>
             <span id="yearLabel">—</span>
             <small>год</small>
@@ -62,12 +71,14 @@
       <div class="section-head">
         <div>
           <h2>Ближайшие матчи</h2>
-          <p>Максимум 3 дня вперёд. Обновляется при загрузке страницы.</p>
+          <p>Проверяем ближайшие 3 дня. Если игр нет — показываем заглушку.</p>
         </div>
+
         <div class="section-badge">Upcoming</div>
       </div>
 
       <div id="upcomingGames" class="games-grid">
+        <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
       </div>
@@ -77,8 +88,9 @@
       <div class="section-head">
         <div>
           <h2>Прошедшие матчи</h2>
-          <p>От самых свежих сверху к более старым вниз.</p>
+          <p>Результаты текущего года: от самых свежих сверху к более старым вниз.</p>
         </div>
+
         <div class="section-badge">Results</div>
       </div>
 
