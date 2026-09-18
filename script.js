@@ -1,4 +1,5 @@
-const DATA_URL = "data/nba-2026-2027.json";
+const CURRENT_SEASON_DATA_URL = "data/nba-2026-2027.json";
+const PREVIOUS_SEASON_DATA_URL = "data/nba-2026.json";
 
 const NBA_LOGO_URL =
   "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png";
@@ -7,6 +8,8 @@ const SEASON_LABEL = "2026-2027";
 
 const upcomingContainer = document.getElementById("upcomingGames");
 const seasonContainer = document.getElementById("seasonGames");
+const previousSeasonContainer = document.getElementById("previousSeasonGames");
+
 const refreshBtn = document.getElementById("refreshBtn");
 
 const gamesCountEl = document.getElementById("gamesCount");
@@ -26,24 +29,27 @@ async function loadDashboard(forceFresh) {
   try {
     renderLoading();
 
-    const data = await fetchJsonData(forceFresh);
+    const [currentSeasonData, previousSeasonData] = await Promise.all([
+      fetchJsonData(CURRENT_SEASON_DATA_URL, forceFresh),
+      fetchJsonData(PREVIOUS_SEASON_DATA_URL, forceFresh)
+    ]);
 
-    renderDashboard(data);
+    renderDashboard(currentSeasonData, previousSeasonData);
   } catch (error) {
     console.error(error);
     renderFatalError(error);
   }
 }
 
-async function fetchJsonData(forceFresh) {
+async function fetchJsonData(url, forceFresh) {
   const cacheBust = forceFresh ? `?v=${Date.now()}` : `?v=${Date.now()}`;
 
-  const response = await fetch(`${DATA_URL}${cacheBust}`, {
+  const response = await fetch(`${url}${cacheBust}`, {
     cache: "no-store"
   });
 
   if (!response.ok) {
-    throw new Error(`Не удалось загрузить JSON: ${response.status}`);
+    throw new Error(`Не удалось загрузить JSON ${url}: ${response.status}`);
   }
 
   return response.json();
@@ -64,31 +70,49 @@ function renderLoading() {
     <div class="skeleton-card"></div>
   `;
 
+  previousSeasonContainer.innerHTML = `
+    <div class="skeleton-card"></div>
+    <div class="skeleton-card"></div>
+    <div class="skeleton-card"></div>
+    <div class="skeleton-card"></div>
+  `;
+
   gamesCountEl.textContent = "—";
   upcomingCountEl.textContent = "—";
   lastUpdateEl.textContent = "Последнее обновление: загрузка...";
 }
 
-function renderDashboard(data) {
-  const upcomingGames = data.upcomingGames || [];
-  const seasonGames = data.seasonGames || [];
+function renderDashboard(currentSeasonData, previousSeasonData) {
+  const upcomingGames = currentSeasonData.upcomingGames || [];
+  const seasonGames = currentSeasonData.seasonGames || [];
+  const previousSeasonGames = previousSeasonData.pastGames || [];
 
   gamesCountEl.textContent = seasonGames.length;
   upcomingCountEl.textContent = upcomingGames.length;
 
-  lastUpdateEl.textContent = data.updatedAt
-    ? `Последнее обновление: ${formatDateTime(data.updatedAt)}`
+  const dates = [
+    currentSeasonData.updatedAt,
+    previousSeasonData.updatedAt
+  ].filter(Boolean);
+
+  const latestUpdate = dates.length
+    ? dates.sort((a, b) => new Date(b) - new Date(a))[0]
+    : null;
+
+  lastUpdateEl.textContent = latestUpdate
+    ? `Последнее обновление: ${formatDateTime(latestUpdate)}`
     : "Последнее обновление: ещё не запускалось";
 
   renderUpcomingGames(upcomingGames);
   renderSeasonGames(seasonGames);
+  renderPreviousSeasonGames(previousSeasonGames);
 }
 
 function renderUpcomingGames(games) {
   if (!games.length) {
     upcomingContainer.innerHTML = renderNbaEmptyState(
       "NBA Jam, скоро матч…",
-      "На ближайшие дни в сохранённом календаре нет игр NBA. Ждём следующий игровой день."
+      "Ждём следующий игровой день."
     );
 
     return;
@@ -103,13 +127,28 @@ function renderSeasonGames(games) {
   if (!games.length) {
     seasonContainer.innerHTML = renderNbaEmptyState(
       `Сезон ${SEASON_LABEL} пока пуст`,
-      "После запуска GitHub Actions здесь появятся завершённые матчи сезона."
+      "Матчи появятся здесь после завершения."
     );
 
     return;
   }
 
   seasonContainer.innerHTML = games
+    .map(game => renderGameCard(game, "result"))
+    .join("");
+}
+
+function renderPreviousSeasonGames(games) {
+  if (!games.length) {
+    previousSeasonContainer.innerHTML = renderNbaEmptyState(
+      "Прошлый сезон пока пуст",
+      "Результаты появятся после обновления данных."
+    );
+
+    return;
+  }
+
+  previousSeasonContainer.innerHTML = games
     .map(game => renderGameCard(game, "result"))
     .join("");
 }
@@ -233,12 +272,18 @@ function renderNbaEmptyState(title, text) {
 function renderFatalError(error) {
   upcomingContainer.innerHTML = renderNbaEmptyState(
     "NBA Jam, скоро матч…",
-    "Ближайшие матчи сейчас не загрузились, но это не критично."
+    "Ждём следующий игровой день."
   );
 
   seasonContainer.innerHTML = `
     <div class="error-box">
       Ошибка загрузки данных: ${escapeHtml(error.message)}
+    </div>
+  `;
+
+  previousSeasonContainer.innerHTML = `
+    <div class="error-box">
+      Ошибка загрузки прошлого сезона: ${escapeHtml(error.message)}
     </div>
   `;
 
