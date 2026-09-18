@@ -32,7 +32,24 @@
       <div class="hero-text">
         <div class="eyebrow">private league / 3 friends</div>
 
-        <h1>NBA-центр для вашей мини-лиги</h1>
+        <h1>NBA мини-лига</h1>
+
+        <div class="friends-row" aria-label="Участники мини-лиги">
+          <div class="friend-card">
+            <img src="Andrei.jpg" alt="Andrei" />
+            <span>Andrei</span>
+          </div>
+
+          <div class="friend-card">
+            <img src="Ivan.jpg" alt="Ivan" />
+            <span>Ivan</span>
+          </div>
+
+          <div class="friend-card">
+            <img src="Seva.jpg" alt="Seva" />
+            <span>Seva</span>
+          </div>
+        </div>
 
         <p>
           Сначала собираем матчи NBA: ближайшие игры, результаты, команды,
@@ -47,7 +64,7 @@
         <div class="hero-card-number" id="gamesCount">—</div>
 
         <div class="hero-card-text">
-          завершённых матчей найдено
+          матчей в сезоне
         </div>
 
         <div class="mini-stats">
@@ -57,8 +74,8 @@
           </div>
 
           <div>
-            <span id="yearLabel">—</span>
-            <small>год</small>
+            <span id="seasonLabel">—</span>
+            <small>сезон</small>
           </div>
         </div>
       </div>
@@ -71,7 +88,7 @@
       <div class="section-head">
         <div>
           <h2>Ближайшие матчи</h2>
-          <p>Проверяем ближайшие 3 дня. Если игр нет — показываем заглушку.</p>
+          <p>Проверяем ближайшие 3 дня. Если игр нет — показываем NBA-заглушку.</p>
         </div>
 
         <div class="section-badge">Upcoming</div>
@@ -88,14 +105,14 @@
     <section class="section">
       <div class="section-head">
         <div>
-          <h2>Прошедшие матчи</h2>
-          <p>Результаты текущего года: от самых свежих сверху к более старым вниз.</p>
+          <h2>Сезон 2026-2027</h2>
+          <p>Все завершённые матчи с 1 октября 2026 по 1 октября 2027.</p>
         </div>
 
-        <div class="section-badge">Results</div>
+        <div class="section-badge">Season</div>
       </div>
 
-      <div id="pastGames" class="results-list">
+      <div id="seasonGames" class="results-list">
         <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
