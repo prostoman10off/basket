@@ -222,24 +222,26 @@ function renderGameCard(game, type) {
 
   return `
     <article class="game-card ${isResult ? "result-card" : "upcoming-card"} ${winnerClass} ${hasFans ? "has-fans" : ""} ${hasFanClash ? "has-fan-clash" : ""}">
-      ${
-        hasFanClash
-          ? `<div class="clash-fire" title="Матч команд друзей">🔥</div>`
-          : ""
-      }
-
-      ${
-        hasFans
-          ? renderGameFans(gameFans)
-          : ""
-      }
-
       <div class="game-inner">
 
         <div class="game-top">
           <div>
             <div class="game-date">${formatGameDate(game.date)}</div>
             <div class="game-time-small">${formatDateTime(game.date)}</div>
+          </div>
+
+          <div class="game-fan-zone">
+            ${
+              hasFanClash
+                ? `<div class="clash-fire" title="Матч команд друзей">🔥</div>`
+                : ""
+            }
+
+            ${
+              hasFans
+                ? renderGameFans(gameFans)
+                : ""
+            }
           </div>
 
           <div class="game-status ${statusClass}">
