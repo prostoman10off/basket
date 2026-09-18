@@ -30,5 +30,7 @@ jobs:
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update NBA season data"
-          file_pattern: data/nba-2026-2027.json
+          commit_message: "Update NBA data"
+          file_pattern: |
+            data/nba-2026-2027.json
+            data/nba-2026.json
