@@ -1,10 +1,27 @@
 const ESPN_API_URL =
   "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
 
-const DAYS_AHEAD = 3;
-const APP_YEAR = new Date().getFullYear();
+const NBA_LOGO_URL =
+  "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png";
 
-const CACHE_TTL_MS = 1000 * 60 * 60 * 6; // 6 часов
+/*
+  Важно:
+  Фиксируем год как 2026, потому что ты просил максимум текущий год — 2026.
+  Раньше код брал год из браузера через new Date().getFullYear().
+  Если у браузера/системы был другой год, он мог искать не 2026.
+*/
+const APP_YEAR = 2026;
+
+const DAYS_AHEAD = 3;
+const CONCURRENT_REQUESTS = 4;
+const CACHE_TTL_MS = 1000 * 60 * 60 * 4; // 4 часа
+
+/*
+  Версия кэша.
+  Меняй число, если нужно принудительно сбросить старые данные у всех.
+*/
+const CACHE_VERSION = "v3";
+
 const TODAY_CACHE_KEY = getTodayCacheKey();
 
 const upcomingContainer = document.getElementById("upcomingGames");
@@ -19,7 +36,7 @@ const lastUpdateEl = document.getElementById("lastUpdate");
 yearLabelEl.textContent = APP_YEAR;
 
 refreshBtn.addEventListener("click", () => {
-  localStorage.removeItem(TODAY_CACHE_KEY);
+  clearAppCache();
   loadDashboard();
 });
 
@@ -37,8 +54,8 @@ async function loadDashboard() {
     }
 
     const [upcomingGames, pastGames] = await Promise.all([
-      loadUpcomingGames(),
-      loadPastGamesForYear()
+      loadUpcomingGamesSafe(),
+      loadPastGamesForYearSafe()
     ]);
 
     const data = {
@@ -51,7 +68,7 @@ async function loadDashboard() {
     renderDashboard(data);
   } catch (error) {
     console.error(error);
-    renderError(error);
+    renderFatalError(error);
   }
 }
 
@@ -63,9 +80,16 @@ function renderLoading() {
   `;
 
   pastContainer.innerHTML = `
-    <div class="skeleton-card"></div>
-    <div class="skeleton-card"></div>
-    <div class="skeleton-card"></div>
+    <div class="loading-card">
+      <div class="loading-title">Готовим NBA-фид ${APP_YEAR}</div>
+      <div class="loading-text">
+        Проверяем календарь ESPN и собираем завершённые матчи.
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" style="width: 0%"></div>
+      </div>
+      <div class="progress-meta">Стартуем...</div>
+    </div>
   `;
 
   gamesCountEl.textContent = "—";
@@ -84,65 +108,180 @@ function renderDashboard(data) {
   renderPastGames(pastGames);
 }
 
-async function loadUpcomingGames() {
-  const today = startOfDay(new Date());
-  const from = addDays(today, 1);
-  const to = addDays(today, DAYS_AHEAD);
+/*
+  Ближайшие матчи.
+  Если ESPN не ответил или матчей нет — НЕ показываем ошибку.
+  Показываем NBA-заглушку.
+*/
+async function loadUpcomingGamesSafe() {
+  try {
+    const today = startOfDay(new Date());
+    const dates = [];
 
-  const datesParam = `${toESPNDate(from)}-${toESPNDate(to)}`;
-  const events = await fetchESPNEvents(datesParam);
+    for (let i = 1; i <= DAYS_AHEAD; i++) {
+      dates.push(addDays(today, i));
+    }
 
-  return normalizeEvents(events)
-    .filter(game => {
-      const gameDate = new Date(game.date);
-      return gameDate >= from && gameDate <= addDays(to, 1) && !game.isCompleted;
-    })
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
-}
+    const eventsByDay = await runWithConcurrency(
+      dates,
+      CONCURRENT_REQUESTS,
+      async date => {
+        return fetchESPNEventsByDate(date);
+      }
+    );
 
-async function loadPastGamesForYear() {
-  const today = startOfDay(new Date());
-  const yesterday = addDays(today, -1);
+    const events = eventsByDay.flat();
 
-  const start = new Date(APP_YEAR, 0, 1);
-  const end = yesterday;
-
-  if (end < start) {
+    return normalizeEvents(events)
+      .filter(game => !game.isCompleted)
+      .sort((a, b) => new Date(a.date) - new Date(b.date));
+  } catch (error) {
+    console.warn("Не удалось загрузить ближайшие матчи:", error);
     return [];
   }
-
-  const ranges = buildMonthRanges(start, end);
-
-  const responses = await Promise.all(
-    ranges.map(range => fetchESPNEvents(`${toESPNDate(range.from)}-${toESPNDate(range.to)}`))
-  );
-
-  const allEvents = responses.flat();
-
-  return normalizeEvents(allEvents)
-    .filter(game => {
-      const gameDate = new Date(game.date);
-      return (
-        game.isCompleted &&
-        gameDate.getFullYear() === APP_YEAR &&
-        gameDate < today
-      );
-    })
-    .sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
-async function fetchESPNEvents(datesParam) {
-  const url = `${ESPN_API_URL}?dates=${datesParam}&limit=1000`;
+/*
+  Прошедшие матчи 2026.
+  Идём от вчерашнего дня назад до 1 января 2026.
+  Каждый день запрашиваем отдельно — так ESPN работает стабильнее.
+*/
+async function loadPastGamesForYearSafe() {
+  try {
+    const today = startOfDay(new Date());
 
-  const response = await fetch(url);
+    let endDate = addDays(today, -1);
 
-  if (!response.ok) {
-    throw new Error(`ESPN API error: ${response.status}`);
+    /*
+      Если вдруг локальная дата пользователя меньше 2026 года,
+      всё равно дадим возможность смотреть 2026:
+      берём конец года как 31.12.2026, но не уходим в будущее относительно 2026.
+    */
+    if (endDate.getFullYear() < APP_YEAR) {
+      endDate = new Date(APP_YEAR, 11, 31);
+    }
+
+    /*
+      Если пользователь уже после 2026 — ограничиваем 31.12.2026.
+    */
+    if (endDate.getFullYear() > APP_YEAR) {
+      endDate = new Date(APP_YEAR, 11, 31);
+    }
+
+    const startDate = new Date(APP_YEAR, 0, 1);
+    const dates = [];
+
+    let current = new Date(endDate);
+
+    while (current >= startDate) {
+      dates.push(new Date(current));
+      current = addDays(current, -1);
+    }
+
+    updatePastLoadingProgress(0, dates.length, 0);
+
+    let foundEventsCount = 0;
+    let processedDays = 0;
+
+    const eventsByDay = await runWithConcurrency(
+      dates,
+      CONCURRENT_REQUESTS,
+      async date => {
+        const events = await fetchESPNEventsByDate(date);
+
+        processedDays++;
+        foundEventsCount += events.length;
+
+        updatePastLoadingProgress(
+          processedDays,
+          dates.length,
+          foundEventsCount
+        );
+
+        return events;
+      }
+    );
+
+    const events = eventsByDay.flat();
+
+    return normalizeEvents(events)
+      .filter(game => {
+        const gameDate = new Date(game.date);
+
+        return (
+          game.isCompleted &&
+          gameDate.getFullYear() === APP_YEAR
+        );
+      })
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+  } catch (error) {
+    console.warn("Не удалось загрузить прошедшие матчи:", error);
+    return [];
   }
+}
 
-  const data = await response.json();
+function updatePastLoadingProgress(done, total, foundEventsCount) {
+  if (!pastContainer) return;
 
-  return data.events || [];
+  const percent = total ? Math.round((done / total) * 100) : 0;
+
+  pastContainer.innerHTML = `
+    <div class="loading-card">
+      <div class="loading-title">Загружаем результаты NBA ${APP_YEAR}</div>
+      <div class="loading-text">
+        ESPN не всегда стабильно отдаёт диапазоны дат, поэтому проверяем дни отдельно.
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" style="width: ${percent}%"></div>
+      </div>
+
+      <div class="progress-meta">
+        Проверено дней: ${Math.min(done, total)} из ${total}. 
+        Событий найдено до фильтрации: ${foundEventsCount}.
+      </div>
+    </div>
+  `;
+}
+
+async function fetchESPNEventsByDate(date) {
+  const dateParam = toESPNDate(date);
+
+  const url =
+    `${ESPN_API_URL}?dates=${dateParam}&limit=100&region=us&lang=en&contentorigin=espn`;
+
+  try {
+    const response = await fetchWithTimeout(url, 12000);
+
+    if (!response.ok) {
+      console.warn(`ESPN API ${dateParam}: HTTP ${response.status}`);
+      return [];
+    }
+
+    const data = await response.json();
+
+    return data.events || [];
+  } catch (error) {
+    console.warn(`ESPN API ${dateParam}: ошибка запроса`, error);
+    return [];
+  }
+}
+
+async function fetchWithTimeout(url, timeoutMs) {
+  const controller = new AbortController();
+
+  const timeoutId = setTimeout(() => {
+    controller.abort();
+  }, timeoutMs);
+
+  try {
+    return await fetch(url, {
+      signal: controller.signal,
+      cache: "no-store"
+    });
+  } finally {
+    clearTimeout(timeoutId);
+  }
 }
 
 function normalizeEvents(events) {
@@ -178,14 +317,18 @@ function normalizeEvent(event) {
   }
 
   const statusType = event.status && event.status.type ? event.status.type : {};
+
   const statusName = statusType.name || "";
   const statusState = statusType.state || "";
-  const statusDescription = statusType.description || "Unknown";
+  const statusDescription = statusType.description || "";
+  const completed = Boolean(statusType.completed);
 
   const isCompleted =
+    completed ||
     statusState === "post" ||
+    statusName === "STATUS_FINAL" ||
     statusName.includes("FINAL") ||
-    statusName === "STATUS_FINAL";
+    statusDescription.toLowerCase().includes("final");
 
   const isScheduled =
     statusState === "pre" ||
@@ -204,18 +347,18 @@ function normalizeEvent(event) {
 
     homeTeam: {
       id: home.team.id,
-      name: home.team.displayName || home.team.name,
-      shortName: home.team.shortDisplayName || home.team.abbreviation,
-      abbreviation: home.team.abbreviation,
+      name: home.team.displayName || home.team.name || "Home Team",
+      shortName: home.team.shortDisplayName || home.team.abbreviation || "",
+      abbreviation: home.team.abbreviation || "",
       logo: getTeamLogo(home.team),
       score: Number(home.score || 0)
     },
 
     awayTeam: {
       id: away.team.id,
-      name: away.team.displayName || away.team.name,
-      shortName: away.team.shortDisplayName || away.team.abbreviation,
-      abbreviation: away.team.abbreviation,
+      name: away.team.displayName || away.team.name || "Away Team",
+      shortName: away.team.shortDisplayName || away.team.abbreviation || "",
+      abbreviation: away.team.abbreviation || "",
       logo: getTeamLogo(away.team),
       score: Number(away.score || 0)
     }
@@ -223,6 +366,10 @@ function normalizeEvent(event) {
 }
 
 function getTeamLogo(team) {
+  if (!team) {
+    return "";
+  }
+
   if (team.logo) {
     return team.logo;
   }
@@ -240,7 +387,11 @@ function getTeamLogo(team) {
 
 function renderUpcomingGames(games) {
   if (!games.length) {
-    upcomingContainer.innerHTML = renderEmptyState();
+    upcomingContainer.innerHTML = renderNbaEmptyState(
+      "NBA Jam, скоро матч…",
+      `На ближайшие ${DAYS_AHEAD} дня ESPN не показывает игр NBA. Похоже, ждём следующий игровой день.`
+    );
+
     return;
   }
 
@@ -251,13 +402,11 @@ function renderUpcomingGames(games) {
 
 function renderPastGames(games) {
   if (!games.length) {
-    pastContainer.innerHTML = `
-      <div class="empty-state">
-        <div class="empty-ball">🏀</div>
-        <h3>Пока нет завершённых матчей за ${APP_YEAR}</h3>
-        <p>Как только ESPN отдаст результаты — они появятся здесь.</p>
-      </div>
-    `;
+    pastContainer.innerHTML = renderNbaEmptyState(
+      `Пока не нашли завершённых матчей за ${APP_YEAR}`,
+      "Если матчи точно были, нажми «Обновить данные». Если не поможет — проверим конкретную дату в ESPN API."
+    );
+
     return;
   }
 
@@ -280,6 +429,7 @@ function renderGameCard(game, type) {
             <div class="game-date">${formatGameDate(game.date)}</div>
             <div>${formatDateTime(game.date)}</div>
           </div>
+
           <div class="game-status ${statusClass}">
             ${statusText}
           </div>
@@ -341,26 +491,32 @@ function renderTeam(team, type) {
   `;
 }
 
-function renderEmptyState() {
+function renderNbaEmptyState(title, text) {
   return `
     <div class="empty-state">
-      <div class="empty-ball">🏀</div>
-      <h3>Джем, скоро матч…</h3>
-      <p>На ближайшие ${DAYS_AHEAD} дня ESPN пока не отдаёт игр NBA.</p>
+      <img 
+        class="nba-empty-logo" 
+        src="${NBA_LOGO_URL}" 
+        alt="NBA" 
+        loading="lazy"
+        onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', '<div class=&quot;empty-ball&quot;>🏀</div>');"
+      />
+
+      <h3>${escapeHtml(title)}</h3>
+      <p>${escapeHtml(text)}</p>
     </div>
   `;
 }
 
-function renderError(error) {
-  upcomingContainer.innerHTML = `
-    <div class="error-box">
-      Не удалось загрузить ближайшие матчи. Попробуй обновить страницу.
-    </div>
-  `;
+function renderFatalError(error) {
+  upcomingContainer.innerHTML = renderNbaEmptyState(
+    "NBA Jam, скоро матч…",
+    "Ближайшие матчи сейчас не загрузились, но это не критично."
+  );
 
   pastContainer.innerHTML = `
     <div class="error-box">
-      Не удалось загрузить прошедшие матчи. Ошибка: ${escapeHtml(error.message)}
+      Ошибка приложения: ${escapeHtml(error.message)}
     </div>
   `;
 
@@ -369,22 +525,33 @@ function renderError(error) {
   lastUpdateEl.textContent = "Последнее обновление: ошибка";
 }
 
-function buildMonthRanges(startDate, endDate) {
-  const ranges = [];
+async function runWithConcurrency(items, limit, task) {
+  const results = new Array(items.length);
+  let index = 0;
 
-  let current = new Date(startDate.getFullYear(), startDate.getMonth(), 1);
+  async function worker() {
+    while (index < items.length) {
+      const currentIndex = index;
+      index++;
 
-  while (current <= endDate) {
-    const from = current < startDate ? new Date(startDate) : new Date(current);
-    const monthEnd = new Date(current.getFullYear(), current.getMonth() + 1, 0);
-    const to = monthEnd > endDate ? new Date(endDate) : monthEnd;
-
-    ranges.push({ from, to });
-
-    current = new Date(current.getFullYear(), current.getMonth() + 1, 1);
+      try {
+        results[currentIndex] = await task(items[currentIndex], currentIndex);
+      } catch (error) {
+        console.warn("Ошибка загрузки элемента:", items[currentIndex], error);
+        results[currentIndex] = [];
+      }
+    }
   }
 
-  return ranges;
+  const workers = [];
+
+  for (let i = 0; i < Math.min(limit, items.length); i++) {
+    workers.push(worker());
+  }
+
+  await Promise.all(workers);
+
+  return results;
 }
 
 function startOfDay(date) {
@@ -442,7 +609,7 @@ function getTodayCacheKey() {
   const today = new Date();
   const date = toESPNDate(today);
 
-  return `nba-dashboard-${APP_YEAR}-${date}`;
+  return `nba-dashboard-${CACHE_VERSION}-${APP_YEAR}-${date}`;
 }
 
 function getCachedData() {
@@ -477,7 +644,19 @@ function setCachedData(data) {
       })
     );
   } catch {
-    // Если localStorage недоступен — просто ничего не делаем
+    // Если localStorage недоступен — ничего не делаем.
+  }
+}
+
+function clearAppCache() {
+  try {
+    Object.keys(localStorage).forEach(key => {
+      if (key.startsWith("nba-dashboard-")) {
+        localStorage.removeItem(key);
+      }
+    });
+  } catch {
+    // Ничего не делаем.
   }
 }
 
