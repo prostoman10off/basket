@@ -1,18 +1,16 @@
 const fs = require("fs");
 const path = require("path");
 
-const YEAR = 2026;
+const SEASON_LABEL = "2026-2027";
+
+const SEASON_START = new Date(2026, 9, 1); // 1 октября 2026
+const SEASON_END = new Date(2027, 9, 1, 23, 59, 59, 999); // 1 октября 2027 включительно
 
 const ESPN_SCOREBOARD_API_URL =
   "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
 
-const ESPN_STANDINGS_URLS = [
-  "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?region=us&lang=en&contentorigin=espn&type=0",
-  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/standings?region=us&lang=en&contentorigin=espn"
-];
-
 const DATA_DIR = path.join(process.cwd(), "data");
-const DATA_FILE = path.join(DATA_DIR, `nba-${YEAR}.json`);
+const DATA_FILE = path.join(DATA_DIR, "nba-2026-2027.json");
 
 const DAYS_AHEAD = 3;
 const RECENT_DAYS_TO_REFRESH = 10;
@@ -21,31 +19,30 @@ const CONCURRENT_REQUESTS = 4;
 main();
 
 async function main() {
-  console.log(`Starting NBA data update for ${YEAR}...`);
+  console.log(`Starting NBA data update for season ${SEASON_LABEL}...`);
 
   ensureDataDir();
 
   const existingData = readExistingData();
 
-  const pastGames = await updatePastGames(existingData.pastGames || []);
+  const seasonGames = await updateSeasonGames(existingData.seasonGames || []);
   const upcomingGames = await loadUpcomingGames();
-  const standingsByTeamId = await loadStandingsSafe();
 
   const output = {
-    year: YEAR,
+    season: SEASON_LABEL,
+    seasonStart: "2026-10-01",
+    seasonEnd: "2027-10-01",
     updatedAt: new Date().toISOString(),
     source: "ESPN API",
-    pastGames,
-    upcomingGames,
-    standingsByTeamId
+    seasonGames,
+    upcomingGames
   };
 
   fs.writeFileSync(DATA_FILE, JSON.stringify(output, null, 2), "utf8");
 
-  console.log(`Done.`);
-  console.log(`Past games: ${pastGames.length}`);
+  console.log("Done.");
+  console.log(`Season games: ${seasonGames.length}`);
   console.log(`Upcoming games: ${upcomingGames.length}`);
-  console.log(`Standings teams: ${Object.keys(standingsByTeamId).length}`);
 }
 
 function ensureDataDir() {
@@ -56,14 +53,7 @@ function ensureDataDir() {
 
 function readExistingData() {
   if (!fs.existsSync(DATA_FILE)) {
-    return {
-      year: YEAR,
-      updatedAt: null,
-      source: "ESPN API",
-      pastGames: [],
-      upcomingGames: [],
-      standingsByTeamId: {}
-    };
+    return getEmptyData();
   }
 
   try {
@@ -71,51 +61,65 @@ function readExistingData() {
     return JSON.parse(raw);
   } catch (error) {
     console.warn("Could not read existing JSON. Starting fresh.", error);
-    return {
-      year: YEAR,
-      updatedAt: null,
-      source: "ESPN API",
-      pastGames: [],
-      upcomingGames: [],
-      standingsByTeamId: {}
-    };
+    return getEmptyData();
   }
 }
 
-async function updatePastGames(existingPastGames) {
-  const today = startOfDay(new Date());
+function getEmptyData() {
+  return {
+    season: SEASON_LABEL,
+    seasonStart: "2026-10-01",
+    seasonEnd: "2027-10-01",
+    updatedAt: null,
+    source: "ESPN API",
+    seasonGames: [],
+    upcomingGames: []
+  };
+}
 
-  let endDate = addDays(today, -1);
+/*
+  Сезонные матчи:
+  - первый запуск: собираем с 01.10.2026 до текущей даты/конца сезона;
+  - следующие запуски: обновляем последние 10 дней;
+  - завершённые матчи остаются в JSON и не грузятся заново каждый раз.
+*/
+async function updateSeasonGames(existingSeasonGames) {
+  const now = new Date();
+  const today = startOfDay(now);
 
-  if (endDate.getFullYear() < YEAR) {
-    console.log("Current date is before target year. No past games yet.");
+  if (today < SEASON_START) {
+    console.log("Season has not started yet.");
     return [];
   }
 
-  if (endDate.getFullYear() > YEAR) {
-    endDate = new Date(YEAR, 11, 31);
+  let fetchEnd = today;
+
+  if (fetchEnd > SEASON_END) {
+    fetchEnd = startOfDay(SEASON_END);
   }
 
-  const yearStart = new Date(YEAR, 0, 1);
+  let fetchStart;
 
-  let startDate;
-
-  if (!existingPastGames.length) {
-    startDate = yearStart;
-    console.log("Initial load: fetching full year from Jan 1.");
+  if (!existingSeasonGames.length) {
+    fetchStart = startOfDay(SEASON_START);
+    console.log("Initial season load: fetching from season start.");
   } else {
-    startDate = maxDate(yearStart, addDays(endDate, -RECENT_DAYS_TO_REFRESH));
+    fetchStart = maxDate(
+      startOfDay(SEASON_START),
+      addDays(fetchEnd, -RECENT_DAYS_TO_REFRESH)
+    );
+
     console.log(`Incremental load: refreshing last ${RECENT_DAYS_TO_REFRESH} days.`);
   }
 
-  if (endDate < startDate) {
-    return existingPastGames;
+  if (fetchEnd < fetchStart) {
+    return existingSeasonGames;
   }
 
-  const dates = buildDatesRange(startDate, endDate);
+  const dates = buildDatesRange(fetchStart, fetchEnd);
 
   console.log(
-    `Fetching past dates: ${toESPNDate(startDate)} - ${toESPNDate(endDate)} (${dates.length} days)`
+    `Fetching season dates: ${toESPNDate(fetchStart)} - ${toESPNDate(fetchEnd)} (${dates.length} days)`
   );
 
   const eventsByDay = await runWithConcurrency(
@@ -129,47 +133,42 @@ async function updatePastGames(existingPastGames) {
   );
 
   const freshGames = normalizeEvents(eventsByDay.flat())
-    .filter(game => {
-      const gameDate = new Date(game.date);
-
-      return (
-        game.isCompleted &&
-        gameDate.getFullYear() === YEAR
-      );
-    });
+    .filter(game => game.isCompleted)
+    .filter(game => isDateInsideSeason(new Date(game.date)));
 
   const freshIds = new Set(freshGames.map(game => String(game.id)));
 
-  const oldGamesOutsideRefresh = existingPastGames.filter(game => {
-    return !freshIds.has(String(game.id));
-  });
+  const oldGames = existingSeasonGames
+    .filter(game => !freshIds.has(String(game.id)))
+    .filter(game => isDateInsideSeason(new Date(game.date)));
 
-  const merged = [...oldGamesOutsideRefresh, ...freshGames];
+  const merged = [...oldGames, ...freshGames];
 
-  const unique = dedupeGames(merged)
-    .filter(game => {
-      const gameDate = new Date(game.date);
-      return game.isCompleted && gameDate.getFullYear() === YEAR;
-    })
+  return dedupeGames(merged)
+    .filter(game => game.isCompleted)
+    .filter(game => isDateInsideSeason(new Date(game.date)))
     .sort((a, b) => new Date(b.date) - new Date(a.date));
-
-  return unique;
 }
 
+/*
+  Ближайшие матчи:
+  смотрим сегодня + следующие 2 дня = максимум 3 календарных дня.
+*/
 async function loadUpcomingGames() {
   const today = startOfDay(new Date());
 
   const dates = [];
 
-  for (let i = 1; i <= DAYS_AHEAD; i++) {
+  for (let i = 0; i < DAYS_AHEAD; i++) {
     const date = addDays(today, i);
 
-    if (date.getFullYear() === YEAR) {
+    if (isDateInsideSeason(date)) {
       dates.push(date);
     }
   }
 
   if (!dates.length) {
+    console.log("No upcoming dates inside season.");
     return [];
   }
 
@@ -187,6 +186,7 @@ async function loadUpcomingGames() {
 
   return normalizeEvents(eventsByDay.flat())
     .filter(game => !game.isCompleted)
+    .filter(game => isDateInsideSeason(new Date(game.date)))
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 }
 
@@ -211,152 +211,6 @@ async function fetchESPNEventsByDate(date) {
     console.warn(`ESPN scoreboard ${dateParam}: request error`, error.message);
     return [];
   }
-}
-
-async function loadStandingsSafe() {
-  for (const url of ESPN_STANDINGS_URLS) {
-    try {
-      const response = await fetchWithTimeout(url, 12000);
-
-      if (!response.ok) {
-        console.warn(`ESPN standings: HTTP ${response.status}`);
-        continue;
-      }
-
-      const data = await response.json();
-      const parsed = parseStandings(data);
-
-      if (Object.keys(parsed).length > 0) {
-        return parsed;
-      }
-    } catch (error) {
-      console.warn("ESPN standings error:", error.message);
-    }
-  }
-
-  return {};
-}
-
-function parseStandings(data) {
-  const result = {};
-  walkStandingsNode(data, [], result);
-  return result;
-}
-
-function walkStandingsNode(node, context, result) {
-  if (!node) return;
-
-  if (Array.isArray(node)) {
-    node.forEach(item => walkStandingsNode(item, context, result));
-    return;
-  }
-
-  if (typeof node !== "object") return;
-
-  const nextContext = [...context];
-
-  if (typeof node.name === "string") {
-    nextContext.push(node.name);
-  }
-
-  if (node.team && Array.isArray(node.stats)) {
-    const teamId = String(node.team.id || "");
-
-    if (teamId) {
-      const stats = node.stats;
-
-      const wins = getStatValue(stats, ["wins"]);
-      const losses = getStatValue(stats, ["losses"]);
-      const rank = getStatValue(stats, ["playoffSeed", "rank", "conferenceRank"]);
-      const divisionRank = getStatValue(stats, ["divisionRank"]);
-      const gamesBehind = getStatValue(stats, ["gamesBehind", "GB"]);
-      const streak = getStatValue(stats, ["streak"]);
-
-      const record =
-        wins !== "" && losses !== ""
-          ? `${wins}-${losses}`
-          : "";
-
-      const rankParts = [];
-
-      if (rank !== "") {
-        rankParts.push(`Conf #${rank}`);
-      }
-
-      if (divisionRank !== "") {
-        rankParts.push(`Div #${divisionRank}`);
-      }
-
-      if (gamesBehind !== "" && gamesBehind !== "0") {
-        rankParts.push(`GB ${gamesBehind}`);
-      }
-
-      if (streak !== "") {
-        rankParts.push(String(streak));
-      }
-
-      result[teamId] = {
-        teamId,
-        record,
-        rank,
-        divisionRank,
-        gamesBehind,
-        streak,
-        display: [record, ...rankParts].filter(Boolean).join(" · ")
-      };
-    }
-  }
-
-  Object.keys(node).forEach(key => {
-    if (key === "team" || key === "stats") return;
-    walkStandingsNode(node[key], nextContext, result);
-  });
-}
-
-function getStatValue(stats, names) {
-  const lowerNames = names.map(name => String(name).toLowerCase());
-
-  let found = stats.find(stat => {
-    const variants = [
-      stat.name,
-      stat.displayName,
-      stat.shortDisplayName,
-      stat.abbreviation
-    ]
-      .filter(Boolean)
-      .map(value => String(value).toLowerCase());
-
-    return variants.some(value => lowerNames.includes(value));
-  });
-
-  if (!found) {
-    found = stats.find(stat => {
-      const variants = [
-        stat.name,
-        stat.displayName,
-        stat.shortDisplayName,
-        stat.abbreviation
-      ]
-        .filter(Boolean)
-        .map(value => String(value).toLowerCase());
-
-      return variants.some(value =>
-        lowerNames.some(name => value.includes(name))
-      );
-    });
-  }
-
-  if (!found) return "";
-
-  if (found.displayValue !== undefined && found.displayValue !== null) {
-    return String(found.displayValue);
-  }
-
-  if (found.value !== undefined && found.value !== null) {
-    return String(found.value);
-  }
-
-  return "";
 }
 
 function normalizeEvents(events) {
@@ -564,6 +418,10 @@ function dedupeGames(games) {
   });
 
   return Array.from(map.values());
+}
+
+function isDateInsideSeason(date) {
+  return date >= SEASON_START && date <= SEASON_END;
 }
 
 async function fetchWithTimeout(url, timeoutMs) {
