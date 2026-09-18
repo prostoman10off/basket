@@ -1,21 +1,20 @@
-const DATA_URL = "data/nba-2026.json";
+const DATA_URL = "data/nba-2026-2027.json";
+
 const NBA_LOGO_URL =
   "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png";
 
-const APP_YEAR = 2026;
+const SEASON_LABEL = "2026-2027";
 
 const upcomingContainer = document.getElementById("upcomingGames");
-const pastContainer = document.getElementById("pastGames");
+const seasonContainer = document.getElementById("seasonGames");
 const refreshBtn = document.getElementById("refreshBtn");
 
 const gamesCountEl = document.getElementById("gamesCount");
 const upcomingCountEl = document.getElementById("upcomingCount");
-const yearLabelEl = document.getElementById("yearLabel");
+const seasonLabelEl = document.getElementById("seasonLabel");
 const lastUpdateEl = document.getElementById("lastUpdate");
 
-let standingsByTeamId = {};
-
-yearLabelEl.textContent = APP_YEAR;
+seasonLabelEl.textContent = SEASON_LABEL;
 
 refreshBtn.addEventListener("click", () => {
   loadDashboard(true);
@@ -29,8 +28,6 @@ async function loadDashboard(forceFresh) {
 
     const data = await fetchJsonData(forceFresh);
 
-    standingsByTeamId = data.standingsByTeamId || {};
-
     renderDashboard(data);
   } catch (error) {
     console.error(error);
@@ -40,6 +37,7 @@ async function loadDashboard(forceFresh) {
 
 async function fetchJsonData(forceFresh) {
   const cacheBust = forceFresh ? `?v=${Date.now()}` : `?v=${Date.now()}`;
+
   const response = await fetch(`${DATA_URL}${cacheBust}`, {
     cache: "no-store"
   });
@@ -59,7 +57,7 @@ function renderLoading() {
     <div class="skeleton-card"></div>
   `;
 
-  pastContainer.innerHTML = `
+  seasonContainer.innerHTML = `
     <div class="skeleton-card"></div>
     <div class="skeleton-card"></div>
     <div class="skeleton-card"></div>
@@ -73,9 +71,9 @@ function renderLoading() {
 
 function renderDashboard(data) {
   const upcomingGames = data.upcomingGames || [];
-  const pastGames = data.pastGames || [];
+  const seasonGames = data.seasonGames || [];
 
-  gamesCountEl.textContent = pastGames.length;
+  gamesCountEl.textContent = seasonGames.length;
   upcomingCountEl.textContent = upcomingGames.length;
 
   lastUpdateEl.textContent = data.updatedAt
@@ -83,7 +81,7 @@ function renderDashboard(data) {
     : "Последнее обновление: ещё не запускалось";
 
   renderUpcomingGames(upcomingGames);
-  renderPastGames(pastGames);
+  renderSeasonGames(seasonGames);
 }
 
 function renderUpcomingGames(games) {
@@ -101,17 +99,17 @@ function renderUpcomingGames(games) {
     .join("");
 }
 
-function renderPastGames(games) {
+function renderSeasonGames(games) {
   if (!games.length) {
-    pastContainer.innerHTML = renderNbaEmptyState(
-      `Пока нет сохранённых матчей за ${APP_YEAR}`,
-      "Запусти GitHub Action вручную, и здесь появятся результаты."
+    seasonContainer.innerHTML = renderNbaEmptyState(
+      `Сезон ${SEASON_LABEL} пока пуст`,
+      "После запуска GitHub Actions здесь появятся завершённые матчи сезона."
     );
 
     return;
   }
 
-  pastContainer.innerHTML = games
+  seasonContainer.innerHTML = games
     .map(game => renderGameCard(game, "result"))
     .join("");
 }
@@ -183,7 +181,6 @@ function renderStageTag(stage) {
 function renderTeamLine(team, type, isResult, isWinner) {
   const icon = type === "home" ? "🏠" : "✈️";
   const label = type === "home" ? "дома" : "выезд";
-  const standing = getTeamStanding(team.id);
 
   const logoMarkup = team.logo
     ? `<img class="team-logo" src="${escapeHtml(team.logo)}" alt="${escapeHtml(team.name)}" loading="lazy" />`
@@ -192,10 +189,6 @@ function renderTeamLine(team, type, isResult, isWinner) {
   const scoreMarkup = isResult
     ? `<div class="team-score">${team.score}</div>`
     : `<div class="team-score pending">VS</div>`;
-
-  const seedMarkup = standing && standing.rank
-    ? `<div class="team-seed">#${escapeHtml(standing.rank)}</div>`
-    : "";
 
   return `
     <div class="team-line ${isWinner ? "winner" : ""}">
@@ -209,30 +202,15 @@ function renderTeamLine(team, type, isResult, isWinner) {
 
           <div class="team-meta">
             <span class="team-mark">${icon} ${label}</span>
-
-            ${
-              standing && standing.display
-                ? `<span class="team-standing" title="${escapeHtml(standing.display)}">${escapeHtml(standing.display)}</span>`
-                : ""
-            }
           </div>
         </div>
       </div>
 
       <div class="team-side">
         ${scoreMarkup}
-        ${seedMarkup}
       </div>
     </div>
   `;
-}
-
-function getTeamStanding(teamId) {
-  if (!teamId) {
-    return null;
-  }
-
-  return standingsByTeamId[String(teamId)] || null;
 }
 
 function renderNbaEmptyState(title, text) {
@@ -258,7 +236,7 @@ function renderFatalError(error) {
     "Ближайшие матчи сейчас не загрузились, но это не критично."
   );
 
-  pastContainer.innerHTML = `
+  seasonContainer.innerHTML = `
     <div class="error-box">
       Ошибка загрузки данных: ${escapeHtml(error.message)}
     </div>
