@@ -6,6 +6,52 @@ const NBA_LOGO_URL =
 
 const SEASON_LABEL = "2026-2027";
 
+const FANS = [
+  {
+    id: "andrei",
+    name: "Андрей",
+    photo: "Andrei.jpg",
+    teamLabel: "76ers",
+    teamAbbr: "PHI",
+    teamLogo: "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+    aliases: [
+      "phi",
+      "philadelphia",
+      "philadelphia 76ers",
+      "76ers",
+      "sixers"
+    ]
+  },
+  {
+    id: "ivan",
+    name: "Иван",
+    photo: "Ivan.jpg",
+    teamLabel: "Celtics",
+    teamAbbr: "BOS",
+    teamLogo: "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+    aliases: [
+      "bos",
+      "boston",
+      "boston celtics",
+      "celtics"
+    ]
+  },
+  {
+    id: "seva",
+    name: "Сева",
+    photo: "Seva.jpg",
+    teamLabel: "Warriors",
+    teamAbbr: "GSW",
+    teamLogo: "https://a.espncdn.com/i/teamlogos/nba/500/gsw.png",
+    aliases: [
+      "gsw",
+      "golden state",
+      "golden state warriors",
+      "warriors"
+    ]
+  }
+];
+
 const upcomingContainer = document.getElementById("upcomingGames");
 const seasonContainer = document.getElementById("seasonGames");
 const previousSeasonContainer = document.getElementById("previousSeasonGames");
@@ -170,8 +216,24 @@ function renderGameCard(game, type) {
         : ""
     : "";
 
+  const gameFans = getFansForGame(game);
+  const hasFans = gameFans.length > 0;
+  const hasFanClash = gameFans.length >= 2;
+
   return `
-    <article class="game-card ${isResult ? "result-card" : "upcoming-card"} ${winnerClass}">
+    <article class="game-card ${isResult ? "result-card" : "upcoming-card"} ${winnerClass} ${hasFans ? "has-fans" : ""} ${hasFanClash ? "has-fan-clash" : ""}">
+      ${
+        hasFanClash
+          ? `<div class="clash-fire" title="Матч команд друзей">🔥</div>`
+          : ""
+      }
+
+      ${
+        hasFans
+          ? renderGameFans(gameFans)
+          : ""
+      }
+
       <div class="game-inner">
 
         <div class="game-top">
@@ -203,6 +265,67 @@ function renderGameCard(game, type) {
       </div>
     </article>
   `;
+}
+
+function renderGameFans(fans) {
+  return `
+    <div class="game-fans">
+      ${fans.map(fan => {
+        const title = `${fan.name} болеет за ${fan.teamLabel}`;
+
+        return `
+          <img
+            class="game-fan-avatar"
+            src="${escapeHtml(fan.photo)}"
+            alt="${escapeHtml(fan.name)}"
+            title="${escapeHtml(title)}"
+            loading="lazy"
+          />
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+function getFansForGame(game) {
+  return FANS.filter(fan => {
+    return (
+      isFanTeam(game.awayTeam, fan) ||
+      isFanTeam(game.homeTeam, fan)
+    );
+  });
+}
+
+function isFanTeam(team, fan) {
+  if (!team || !fan) {
+    return false;
+  }
+
+  const values = [
+    team.id,
+    team.name,
+    team.shortName,
+    team.abbreviation
+  ]
+    .filter(Boolean)
+    .map(value => normalizeTeamString(value));
+
+  const aliases = fan.aliases.map(alias => normalizeTeamString(alias));
+
+  return values.some(value => {
+    return aliases.some(alias => {
+      return value === alias || value.includes(alias);
+    });
+  });
+}
+
+function normalizeTeamString(value) {
+  return String(value)
+    .toLowerCase()
+    .replaceAll(".", "")
+    .replaceAll("-", " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function renderStageTag(stage) {
