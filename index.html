@@ -2,123 +2,276 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>NBA Friends League</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="NBA мини-лига друзей: матчи, результаты и любимые команды."
+  />
+
+  <title>NBA мини-лига</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
 
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
+<body>
   <div class="background-image"></div>
   <div class="background-overlay"></div>
 
   <header class="hero">
     <nav class="topbar">
-      <div class="brand">
-        <div class="brand-logo">🏀</div>
+      <a class="brand" href="#" aria-label="NBA мини-лига">
+        <div class="brand-logo" aria-hidden="true">🏀</div>
+
         <div>
           <div class="brand-title">NBA Friends League</div>
-          <div class="brand-subtitle">матчи, прогнозы и рейтинг друзей</div>
+          <div class="brand-subtitle">
+            матчи, прогнозы и рейтинг друзей
+          </div>
         </div>
-      </div>
+      </a>
 
-      <button id="refreshBtn" class="refresh-btn" type="button">
-        Обновить данные
-      </button>
+      <div class="topbar-actions">
+        <div class="update-indicator" id="headerUpdateIndicator">
+          <span class="update-dot"></span>
+          <span>Данные загружаются</span>
+        </div>
+
+        <button
+          id="refreshBtn"
+          class="refresh-btn"
+          type="button"
+          aria-label="Обновить данные"
+        >
+          <span class="refresh-icon" aria-hidden="true">↻</span>
+          <span>Обновить</span>
+        </button>
+      </div>
     </nav>
 
     <section class="hero-content">
-      <div class="hero-text">
-        <div class="eyebrow">private league / 3 friends</div>
+      <div class="hero-main">
+        <div class="eyebrow">private league · big three</div>
 
         <h1>NBA мини-лига</h1>
 
+        <p class="hero-slogan">
+          Три друга. Три команды. Один чемпион.
+        </p>
+
         <div class="friends-row" aria-label="Участники мини-лиги">
-          <div class="friend-card">
+          <article class="friend-card friend-andrei">
             <div class="friend-avatar-wrap">
-              <img class="friend-photo" src="Andrei.jpg" alt="Андрей" />
+              <img
+                class="friend-photo"
+                src="Andrei.jpg"
+                alt="Андрей"
+                width="78"
+                height="78"
+                fetchpriority="high"
+              />
+
               <img
                 class="friend-team-badge"
                 src="https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
-                alt="76ers"
-                title="76ers"
+                alt="Philadelphia 76ers"
+                title="Philadelphia 76ers"
+                width="32"
+                height="32"
               />
             </div>
-            <div class="friend-info">
-              <span>Андрей</span>
-              <small>76ers</small>
-            </div>
-          </div>
 
-          <div class="friend-card">
+            <div class="friend-info">
+              <strong>Андрей</strong>
+              <span>76ers</span>
+            </div>
+          </article>
+
+          <article class="friend-card friend-ivan">
             <div class="friend-avatar-wrap">
-              <img class="friend-photo" src="Ivan.jpg" alt="Иван" />
+              <img
+                class="friend-photo"
+                src="Ivan.jpg"
+                alt="Иван"
+                width="78"
+                height="78"
+                fetchpriority="high"
+              />
+
               <img
                 class="friend-team-badge"
                 src="https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
-                alt="Celtics"
-                title="Celtics"
+                alt="Boston Celtics"
+                title="Boston Celtics"
+                width="32"
+                height="32"
               />
             </div>
-            <div class="friend-info">
-              <span>Иван</span>
-              <small>Celtics</small>
-            </div>
-          </div>
 
-          <div class="friend-card">
+            <div class="friend-info">
+              <strong>Иван</strong>
+              <span>Celtics</span>
+            </div>
+          </article>
+
+          <article class="friend-card friend-seva">
             <div class="friend-avatar-wrap">
-              <img class="friend-photo" src="Seva.jpg" alt="Сева" />
+              <img
+                class="friend-photo"
+                src="Seva.jpg"
+                alt="Сева"
+                width="78"
+                height="78"
+                fetchpriority="high"
+              />
+
               <img
                 class="friend-team-badge"
                 src="https://a.espncdn.com/i/teamlogos/nba/500/gsw.png"
-                alt="Warriors"
-                title="Warriors"
+                alt="Golden State Warriors"
+                title="Golden State Warriors"
+                width="32"
+                height="32"
               />
             </div>
+
             <div class="friend-info">
-              <span>Сева</span>
-              <small>Warriors</small>
+              <strong>Сева</strong>
+              <span>Warriors</span>
             </div>
-          </div>
+          </article>
         </div>
       </div>
 
-      <div class="hero-card">
-        <div class="hero-card-label">Сезонный фид</div>
-
-        <div class="hero-card-number" id="gamesCount">—</div>
-
-        <div class="hero-card-text">
-          матчей в сезоне
-        </div>
-
-        <div class="mini-stats">
+      <aside class="season-overview">
+        <div class="overview-head">
           <div>
-            <span id="upcomingCount">—</span>
-            <small>скоро</small>
+            <span class="overview-kicker">Сезонный центр</span>
+            <h2 id="seasonLabel">2026–2027</h2>
           </div>
 
-          <div>
-            <span id="seasonLabel">—</span>
-            <small>сезон</small>
+          <span class="overview-live-dot" aria-hidden="true"></span>
+        </div>
+
+        <div class="next-game-box">
+          <span class="next-game-label">Следующий матч</span>
+
+          <strong id="nextGameValue" class="next-game-value">
+            Загружаем…
+          </strong>
+
+          <span id="nextGameMeta" class="next-game-meta">
+            Проверяем расписание
+          </span>
+        </div>
+
+        <div class="overview-stats">
+          <div class="overview-stat">
+            <strong id="upcomingCount">—</strong>
+            <span>ближайших</span>
+          </div>
+
+          <div class="overview-stat">
+            <strong id="gamesCount">—</strong>
+            <span>завершено</span>
           </div>
         </div>
-      </div>
+      </aside>
     </section>
   </header>
 
   <main class="container">
+    <section class="filters-panel" aria-label="Фильтры матчей">
+      <div class="filters-copy">
+        <span class="filters-title">Фильтр матчей</span>
+        <span class="filters-subtitle">
+          Быстрый доступ к играм любимых команд
+        </span>
+      </div>
 
-    <section class="section">
+      <div class="filter-buttons" id="teamFilters">
+        <button
+          class="filter-btn active"
+          type="button"
+          data-filter="all"
+        >
+          Все
+        </button>
+
+        <button
+          class="filter-btn"
+          type="button"
+          data-filter="friends"
+        >
+          <span aria-hidden="true">🔥</span>
+          Игры друзей
+        </button>
+
+        <button
+          class="filter-btn"
+          type="button"
+          data-filter="PHI"
+        >
+          <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+            alt=""
+          />
+          76ers
+        </button>
+
+        <button
+          class="filter-btn"
+          type="button"
+          data-filter="BOS"
+        >
+          <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+            alt=""
+          />
+          Celtics
+        </button>
+
+        <button
+          class="filter-btn"
+          type="button"
+          data-filter="GSW"
+        >
+          <img
+            src="https://a.espncdn.com/i/teamlogos/nba/500/gsw.png"
+            alt=""
+          />
+          Warriors
+        </button>
+      </div>
+    </section>
+
+    <section class="section upcoming-section">
       <div class="section-head">
         <div>
-          <h2>Ближайшие матчи</h2>
-          <p>Проверяем ближайшие 3 дня.</p>
+          <div class="section-title-row">
+            <h2>Ближайшие матчи</h2>
+            <span class="section-counter" id="upcomingSectionCount">—</span>
+          </div>
+
+          <p>Расписание на ближайшие три дня · время московское</p>
         </div>
 
-        <div class="section-badge">Upcoming</div>
+        <div class="section-badge upcoming-badge">
+          <span class="badge-dot"></span>
+          Скоро
+        </div>
       </div>
 
       <div id="upcomingGames" class="games-grid">
@@ -129,13 +282,20 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section current-season-section">
       <div class="section-head">
         <div>
-          <h2>Сезон 2026-2027</h2>
+          <div class="section-title-row">
+            <h2>Сезон 2026–2027</h2>
+            <span class="section-counter" id="seasonSectionCount">—</span>
+          </div>
+
+          <p>Свежие результаты сверху</p>
         </div>
 
-        <div class="section-badge">Season</div>
+        <div class="section-badge season-badge">
+          Сезон
+        </div>
       </div>
 
       <div id="seasonGames" class="results-list">
@@ -144,15 +304,34 @@
         <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
       </div>
+
+      <div class="load-more-wrap">
+        <button
+          id="loadMoreSeason"
+          class="load-more-btn"
+          type="button"
+          hidden
+        >
+          Показать ещё
+          <span aria-hidden="true">↓</span>
+        </button>
+      </div>
     </section>
 
-    <section class="section">
+    <section class="section previous-season-section">
       <div class="section-head">
         <div>
-          <h2>Прошлый сезон</h2>
+          <div class="section-title-row">
+            <h2>Прошлый сезон</h2>
+            <span class="section-counter" id="previousSectionCount">—</span>
+          </div>
+
+          <p>Архив завершённых матчей</p>
         </div>
 
-        <div class="section-badge">Previous</div>
+        <div class="section-badge previous-badge">
+          Архив
+        </div>
       </div>
 
       <div id="previousSeasonGames" class="results-list">
@@ -161,13 +340,32 @@
         <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
       </div>
-    </section>
 
+      <div class="load-more-wrap">
+        <button
+          id="loadMorePrevious"
+          class="load-more-btn"
+          type="button"
+          hidden
+        >
+          Показать ещё
+          <span aria-hidden="true">↓</span>
+        </button>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
-    <div>Источник данных: ESPN API</div>
-    <div id="lastUpdate">Последнее обновление: —</div>
+    <div class="footer-brand">
+      <span aria-hidden="true">🏀</span>
+      <span>NBA Friends League</span>
+    </div>
+
+    <div class="footer-meta">
+      <span>Источник: ESPN</span>
+      <span class="footer-divider">•</span>
+      <span id="lastUpdate">Последнее обновление: —</span>
+    </div>
   </footer>
 
   <script src="script.js"></script>
