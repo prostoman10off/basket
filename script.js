@@ -5,7 +5,14 @@ const NBA_LOGO_URL =
   "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png";
 
 const SEASON_LABEL = "2026–2027";
-const DISPLAY_TIME_ZONE = "Europe/Moscow";
+
+/*
+  Все даты на лендинге показываем по Новосибирску.
+  Новосибирск находится в часовом поясе UTC+7.
+*/
+const DISPLAY_TIME_ZONE = "Asia/Novosibirsk";
+const DISPLAY_TIME_ZONE_LABEL = "НСК";
+
 const PAGE_SIZE = 12;
 
 const FANS = [
@@ -61,33 +68,47 @@ const state = {
 
 const elements = {
   upcomingContainer: document.getElementById("upcomingGames"),
+
   seasonContainer: document.getElementById("seasonGames"),
+
   previousSeasonContainer: document.getElementById(
     "previousSeasonGames"
   ),
 
   refreshBtn: document.getElementById("refreshBtn"),
+
   teamFilters: document.getElementById("teamFilters"),
 
   loadMoreSeason: document.getElementById("loadMoreSeason"),
-  loadMorePrevious: document.getElementById("loadMorePrevious"),
+
+  loadMorePrevious: document.getElementById(
+    "loadMorePrevious"
+  ),
 
   gamesCount: document.getElementById("gamesCount"),
+
   upcomingCount: document.getElementById("upcomingCount"),
+
   seasonLabel: document.getElementById("seasonLabel"),
 
   upcomingSectionCount: document.getElementById(
     "upcomingSectionCount"
   ),
-  seasonSectionCount: document.getElementById("seasonSectionCount"),
+
+  seasonSectionCount: document.getElementById(
+    "seasonSectionCount"
+  ),
+
   previousSectionCount: document.getElementById(
     "previousSectionCount"
   ),
 
   nextGameValue: document.getElementById("nextGameValue"),
+
   nextGameMeta: document.getElementById("nextGameMeta"),
 
   lastUpdate: document.getElementById("lastUpdate"),
+
   headerUpdateIndicator: document.getElementById(
     "headerUpdateIndicator"
   )
@@ -126,10 +147,18 @@ async function loadDashboard(forceFresh) {
   renderLoading();
 
   try {
-    const [currentSeasonData, previousSeasonData] = await Promise.all([
-      fetchJsonData(CURRENT_SEASON_DATA_URL, forceFresh),
-      fetchJsonData(PREVIOUS_SEASON_DATA_URL, forceFresh)
-    ]);
+    const [currentSeasonData, previousSeasonData] =
+      await Promise.all([
+        fetchJsonData(
+          CURRENT_SEASON_DATA_URL,
+          forceFresh
+        ),
+
+        fetchJsonData(
+          PREVIOUS_SEASON_DATA_URL,
+          forceFresh
+        )
+      ]);
 
     state.currentSeasonData = currentSeasonData;
     state.previousSeasonData = previousSeasonData;
@@ -138,10 +167,13 @@ async function loadDashboard(forceFresh) {
     state.previousVisibleCount = PAGE_SIZE;
 
     renderDashboard();
+
     setUpdateIndicator("success", "Данные актуальны");
   } catch (error) {
     console.error(error);
+
     renderFatalError(error);
+
     setUpdateIndicator("error", "Ошибка загрузки");
   } finally {
     setLoadingState(false);
@@ -150,6 +182,7 @@ async function loadDashboard(forceFresh) {
 
 async function fetchJsonData(url, forceFresh) {
   const separator = url.includes("?") ? "&" : "?";
+
   const cacheVersion = forceFresh
     ? Date.now()
     : Math.floor(Date.now() / 60000);
@@ -172,7 +205,11 @@ async function fetchJsonData(url, forceFresh) {
 
 function setLoadingState(isLoading) {
   elements.refreshBtn.disabled = isLoading;
-  elements.refreshBtn.classList.toggle("loading", isLoading);
+
+  elements.refreshBtn.classList.toggle(
+    "loading",
+    isLoading
+  );
 
   if (isLoading) {
     setUpdateIndicator("loading", "Обновляем данные");
@@ -194,7 +231,9 @@ function setUpdateIndicator(type, text) {
   }
 
   const textElement =
-    elements.headerUpdateIndicator.querySelector("span:last-child");
+    elements.headerUpdateIndicator.querySelector(
+      "span:last-child"
+    );
 
   if (textElement) {
     textElement.textContent = text;
@@ -216,8 +255,12 @@ function renderLoading() {
   elements.previousSectionCount.textContent = "—";
 
   elements.nextGameValue.textContent = "Загружаем…";
-  elements.nextGameMeta.textContent = "Проверяем расписание";
-  elements.lastUpdate.textContent = "Последнее обновление: загрузка";
+
+  elements.nextGameMeta.textContent =
+    "Проверяем расписание";
+
+  elements.lastUpdate.textContent =
+    "Последнее обновление: загрузка";
 
   elements.loadMoreSeason.hidden = true;
   elements.loadMorePrevious.hidden = true;
@@ -247,15 +290,22 @@ function renderDashboard() {
   );
 
   elements.gamesCount.textContent = seasonGames.length;
-  elements.upcomingCount.textContent = upcomingGames.length;
+
+  elements.upcomingCount.textContent =
+    upcomingGames.length;
 
   renderNextGame(upcomingGames);
+
   renderLastUpdate(currentData, previousData);
+
   renderAllSections();
 }
 
 function renderAllSections() {
-  if (!state.currentSeasonData || !state.previousSeasonData) {
+  if (
+    !state.currentSeasonData ||
+    !state.previousSeasonData
+  ) {
     return;
   }
 
@@ -281,22 +331,30 @@ function renderAllSections() {
   renderSeasonGames(seasonGames);
   renderPreviousSeasonGames(previousGames);
 
-  elements.upcomingSectionCount.textContent = upcomingGames.length;
-  elements.seasonSectionCount.textContent = seasonGames.length;
-  elements.previousSectionCount.textContent = previousGames.length;
+  elements.upcomingSectionCount.textContent =
+    upcomingGames.length;
+
+  elements.seasonSectionCount.textContent =
+    seasonGames.length;
+
+  elements.previousSectionCount.textContent =
+    previousGames.length;
 }
 
 function setActiveFilter(filter) {
   state.currentFilter = filter;
+
   state.seasonVisibleCount = PAGE_SIZE;
   state.previousVisibleCount = PAGE_SIZE;
 
-  document.querySelectorAll(".filter-btn").forEach(button => {
-    button.classList.toggle(
-      "active",
-      button.dataset.filter === filter
-    );
-  });
+  document
+    .querySelectorAll(".filter-btn")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        button.dataset.filter === filter
+      );
+    });
 
   renderAllSections();
 }
@@ -307,7 +365,9 @@ function filterGames(games) {
   }
 
   if (state.currentFilter === "friends") {
-    return games.filter(game => getFansForGame(game).length > 0);
+    return games.filter(game => {
+      return getFansForGame(game).length > 0;
+    });
   }
 
   return games.filter(game => {
@@ -342,9 +402,12 @@ function teamMatchesAbbreviation(team, abbreviation) {
 
 function renderNextGame(upcomingGames) {
   if (!upcomingGames.length) {
-    elements.nextGameValue.textContent = "Матчей пока нет";
+    elements.nextGameValue.textContent =
+      "Матчей пока нет";
+
     elements.nextGameMeta.textContent =
       "Ждём следующий игровой день";
+
     return;
   }
 
@@ -370,6 +433,7 @@ function renderLastUpdate(currentData, previousData) {
   if (!updateDates.length) {
     elements.lastUpdate.textContent =
       "Последнее обновление: ещё не запускалось";
+
     return;
   }
 
@@ -379,16 +443,19 @@ function renderLastUpdate(currentData, previousData) {
 
 function renderUpcomingGames(games) {
   if (!games.length) {
-    const filterIsActive = state.currentFilter !== "all";
+    const filterIsActive =
+      state.currentFilter !== "all";
 
-    elements.upcomingContainer.innerHTML = renderNbaEmptyState(
-      filterIsActive
-        ? "Матчей по фильтру нет"
-        : "NBA Jam, скоро матч…",
-      filterIsActive
-        ? "Попробуй выбрать другую команду."
-        : "Ждём следующий игровой день."
-    );
+    elements.upcomingContainer.innerHTML =
+      renderNbaEmptyState(
+        filterIsActive
+          ? "Матчей по фильтру нет"
+          : "NBA Jam, скоро матч…",
+
+        filterIsActive
+          ? "Попробуй выбрать другую команду."
+          : "Ждём следующий игровой день."
+      );
 
     return;
   }
@@ -400,16 +467,19 @@ function renderUpcomingGames(games) {
 
 function renderSeasonGames(games) {
   if (!games.length) {
-    elements.seasonContainer.innerHTML = renderNbaEmptyState(
-      state.currentFilter === "all"
-        ? `Сезон ${SEASON_LABEL} пока пуст`
-        : "Матчей по фильтру нет",
-      state.currentFilter === "all"
-        ? "Результаты появятся после завершения матчей."
-        : "Попробуй выбрать другую команду."
-    );
+    elements.seasonContainer.innerHTML =
+      renderNbaEmptyState(
+        state.currentFilter === "all"
+          ? `Сезон ${SEASON_LABEL} пока пуст`
+          : "Матчей по фильтру нет",
+
+        state.currentFilter === "all"
+          ? "Результаты появятся после завершения матчей."
+          : "Попробуй выбрать другую команду."
+      );
 
     elements.loadMoreSeason.hidden = true;
+
     return;
   }
 
@@ -436,12 +506,14 @@ function renderPreviousSeasonGames(games) {
         state.currentFilter === "all"
           ? "Архив пока пуст"
           : "Матчей по фильтру нет",
+
         state.currentFilter === "all"
           ? "Результаты появятся после обновления данных."
           : "Попробуй выбрать другую команду."
       );
 
     elements.loadMorePrevious.hidden = true;
+
     return;
   }
 
@@ -450,9 +522,10 @@ function renderPreviousSeasonGames(games) {
     state.previousVisibleCount
   );
 
-  elements.previousSeasonContainer.innerHTML = visibleGames
-    .map(game => renderGameCard(game, "result"))
-    .join("");
+  elements.previousSeasonContainer.innerHTML =
+    visibleGames
+      .map(game => renderGameCard(game, "result"))
+      .join("");
 
   updateLoadMoreButton(
     elements.loadMorePrevious,
@@ -496,17 +569,31 @@ function renderGameCard(game, type) {
     homeScore > awayScore;
 
   const gameFans = getFansForGame(game);
+
   const hasFans = gameFans.length > 0;
+
   const hasFanClash = gameFans.length >= 2;
 
   const status = getGameStatus(game, isResult);
 
   const cardClasses = [
     "game-card",
-    isResult ? "result-card" : "upcoming-card",
-    hasFans ? "has-fans" : "",
-    hasFanClash ? "has-fan-clash" : "",
-    status.className === "live" ? "live-card" : ""
+
+    isResult
+      ? "result-card"
+      : "upcoming-card",
+
+    hasFans
+      ? "has-fans"
+      : "",
+
+    hasFanClash
+      ? "has-fan-clash"
+      : "",
+
+    status.className === "live"
+      ? "live-card"
+      : ""
   ]
     .filter(Boolean)
     .join(" ");
@@ -521,7 +608,8 @@ function renderGameCard(game, type) {
             </div>
 
             <div class="game-time-small">
-              ${formatGameTime(game.date)} МСК
+              ${formatGameTime(game.date)}
+              ${DISPLAY_TIME_ZONE_LABEL}
             </div>
           </div>
 
@@ -590,8 +678,14 @@ function renderGameCard(game, type) {
 }
 
 function getGameStatus(game, isResult) {
-  const statusState = normalizeString(game.statusState);
-  const statusName = normalizeString(game.statusName);
+  const statusState = normalizeString(
+    game.statusState
+  );
+
+  const statusName = normalizeString(
+    game.statusName
+  );
+
   const statusDescription = normalizeString(
     game.statusDescription
   );
@@ -640,7 +734,7 @@ function getGameStatus(game, isResult) {
     };
   }
 
-  if (isTodayInMoscow(game.date)) {
+  if (isTodayInNovosibirsk(game.date)) {
     return {
       label: "Сегодня",
       className: "today"
@@ -660,7 +754,9 @@ function getLiveStatusLabel(game) {
 
   if (
     description &&
-    !description.toLowerCase().includes("in progress")
+    !description
+      .toLowerCase()
+      .includes("in progress")
   ) {
     return `LIVE · ${description}`;
   }
@@ -698,10 +794,14 @@ function renderStageTag(stage) {
     return "";
   }
 
-  const translatedLabel = translateStage(stage.label);
+  const translatedLabel = translateStage(
+    stage.label
+  );
 
   return `
-    <span class="game-tag ${escapeHtml(stage.className || "")}">
+    <span class="game-tag ${escapeHtml(
+      stage.className || ""
+    )}">
       ${escapeHtml(translatedLabel)}
     </span>
   `;
@@ -742,8 +842,16 @@ function renderTeamLine(
   isWinner
 ) {
   const safeTeam = team || {};
-  const icon = type === "home" ? "🏠" : "✈️";
-  const label = type === "home" ? "дома" : "в гостях";
+
+  const icon =
+    type === "home"
+      ? "🏠"
+      : "✈️";
+
+  const label =
+    type === "home"
+      ? "дома"
+      : "в гостях";
 
   const teamName =
     safeTeam.shortName ||
@@ -751,7 +859,8 @@ function renderTeamLine(
     safeTeam.abbreviation ||
     "Команда";
 
-  const fullTeamName = safeTeam.name || teamName;
+  const fullTeamName =
+    safeTeam.name || teamName;
 
   const logoMarkup = safeTeam.logo
     ? `
@@ -773,12 +882,17 @@ function renderTeamLine(
       </div>
     `;
 
-  const numericScore = getNumericScore(safeTeam);
+  const numericScore =
+    getNumericScore(safeTeam);
 
   const scoreMarkup = isResult
     ? `
       <div class="team-score">
-        ${numericScore === null ? "—" : numericScore}
+        ${
+          numericScore === null
+            ? "—"
+            : numericScore
+        }
       </div>
 
       ${
@@ -788,7 +902,9 @@ function renderTeamLine(
       }
     `
     : `
-      <div class="team-score pending">VS</div>
+      <div class="team-score pending">
+        VS
+      </div>
     `;
 
   return `
@@ -867,7 +983,9 @@ function getNumericScore(team) {
 
   const score = Number(team.score);
 
-  return Number.isFinite(score) ? score : null;
+  return Number.isFinite(score)
+    ? score
+    : null;
 }
 
 function getTeamShortName(team) {
@@ -903,6 +1021,7 @@ function renderNbaEmptyState(title, text) {
       />
 
       <h3>${escapeHtml(title)}</h3>
+
       <p>${escapeHtml(text)}</p>
     </div>
   `;
@@ -936,6 +1055,7 @@ function renderFatalError(error) {
   elements.previousSectionCount.textContent = "—";
 
   elements.nextGameValue.textContent = "Нет данных";
+
   elements.nextGameMeta.textContent =
     "Попробуй обновить страницу позже";
 
@@ -944,18 +1064,20 @@ function renderFatalError(error) {
 }
 
 function sortGamesAscending(games) {
-  return [...games].sort(
-    (a, b) => new Date(a.date) - new Date(b.date)
-  );
+  return [...games].sort((a, b) => {
+    return new Date(a.date) - new Date(b.date);
+  });
 }
 
 function sortGamesDescending(games) {
-  return [...games].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
+  return [...games].sort((a, b) => {
+    return new Date(b.date) - new Date(a.date);
+  });
 }
 
-/* Даты и время */
+/*
+  Форматирование даты по Новосибирску.
+*/
 
 function formatGameDay(dateString) {
   const date = new Date(dateString);
@@ -989,7 +1111,11 @@ function formatGameTime(dateString) {
 }
 
 function formatCompactDateTime(dateString) {
-  return `${formatGameDay(dateString)}, ${formatGameTime(dateString)} МСК`;
+  return (
+    `${formatGameDay(dateString)}, ` +
+    `${formatGameTime(dateString)} ` +
+    DISPLAY_TIME_ZONE_LABEL
+  );
 }
 
 function formatUpdateDate(dateString) {
@@ -999,18 +1125,21 @@ function formatUpdateDate(dateString) {
     return "неизвестно";
   }
 
-  return new Intl.DateTimeFormat("ru-RU", {
-    timeZone: DISPLAY_TIME_ZONE,
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false
-  }).format(date);
+  return (
+    new Intl.DateTimeFormat("ru-RU", {
+      timeZone: DISPLAY_TIME_ZONE,
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false
+    }).format(date) +
+    ` ${DISPLAY_TIME_ZONE_LABEL}`
+  );
 }
 
-function isTodayInMoscow(dateString) {
+function isTodayInNovosibirsk(dateString) {
   const gameDate = getDateKeyInTimeZone(
     new Date(dateString),
     DISPLAY_TIME_ZONE
@@ -1029,12 +1158,15 @@ function getDateKeyInTimeZone(date, timeZone) {
     return "";
   }
 
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).formatToParts(date);
+  const parts = new Intl.DateTimeFormat(
+    "en-CA",
+    {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    }
+  ).formatToParts(date);
 
   const values = {};
 
@@ -1042,7 +1174,11 @@ function getDateKeyInTimeZone(date, timeZone) {
     values[part.type] = part.value;
   });
 
-  return `${values.year}-${values.month}-${values.day}`;
+  return (
+    `${values.year}-` +
+    `${values.month}-` +
+    `${values.day}`
+  );
 }
 
 function getRelativeGameTime(dateString) {
@@ -1053,27 +1189,34 @@ function getRelativeGameTime(dateString) {
     return "время уточняется";
   }
 
-  const difference = gameDate.getTime() - now.getTime();
+  const difference =
+    gameDate.getTime() - now.getTime();
 
   if (difference <= 0) {
     return "матч уже начался";
   }
 
-  const totalMinutes = Math.floor(difference / 60000);
+  const totalMinutes =
+    Math.floor(difference / 60000);
 
   if (totalMinutes < 60) {
     return `через ${totalMinutes} мин.`;
   }
 
-  const totalHours = Math.floor(totalMinutes / 60);
+  const totalHours =
+    Math.floor(totalMinutes / 60);
 
   if (totalHours < 24) {
     return `через ${totalHours} ч.`;
   }
 
-  const totalDays = Math.floor(totalHours / 24);
+  const totalDays =
+    Math.floor(totalHours / 24);
 
-  return `через ${totalDays} ${getDayWord(totalDays)}`;
+  return (
+    `через ${totalDays} ` +
+    getDayWord(totalDays)
+  );
 }
 
 function getDayWord(value) {
@@ -1094,8 +1237,6 @@ function getDayWord(value) {
 
   return "дней";
 }
-
-/* Вспомогательные функции */
 
 function normalizeString(value) {
   return String(value || "")
