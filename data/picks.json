@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T08:50:24.405387+00:00",
+  "updated_at": "2026-09-29T08:53:31.022539+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -13,6 +13,32 @@
       "status": "pre",
       "status_detail": "Sat, October 3rd at 7:00 PM EDT",
       "winner_abbr": null
+    },
+    "401914127": {
+      "event_id": "401914127",
+      "date": "2026-10-04T23:00Z",
+      "name": "Utah Jazz at Denver Nuggets",
+      "short_name": "UTAH @ DEN",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "Denver Nuggets",
+      "home_abbr": "DEN",
+      "status": "pre",
+      "status_detail": "Sun, October 4th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401918010": {
+      "event_id": "401918010",
+      "date": "2026-10-04T23:00Z",
+      "name": "Golden State Warriors at LA Clippers",
+      "short_name": "GS VS LAC",
+      "away_team": "Golden State Warriors",
+      "away_abbr": "GS",
+      "home_team": "LA Clippers",
+      "home_abbr": "LAC",
+      "status": "pre",
+      "status_detail": "Sun, October 4th at 7:00 PM EDT",
+      "winner_abbr": null
     }
   },
   "picks": {
@@ -25,6 +51,8 @@
         "picked_team": "Miami Heat",
         "voted_at": "2026-09-29T08:50:24.405387+00:00"
       }
-    }
+    },
+    "401914127": {},
+    "401918010": {}
   }
 }
