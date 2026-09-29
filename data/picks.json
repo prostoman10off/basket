@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-09-29T08:36:29.328234+00:00",
-  "games": {},
-  "picks": {},
-  "github_test": "ok"
+  "updated_at": "2026-09-29T08:41:04.958165+00:00",
+  "games": {
+    "401902644": {
+      "event_id": "401902644",
+      "date": "2026-10-03T23:00Z",
+      "name": "Miami Heat at Toronto Raptors",
+      "short_name": "MIA @ TOR",
+      "away_team": "Miami Heat",
+      "away_abbr": "MIA",
+      "home_team": "Toronto Raptors",
+      "home_abbr": "TOR",
+      "status": "pre",
+      "status_detail": "Sat, October 3rd at 7:00 PM EDT",
+      "winner_abbr": null
+    }
+  },
+  "picks": {
+    "401902644": {}
+  }
 }
