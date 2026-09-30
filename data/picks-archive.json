@@ -1,5 +1,75 @@
 {
-  "updated_at": null,
-  "games": {},
-  "picks": {}
+  "updated_at": "2026-09-30T02:52:43.318Z",
+  "source_updated_at": "2026-09-29T11:01:37.968066+00:00",
+  "games": {
+    "401902644": {
+      "event_id": "401902644",
+      "date": "2026-10-03T23:00Z",
+      "name": "Miami Heat at Toronto Raptors",
+      "short_name": "MIA @ TOR",
+      "away_team": "Miami Heat",
+      "away_abbr": "MIA",
+      "home_team": "Toronto Raptors",
+      "home_abbr": "TOR",
+      "status": "pre",
+      "status_detail": "Sat, October 3rd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401914127": {
+      "event_id": "401914127",
+      "date": "2026-10-04T23:00Z",
+      "name": "Utah Jazz at Denver Nuggets",
+      "short_name": "UTAH @ DEN",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "Denver Nuggets",
+      "home_abbr": "DEN",
+      "status": "pre",
+      "status_detail": "Sun, October 4th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401918010": {
+      "event_id": "401918010",
+      "date": "2026-10-04T23:00Z",
+      "name": "Golden State Warriors at LA Clippers",
+      "short_name": "GS VS LAC",
+      "away_team": "Golden State Warriors",
+      "away_abbr": "GS",
+      "home_team": "LA Clippers",
+      "home_abbr": "LAC",
+      "status": "pre",
+      "status_detail": "Sun, October 4th at 7:00 PM EDT",
+      "winner_abbr": null
+    }
+  },
+  "picks": {
+    "401902644": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-09-29T10:54:16.905967+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-09-29T10:54:23.885503+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-09-29T11:01:37.968066+00:00"
+      }
+    },
+    "401914127": {},
+    "401918010": {}
+  }
 }
