@@ -3,9 +3,12 @@ name: Update NBA data and picks
 on:
   workflow_dispatch:
 
+  push:
+    paths:
+      - "data/picks.json"
+
   schedule:
-    # Каждый день в 09:20 UTC.
-    # Это 16:20 по Новосибирску.
+    # 09:20 UTC = 16:20 по Новосибирску
     - cron: "20 9 * * *"
 
 permissions:
@@ -22,11 +25,38 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Validate picks input
+        run: |
+          node - <<'NODE'
+          const fs = require("fs");
+
+          const data = JSON.parse(
+            fs.readFileSync("data/picks.json", "utf8")
+          );
+
+          const gamesCount = Object.keys(data.games || {}).length;
+
+          const picksCount = Object.values(data.picks || {}).reduce(
+            (sum, gamePicks) =>
+              sum + Object.keys(gamePicks || {}).length,
+            0
+          );
+
+          console.log("Games in picks.json:", gamesCount);
+          console.log("Picks in picks.json:", picksCount);
+
+          if (picksCount === 0) {
+            throw new Error("No picks found in data/picks.json");
+          }
+          NODE
 
       - name: Update NBA data
         run: node scripts/update-nba-data.js
@@ -34,17 +64,42 @@ jobs:
       - name: Calculate picks results
         run: node scripts/calculate-picks.js
 
-      - name: Validate generated JSON
+      - name: Validate generated results
         run: |
-          node -e "JSON.parse(require('fs').readFileSync('data/nba-2026-2027.json', 'utf8'))"
-          node -e "JSON.parse(require('fs').readFileSync('data/nba-2026.json', 'utf8'))"
-          node -e "JSON.parse(require('fs').readFileSync('data/picks-results.json', 'utf8'))"
+          node - <<'NODE'
+          const fs = require("fs");
+
+          const results = JSON.parse(
+            fs.readFileSync("data/picks-results.json", "utf8")
+          );
+
+          console.log("Updated at:", results.updatedAt);
+          console.log(
+            "Calculated results:",
+            results.results?.length || 0
+          );
+          console.log("Leaderboard:", results.leaderboard);
+
+          if (!results.updatedAt) {
+            throw new Error(
+              "picks-results.json was not updated"
+            );
+          }
+
+          if ((results.results?.length || 0) === 0) {
+            throw new Error(
+              "No calculated picks were generated"
+            );
+          }
+          NODE
+
+      - name: Show changed files
+        run: |
+          echo "Changed files before commit:"
+          git status --short
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update NBA data and picks results"
-          file_pattern: |
-            data/nba-2026-2027.json
-            data/nba-2026.json
-            data/picks-results.json
+          file_pattern: "data/nba-2026-2027.json data/nba-2026.json data/picks-results.json"
