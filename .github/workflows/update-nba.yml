@@ -8,8 +8,9 @@ on:
       - "data/picks.json"
 
   schedule:
-    # 09:20 UTC = 16:20 по Новосибирску
-    - cron: "20 9 * * *"
+    # Новосибирское время:
+    # 08:20, 12:20, 16:20 и 20:20
+    - cron: "20 1,5,9,13 * * *"
 
 permissions:
   contents: write
@@ -33,73 +34,113 @@ jobs:
         with:
           node-version: 20
 
-      - name: Validate picks input
+      - name: Validate current picks
         run: |
-          node - <<'NODE'
-          const fs = require("fs");
+          node -e "
+            const fs = require('fs');
 
-          const data = JSON.parse(
-            fs.readFileSync("data/picks.json", "utf8")
-          );
+            const data = JSON.parse(
+              fs.readFileSync(
+                'data/picks.json',
+                'utf8'
+              )
+            );
 
-          const gamesCount = Object.keys(data.games || {}).length;
+            if (!data.games || !data.picks) {
+              throw new Error(
+                'Invalid data/picks.json'
+              );
+            }
 
-          const picksCount = Object.values(data.picks || {}).reduce(
-            (sum, gamePicks) =>
-              sum + Object.keys(gamePicks || {}).length,
-            0
-          );
+            console.log(
+              'Current games:',
+              Object.keys(data.games).length
+            );
 
-          console.log("Games in picks.json:", gamesCount);
-          console.log("Picks in picks.json:", picksCount);
+            const count = Object.values(
+              data.picks
+            ).reduce(
+              (sum, item) =>
+                sum +
+                Object.keys(item || {}).length,
+              0
+            );
 
-          if (picksCount === 0) {
-            throw new Error("No picks found in data/picks.json");
-          }
-          NODE
+            console.log(
+              'Current picks:',
+              count
+            );
+          "
 
       - name: Update NBA data
         run: node scripts/update-nba-data.js
+
+      - name: Archive current picks
+        run: node scripts/archive-picks.js
 
       - name: Calculate picks results
         run: node scripts/calculate-picks.js
 
       - name: Validate generated results
         run: |
-          node - <<'NODE'
-          const fs = require("fs");
+          node -e "
+            const fs = require('fs');
 
-          const results = JSON.parse(
-            fs.readFileSync("data/picks-results.json", "utf8")
-          );
-
-          console.log("Updated at:", results.updatedAt);
-          console.log(
-            "Calculated results:",
-            results.results?.length || 0
-          );
-          console.log("Leaderboard:", results.leaderboard);
-
-          if (!results.updatedAt) {
-            throw new Error(
-              "picks-results.json was not updated"
+            const archive = JSON.parse(
+              fs.readFileSync(
+                'data/picks-archive.json',
+                'utf8'
+              )
             );
-          }
 
-          if ((results.results?.length || 0) === 0) {
-            throw new Error(
-              "No calculated picks were generated"
+            const results = JSON.parse(
+              fs.readFileSync(
+                'data/picks-results.json',
+                'utf8'
+              )
             );
-          }
-          NODE
+
+            const archivedPicks =
+              Object.values(
+                archive.picks || {}
+              ).reduce(
+                (sum, item) =>
+                  sum +
+                  Object.keys(
+                    item || {}
+                  ).length,
+                0
+              );
+
+            console.log(
+              'Archived games:',
+              Object.keys(
+                archive.games || {}
+              ).length
+            );
+
+            console.log(
+              'Archived picks:',
+              archivedPicks
+            );
+
+            console.log(
+              'Calculated results:',
+              results.results?.length || 0
+            );
+
+            if (!results.updatedAt) {
+              throw new Error(
+                'Results were not updated'
+              );
+            }
+          "
 
       - name: Show changed files
-        run: |
-          echo "Changed files before commit:"
-          git status --short
+        run: git status --short
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update NBA data and picks results"
-          file_pattern: "data/nba-2026-2027.json data/nba-2026.json data/picks-results.json"
+          commit_message: "Update NBA data, picks archive and results"
+          file_pattern: "data/nba-2026-2027.json data/nba-2026.json data/picks-archive.json data/picks-results.json"
