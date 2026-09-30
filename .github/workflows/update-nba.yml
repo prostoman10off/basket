@@ -1,18 +1,22 @@
-name: Update NBA data
+name: Update NBA data and picks
 
 on:
   workflow_dispatch:
 
   schedule:
     # Каждый день в 09:20 UTC.
-    # Примерно 12:20 по Москве.
+    # Это 16:20 по Новосибирску.
     - cron: "20 9 * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: nba-data-and-picks-update
+  cancel-in-progress: false
+
 jobs:
-  update-nba-data:
+  update-data:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,13 +28,23 @@ jobs:
         with:
           node-version: 20
 
-      - name: Update NBA JSON
+      - name: Update NBA data
         run: node scripts/update-nba-data.js
+
+      - name: Calculate picks results
+        run: node scripts/calculate-picks.js
+
+      - name: Validate generated JSON
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('data/nba-2026-2027.json', 'utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('data/nba-2026.json', 'utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('data/picks-results.json', 'utf8'))"
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update NBA data"
+          commit_message: "Update NBA data and picks results"
           file_pattern: |
             data/nba-2026-2027.json
             data/nba-2026.json
+            data/picks-results.json
