@@ -1,5 +1,10 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-09-30T02:28:57.137Z",
+  "sourceUpdatedAt": {
+    "picks": "2026-09-29T11:01:37.968066+00:00",
+    "currentSeason": "2026-09-30T02:28:57.080Z",
+    "previousSeason": "2026-09-30T02:28:57.080Z"
+  },
   "scoring": {
     "correct": 1,
     "wrong": 0
@@ -9,40 +14,104 @@
       "playerId": "andrei",
       "name": "Андрей",
       "photo": "Andrei.jpg",
+      "favoriteTeam": "76ers",
       "points": 0,
       "correctPicks": 0,
       "wrongPicks": 0,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 0
+      "totalPicks": 1,
+      "gradedPicks": 0,
+      "accuracy": 0,
+      "place": 1
     },
     {
       "playerId": "ivan",
       "name": "Иван",
       "photo": "Ivan.jpg",
+      "favoriteTeam": "Celtics",
       "points": 0,
       "correctPicks": 0,
       "wrongPicks": 0,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 0
+      "totalPicks": 1,
+      "gradedPicks": 0,
+      "accuracy": 0,
+      "place": 2
     },
     {
       "playerId": "seva",
       "name": "Сева",
       "photo": "Seva.jpg",
+      "favoriteTeam": "Warriors",
       "points": 0,
       "correctPicks": 0,
       "wrongPicks": 0,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 0
+      "totalPicks": 1,
+      "gradedPicks": 0,
+      "accuracy": 0,
+      "place": 3
     }
   ],
   "dailyTotals": [],
-  "results": [],
+  "results": [
+    {
+      "id": "401902644_ivan",
+      "gameId": "401902644",
+      "gameDate": "2026-10-03T23:00Z",
+      "gameName": "Miami Heat at Toronto Raptors",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MIA",
+      "pickedTeamName": "Miami Heat",
+      "votedAt": "2026-09-29T10:54:16.905967+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIA",
+      "homeTeamAbbr": "TOR"
+    },
+    {
+      "id": "401902644_seva",
+      "gameId": "401902644",
+      "gameDate": "2026-10-03T23:00Z",
+      "gameName": "Miami Heat at Toronto Raptors",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "MIA",
+      "pickedTeamName": "Miami Heat",
+      "votedAt": "2026-09-29T10:54:23.885503+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIA",
+      "homeTeamAbbr": "TOR"
+    },
+    {
+      "id": "401902644_andrei",
+      "gameId": "401902644",
+      "gameDate": "2026-10-03T23:00Z",
+      "gameName": "Miami Heat at Toronto Raptors",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "TOR",
+      "pickedTeamName": "Toronto Raptors",
+      "votedAt": "2026-09-29T11:01:37.968066+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIA",
+      "homeTeamAbbr": "TOR"
+    }
+  ],
   "warnings": []
 }
