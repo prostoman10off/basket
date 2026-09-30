@@ -1,19 +1,35 @@
 const CURRENT_SEASON_DATA_URL = "data/nba-2026-2027.json";
 const PREVIOUS_SEASON_DATA_URL = "data/nba-2026.json";
+const PICKS_RESULTS_DATA_URL = "data/picks-results.json";
 
 const NBA_LOGO_URL =
   "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png";
 
 const SEASON_LABEL = "2026–2027";
-
-/*
-  Все даты на лендинге показываем по Новосибирску.
-  Новосибирск находится в часовом поясе UTC+7.
-*/
 const DISPLAY_TIME_ZONE = "Asia/Novosibirsk";
 const DISPLAY_TIME_ZONE_LABEL = "НСК";
-
 const PAGE_SIZE = 12;
+
+const TEAM_ABBR_ALIASES = {
+  GS: "GSW",
+  GSW: "GSW",
+  UTAH: "UTA",
+  UTA: "UTA",
+  NY: "NYK",
+  NYK: "NYK",
+  SA: "SAS",
+  SAS: "SAS",
+  NO: "NOP",
+  NOP: "NOP",
+  PHO: "PHX",
+  PHX: "PHX",
+  BRK: "BKN",
+  BKN: "BKN",
+  CHO: "CHA",
+  CHA: "CHA",
+  WSH: "WAS",
+  WAS: "WAS"
+};
 
 const FANS = [
   {
@@ -50,6 +66,7 @@ const FANS = [
     teamLabel: "Warriors",
     teamAbbr: "GSW",
     aliases: [
+      "gs",
       "gsw",
       "golden state",
       "golden state warriors",
@@ -62,13 +79,14 @@ const state = {
   currentFilter: "all",
   currentSeasonData: null,
   previousSeasonData: null,
+  picksResultsData: null,
+  picksByGameId: new Map(),
   seasonVisibleCount: PAGE_SIZE,
   previousVisibleCount: PAGE_SIZE
 };
 
 const elements = {
   upcomingContainer: document.getElementById("upcomingGames"),
-
   seasonContainer: document.getElementById("seasonGames"),
 
   previousSeasonContainer: document.getElementById(
@@ -76,7 +94,6 @@ const elements = {
   ),
 
   refreshBtn: document.getElementById("refreshBtn"),
-
   teamFilters: document.getElementById("teamFilters"),
 
   loadMoreSeason: document.getElementById("loadMoreSeason"),
@@ -86,8 +103,8 @@ const elements = {
   ),
 
   gamesCount: document.getElementById("gamesCount"),
-
   upcomingCount: document.getElementById("upcomingCount"),
+  totalPicksCount: document.getElementById("totalPicksCount"),
 
   seasonLabel: document.getElementById("seasonLabel"),
 
@@ -104,7 +121,6 @@ const elements = {
   ),
 
   nextGameValue: document.getElementById("nextGameValue"),
-
   nextGameMeta: document.getElementById("nextGameMeta"),
 
   lastUpdate: document.getElementById("lastUpdate"),
@@ -147,33 +163,31 @@ async function loadDashboard(forceFresh) {
   renderLoading();
 
   try {
-    const [currentSeasonData, previousSeasonData] =
-      await Promise.all([
-        fetchJsonData(
-          CURRENT_SEASON_DATA_URL,
-          forceFresh
-        ),
-
-        fetchJsonData(
-          PREVIOUS_SEASON_DATA_URL,
-          forceFresh
-        )
-      ]);
+    const [
+      currentSeasonData,
+      previousSeasonData,
+      picksResultsData
+    ] = await Promise.all([
+      fetchJsonData(CURRENT_SEASON_DATA_URL, forceFresh),
+      fetchJsonData(PREVIOUS_SEASON_DATA_URL, forceFresh),
+      fetchOptionalJsonData(PICKS_RESULTS_DATA_URL, forceFresh)
+    ]);
 
     state.currentSeasonData = currentSeasonData;
     state.previousSeasonData = previousSeasonData;
+    state.picksResultsData = picksResultsData;
 
     state.seasonVisibleCount = PAGE_SIZE;
     state.previousVisibleCount = PAGE_SIZE;
+
+    createPicksIndex(picksResultsData.results || []);
 
     renderDashboard();
 
     setUpdateIndicator("success", "Данные актуальны");
   } catch (error) {
     console.error(error);
-
     renderFatalError(error);
-
     setUpdateIndicator("error", "Ошибка загрузки");
   } finally {
     setLoadingState(false);
@@ -181,18 +195,13 @@ async function loadDashboard(forceFresh) {
 }
 
 async function fetchJsonData(url, forceFresh) {
-  const separator = url.includes("?") ? "&" : "?";
-
-  const cacheVersion = forceFresh
+  const version = forceFresh
     ? Date.now()
     : Math.floor(Date.now() / 60000);
 
-  const response = await fetch(
-    `${url}${separator}v=${cacheVersion}`,
-    {
-      cache: "no-store"
-    }
-  );
+  const response = await fetch(`${url}?v=${version}`, {
+    cache: "no-store"
+  });
 
   if (!response.ok) {
     throw new Error(
@@ -201,6 +210,42 @@ async function fetchJsonData(url, forceFresh) {
   }
 
   return response.json();
+}
+
+async function fetchOptionalJsonData(url, forceFresh) {
+  try {
+    return await fetchJsonData(url, forceFresh);
+  } catch (error) {
+    console.warn(
+      "Результаты прогнозов временно недоступны:",
+      error
+    );
+
+    return {
+      updatedAt: null,
+      leaderboard: [],
+      results: [],
+      dailyTotals: []
+    };
+  }
+}
+
+function createPicksIndex(results) {
+  state.picksByGameId.clear();
+
+  results.forEach(result => {
+    const gameId = String(result.gameId || "");
+
+    if (!gameId) {
+      return;
+    }
+
+    if (!state.picksByGameId.has(gameId)) {
+      state.picksByGameId.set(gameId, []);
+    }
+
+    state.picksByGameId.get(gameId).push(result);
+  });
 }
 
 function setLoadingState(isLoading) {
@@ -249,18 +294,15 @@ function renderLoading() {
 
   elements.gamesCount.textContent = "—";
   elements.upcomingCount.textContent = "—";
+  elements.totalPicksCount.textContent = "—";
 
   elements.upcomingSectionCount.textContent = "—";
   elements.seasonSectionCount.textContent = "—";
   elements.previousSectionCount.textContent = "—";
 
   elements.nextGameValue.textContent = "Загружаем…";
-
-  elements.nextGameMeta.textContent =
-    "Проверяем расписание";
-
-  elements.lastUpdate.textContent =
-    "Последнее обновление: загрузка";
+  elements.nextGameMeta.textContent = "Проверяем расписание";
+  elements.lastUpdate.textContent = "Последнее обновление: загрузка";
 
   elements.loadMoreSeason.hidden = true;
   elements.loadMorePrevious.hidden = true;
@@ -276,6 +318,7 @@ function createSkeletons(count) {
 function renderDashboard() {
   const currentData = state.currentSeasonData || {};
   const previousData = state.previousSeasonData || {};
+  const picksData = state.picksResultsData || {};
 
   const upcomingGames = sortGamesAscending(
     currentData.upcomingGames || []
@@ -285,20 +328,74 @@ function renderDashboard() {
     currentData.seasonGames || []
   );
 
-  const previousGames = sortGamesDescending(
-    previousData.pastGames || []
+  elements.gamesCount.textContent = seasonGames.length;
+  elements.upcomingCount.textContent = upcomingGames.length;
+
+  elements.totalPicksCount.textContent =
+    (picksData.results || []).length;
+
+  renderLeaderboard(picksData.leaderboard || []);
+  renderNextGame(upcomingGames);
+  renderLastUpdate(currentData, previousData, picksData);
+  renderAllSections();
+}
+
+function renderLeaderboard(leaderboard) {
+  const playersById = new Map(
+    leaderboard.map(player => [
+      String(player.playerId),
+      player
+    ])
   );
 
-  elements.gamesCount.textContent = seasonGames.length;
+  renderPlayerPoints(
+    "andrei",
+    playersById.get("andrei")
+  );
 
-  elements.upcomingCount.textContent =
-    upcomingGames.length;
+  renderPlayerPoints(
+    "ivan",
+    playersById.get("ivan")
+  );
 
-  renderNextGame(upcomingGames);
+  renderPlayerPoints(
+    "seva",
+    playersById.get("seva")
+  );
+}
 
-  renderLastUpdate(currentData, previousData);
+function renderPlayerPoints(playerId, player) {
+  const capitalized =
+    playerId.charAt(0).toUpperCase() +
+    playerId.slice(1);
 
-  renderAllSections();
+  const badge = document.getElementById(
+    `pointsBadge${capitalized}`
+  );
+
+  const text = document.getElementById(
+    `pointsText${capitalized}`
+  );
+
+  const points = Number(player?.points || 0);
+
+  if (badge) {
+    badge.textContent = String(points);
+
+    badge.title = player
+      ? [
+          `${player.name}: ${formatPoints(points)}`,
+          `Угадано: ${player.correctPicks || 0}`,
+          `Не угадано: ${player.wrongPicks || 0}`,
+          `Ожидают результата: ${player.pendingPicks || 0}`,
+          `Точность: ${player.accuracy || 0}%`
+        ].join("\n")
+      : formatPoints(points);
+  }
+
+  if (text) {
+    text.textContent = formatPoints(points);
+  }
 }
 
 function renderAllSections() {
@@ -343,7 +440,6 @@ function renderAllSections() {
 
 function setActiveFilter(filter) {
   state.currentFilter = filter;
-
   state.seasonVisibleCount = PAGE_SIZE;
   state.previousVisibleCount = PAGE_SIZE;
 
@@ -385,29 +481,31 @@ function filterGames(games) {
 }
 
 function teamMatchesAbbreviation(team, abbreviation) {
-  if (!team) {
-    return false;
+  const normalizedTarget =
+    normalizeTeamAbbreviation(abbreviation);
+
+  const teamAbbreviation =
+    normalizeTeamAbbreviation(team?.abbreviation);
+
+  if (
+    teamAbbreviation &&
+    teamAbbreviation === normalizedTarget
+  ) {
+    return true;
   }
 
   const fan = FANS.find(
-    item => item.teamAbbr === abbreviation
+    item => item.teamAbbr === normalizedTarget
   );
 
-  if (!fan) {
-    return false;
-  }
-
-  return isFanTeam(team, fan);
+  return fan ? isFanTeam(team, fan) : false;
 }
 
 function renderNextGame(upcomingGames) {
   if (!upcomingGames.length) {
-    elements.nextGameValue.textContent =
-      "Матчей пока нет";
-
+    elements.nextGameValue.textContent = "Матчей пока нет";
     elements.nextGameMeta.textContent =
       "Ждём следующий игровой день";
-
     return;
   }
 
@@ -422,39 +520,35 @@ function renderNextGame(upcomingGames) {
     getRelativeGameTime(game.date);
 }
 
-function renderLastUpdate(currentData, previousData) {
-  const updateDates = [
+function renderLastUpdate(
+  currentData,
+  previousData,
+  picksData
+) {
+  const dates = [
     currentData.updatedAt,
-    previousData.updatedAt
+    previousData.updatedAt,
+    picksData.updatedAt
   ]
     .filter(Boolean)
     .sort((a, b) => new Date(b) - new Date(a));
 
-  if (!updateDates.length) {
-    elements.lastUpdate.textContent =
-      "Последнее обновление: ещё не запускалось";
-
-    return;
-  }
-
-  elements.lastUpdate.textContent =
-    `Обновлено: ${formatUpdateDate(updateDates[0])}`;
+  elements.lastUpdate.textContent = dates.length
+    ? `Обновлено: ${formatUpdateDate(dates[0])}`
+    : "Последнее обновление: ещё не запускалось";
 }
 
 function renderUpcomingGames(games) {
   if (!games.length) {
-    const filterIsActive =
-      state.currentFilter !== "all";
-
     elements.upcomingContainer.innerHTML =
       renderNbaEmptyState(
-        filterIsActive
-          ? "Матчей по фильтру нет"
-          : "NBA Jam, скоро матч…",
+        state.currentFilter === "all"
+          ? "NBA Jam, скоро матч…"
+          : "Матчей по фильтру нет",
 
-        filterIsActive
-          ? "Попробуй выбрать другую команду."
-          : "Ждём следующий игровой день."
+        state.currentFilter === "all"
+          ? "Ждём следующий игровой день."
+          : "Попробуй выбрать другую команду."
       );
 
     return;
@@ -479,7 +573,6 @@ function renderSeasonGames(games) {
       );
 
     elements.loadMoreSeason.hidden = true;
-
     return;
   }
 
@@ -503,17 +596,11 @@ function renderPreviousSeasonGames(games) {
   if (!games.length) {
     elements.previousSeasonContainer.innerHTML =
       renderNbaEmptyState(
-        state.currentFilter === "all"
-          ? "Архив пока пуст"
-          : "Матчей по фильтру нет",
-
-        state.currentFilter === "all"
-          ? "Результаты появятся после обновления данных."
-          : "Попробуй выбрать другую команду."
+        "Архив пока пуст",
+        "Результаты появятся после обновления данных."
       );
 
     elements.loadMorePrevious.hidden = true;
-
     return;
   }
 
@@ -540,16 +627,16 @@ function updateLoadMoreButton(button, total, visible) {
   button.hidden = remaining === 0;
 
   if (remaining > 0) {
-    const amount = Math.min(PAGE_SIZE, remaining);
-
     button.innerHTML = `
-      Показать ещё ${amount}
+      Показать ещё ${Math.min(PAGE_SIZE, remaining)}
       <span aria-hidden="true">↓</span>
     `;
   }
 }
 
 function renderGameCard(game, type) {
+  const gameId = String(game.id || "");
+
   const isResult =
     type === "result" || Boolean(game.isCompleted);
 
@@ -569,37 +656,25 @@ function renderGameCard(game, type) {
     homeScore > awayScore;
 
   const gameFans = getFansForGame(game);
-
-  const hasFans = gameFans.length > 0;
-
-  const hasFanClash = gameFans.length >= 2;
+  const gamePicks = state.picksByGameId.get(gameId) || [];
 
   const status = getGameStatus(game, isResult);
 
   const cardClasses = [
     "game-card",
-
-    isResult
-      ? "result-card"
-      : "upcoming-card",
-
-    hasFans
-      ? "has-fans"
-      : "",
-
-    hasFanClash
-      ? "has-fan-clash"
-      : "",
-
-    status.className === "live"
-      ? "live-card"
-      : ""
+    isResult ? "result-card" : "upcoming-card",
+    gameFans.length ? "has-fans" : "",
+    gameFans.length >= 2 ? "has-fan-clash" : "",
+    gamePicks.length ? "has-picks" : ""
   ]
     .filter(Boolean)
     .join(" ");
 
   return `
-    <article class="${cardClasses}">
+    <article
+      class="${cardClasses}"
+      data-game-id="${escapeHtml(gameId)}"
+    >
       <div class="game-inner">
         <div class="game-top">
           <div>
@@ -615,12 +690,11 @@ function renderGameCard(game, type) {
 
           <div class="game-fan-zone">
             ${
-              hasFanClash
+              gameFans.length >= 2
                 ? `
                   <div
                     class="clash-fire"
                     title="Дерби друзей"
-                    aria-label="Дерби друзей"
                   >
                     🔥
                   </div>
@@ -628,11 +702,7 @@ function renderGameCard(game, type) {
                 : ""
             }
 
-            ${
-              hasFans
-                ? renderGameFans(gameFans)
-                : ""
-            }
+            ${renderGameFans(gameFans)}
           </div>
 
           <div class="game-status ${status.className}">
@@ -646,10 +716,7 @@ function renderGameCard(game, type) {
           ${
             game.seriesText
               ? `
-                <span
-                  class="game-tag series"
-                  title="${escapeHtml(game.seriesText)}"
-                >
+                <span class="game-tag series">
                   Серия: ${escapeHtml(game.seriesText)}
                 </span>
               `
@@ -658,71 +725,242 @@ function renderGameCard(game, type) {
         </div>
 
         <div class="compact-matchup">
-          ${renderTeamLine(
-            game.awayTeam,
-            "away",
+          ${renderTeamLine({
+            team: game.awayTeam,
+            type: "away",
             isResult,
-            awayWon
-          )}
+            isWinner: awayWon,
+            gamePicks
+          })}
 
-          ${renderTeamLine(
-            game.homeTeam,
-            "home",
+          ${renderTeamLine({
+            team: game.homeTeam,
+            type: "home",
             isResult,
-            homeWon
-          )}
+            isWinner: homeWon,
+            gamePicks
+          })}
         </div>
       </div>
     </article>
   `;
 }
 
+function renderTeamLine({
+  team,
+  type,
+  isResult,
+  isWinner,
+  gamePicks
+}) {
+  const safeTeam = team || {};
+
+  const teamAbbr = normalizeTeamAbbreviation(
+    safeTeam.abbreviation
+  );
+
+  const picksForTeam = gamePicks.filter(result => {
+    return (
+      normalizeTeamAbbreviation(
+        result.pickedTeamAbbr
+      ) === teamAbbr
+    );
+  });
+
+  const icon = type === "home" ? "🏠" : "✈️";
+  const location = type === "home" ? "дома" : "в гостях";
+
+  const teamName =
+    safeTeam.shortName ||
+    safeTeam.name ||
+    safeTeam.abbreviation ||
+    "Команда";
+
+  const logo = safeTeam.logo
+    ? `
+      <img
+        class="team-logo"
+        src="${escapeHtml(safeTeam.logo)}"
+        alt="${escapeHtml(teamName)}"
+        width="33"
+        height="33"
+        loading="lazy"
+      />
+    `
+    : `
+      <div class="team-logo team-logo-fallback">🏀</div>
+    `;
+
+  const score = getNumericScore(safeTeam);
+
+  return `
+    <div
+      class="team-line ${isWinner ? "winner" : ""}"
+      data-team-abbr="${escapeHtml(teamAbbr)}"
+    >
+      <div class="team-main">
+        ${logo}
+
+        <div class="team-text">
+          <div
+            class="team-name"
+            title="${escapeHtml(safeTeam.name || teamName)}"
+          >
+            ${escapeHtml(teamName)}
+          </div>
+
+          <div class="team-meta">
+            ${icon} ${location}
+          </div>
+
+          ${renderTeamPicks(picksForTeam)}
+        </div>
+      </div>
+
+      <div class="team-side">
+        ${
+          isResult
+            ? `
+              <div class="team-score">
+                ${score === null ? "—" : score}
+              </div>
+
+              ${
+                isWinner
+                  ? `<span class="winner-mark">победа</span>`
+                  : ""
+              }
+            `
+            : `<div class="team-score pending">VS</div>`
+        }
+      </div>
+    </div>
+  `;
+}
+
+function renderTeamPicks(picks) {
+  if (!picks.length) {
+    return "";
+  }
+
+  return `
+    <div class="team-picks">
+      ${picks
+        .map(result => {
+          const statusClass =
+            getPickStatusClass(result.status);
+
+          const statusText =
+            getPickStatusText(result);
+
+          return `
+            <div
+              class="pick-person ${statusClass}"
+              title="${escapeHtml(createPickTitle(result))}"
+            >
+              <img
+                class="pick-person-avatar"
+                src="${escapeHtml(result.playerPhoto)}"
+                alt="${escapeHtml(result.playerName)}"
+                width="23"
+                height="23"
+                loading="lazy"
+              />
+
+              <span class="pick-person-status">
+                ${escapeHtml(statusText)}
+              </span>
+            </div>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
+function getPickStatusClass(status) {
+  const allowed = [
+    "correct",
+    "wrong",
+    "pending",
+    "late",
+    "void"
+  ];
+
+  return allowed.includes(status)
+    ? `pick-${status}`
+    : "pick-pending";
+}
+
+function getPickStatusText(result) {
+  switch (result.status) {
+    case "correct":
+      return `✓ +${result.points || 1}`;
+
+    case "wrong":
+      return "× 0";
+
+    case "late":
+      return "поздно";
+
+    case "void":
+      return "отмена";
+
+    default:
+      return "прогноз";
+  }
+}
+
+function createPickTitle(result) {
+  const team =
+    result.pickedTeamName ||
+    result.pickedTeamAbbr ||
+    "команду";
+
+  switch (result.status) {
+    case "correct":
+      return `${result.playerName}: ${team}, угадал +1`;
+
+    case "wrong":
+      return `${result.playerName}: ${team}, не угадал`;
+
+    case "late":
+      return `${result.playerName}: голос сделан поздно`;
+
+    case "void":
+      return `${result.playerName}: матч отменён`;
+
+    default:
+      return `${result.playerName} выбрал ${team}`;
+  }
+}
+
 function getGameStatus(game, isResult) {
-  const statusState = normalizeString(
-    game.statusState
+  const status = normalizeString(
+    [
+      game.statusState,
+      game.statusName,
+      game.statusDescription
+    ].join(" ")
   );
-
-  const statusName = normalizeString(
-    game.statusName
-  );
-
-  const statusDescription = normalizeString(
-    game.statusDescription
-  );
-
-  const combinedStatus = [
-    statusState,
-    statusName,
-    statusDescription
-  ].join(" ");
 
   if (
-    statusState === "in" ||
-    combinedStatus.includes("in progress") ||
-    combinedStatus.includes("halftime")
+    status.includes("in progress") ||
+    status.includes("halftime") ||
+    normalizeString(game.statusState) === "in"
   ) {
     return {
-      label: getLiveStatusLabel(game),
+      label: "LIVE",
       className: "live"
     };
   }
 
   if (
-    combinedStatus.includes("postponed") ||
-    combinedStatus.includes("delayed")
+    status.includes("postponed") ||
+    status.includes("delayed")
   ) {
     return {
       label: "Перенесён",
-      className: "postponed"
-    };
-  }
-
-  if (
-    combinedStatus.includes("canceled") ||
-    combinedStatus.includes("cancelled")
-  ) {
-    return {
-      label: "Отменён",
       className: "postponed"
     };
   }
@@ -747,87 +985,65 @@ function getGameStatus(game, isResult) {
   };
 }
 
-function getLiveStatusLabel(game) {
-  const description = String(
-    game.statusDescription || ""
-  ).trim();
-
-  if (
-    description &&
-    !description
-      .toLowerCase()
-      .includes("in progress")
-  ) {
-    return `LIVE · ${description}`;
+function renderGameFans(fans) {
+  if (!fans.length) {
+    return "";
   }
 
-  return "LIVE";
-}
-
-function renderGameFans(fans) {
   return `
     <div class="game-fans">
       ${fans
-        .map(fan => {
-          const title =
-            `${fan.name} болеет за ${fan.teamLabel}`;
-
-          return `
-            <img
-              class="game-fan-avatar"
-              src="${escapeHtml(fan.photo)}"
-              alt="${escapeHtml(fan.name)}"
-              title="${escapeHtml(title)}"
-              width="27"
-              height="27"
-              loading="lazy"
-            />
-          `;
-        })
+        .map(fan => `
+          <img
+            class="game-fan-avatar"
+            src="${escapeHtml(fan.photo)}"
+            alt="${escapeHtml(fan.name)}"
+            title="${escapeHtml(
+              `${fan.name} болеет за ${fan.teamLabel}`
+            )}"
+            width="27"
+            height="27"
+            loading="lazy"
+          />
+        `)
         .join("")}
     </div>
   `;
 }
 
 function renderStageTag(stage) {
-  if (!stage || !stage.label) {
+  if (!stage?.label) {
     return "";
   }
 
-  const translatedLabel = translateStage(
-    stage.label
-  );
-
   return `
-    <span class="game-tag ${escapeHtml(
-      stage.className || ""
-    )}">
-      ${escapeHtml(translatedLabel)}
+    <span class="game-tag ${escapeHtml(stage.className || "")}">
+      ${escapeHtml(translateStage(stage.label))}
     </span>
   `;
 }
 
 function translateStage(label) {
-  const normalized = normalizeString(label);
+  const value = normalizeString(label);
 
   if (
-    normalized.includes("regular") ||
-    normalized.includes("регуляр")
+    value.includes("regular") ||
+    value.includes("регуляр")
   ) {
     return "Регулярка";
   }
 
   if (
-    normalized.includes("playoff") ||
-    normalized.includes("postseason") ||
-    normalized.includes("плей")
+    value.includes("playoff") ||
+    value.includes("postseason") ||
+    value.includes("плей")
   ) {
     return "Плей-офф";
   }
 
   if (
-    normalized.includes("preseason") ||
-    normalized.includes("предсез")
+    value.includes("preseason") ||
+    value.includes("предсез")
   ) {
     return "Предсезонка";
   }
@@ -835,111 +1051,7 @@ function translateStage(label) {
   return label;
 }
 
-function renderTeamLine(
-  team,
-  type,
-  isResult,
-  isWinner
-) {
-  const safeTeam = team || {};
-
-  const icon =
-    type === "home"
-      ? "🏠"
-      : "✈️";
-
-  const label =
-    type === "home"
-      ? "дома"
-      : "в гостях";
-
-  const teamName =
-    safeTeam.shortName ||
-    safeTeam.name ||
-    safeTeam.abbreviation ||
-    "Команда";
-
-  const fullTeamName =
-    safeTeam.name || teamName;
-
-  const logoMarkup = safeTeam.logo
-    ? `
-      <img
-        class="team-logo"
-        src="${escapeHtml(safeTeam.logo)}"
-        alt="${escapeHtml(fullTeamName)}"
-        width="33"
-        height="33"
-        loading="lazy"
-      />
-    `
-    : `
-      <div
-        class="team-logo team-logo-fallback"
-        aria-hidden="true"
-      >
-        🏀
-      </div>
-    `;
-
-  const numericScore =
-    getNumericScore(safeTeam);
-
-  const scoreMarkup = isResult
-    ? `
-      <div class="team-score">
-        ${
-          numericScore === null
-            ? "—"
-            : numericScore
-        }
-      </div>
-
-      ${
-        isWinner
-          ? `<span class="winner-mark">победа</span>`
-          : ""
-      }
-    `
-    : `
-      <div class="team-score pending">
-        VS
-      </div>
-    `;
-
-  return `
-    <div class="team-line ${isWinner ? "winner" : ""}">
-      <div class="team-main">
-        ${logoMarkup}
-
-        <div class="team-text">
-          <div
-            class="team-name"
-            title="${escapeHtml(fullTeamName)}"
-          >
-            ${escapeHtml(teamName)}
-          </div>
-
-          <div class="team-meta">
-            <span class="team-mark">
-              ${icon} ${label}
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="team-side">
-        ${scoreMarkup}
-      </div>
-    </div>
-  `;
-}
-
 function getFansForGame(game) {
-  if (!game) {
-    return [];
-  }
-
   return FANS.filter(fan => {
     return (
       isFanTeam(game.awayTeam, fan) ||
@@ -953,7 +1065,7 @@ function isFanTeam(team, fan) {
     return false;
   }
 
-  const teamValues = [
+  const values = [
     team.name,
     team.shortName,
     team.abbreviation
@@ -961,42 +1073,38 @@ function isFanTeam(team, fan) {
     .filter(Boolean)
     .map(normalizeString);
 
-  const fanAliases = [
+  const aliases = [
     fan.teamAbbr,
     ...fan.aliases
   ].map(normalizeString);
 
-  return teamValues.some(teamValue => {
-    return fanAliases.some(alias => {
-      return (
-        teamValue === alias ||
-        teamValue.includes(alias)
-      );
+  return values.some(value => {
+    return aliases.some(alias => {
+      return value === alias || value.includes(alias);
     });
   });
 }
 
+function normalizeTeamAbbreviation(value) {
+  const normalized = String(value || "")
+    .trim()
+    .toUpperCase()
+    .replace(/[^A-Z]/g, "");
+
+  return TEAM_ABBR_ALIASES[normalized] || normalized;
+}
+
 function getNumericScore(team) {
-  if (!team) {
-    return null;
-  }
+  const number = Number(team?.score);
 
-  const score = Number(team.score);
-
-  return Number.isFinite(score)
-    ? score
-    : null;
+  return Number.isFinite(number) ? number : null;
 }
 
 function getTeamShortName(team) {
-  if (!team) {
-    return "Команда";
-  }
-
   return (
-    team.shortName ||
-    team.abbreviation ||
-    team.name ||
+    team?.shortName ||
+    team?.abbreviation ||
+    team?.name ||
     "Команда"
   );
 }
@@ -1011,17 +1119,9 @@ function renderNbaEmptyState(title, text) {
         width="68"
         height="68"
         loading="lazy"
-        onerror="
-          this.style.display='none';
-          this.insertAdjacentHTML(
-            'afterend',
-            '<div class=&quot;empty-ball&quot;>🏀</div>'
-          );
-        "
       />
 
       <h3>${escapeHtml(title)}</h3>
-
       <p>${escapeHtml(text)}</p>
     </div>
   `;
@@ -1036,8 +1136,7 @@ function renderFatalError(error) {
 
   elements.seasonContainer.innerHTML = `
     <div class="error-box">
-      Ошибка загрузки текущего сезона:
-      ${escapeHtml(error.message)}
+      Ошибка загрузки: ${escapeHtml(error.message)}
     </div>
   `;
 
@@ -1046,38 +1145,21 @@ function renderFatalError(error) {
       Архив матчей сейчас недоступен.
     </div>
   `;
-
-  elements.gamesCount.textContent = "—";
-  elements.upcomingCount.textContent = "—";
-
-  elements.upcomingSectionCount.textContent = "—";
-  elements.seasonSectionCount.textContent = "—";
-  elements.previousSectionCount.textContent = "—";
-
-  elements.nextGameValue.textContent = "Нет данных";
-
-  elements.nextGameMeta.textContent =
-    "Попробуй обновить страницу позже";
-
-  elements.lastUpdate.textContent =
-    "Последнее обновление: ошибка";
 }
 
 function sortGamesAscending(games) {
-  return [...games].sort((a, b) => {
-    return new Date(a.date) - new Date(b.date);
-  });
+  return [...games].sort(
+    (a, b) => new Date(a.date) - new Date(b.date)
+  );
 }
 
 function sortGamesDescending(games) {
-  return [...games].sort((a, b) => {
-    return new Date(b.date) - new Date(a.date);
-  });
+  return [...games].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
 }
 
-/*
-  Форматирование даты по Новосибирску.
-*/
+/* Время Новосибирска */
 
 function formatGameDay(dateString) {
   const date = new Date(dateString);
@@ -1113,17 +1195,12 @@ function formatGameTime(dateString) {
 function formatCompactDateTime(dateString) {
   return (
     `${formatGameDay(dateString)}, ` +
-    `${formatGameTime(dateString)} ` +
-    DISPLAY_TIME_ZONE_LABEL
+    `${formatGameTime(dateString)} НСК`
   );
 }
 
 function formatUpdateDate(dateString) {
   const date = new Date(dateString);
-
-  if (Number.isNaN(date.getTime())) {
-    return "неизвестно";
-  }
 
   return (
     new Intl.DateTimeFormat("ru-RU", {
@@ -1132,41 +1209,25 @@ function formatUpdateDate(dateString) {
       month: "2-digit",
       year: "numeric",
       hour: "2-digit",
-      minute: "2-digit",
-      hour12: false
-    }).format(date) +
-    ` ${DISPLAY_TIME_ZONE_LABEL}`
+      minute: "2-digit"
+    }).format(date) + " НСК"
   );
 }
 
 function isTodayInNovosibirsk(dateString) {
-  const gameDate = getDateKeyInTimeZone(
-    new Date(dateString),
-    DISPLAY_TIME_ZONE
+  return (
+    getDateKey(new Date(dateString)) ===
+    getDateKey(new Date())
   );
-
-  const today = getDateKeyInTimeZone(
-    new Date(),
-    DISPLAY_TIME_ZONE
-  );
-
-  return gameDate === today;
 }
 
-function getDateKeyInTimeZone(date, timeZone) {
-  if (Number.isNaN(date.getTime())) {
-    return "";
-  }
-
-  const parts = new Intl.DateTimeFormat(
-    "en-CA",
-    {
-      timeZone,
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit"
-    }
-  ).formatToParts(date);
+function getDateKey(date) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: DISPLAY_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
 
   const values = {};
 
@@ -1174,49 +1235,32 @@ function getDateKeyInTimeZone(date, timeZone) {
     values[part.type] = part.value;
   });
 
-  return (
-    `${values.year}-` +
-    `${values.month}-` +
-    `${values.day}`
-  );
+  return `${values.year}-${values.month}-${values.day}`;
 }
 
 function getRelativeGameTime(dateString) {
-  const gameDate = new Date(dateString);
-  const now = new Date();
-
-  if (Number.isNaN(gameDate.getTime())) {
-    return "время уточняется";
-  }
-
   const difference =
-    gameDate.getTime() - now.getTime();
+    new Date(dateString).getTime() - Date.now();
 
   if (difference <= 0) {
     return "матч уже начался";
   }
 
-  const totalMinutes =
-    Math.floor(difference / 60000);
+  const minutes = Math.floor(difference / 60000);
 
-  if (totalMinutes < 60) {
-    return `через ${totalMinutes} мин.`;
+  if (minutes < 60) {
+    return `через ${minutes} мин.`;
   }
 
-  const totalHours =
-    Math.floor(totalMinutes / 60);
+  const hours = Math.floor(minutes / 60);
 
-  if (totalHours < 24) {
-    return `через ${totalHours} ч.`;
+  if (hours < 24) {
+    return `через ${hours} ч.`;
   }
 
-  const totalDays =
-    Math.floor(totalHours / 24);
+  const days = Math.floor(hours / 24);
 
-  return (
-    `через ${totalDays} ` +
-    getDayWord(totalDays)
-  );
+  return `через ${days} ${getDayWord(days)}`;
 }
 
 function getDayWord(value) {
@@ -1236,6 +1280,26 @@ function getDayWord(value) {
   }
 
   return "дней";
+}
+
+function formatPoints(value) {
+  const points = Number(value) || 0;
+  const mod10 = points % 10;
+  const mod100 = points % 100;
+
+  if (mod100 >= 11 && mod100 <= 14) {
+    return `${points} очков`;
+  }
+
+  if (mod10 === 1) {
+    return `${points} очко`;
+  }
+
+  if (mod10 >= 2 && mod10 <= 4) {
+    return `${points} очка`;
+  }
+
+  return `${points} очков`;
 }
 
 function normalizeString(value) {
