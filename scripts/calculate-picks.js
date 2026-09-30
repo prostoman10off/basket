@@ -3,7 +3,10 @@ const path = require("path");
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
-const PICKS_FILE = path.join(DATA_DIR, "picks.json");
+const PICKS_FILE = path.join(
+  DATA_DIR,
+  "picks-archive.json"
+);
 
 const PICKS_RESULTS_FILE = path.join(
   DATA_DIR,
