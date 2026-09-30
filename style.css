@@ -47,13 +47,8 @@ body {
   background: var(--bg);
 }
 
-button,
-input,
-select {
-  font: inherit;
-}
-
 button {
+  font: inherit;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -166,7 +161,6 @@ body::before {
   font-size: 17px;
   font-weight: 900;
   letter-spacing: -0.2px;
-  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.38);
 }
 
 .brand-subtitle {
@@ -182,10 +176,10 @@ body::before {
 }
 
 .update-indicator {
+  min-height: 40px;
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  min-height: 40px;
   padding: 0 13px;
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -214,7 +208,6 @@ body::before {
 
 .update-indicator.error .update-dot {
   background: var(--red);
-  box-shadow: 0 0 12px rgba(239, 68, 68, 0.7);
 }
 
 .refresh-btn {
@@ -263,10 +256,6 @@ body::before {
   gap: 24px;
 }
 
-.hero-main {
-  min-width: 0;
-}
-
 .eyebrow {
   margin-bottom: 10px;
   color: var(--orange-light);
@@ -274,7 +263,6 @@ body::before {
   font-weight: 900;
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.42);
 }
 
 .hero-main h1 {
@@ -292,8 +280,6 @@ body::before {
   color: #e2e8f0;
   font-size: clamp(16px, 2vw, 20px);
   font-weight: 600;
-  letter-spacing: -0.25px;
-  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.4);
 }
 
 /* Участники */
@@ -376,6 +362,32 @@ body::before {
     0 0 0 3px rgba(15, 23, 42, 0.32);
 }
 
+.friend-points-badge {
+  position: absolute;
+  right: -7px;
+  bottom: -5px;
+  z-index: 5;
+  min-width: 31px;
+  height: 31px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0 7px;
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  background:
+    linear-gradient(
+      135deg,
+      var(--orange),
+      var(--purple)
+    );
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, 0.38),
+    0 0 0 3px rgba(15, 23, 42, 0.38);
+}
+
 .friend-info {
   min-width: 0;
   display: grid;
@@ -387,13 +399,25 @@ body::before {
   font-weight: 900;
 }
 
-.friend-info span {
+.friend-team-name {
   color: var(--orange-light);
   font-size: 12px;
   font-weight: 800;
 }
 
-/* Сводная карточка */
+.friend-points-text {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.friend-points-text::before {
+  content: "🏆";
+  margin-right: 4px;
+  font-size: 10px;
+}
+
+/* Сезонная сводка */
 
 .season-overview {
   display: flex;
@@ -429,7 +453,6 @@ body::before {
   margin: 5px 0 0;
   font-size: 24px;
   font-weight: 900;
-  letter-spacing: -1px;
 }
 
 .overview-live-dot {
@@ -455,12 +478,10 @@ body::before {
   color: var(--muted-soft);
   font-size: 11px;
   font-weight: 800;
-  letter-spacing: 0.7px;
   text-transform: uppercase;
 }
 
 .next-game-value {
-  margin-top: 2px;
   font-size: 18px;
   font-weight: 900;
   line-height: 1.25;
@@ -469,15 +490,13 @@ body::before {
 .next-game-meta {
   color: var(--muted);
   font-size: 12px;
-  line-height: 1.4;
 }
 
 .overview-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9px;
-  margin-top: auto;
-  padding-top: 15px;
+  margin-top: 15px;
 }
 
 .overview-stat {
@@ -499,15 +518,34 @@ body::before {
   font-size: 11px;
 }
 
-/* Основной контейнер */
+.picks-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 9px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.38);
+}
+
+.picks-summary span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.picks-summary strong {
+  font-size: 17px;
+}
+
+/* Контент */
 
 .container {
   width: min(1280px, 100%);
   margin: 0 auto;
   padding: 20px;
 }
-
-/* Фильтры */
 
 .filters-panel {
   display: flex;
@@ -567,11 +605,7 @@ body::before {
   font-weight: 800;
   cursor: pointer;
   background: rgba(255, 255, 255, 0.065);
-  transition:
-    transform 170ms ease,
-    color 170ms ease,
-    border-color 170ms ease,
-    background 170ms ease;
+  transition: 170ms ease;
 }
 
 .filter-btn img {
@@ -582,8 +616,7 @@ body::before {
 
 .filter-btn:hover {
   transform: translateY(-2px);
-  color: var(--text);
-  border-color: rgba(255, 189, 115, 0.42);
+  color: #fff;
 }
 
 .filter-btn.active {
@@ -595,7 +628,6 @@ body::before {
       rgba(255, 122, 24, 0.28),
       rgba(124, 58, 237, 0.22)
     );
-  box-shadow: 0 8px 22px rgba(255, 122, 24, 0.13);
 }
 
 /* Секции */
@@ -623,7 +655,6 @@ body::before {
   font-size: 28px;
   font-weight: 900;
   letter-spacing: -1px;
-  text-shadow: 0 4px 22px rgba(0, 0, 0, 0.44);
 }
 
 .section-head p {
@@ -657,27 +688,19 @@ body::before {
   color: var(--muted);
   font-size: 11px;
   font-weight: 900;
-  letter-spacing: 0.9px;
   text-transform: uppercase;
   background: rgba(15, 23, 42, 0.6);
-  backdrop-filter: blur(14px);
 }
 
 .upcoming-badge {
   color: #bae6fd;
-  border-color: rgba(56, 189, 248, 0.28);
 }
 
 .season-badge {
   color: #fed7aa;
-  border-color: rgba(255, 122, 24, 0.28);
 }
 
-.previous-badge {
-  color: #cbd5e1;
-}
-
-/* Сетки матчей */
+/* Матчи */
 
 .games-grid,
 .results-list {
@@ -685,8 +708,6 @@ body::before {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
-
-/* Карточка матча */
 
 .game-card {
   position: relative;
@@ -702,31 +723,11 @@ body::before {
     );
   box-shadow: var(--shadow-small);
   backdrop-filter: blur(17px);
-  transform: translateY(0) scale(1);
   transition:
     transform 200ms ease,
     box-shadow 200ms ease,
-    border-color 200ms ease,
-    filter 200ms ease;
+    border-color 200ms ease;
   animation: cardAppear 380ms ease both;
-}
-
-.game-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(
-      circle at 8% 7%,
-      rgba(255, 122, 24, 0.13),
-      transparent 30%
-    ),
-    radial-gradient(
-      circle at 93% 92%,
-      rgba(56, 189, 248, 0.1),
-      transparent 32%
-    );
 }
 
 .game-card:hover {
@@ -752,16 +753,12 @@ body::before {
 
 .game-card.has-fan-clash {
   border-color: rgba(255, 122, 24, 0.66);
-  box-shadow:
-    var(--shadow-small),
-    0 0 28px rgba(255, 122, 24, 0.16);
 }
 
-.game-card.live-card {
-  border-color: rgba(239, 68, 68, 0.7);
+.game-card.has-picks {
   box-shadow:
     var(--shadow-small),
-    0 0 28px rgba(239, 68, 68, 0.17);
+    0 0 24px rgba(56, 189, 248, 0.08);
 }
 
 .game-inner {
@@ -769,8 +766,6 @@ body::before {
   z-index: 2;
   padding: 12px;
 }
-
-/* Верх карточки */
 
 .game-top {
   display: grid;
@@ -785,14 +780,12 @@ body::before {
   color: #fff;
   font-size: 12px;
   font-weight: 900;
-  line-height: 1.2;
 }
 
 .game-time-small {
   margin-top: 3px;
   color: var(--muted);
   font-size: 10px;
-  font-weight: 600;
 }
 
 .game-fan-zone {
@@ -805,7 +798,6 @@ body::before {
 
 .game-fans {
   display: flex;
-  align-items: center;
 }
 
 .game-fan-avatar {
@@ -815,40 +807,25 @@ body::before {
   border: 2px solid rgba(255, 255, 255, 0.92);
   border-radius: 50%;
   object-fit: cover;
-  background: var(--surface-strong);
-  box-shadow:
-    0 6px 14px rgba(0, 0, 0, 0.32),
-    0 0 0 2px rgba(255, 122, 24, 0.14);
-  transition: transform 170ms ease;
 }
 
 .game-fan-avatar:first-child {
   margin-left: 0;
 }
 
-.game-fan-avatar:hover {
-  z-index: 3;
-  transform: translateY(-3px) scale(1.12);
-}
-
 .clash-fire {
   width: 27px;
   height: 27px;
   display: grid;
-  flex: 0 0 auto;
   place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.32);
   border-radius: 50%;
   font-size: 14px;
   background:
     linear-gradient(
       135deg,
-      rgba(255, 122, 24, 0.97),
-      rgba(239, 68, 68, 0.92)
+      var(--orange),
+      var(--red)
     );
-  box-shadow:
-    0 7px 16px rgba(0, 0, 0, 0.32),
-    0 0 18px rgba(255, 122, 24, 0.32);
   animation: firePulse 1.45s ease-in-out infinite;
 }
 
@@ -856,10 +833,8 @@ body::before {
   min-height: 25px;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   padding: 0 8px;
   border-radius: 999px;
-  color: var(--muted);
   font-size: 9px;
   font-weight: 900;
   white-space: nowrap;
@@ -884,16 +859,12 @@ body::before {
 .game-status.live {
   color: #fff;
   background: rgba(239, 68, 68, 0.78);
-  box-shadow: 0 0 16px rgba(239, 68, 68, 0.28);
-  animation: livePulse 1.4s ease-in-out infinite;
 }
 
 .game-status.postponed {
   color: #fed7aa;
   background: rgba(249, 115, 22, 0.18);
 }
-
-/* Теги */
 
 .game-tags {
   min-height: 19px;
@@ -904,44 +875,34 @@ body::before {
 }
 
 .game-tag {
+  min-height: 19px;
   display: inline-flex;
   align-items: center;
-  max-width: 100%;
-  min-height: 19px;
-  overflow: hidden;
   padding: 0 7px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 999px;
   color: var(--muted);
   font-size: 9px;
   font-weight: 800;
-  line-height: 1;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   background: rgba(15, 23, 42, 0.48);
 }
 
 .game-tag.regular {
   color: #dbeafe;
-  background: rgba(59, 130, 246, 0.14);
 }
 
 .game-tag.playoff {
   color: #fed7aa;
-  background: rgba(249, 115, 22, 0.17);
 }
 
 .game-tag.preseason {
   color: #ddd6fe;
-  background: rgba(124, 58, 237, 0.17);
 }
 
 .game-tag.series {
   color: #bbf7d0;
-  background: rgba(34, 197, 94, 0.13);
 }
 
-/* Команды */
+/* Команды и прогнозы */
 
 .compact-matchup {
   display: grid;
@@ -973,7 +934,7 @@ body::before {
 .team-main {
   min-width: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
 }
 
@@ -985,17 +946,16 @@ body::before {
   border-radius: 50%;
   object-fit: contain;
   background: rgba(255, 255, 255, 0.14);
-  box-shadow: 0 6px 13px rgba(0, 0, 0, 0.2);
 }
 
 .team-logo-fallback {
   display: grid;
   place-items: center;
-  font-size: 17px;
 }
 
 .team-text {
   min-width: 0;
+  flex: 1;
 }
 
 .team-name {
@@ -1003,25 +963,14 @@ body::before {
   color: #fff;
   font-size: 12px;
   font-weight: 900;
-  line-height: 1.15;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .team-meta {
-  display: flex;
-  align-items: center;
-  gap: 4px;
   margin-top: 4px;
   color: var(--muted);
   font-size: 9px;
-  font-weight: 600;
-}
-
-.team-mark {
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
 }
 
 .team-side {
@@ -1030,11 +979,8 @@ body::before {
 }
 
 .team-score {
-  color: #fff;
   font-size: 21px;
   font-weight: 900;
-  line-height: 1;
-  letter-spacing: -0.8px;
 }
 
 .team-score.pending {
@@ -1048,11 +994,92 @@ body::before {
   color: #86efac;
   font-size: 8px;
   font-weight: 900;
-  letter-spacing: 0.6px;
   text-transform: uppercase;
 }
 
-/* Показать ещё */
+.team-picks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.pick-person {
+  min-height: 27px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px 2px 2px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.62);
+}
+
+.pick-person-avatar {
+  width: 23px;
+  height: 23px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pick-person-status {
+  color: var(--muted);
+  font-size: 8px;
+  font-weight: 900;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.pick-pending {
+  border-color: rgba(56, 189, 248, 0.3);
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.pick-pending .pick-person-status {
+  color: #bae6fd;
+}
+
+.pick-correct {
+  border-color: rgba(34, 197, 94, 0.5);
+  background: rgba(34, 197, 94, 0.17);
+}
+
+.pick-correct .pick-person-status {
+  color: #86efac;
+}
+
+.pick-correct .pick-person-avatar {
+  border-color: #86efac;
+}
+
+.pick-wrong {
+  border-color: rgba(239, 68, 68, 0.42);
+  background: rgba(239, 68, 68, 0.14);
+}
+
+.pick-wrong .pick-person-status {
+  color: #fca5a5;
+}
+
+.pick-wrong .pick-person-avatar {
+  border-color: #fca5a5;
+  filter: saturate(0.7);
+}
+
+.pick-late {
+  border-color: rgba(251, 191, 36, 0.4);
+}
+
+.pick-late .pick-person-status {
+  color: #fde68a;
+}
+
+.pick-void {
+  opacity: 0.65;
+}
+
+/* Остальное */
 
 .load-more-wrap {
   display: flex;
@@ -1062,54 +1089,31 @@ body::before {
 
 .load-more-btn {
   min-height: 42px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
   padding: 0 18px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  color: var(--text);
+  color: #fff;
   font-size: 12px;
   font-weight: 900;
   cursor: pointer;
   background: rgba(15, 23, 42, 0.65);
-  box-shadow: var(--shadow-small);
-  backdrop-filter: blur(14px);
-  transition:
-    transform 180ms ease,
-    border-color 180ms ease,
-    background 180ms ease;
-}
-
-.load-more-btn:hover {
-  transform: translateY(-3px);
-  border-color: rgba(255, 189, 115, 0.52);
-  background: rgba(255, 255, 255, 0.13);
 }
 
 .load-more-btn[hidden] {
   display: none;
 }
 
-/* Пустые состояния */
-
-.empty-state {
+.empty-state,
+.error-box {
   grid-column: 1 / -1;
   padding: 34px 22px;
-  border: 1px dashed rgba(255, 255, 255, 0.28);
   border-radius: var(--radius-large);
   text-align: center;
-  background:
-    linear-gradient(
-      165deg,
-      rgba(255, 255, 255, 0.15),
-      rgba(15, 23, 42, 0.62)
-    );
-  box-shadow: var(--shadow-small);
-  backdrop-filter: blur(18px);
+  background: rgba(15, 23, 42, 0.65);
 }
 
-.nba-empty-logo {
+.nba-empty-logo,
+.empty-ball {
   width: 68px;
   height: 68px;
   margin: 0 auto 14px;
@@ -1117,30 +1121,11 @@ body::before {
   border-radius: 19px;
   object-fit: contain;
   background: rgba(255, 255, 255, 0.14);
-  box-shadow: var(--shadow-small);
-}
-
-.empty-ball {
-  width: 68px;
-  height: 68px;
-  display: grid;
-  margin: 0 auto 14px;
-  place-items: center;
-  border-radius: 19px;
-  font-size: 37px;
-  background:
-    linear-gradient(
-      135deg,
-      rgba(255, 122, 24, 0.96),
-      rgba(124, 58, 237, 0.94)
-    );
 }
 
 .empty-state h3 {
   margin: 0;
   font-size: 22px;
-  font-weight: 900;
-  letter-spacing: -0.6px;
 }
 
 .empty-state p {
@@ -1150,17 +1135,9 @@ body::before {
 }
 
 .error-box {
-  grid-column: 1 / -1;
-  padding: 18px;
-  border: 1px solid rgba(239, 68, 68, 0.34);
-  border-radius: var(--radius-card);
   color: #fecaca;
-  font-size: 13px;
-  background: rgba(127, 29, 29, 0.44);
-  backdrop-filter: blur(16px);
+  border: 1px solid rgba(239, 68, 68, 0.34);
 }
-
-/* Загрузка */
 
 .skeleton-card {
   height: 151px;
@@ -1176,12 +1153,9 @@ body::before {
   animation: skeleton 1.15s linear infinite;
 }
 
-/* Подвал */
-
 .footer {
   width: min(1280px, 100%);
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 16px;
   margin: 42px auto 0;
@@ -1195,15 +1169,6 @@ body::before {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.footer-brand {
-  color: #e2e8f0;
-  font-weight: 800;
-}
-
-.footer-divider {
-  color: rgba(255, 255, 255, 0.32);
 }
 
 /* Анимации */
@@ -1239,47 +1204,18 @@ body::before {
 }
 
 @keyframes pulseDot {
-  0%,
-  100% {
-    opacity: 0.65;
-    transform: scale(0.9);
-  }
-
   50% {
-    opacity: 1;
     transform: scale(1.15);
   }
 }
 
 @keyframes firePulse {
-  0%,
-  100% {
-    transform: scale(1);
-    filter: brightness(1);
-  }
-
   50% {
     transform: scale(1.1);
-    filter: brightness(1.12);
-  }
-}
-
-@keyframes livePulse {
-  0%,
-  100% {
-    opacity: 0.82;
-  }
-
-  50% {
-    opacity: 1;
   }
 }
 
 @keyframes skeleton {
-  from {
-    background-position: 0 0;
-  }
-
   to {
     background-position: -220% 0;
   }
@@ -1309,14 +1245,6 @@ body::before {
     grid-template-columns: 1fr;
   }
 
-  .season-overview {
-    min-height: auto;
-  }
-
-  .overview-stats {
-    margin-top: 0;
-  }
-
   .update-indicator {
     display: none;
   }
@@ -1328,46 +1256,19 @@ body::before {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .friends-row {
-    gap: 9px;
-  }
-
   .friend-card {
     min-width: 0;
-    padding-right: 13px;
-  }
-
-  .friend-avatar-wrap,
-  .friend-photo {
-    width: 66px;
-    height: 66px;
-  }
-
-  .friend-team-badge {
-    width: 29px;
-    height: 29px;
-  }
-
-  .friend-info strong {
-    font-size: 15px;
   }
 }
 
 @media (max-width: 620px) {
-  .hero {
-    padding-top: 14px;
-  }
-
-  .topbar {
-    align-items: flex-start;
-    margin-bottom: 28px;
+  .hero,
+  .container {
+    padding-right: 14px;
+    padding-left: 14px;
   }
 
   .brand-subtitle {
-    display: none;
-  }
-
-  .refresh-btn span:last-child {
     display: none;
   }
 
@@ -1376,13 +1277,8 @@ body::before {
     padding: 0;
   }
 
-  .hero-main h1 {
-    font-size: clamp(42px, 14vw, 62px);
-    letter-spacing: -2.8px;
-  }
-
-  .hero-slogan {
-    font-size: 15px;
+  .refresh-btn span:last-child {
+    display: none;
   }
 
   .friends-row {
@@ -1391,7 +1287,6 @@ body::before {
   }
 
   .friend-card {
-    min-width: 0;
     flex-direction: column;
     gap: 8px;
     padding: 9px 5px 10px;
@@ -1405,36 +1300,16 @@ body::before {
     height: 62px;
   }
 
-  .friend-info {
-    gap: 1px;
-  }
-
   .friend-info strong {
     font-size: 13px;
   }
 
-  .friend-info span {
-    font-size: 10px;
-  }
-
-  .season-overview {
-    padding: 17px;
+  .friend-points-text {
+    font-size: 9px;
   }
 
   .filters-copy {
     display: none;
-  }
-
-  .filters-panel {
-    padding: 9px;
-  }
-
-  .section {
-    margin-top: 30px;
-  }
-
-  .section-head {
-    align-items: flex-start;
   }
 
   .section-head h2 {
@@ -1445,15 +1320,10 @@ body::before {
     display: none;
   }
 
-  .footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
+  .footer,
   .footer-meta {
     align-items: flex-start;
     flex-direction: column;
-    gap: 4px;
   }
 
   .footer-divider {
@@ -1462,57 +1332,16 @@ body::before {
 }
 
 @media (max-width: 520px) {
-  .container,
-  .hero {
-    padding-right: 14px;
-    padding-left: 14px;
-  }
-
   .games-grid,
   .results-list {
     grid-template-columns: 1fr;
   }
-
-  .game-card {
-    max-width: 100%;
-  }
-
-  .team-name {
-    font-size: 13px;
-  }
-
-  .team-logo {
-    width: 36px;
-    height: 36px;
-  }
 }
-
-/* Уменьшение эффектов на мобильных */
-
-@media (max-width: 760px) {
-  .background-image {
-    filter: blur(3px) saturate(1.02) brightness(0.75);
-  }
-
-  .game-card,
-  .season-overview,
-  .filters-panel,
-  .empty-state {
-    backdrop-filter: blur(10px);
-  }
-}
-
-/* Доступность */
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
   *,
   *::before,
   *::after {
-    scroll-behavior: auto !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
