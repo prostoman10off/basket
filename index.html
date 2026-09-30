@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="NBA мини-лига друзей: матчи, результаты и любимые команды."
+    content="NBA мини-лига друзей: матчи, прогнозы и рейтинг."
   />
 
   <title>NBA мини-лига</title>
@@ -45,7 +45,10 @@
       </a>
 
       <div class="topbar-actions">
-        <div class="update-indicator" id="headerUpdateIndicator">
+        <div
+          class="update-indicator loading"
+          id="headerUpdateIndicator"
+        >
           <span class="update-dot"></span>
           <span>Данные загружаются</span>
         </div>
@@ -92,11 +95,26 @@
                 width="32"
                 height="32"
               />
+
+              <span
+                class="friend-points-badge"
+                id="pointsBadgeAndrei"
+                title="Баллы Андрея"
+              >
+                0
+              </span>
             </div>
 
             <div class="friend-info">
               <strong>Андрей</strong>
-              <span>76ers</span>
+              <span class="friend-team-name">76ers</span>
+
+              <span
+                class="friend-points-text"
+                id="pointsTextAndrei"
+              >
+                0 очков
+              </span>
             </div>
           </article>
 
@@ -119,11 +137,26 @@
                 width="32"
                 height="32"
               />
+
+              <span
+                class="friend-points-badge"
+                id="pointsBadgeIvan"
+                title="Баллы Ивана"
+              >
+                0
+              </span>
             </div>
 
             <div class="friend-info">
               <strong>Иван</strong>
-              <span>Celtics</span>
+              <span class="friend-team-name">Celtics</span>
+
+              <span
+                class="friend-points-text"
+                id="pointsTextIvan"
+              >
+                0 очков
+              </span>
             </div>
           </article>
 
@@ -146,11 +179,26 @@
                 width="32"
                 height="32"
               />
+
+              <span
+                class="friend-points-badge"
+                id="pointsBadgeSeva"
+                title="Баллы Севы"
+              >
+                0
+              </span>
             </div>
 
             <div class="friend-info">
               <strong>Сева</strong>
-              <span>Warriors</span>
+              <span class="friend-team-name">Warriors</span>
+
+              <span
+                class="friend-points-text"
+                id="pointsTextSeva"
+              >
+                0 очков
+              </span>
             </div>
           </article>
         </div>
@@ -188,6 +236,11 @@
             <strong id="gamesCount">—</strong>
             <span>завершено</span>
           </div>
+        </div>
+
+        <div class="picks-summary">
+          <span>Прогнозов обработано</span>
+          <strong id="totalPicksCount">—</strong>
         </div>
       </aside>
     </section>
