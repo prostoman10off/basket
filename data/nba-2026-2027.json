@@ -2,8 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-09-30T18:28:04.538Z",
+  "updatedAt": "2026-10-01T07:12:59.636Z",
   "source": "ESPN API",
   "seasonGames": [],
-  "upcomingGames": []
+  "upcomingGames": [
+    {
+      "id": "401902644",
+      "name": "Miami Heat at Toronto Raptors",
+      "shortName": "MIA @ TOR",
+      "date": "2026-10-03T23:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "28",
+        "name": "Toronto Raptors",
+        "shortName": "Raptors",
+        "abbreviation": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "14",
+        "name": "Miami Heat",
+        "shortName": "Heat",
+        "abbreviation": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "score": 0
+      }
+    }
+  ]
 }
