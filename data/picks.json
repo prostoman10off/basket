@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T12:01:00.392484+00:00",
+  "updated_at": "2026-10-04T12:02:14.056272+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -84,6 +84,14 @@
         "picked_abbr": "UTAH",
         "picked_team": "Utah Jazz",
         "voted_at": "2026-10-04T12:00:54.949284+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-04T12:02:14.056272+00:00"
       }
     },
     "401918010": {
