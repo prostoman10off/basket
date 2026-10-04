@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-03T14:19:55.565Z",
+  "updatedAt": "2026-10-04T06:59:47.808Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-03T14:19:55.500Z",
-    "currentSeason": "2026-10-03T14:19:55.441Z",
-    "previousSeason": "2026-10-03T14:19:55.441Z"
+    "picks": "2026-10-04T06:59:47.748Z",
+    "currentSeason": "2026-10-04T06:59:47.703Z",
+    "previousSeason": "2026-10-04T06:59:47.703Z"
   },
   "scoring": {
     "correct": 1,
@@ -11,55 +11,86 @@
   },
   "leaderboard": [
     {
-      "playerId": "andrei",
-      "name": "Андрей",
-      "photo": "Andrei.jpg",
-      "favoriteTeam": "76ers",
-      "points": 0,
-      "correctPicks": 0,
-      "wrongPicks": 0,
-      "pendingPicks": 1,
-      "latePicks": 0,
-      "voidPicks": 0,
-      "totalPicks": 1,
-      "gradedPicks": 0,
-      "accuracy": 0,
-      "place": 1
-    },
-    {
       "playerId": "ivan",
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 0,
-      "correctPicks": 0,
+      "points": 1,
+      "correctPicks": 1,
       "wrongPicks": 0,
-      "pendingPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 1,
-      "gradedPicks": 0,
-      "accuracy": 0,
-      "place": 2
+      "gradedPicks": 1,
+      "accuracy": 100,
+      "place": 1
     },
     {
       "playerId": "seva",
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 0,
-      "correctPicks": 0,
+      "points": 1,
+      "correctPicks": 1,
       "wrongPicks": 0,
-      "pendingPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 1,
-      "gradedPicks": 0,
+      "gradedPicks": 1,
+      "accuracy": 100,
+      "place": 2
+    },
+    {
+      "playerId": "andrei",
+      "name": "Андрей",
+      "photo": "Andrei.jpg",
+      "favoriteTeam": "76ers",
+      "points": 0,
+      "correctPicks": 0,
+      "wrongPicks": 1,
+      "pendingPicks": 0,
+      "latePicks": 0,
+      "voidPicks": 0,
+      "totalPicks": 1,
+      "gradedPicks": 1,
       "accuracy": 0,
       "place": 3
     }
   ],
-  "dailyTotals": [],
+  "dailyTotals": [
+    {
+      "date": "2026-10-04",
+      "timeZone": "Asia/Novosibirsk",
+      "players": {
+        "ivan": {
+          "playerId": "ivan",
+          "name": "Иван",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        },
+        "seva": {
+          "playerId": "seva",
+          "name": "Сева",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        },
+        "andrei": {
+          "playerId": "andrei",
+          "name": "Андрей",
+          "points": 0,
+          "correctPicks": 0,
+          "wrongPicks": 1,
+          "totalPicks": 1
+        }
+      }
+    }
+  ],
   "results": [
     {
       "id": "401902644_ivan",
@@ -72,9 +103,9 @@
       "pickedTeamAbbr": "MIA",
       "pickedTeamName": "Miami Heat",
       "votedAt": "2026-09-29T10:54:16.905967+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "MIA",
       "awayTeamAbbr": "MIA",
       "homeTeamAbbr": "TOR"
     },
@@ -89,9 +120,9 @@
       "pickedTeamAbbr": "MIA",
       "pickedTeamName": "Miami Heat",
       "votedAt": "2026-09-29T10:54:23.885503+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "MIA",
       "awayTeamAbbr": "MIA",
       "homeTeamAbbr": "TOR"
     },
@@ -106,9 +137,9 @@
       "pickedTeamAbbr": "TOR",
       "pickedTeamName": "Toronto Raptors",
       "votedAt": "2026-09-29T11:01:37.968066+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "MIA",
       "awayTeamAbbr": "MIA",
       "homeTeamAbbr": "TOR"
     }
