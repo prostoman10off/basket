@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T12:00:46.145152+00:00",
+  "updated_at": "2026-10-04T12:00:54.949284+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -76,6 +76,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-04T12:00:42.533067+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "UTAH",
+        "picked_team": "Utah Jazz",
+        "voted_at": "2026-10-04T12:00:54.949284+00:00"
       }
     },
     "401918010": {
