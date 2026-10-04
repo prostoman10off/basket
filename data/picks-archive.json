@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T10:42:54.033Z",
-  "source_updated_at": "2026-10-04T10:42:40.353323+00:00",
+  "updated_at": "2026-10-04T10:50:15.400Z",
+  "source_updated_at": "2026-10-04T10:49:50.263582+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -69,7 +69,25 @@
         "voted_at": "2026-09-29T11:01:37.968066+00:00"
       }
     },
-    "401914127": {},
-    "401918010": {}
+    "401914127": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-04T10:49:50.263582+00:00"
+      }
+    },
+    "401918010": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-10-04T10:49:46.397627+00:00"
+      }
+    }
   }
 }
