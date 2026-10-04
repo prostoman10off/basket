@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-04T12:01:15.939Z",
+  "updatedAt": "2026-10-04T12:02:42.001Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-04T12:01:15.892Z",
-    "currentSeason": "2026-10-04T12:01:15.853Z",
-    "previousSeason": "2026-10-04T12:01:15.853Z"
+    "picks": "2026-10-04T12:02:41.953Z",
+    "currentSeason": "2026-10-04T12:02:41.914Z",
+    "previousSeason": "2026-10-04T12:02:41.914Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 1,
       "correctPicks": 1,
       "wrongPicks": 0,
-      "pendingPicks": 0,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 1,
+      "totalPicks": 3,
       "gradedPicks": 1,
       "accuracy": 100,
       "place": 1
@@ -93,6 +93,23 @@
   ],
   "results": [
     {
+      "id": "401914127_ivan",
+      "gameId": "401914127",
+      "gameDate": "2026-10-04T23:00Z",
+      "gameName": "Utah Jazz at Denver Nuggets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-10-04T12:02:14.056272+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "UTA",
+      "homeTeamAbbr": "DEN"
+    },
+    {
       "id": "401914127_seva",
       "gameId": "401914127",
       "gameDate": "2026-10-04T23:00Z",
@@ -125,6 +142,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "UTA",
       "homeTeamAbbr": "DEN"
+    },
+    {
+      "id": "401918010_ivan",
+      "gameId": "401918010",
+      "gameDate": "2026-10-04T23:00Z",
+      "gameName": "Golden State Warriors at LA Clippers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "LAC",
+      "pickedTeamName": "LA Clippers",
+      "votedAt": "2026-10-04T12:02:20.582969+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "GSW",
+      "homeTeamAbbr": "LAC"
     },
     {
       "id": "401918010_seva",

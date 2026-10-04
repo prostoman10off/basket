@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T12:01:15.892Z",
-  "source_updated_at": "2026-10-04T12:01:00.392484+00:00",
+  "updated_at": "2026-10-04T12:02:41.953Z",
+  "source_updated_at": "2026-10-04T12:02:20.582969+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -70,6 +70,14 @@
       }
     },
     "401914127": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-04T12:02:14.056272+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -88,6 +96,14 @@
       }
     },
     "401918010": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "LAC",
+        "picked_team": "LA Clippers",
+        "voted_at": "2026-10-04T12:02:20.582969+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
