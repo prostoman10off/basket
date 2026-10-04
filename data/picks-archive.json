@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T11:56:28.394Z",
-  "source_updated_at": "2026-10-04T11:56:14.576826+00:00",
+  "updated_at": "2026-10-04T12:01:15.892Z",
+  "source_updated_at": "2026-10-04T12:01:00.392484+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -76,7 +76,15 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
-        "voted_at": "2026-10-04T10:49:50.263582+00:00"
+        "voted_at": "2026-10-04T12:00:42.533067+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "UTAH",
+        "picked_team": "Utah Jazz",
+        "voted_at": "2026-10-04T12:00:54.949284+00:00"
       }
     },
     "401918010": {
@@ -86,7 +94,15 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
-        "voted_at": "2026-10-04T10:49:46.397627+00:00"
+        "voted_at": "2026-10-04T12:00:46.145152+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "LAC",
+        "picked_team": "LA Clippers",
+        "voted_at": "2026-10-04T12:01:00.392484+00:00"
       }
     }
   }
