@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T07:19:04.074236+00:00",
+  "updated_at": "2026-10-05T07:19:11.613998+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -472,6 +472,14 @@
         "picked_abbr": "IND",
         "picked_team": "Indiana Pacers",
         "voted_at": "2026-10-05T07:16:23.155397+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "IND",
+        "picked_team": "Indiana Pacers",
+        "voted_at": "2026-10-05T07:19:11.613485+00:00"
       }
     },
     "401898391": {
