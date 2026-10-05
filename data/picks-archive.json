@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05T07:19:55.761Z",
-  "source_updated_at": "2026-10-05T07:19:35.808257+00:00",
+  "updated_at": "2026-10-05T07:21:55.807Z",
+  "source_updated_at": "2026-10-05T07:21:24.261619+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -234,6 +234,14 @@
         "picked_team": "Atlanta Hawks",
         "voted_at": "2026-10-05T07:15:21.002067+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "ATL",
+        "picked_team": "Atlanta Hawks",
+        "voted_at": "2026-10-05T07:20:57.864911+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -251,6 +259,14 @@
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
         "voted_at": "2026-10-05T07:16:03.993277+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-05T07:21:24.261619+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -276,7 +292,7 @@
         "full_name": "Andrey",
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
-        "voted_at": "2026-10-05T07:19:04.074236+00:00"
+        "voted_at": "2026-10-05T07:20:52.157621+00:00"
       }
     },
     "401898391": {
@@ -294,7 +310,7 @@
         "full_name": "Andrey",
         "picked_abbr": "ORL",
         "picked_team": "Orlando Magic",
-        "voted_at": "2026-10-05T07:19:19.848791+00:00"
+        "voted_at": "2026-10-05T07:20:36.801352+00:00"
       }
     },
     "401898716": {
@@ -305,6 +321,14 @@
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-10-05T07:15:51.443400+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-10-05T07:21:16.586381+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -323,6 +347,14 @@
         "picked_abbr": "BKN",
         "picked_team": "Brooklyn Nets",
         "voted_at": "2026-10-05T07:15:57.665809+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "CHA",
+        "picked_team": "Charlotte Hornets",
+        "voted_at": "2026-10-05T07:21:20.384185+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -374,7 +406,7 @@
         "full_name": "Andrey",
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
-        "voted_at": "2026-10-05T07:19:25.214243+00:00"
+        "voted_at": "2026-10-05T07:20:30.919050+00:00"
       }
     },
     "401908939": {
@@ -392,7 +424,7 @@
         "full_name": "Andrey",
         "picked_abbr": "PHX",
         "picked_team": "Phoenix Suns",
-        "voted_at": "2026-10-05T07:19:30.812458+00:00"
+        "voted_at": "2026-10-05T07:20:25.180826+00:00"
       }
     },
     "401908947": {
@@ -403,6 +435,14 @@
         "picked_abbr": "DET",
         "picked_team": "Detroit Pistons",
         "voted_at": "2026-10-05T07:15:32.405723+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-10-05T07:21:07.686547+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -422,6 +462,14 @@
         "picked_team": "New York Knicks",
         "voted_at": "2026-10-05T07:15:39.007435+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-10-05T07:21:03.275900+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -439,6 +487,14 @@
         "picked_abbr": "MIN",
         "picked_team": "Minnesota Timberwolves",
         "voted_at": "2026-10-05T07:15:45.126270+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-10-05T07:21:12.086509+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -526,7 +582,7 @@
         "full_name": "Andrey",
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
-        "voted_at": "2026-10-05T07:19:35.808257+00:00"
+        "voted_at": "2026-10-05T07:20:18.848692+00:00"
       }
     },
     "401918010": {
