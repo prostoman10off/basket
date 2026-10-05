@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-05T13:00:50.867Z",
+  "updatedAt": "2026-10-05T13:01:41.123Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-05T13:00:50.790Z",
-    "currentSeason": "2026-10-05T13:00:50.731Z",
-    "previousSeason": "2026-10-05T13:00:50.731Z"
+    "picks": "2026-10-05T13:01:41.047Z",
+    "currentSeason": "2026-10-05T13:01:40.991Z",
+    "previousSeason": "2026-10-05T13:01:40.991Z"
   },
   "scoring": {
     "correct": 1,
@@ -625,7 +625,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
-      "votedAt": "2026-10-05T07:18:39.283509+00:00",
+      "votedAt": "2026-10-05T13:01:18.500858+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -676,7 +676,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "MIN",
       "pickedTeamName": "Minnesota Timberwolves",
-      "votedAt": "2026-10-05T07:18:33.099295+00:00",
+      "votedAt": "2026-10-05T13:01:16.606875+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -727,7 +727,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "ATL",
       "pickedTeamName": "Atlanta Hawks",
-      "votedAt": "2026-10-05T07:17:19.321464+00:00",
+      "votedAt": "2026-10-05T13:01:09.137657+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -778,7 +778,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "DET",
       "pickedTeamName": "Detroit Pistons",
-      "votedAt": "2026-10-05T07:17:28.209450+00:00",
+      "votedAt": "2026-10-05T13:01:12.960772+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -829,7 +829,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "NYK",
       "pickedTeamName": "New York Knicks",
-      "votedAt": "2026-10-05T07:17:35.311633+00:00",
+      "votedAt": "2026-10-05T13:01:14.358341+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
