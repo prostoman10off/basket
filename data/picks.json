@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T08:38:25.252877+00:00",
+  "updated_at": "2026-10-05T08:38:29.629804+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -518,6 +518,14 @@
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-10-05T08:29:27.219543+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-10-05T08:38:29.629785+00:00"
       }
     },
     "401914123": {
