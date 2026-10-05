@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T07:21:24.261619+00:00",
+  "updated_at": "2026-10-05T08:22:38.223965+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -23,9 +23,9 @@
       "away_abbr": "UTAH",
       "home_team": "Denver Nuggets",
       "home_abbr": "DEN",
-      "status": "pre",
-      "status_detail": "Sun, October 4th at 7:00 PM EDT",
-      "winner_abbr": null
+      "status": "post",
+      "status_detail": "Final",
+      "winner_abbr": "UTAH"
     },
     "401918010": {
       "event_id": "401918010",
@@ -36,9 +36,9 @@
       "away_abbr": "GS",
       "home_team": "LA Clippers",
       "home_abbr": "LAC",
-      "status": "pre",
-      "status_detail": "Sun, October 4th at 7:00 PM EDT",
-      "winner_abbr": null
+      "status": "post",
+      "status_detail": "Final",
+      "winner_abbr": "LAC"
     },
     "401898388": {
       "event_id": "401898388",
