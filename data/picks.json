@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T08:29:55.221092+00:00",
+  "updated_at": "2026-10-05T08:38:12.523316+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -608,6 +608,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-10-05T08:29:55.221069+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-10-05T08:38:12.523296+00:00"
       }
     }
   }
