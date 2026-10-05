@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T08:38:29.629804+00:00",
+  "updated_at": "2026-10-05T08:38:35.297014+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -500,6 +500,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-05T08:29:23.486045+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "UTAH",
+        "picked_team": "Utah Jazz",
+        "voted_at": "2026-10-05T08:38:35.296994+00:00"
       }
     },
     "401898390": {
