@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-04T14:48:52.441Z",
+  "updatedAt": "2026-10-05T06:59:52.643Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-04T14:48:52.369Z",
-    "currentSeason": "2026-10-04T14:48:52.314Z",
-    "previousSeason": "2026-10-04T14:48:52.314Z"
+    "picks": "2026-10-05T06:59:52.569Z",
+    "currentSeason": "2026-10-05T06:59:52.511Z",
+    "previousSeason": "2026-10-05T06:59:52.511Z"
   },
   "scoring": {
     "correct": 1,
@@ -11,20 +11,36 @@
   },
   "leaderboard": [
     {
+      "playerId": "andrei",
+      "name": "Андрей",
+      "photo": "Andrei.jpg",
+      "favoriteTeam": "76ers",
+      "points": 2,
+      "correctPicks": 2,
+      "wrongPicks": 1,
+      "pendingPicks": 0,
+      "latePicks": 0,
+      "voidPicks": 0,
+      "totalPicks": 3,
+      "gradedPicks": 3,
+      "accuracy": 67,
+      "place": 1
+    },
+    {
       "playerId": "ivan",
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 1,
-      "correctPicks": 1,
-      "wrongPicks": 0,
-      "pendingPicks": 2,
+      "points": 2,
+      "correctPicks": 2,
+      "wrongPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 3,
-      "gradedPicks": 1,
-      "accuracy": 100,
-      "place": 1
+      "gradedPicks": 3,
+      "accuracy": 67,
+      "place": 2
     },
     {
       "playerId": "seva",
@@ -33,33 +49,47 @@
       "favoriteTeam": "Warriors",
       "points": 1,
       "correctPicks": 1,
-      "wrongPicks": 0,
-      "pendingPicks": 2,
+      "wrongPicks": 2,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 3,
-      "gradedPicks": 1,
-      "accuracy": 100,
-      "place": 2
-    },
-    {
-      "playerId": "andrei",
-      "name": "Андрей",
-      "photo": "Andrei.jpg",
-      "favoriteTeam": "76ers",
-      "points": 0,
-      "correctPicks": 0,
-      "wrongPicks": 1,
-      "pendingPicks": 2,
-      "latePicks": 0,
-      "voidPicks": 0,
-      "totalPicks": 3,
-      "gradedPicks": 1,
-      "accuracy": 0,
+      "gradedPicks": 3,
+      "accuracy": 33,
       "place": 3
     }
   ],
   "dailyTotals": [
+    {
+      "date": "2026-10-05",
+      "timeZone": "Asia/Novosibirsk",
+      "players": {
+        "ivan": {
+          "playerId": "ivan",
+          "name": "Иван",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 1,
+          "totalPicks": 2
+        },
+        "seva": {
+          "playerId": "seva",
+          "name": "Сева",
+          "points": 0,
+          "correctPicks": 0,
+          "wrongPicks": 2,
+          "totalPicks": 2
+        },
+        "andrei": {
+          "playerId": "andrei",
+          "name": "Андрей",
+          "points": 2,
+          "correctPicks": 2,
+          "wrongPicks": 0,
+          "totalPicks": 2
+        }
+      }
+    },
     {
       "date": "2026-10-04",
       "timeZone": "Asia/Novosibirsk",
@@ -103,9 +133,9 @@
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
       "votedAt": "2026-10-04T12:02:14.056272+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "UTA",
       "awayTeamAbbr": "UTA",
       "homeTeamAbbr": "DEN"
     },
@@ -120,9 +150,9 @@
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
       "votedAt": "2026-10-04T12:00:42.533067+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "UTA",
       "awayTeamAbbr": "UTA",
       "homeTeamAbbr": "DEN"
     },
@@ -137,9 +167,9 @@
       "pickedTeamAbbr": "UTA",
       "pickedTeamName": "Utah Jazz",
       "votedAt": "2026-10-04T12:00:54.949284+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "UTA",
       "awayTeamAbbr": "UTA",
       "homeTeamAbbr": "DEN"
     },
@@ -154,9 +184,9 @@
       "pickedTeamAbbr": "LAC",
       "pickedTeamName": "LA Clippers",
       "votedAt": "2026-10-04T12:02:20.582969+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "LAC"
     },
@@ -171,9 +201,9 @@
       "pickedTeamAbbr": "GSW",
       "pickedTeamName": "Golden State Warriors",
       "votedAt": "2026-10-04T12:00:46.145152+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "LAC"
     },
@@ -188,9 +218,9 @@
       "pickedTeamAbbr": "LAC",
       "pickedTeamName": "LA Clippers",
       "votedAt": "2026-10-04T12:01:00.392484+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "LAC"
     },
