@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-05T13:01:41.123Z",
+  "updatedAt": "2026-10-05T13:20:48.804Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-05T13:01:41.047Z",
-    "currentSeason": "2026-10-05T13:01:40.991Z",
-    "previousSeason": "2026-10-05T13:01:40.991Z"
+    "picks": "2026-10-05T13:20:48.742Z",
+    "currentSeason": "2026-10-05T13:20:48.694Z",
+    "previousSeason": "2026-10-05T13:20:48.694Z"
   },
   "scoring": {
     "correct": 1,
@@ -608,7 +608,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
-      "votedAt": "2026-10-05T07:21:16.586381+00:00",
+      "votedAt": "2026-10-05T13:20:35.011676+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -659,7 +659,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "MIN",
       "pickedTeamName": "Minnesota Timberwolves",
-      "votedAt": "2026-10-05T07:21:12.086509+00:00",
+      "votedAt": "2026-10-05T13:20:32.900061+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -710,7 +710,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "ATL",
       "pickedTeamName": "Atlanta Hawks",
-      "votedAt": "2026-10-05T07:20:57.864911+00:00",
+      "votedAt": "2026-10-05T13:20:22.452340+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -761,7 +761,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "DET",
       "pickedTeamName": "Detroit Pistons",
-      "votedAt": "2026-10-05T07:21:07.686547+00:00",
+      "votedAt": "2026-10-05T13:20:25.301687+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -812,7 +812,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "NYK",
       "pickedTeamName": "New York Knicks",
-      "votedAt": "2026-10-05T07:21:03.275900+00:00",
+      "votedAt": "2026-10-05T13:20:27.710568+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
