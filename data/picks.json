@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T07:18:39.283509+00:00",
+  "updated_at": "2026-10-05T07:18:45.540529+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -400,6 +400,14 @@
         "picked_abbr": "BKN",
         "picked_team": "Brooklyn Nets",
         "voted_at": "2026-10-05T07:15:57.665809+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CHA",
+        "picked_team": "Charlotte Hornets",
+        "voted_at": "2026-10-05T07:18:45.539839+00:00"
       }
     },
     "401898389": {
