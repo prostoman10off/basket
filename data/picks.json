@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T07:20:36.801352+00:00",
+  "updated_at": "2026-10-05T07:20:41.877589+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -318,6 +318,14 @@
         "picked_abbr": "ATL",
         "picked_team": "Atlanta Hawks",
         "voted_at": "2026-10-05T07:17:19.321464+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "ATL",
+        "picked_team": "Atlanta Hawks",
+        "voted_at": "2026-10-05T07:20:41.877589+00:00"
       }
     },
     "401908947": {
