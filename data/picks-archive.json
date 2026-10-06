@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05T18:32:12.682Z",
-  "source_updated_at": "2026-10-05T15:01:25.835104+00:00",
+  "updated_at": "2026-10-06T04:18:07.054Z",
+  "source_updated_at": "2026-10-06T04:17:42.228336+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -19,7 +19,7 @@
       "event_id": "401898389",
       "date": "2026-10-07T00:00Z",
       "name": "New Orleans Pelicans at Oklahoma City Thunder",
-      "short_name": "NO @ OKC",
+      "short_name": "NO VS OKC",
       "away_team": "New Orleans Pelicans",
       "away_abbr": "NO",
       "home_team": "Oklahoma City Thunder",
