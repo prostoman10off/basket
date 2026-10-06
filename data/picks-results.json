@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-06T10:02:04.535Z",
+  "updatedAt": "2026-10-06T10:02:59.618Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-06T10:02:04.460Z",
-    "currentSeason": "2026-10-06T10:02:04.405Z",
-    "previousSeason": "2026-10-06T10:02:04.405Z"
+    "picks": "2026-10-06T10:02:59.544Z",
+    "currentSeason": "2026-10-06T10:02:59.487Z",
+    "previousSeason": "2026-10-06T10:02:59.487Z"
   },
   "scoring": {
     "correct": 1,
@@ -434,7 +434,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
-      "votedAt": "2026-10-05T08:38:29.629785+00:00",
+      "votedAt": "2026-10-06T10:02:47.986820+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
