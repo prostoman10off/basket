@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-06T04:18:06.996Z",
+  "updatedAt": "2026-10-06T07:37:09.227Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401898716",
+      "name": "Los Angeles Lakers at Sacramento Kings",
+      "shortName": "LAL @ SAC",
+      "date": "2026-10-06T02:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 103
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 127
+      }
+    },
     {
       "id": "401914102",
       "name": "Minnesota Timberwolves at Milwaukee Bucks",
