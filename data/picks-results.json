@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-06T10:03:28.896Z",
+  "updatedAt": "2026-10-06T10:09:27.194Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-06T10:03:28.817Z",
-    "currentSeason": "2026-10-06T10:03:28.756Z",
-    "previousSeason": "2026-10-06T10:03:28.756Z"
+    "picks": "2026-10-06T10:09:27.141Z",
+    "currentSeason": "2026-10-06T10:09:27.100Z",
+    "previousSeason": "2026-10-06T10:09:27.100Z"
   },
   "scoring": {
     "correct": 1,
@@ -451,7 +451,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
-      "votedAt": "2026-10-05T08:29:27.219543+00:00",
+      "votedAt": "2026-10-06T10:09:05.974533+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -502,7 +502,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
-      "votedAt": "2026-10-05T08:29:23.486045+00:00",
+      "votedAt": "2026-10-06T10:09:02.884080+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -553,7 +553,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
-      "votedAt": "2026-10-05T07:18:52.635567+00:00",
+      "votedAt": "2026-10-06T10:08:59.188760+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -604,7 +604,7 @@
       "playerPhoto": "Andrei.jpg",
       "pickedTeamAbbr": "CHA",
       "pickedTeamName": "Charlotte Hornets",
-      "votedAt": "2026-10-05T07:18:45.539839+00:00",
+      "votedAt": "2026-10-06T10:08:53.450467+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,

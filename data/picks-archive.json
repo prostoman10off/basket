@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T10:03:28.817Z",
-  "source_updated_at": "2026-10-06T10:03:12.724831+00:00",
+  "updated_at": "2026-10-06T10:09:27.141Z",
+  "source_updated_at": "2026-10-06T10:09:05.974545+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -274,7 +274,7 @@
         "full_name": "Andrey",
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
-        "voted_at": "2026-10-05T07:18:52.635567+00:00"
+        "voted_at": "2026-10-06T10:08:59.188760+00:00"
       }
     },
     "401898390": {
@@ -300,7 +300,7 @@
         "full_name": "Andrey",
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
-        "voted_at": "2026-10-05T08:29:27.219543+00:00"
+        "voted_at": "2026-10-06T10:09:05.974533+00:00"
       }
     },
     "401898391": {
@@ -378,7 +378,7 @@
         "full_name": "Andrey",
         "picked_abbr": "CHA",
         "picked_team": "Charlotte Hornets",
-        "voted_at": "2026-10-05T07:18:45.539839+00:00"
+        "voted_at": "2026-10-06T10:08:53.450467+00:00"
       }
     },
     "401902644": {
@@ -612,7 +612,7 @@
         "full_name": "Andrey",
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
-        "voted_at": "2026-10-05T08:29:23.486045+00:00"
+        "voted_at": "2026-10-06T10:09:02.884080+00:00"
       }
     },
     "401914129": {
