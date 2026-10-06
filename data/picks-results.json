@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-06T10:02:59.618Z",
+  "updatedAt": "2026-10-06T10:03:28.896Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-06T10:02:59.544Z",
-    "currentSeason": "2026-10-06T10:02:59.487Z",
-    "previousSeason": "2026-10-06T10:02:59.487Z"
+    "picks": "2026-10-06T10:03:28.817Z",
+    "currentSeason": "2026-10-06T10:03:28.756Z",
+    "previousSeason": "2026-10-06T10:03:28.756Z"
   },
   "scoring": {
     "correct": 1,
@@ -434,7 +434,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
-      "votedAt": "2026-10-06T10:02:47.986820+00:00",
+      "votedAt": "2026-10-06T10:03:12.724813+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -485,7 +485,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "UTA",
       "pickedTeamName": "Utah Jazz",
-      "votedAt": "2026-10-05T08:38:35.296994+00:00",
+      "votedAt": "2026-10-06T10:03:09.349199+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -536,7 +536,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
-      "votedAt": "2026-10-05T08:38:40.369595+00:00",
+      "votedAt": "2026-10-06T10:03:07.343368+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -587,7 +587,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "CHA",
       "pickedTeamName": "Charlotte Hornets",
-      "votedAt": "2026-10-05T08:38:42.240496+00:00",
+      "votedAt": "2026-10-06T10:03:04.064135+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
