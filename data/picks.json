@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T15:01:25.835104+00:00",
+  "updated_at": "2026-10-06T04:17:40.277652+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -122,7 +122,7 @@
       "event_id": "401898389",
       "date": "2026-10-07T00:00Z",
       "name": "New Orleans Pelicans at Oklahoma City Thunder",
-      "short_name": "NO @ OKC",
+      "short_name": "NO VS OKC",
       "away_team": "New Orleans Pelicans",
       "away_abbr": "NO",
       "home_team": "Oklahoma City Thunder",
@@ -739,6 +739,25 @@
         ]
       },
       "closed_at": "2026-10-05T15:01:25.835090+00:00"
+    },
+    "2026-10-07": {
+      "date": "2026-10-07",
+      "event_ids": [
+        "401901820",
+        "401898389",
+        "401914128",
+        "401898390"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closes_at": null,
+      "closed": false,
+      "chat_id": 42552913,
+      "messages": {}
     }
   }
 }
