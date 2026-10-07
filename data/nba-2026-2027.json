@@ -2,9 +2,133 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-06T16:00:12.045Z",
+  "updatedAt": "2026-10-07T06:27:27.865Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401898390",
+      "name": "Los Angeles Lakers at Golden State Warriors",
+      "shortName": "LAL @ GS",
+      "date": "2026-10-07T02:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "9",
+        "name": "Golden State Warriors",
+        "shortName": "Warriors",
+        "abbreviation": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+        "score": 124
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 98
+      }
+    },
+    {
+      "id": "401914128",
+      "name": "Denver Nuggets at Utah Jazz",
+      "shortName": "DEN @ UTAH",
+      "date": "2026-10-07T01:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "26",
+        "name": "Utah Jazz",
+        "shortName": "Jazz",
+        "abbreviation": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "score": 106
+      },
+      "awayTeam": {
+        "id": "7",
+        "name": "Denver Nuggets",
+        "shortName": "Nuggets",
+        "abbreviation": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "score": 117
+      }
+    },
+    {
+      "id": "401898389",
+      "name": "New Orleans Pelicans at Oklahoma City Thunder",
+      "shortName": "NO VS OKC",
+      "date": "2026-10-07T00:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "shortName": "Thunder",
+        "abbreviation": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "score": 110
+      },
+      "awayTeam": {
+        "id": "3",
+        "name": "New Orleans Pelicans",
+        "shortName": "Pelicans",
+        "abbreviation": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "score": 116
+      }
+    },
+    {
+      "id": "401901820",
+      "name": "Brooklyn Nets at Charlotte Hornets",
+      "shortName": "BKN @ CHA",
+      "date": "2026-10-06T23:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "30",
+        "name": "Charlotte Hornets",
+        "shortName": "Hornets",
+        "abbreviation": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "score": 90
+      },
+      "awayTeam": {
+        "id": "17",
+        "name": "Brooklyn Nets",
+        "shortName": "Nets",
+        "abbreviation": "BKN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+        "score": 124
+      }
+    },
     {
       "id": "401898716",
       "name": "Los Angeles Lakers at Sacramento Kings",
@@ -255,130 +379,6 @@
     }
   ],
   "upcomingGames": [
-    {
-      "id": "401901820",
-      "name": "Brooklyn Nets at Charlotte Hornets",
-      "shortName": "BKN @ CHA",
-      "date": "2026-10-06T23:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "30",
-        "name": "Charlotte Hornets",
-        "shortName": "Hornets",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "17",
-        "name": "Brooklyn Nets",
-        "shortName": "Nets",
-        "abbreviation": "BKN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401898389",
-      "name": "New Orleans Pelicans at Oklahoma City Thunder",
-      "shortName": "NO VS OKC",
-      "date": "2026-10-07T00:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "25",
-        "name": "Oklahoma City Thunder",
-        "shortName": "Thunder",
-        "abbreviation": "OKC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "3",
-        "name": "New Orleans Pelicans",
-        "shortName": "Pelicans",
-        "abbreviation": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401914128",
-      "name": "Denver Nuggets at Utah Jazz",
-      "shortName": "DEN @ UTAH",
-      "date": "2026-10-07T01:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "26",
-        "name": "Utah Jazz",
-        "shortName": "Jazz",
-        "abbreviation": "UTAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "7",
-        "name": "Denver Nuggets",
-        "shortName": "Nuggets",
-        "abbreviation": "DEN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401898390",
-      "name": "Los Angeles Lakers at Golden State Warriors",
-      "shortName": "LAL @ GS",
-      "date": "2026-10-07T02:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "9",
-        "name": "Golden State Warriors",
-        "shortName": "Warriors",
-        "abbreviation": "GS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "13",
-        "name": "Los Angeles Lakers",
-        "shortName": "Lakers",
-        "abbreviation": "LAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-        "score": 0
-      }
-    },
     {
       "id": "401914123",
       "name": "Minnesota Timberwolves at Indiana Pacers",
@@ -717,6 +717,68 @@
         "shortName": "Kings",
         "abbreviation": "SAC",
         "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401898395",
+      "name": "Houston Rockets at Dallas Mavericks",
+      "shortName": "HOU VS DAL",
+      "date": "2026-10-09T12:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "6",
+        "name": "Dallas Mavericks",
+        "shortName": "Mavericks",
+        "abbreviation": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "10",
+        "name": "Houston Rockets",
+        "shortName": "Rockets",
+        "abbreviation": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401908940",
+      "name": "Memphis Grizzlies at Chicago Bulls",
+      "shortName": "MEM @ CHI",
+      "date": "2026-10-10T00:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "4",
+        "name": "Chicago Bulls",
+        "shortName": "Bulls",
+        "abbreviation": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "29",
+        "name": "Memphis Grizzlies",
+        "shortName": "Grizzlies",
+        "abbreviation": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
         "score": 0
       }
     }
