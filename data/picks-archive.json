@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T12:54:09.199Z",
-  "source_updated_at": "2026-10-08T12:53:41.179443+00:00",
+  "updated_at": "2026-10-08T16:10:36.028Z",
+  "source_updated_at": "2026-10-08T16:10:12.906330+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -433,9 +433,9 @@
         "user_id": 58800473,
         "username": "AmaterasuOwned",
         "full_name": "Всеволод Воробьев",
-        "picked_abbr": "BOS",
-        "picked_team": "Boston Celtics",
-        "voted_at": "2026-10-08T10:02:39.111763+00:00"
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-08T16:10:12.906314+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -461,7 +461,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "MIA",
         "picked_team": "Miami Heat",
-        "voted_at": "2026-10-08T10:02:37.595929+00:00"
+        "voted_at": "2026-10-08T16:10:07.851585+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -487,7 +487,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
-        "voted_at": "2026-10-08T10:02:28.148598+00:00"
+        "voted_at": "2026-10-08T16:09:41.924534+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -549,7 +549,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
-        "voted_at": "2026-10-08T10:02:26.070003+00:00"
+        "voted_at": "2026-10-08T16:09:34.904140+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -601,7 +601,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
-        "voted_at": "2026-10-08T10:02:35.546558+00:00"
+        "voted_at": "2026-10-08T16:10:05.217972+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -651,9 +651,9 @@
         "user_id": 58800473,
         "username": "AmaterasuOwned",
         "full_name": "Всеволод Воробьев",
-        "picked_abbr": "NY",
-        "picked_team": "New York Knicks",
-        "voted_at": "2026-10-08T10:02:31.423023+00:00"
+        "picked_abbr": "WSH",
+        "picked_team": "Washington Wizards",
+        "voted_at": "2026-10-08T16:09:56.946448+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
