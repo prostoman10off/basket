@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T12:24:56.908Z",
-  "source_updated_at": "2026-10-08T12:24:34.169909+00:00",
+  "updated_at": "2026-10-08T12:25:50.867Z",
+  "source_updated_at": "2026-10-08T12:25:20.446866+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -91,6 +91,19 @@
       "home_abbr": "SA",
       "status": "pre",
       "status_detail": "Thu, October 8th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401898395": {
+      "event_id": "401898395",
+      "date": "2026-10-09T12:00Z",
+      "name": "Houston Rockets at Dallas Mavericks",
+      "short_name": "HOU VS DAL",
+      "away_team": "Houston Rockets",
+      "away_abbr": "HOU",
+      "home_team": "Dallas Mavericks",
+      "home_abbr": "DAL",
+      "status": "pre",
+      "status_detail": "Fri, October 9th at 8:00 AM EDT",
       "winner_abbr": null
     },
     "401898716": {
@@ -461,6 +474,7 @@
         "voted_at": "2026-10-08T10:02:28.148598+00:00"
       }
     },
+    "401898395": {},
     "401898716": {
       "42552913": {
         "user_id": 42552913,
