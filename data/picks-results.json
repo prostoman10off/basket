@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-08T12:31:21.086Z",
+  "updatedAt": "2026-10-08T12:31:42.202Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-08T12:31:21.015Z",
-    "currentSeason": "2026-10-08T12:31:20.965Z",
-    "previousSeason": "2026-10-08T12:31:20.965Z"
+    "picks": "2026-10-08T12:31:42.116Z",
+    "currentSeason": "2026-10-08T12:31:42.059Z",
+    "previousSeason": "2026-10-08T12:31:42.059Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 9,
       "correctPicks": 9,
       "wrongPicks": 8,
-      "pendingPicks": 6,
+      "pendingPicks": 7,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 23,
+      "totalPicks": 24,
       "gradedPicks": 17,
       "accuracy": 53,
       "place": 1
@@ -212,6 +212,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401898395_ivan",
+      "gameId": "401898395",
+      "gameDate": "2026-10-09T12:00Z",
+      "gameName": "Houston Rockets at Dallas Mavericks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DAL",
+      "pickedTeamName": "Dallas Mavericks",
+      "votedAt": "2026-10-08T12:31:29.436468+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "HOU",
+      "homeTeamAbbr": "DAL"
+    },
     {
       "id": "401898717_ivan",
       "gameId": "401898717",
