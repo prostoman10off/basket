@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T07:28:53.268Z",
-  "source_updated_at": "2026-10-07T10:01:06.690808+00:00",
+  "updated_at": "2026-10-08T10:02:08.877Z",
+  "source_updated_at": "2026-10-08T10:01:32.936973+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -54,6 +54,45 @@
       "status_detail": "Wed, October 7th at 8:00 PM EDT",
       "winner_abbr": null
     },
+    "401898392": {
+      "event_id": "401898392",
+      "date": "2026-10-08T23:00Z",
+      "name": "Boston Celtics at Cleveland Cavaliers",
+      "short_name": "BOS @ CLE",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Cleveland Cavaliers",
+      "home_abbr": "CLE",
+      "status": "pre",
+      "status_detail": "Thu, October 8th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401898393": {
+      "event_id": "401898393",
+      "date": "2026-10-08T23:30Z",
+      "name": "New Orleans Pelicans at Miami Heat",
+      "short_name": "NO @ MIA",
+      "away_team": "New Orleans Pelicans",
+      "away_abbr": "NO",
+      "home_team": "Miami Heat",
+      "home_abbr": "MIA",
+      "status": "pre",
+      "status_detail": "Thu, October 8th at 7:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401898394": {
+      "event_id": "401898394",
+      "date": "2026-10-09T00:00Z",
+      "name": "Atlanta Hawks at San Antonio Spurs",
+      "short_name": "ATL @ SA",
+      "away_team": "Atlanta Hawks",
+      "away_abbr": "ATL",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Thu, October 8th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
     "401898716": {
       "event_id": "401898716",
       "date": "2026-10-06T02:00Z",
@@ -65,6 +104,19 @@
       "home_abbr": "SAC",
       "status": "pre",
       "status_detail": "Mon, October 5th at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401898717": {
+      "event_id": "401898717",
+      "date": "2026-10-09T02:30Z",
+      "name": "Sacramento Kings at Los Angeles Lakers",
+      "short_name": "SAC @ LAL",
+      "away_team": "Sacramento Kings",
+      "away_abbr": "SAC",
+      "home_team": "Los Angeles Lakers",
+      "home_abbr": "LAL",
+      "status": "pre",
+      "status_detail": "Thu, October 8th at 10:30 PM EDT",
       "winner_abbr": null
     },
     "401901820": {
@@ -80,6 +132,19 @@
       "status_detail": "Tue, October 6th at 7:00 PM EDT",
       "winner_abbr": null
     },
+    "401901823": {
+      "event_id": "401901823",
+      "date": "2026-10-08T23:30Z",
+      "name": "Philadelphia 76ers at Brooklyn Nets",
+      "short_name": "PHI @ BKN",
+      "away_team": "Philadelphia 76ers",
+      "away_abbr": "PHI",
+      "home_team": "Brooklyn Nets",
+      "home_abbr": "BKN",
+      "status": "pre",
+      "status_detail": "Thu, October 8th at 7:30 PM EDT",
+      "winner_abbr": null
+    },
     "401902644": {
       "event_id": "401902644",
       "date": "2026-10-03T23:00Z",
@@ -91,6 +156,19 @@
       "home_abbr": "TOR",
       "status": "pre",
       "status_detail": "Sat, October 3rd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401906508": {
+      "event_id": "401906508",
+      "date": "2026-10-08T23:30Z",
+      "name": "Washington Wizards at New York Knicks",
+      "short_name": "WSH @ NY",
+      "away_team": "Washington Wizards",
+      "away_abbr": "WSH",
+      "home_team": "New York Knicks",
+      "home_abbr": "NY",
+      "status": "pre",
+      "status_detail": "Thu, October 8th at 7:30 PM EDT",
       "winner_abbr": null
     },
     "401908620": {
@@ -329,6 +407,36 @@
         "voted_at": "2026-10-07T06:43:59.243327+00:00"
       }
     },
+    "401898392": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-10-08T10:01:19.365788+00:00"
+      }
+    },
+    "401898393": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-10-08T10:01:23.595649+00:00"
+      }
+    },
+    "401898394": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-10-08T10:01:30.891139+00:00"
+      }
+    },
     "401898716": {
       "42552913": {
         "user_id": 42552913,
@@ -353,6 +461,16 @@
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-10-05T13:01:18.500858+00:00"
+      }
+    },
+    "401898717": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-10-08T10:01:32.936951+00:00"
       }
     },
     "401901820": {
@@ -381,6 +499,16 @@
         "voted_at": "2026-10-06T10:08:53.450467+00:00"
       }
     },
+    "401901823": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-10-08T10:01:26.969029+00:00"
+      }
+    },
     "401902644": {
       "42552913": {
         "user_id": 42552913,
@@ -405,6 +533,16 @@
         "picked_abbr": "TOR",
         "picked_team": "Toronto Raptors",
         "voted_at": "2026-09-29T11:01:37.968066+00:00"
+      }
+    },
+    "401906508": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-10-08T10:01:29.013309+00:00"
       }
     },
     "401908620": {
