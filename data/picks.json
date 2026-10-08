@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:31:29.436484+00:00",
+  "updated_at": "2026-10-08T12:53:27.010449+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -773,6 +773,14 @@
         "picked_abbr": "BOS",
         "picked_team": "Boston Celtics",
         "voted_at": "2026-10-08T12:24:00.356439+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-08T12:53:27.010432+00:00"
       }
     },
     "401898393": {
