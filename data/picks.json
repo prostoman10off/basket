@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T12:24:34.169909+00:00",
+  "updated_at": "2026-10-08T12:25:17.679236+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -298,6 +298,19 @@
       "home_abbr": "LAL",
       "status": "pre",
       "status_detail": "Thu, October 8th at 10:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401898395": {
+      "event_id": "401898395",
+      "date": "2026-10-09T12:00Z",
+      "name": "Houston Rockets at Dallas Mavericks",
+      "short_name": "HOU VS DAL",
+      "away_team": "Houston Rockets",
+      "away_abbr": "HOU",
+      "home_team": "Dallas Mavericks",
+      "home_abbr": "DAL",
+      "status": "pre",
+      "status_detail": "Fri, October 9th at 8:00 AM EDT",
       "winner_abbr": null
     }
   },
@@ -851,7 +864,8 @@
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-10-08T12:24:34.169893+00:00"
       }
-    }
+    },
+    "401898395": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -1047,7 +1061,8 @@
         "401901823",
         "401906508",
         "401898394",
-        "401898717"
+        "401898717",
+        "401898395"
       ],
       "participant_ids": [
         "42552913",
