@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T16:10:07.851602+00:00",
+  "updated_at": "2026-10-08T16:10:12.906330+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -762,9 +762,9 @@
         "user_id": 58800473,
         "username": "AmaterasuOwned",
         "full_name": "Всеволод Воробьев",
-        "picked_abbr": "BOS",
-        "picked_team": "Boston Celtics",
-        "voted_at": "2026-10-08T10:02:39.111763+00:00"
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-08T16:10:12.906314+00:00"
       },
       "42552913": {
         "user_id": 42552913,
