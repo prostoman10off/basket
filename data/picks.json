@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T07:08:25.850752+00:00",
+  "updated_at": "2026-10-09T07:14:48.045064+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -968,6 +968,14 @@
         "picked_abbr": "MEM",
         "picked_team": "Memphis Grizzlies",
         "voted_at": "2026-10-09T07:08:24.344368+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CHI",
+        "picked_team": "Chicago Bulls",
+        "voted_at": "2026-10-09T07:14:48.045038+00:00"
       }
     }
   },
@@ -1261,8 +1269,8 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
-      "closes_at": null,
+      "accepted_at": "2026-10-09T07:14:48.045052+00:00",
+      "closes_at": "2026-10-09T09:14:48.045052+00:00",
       "closed": false,
       "chat_id": -1003329582837,
       "messages": {
