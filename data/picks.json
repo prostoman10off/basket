@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T16:10:12.906330+00:00",
+  "updated_at": "2026-10-09T07:07:48.157061+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -311,6 +311,19 @@
       "home_abbr": "DAL",
       "status": "pre",
       "status_detail": "Fri, October 9th at 8:00 AM EDT",
+      "winner_abbr": null
+    },
+    "401908940": {
+      "event_id": "401908940",
+      "date": "2026-10-10T00:00Z",
+      "name": "Memphis Grizzlies at Chicago Bulls",
+      "short_name": "MEM @ CHI",
+      "away_team": "Memphis Grizzlies",
+      "away_abbr": "MEM",
+      "home_team": "Chicago Bulls",
+      "home_abbr": "CHI",
+      "status": "pre",
+      "status_detail": "Fri, October 9th at 8:00 PM EDT",
       "winner_abbr": null
     }
   },
@@ -922,7 +935,8 @@
         "picked_team": "Dallas Mavericks",
         "voted_at": "2026-10-08T12:31:29.436468+00:00"
       }
-    }
+    },
+    "401908940": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -1198,6 +1212,22 @@
           }
         ]
       }
+    },
+    "2026-10-10": {
+      "date": "2026-10-10",
+      "event_ids": [
+        "401908940"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closes_at": null,
+      "closed": false,
+      "chat_id": -1003329582837,
+      "messages": {}
     }
   }
 }
