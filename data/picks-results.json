@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-09T07:15:02.090Z",
+  "updatedAt": "2026-10-09T07:16:49.387Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-09T07:15:02.006Z",
-    "currentSeason": "2026-10-09T07:15:01.944Z",
-    "previousSeason": "2026-10-09T07:15:01.943Z"
+    "picks": "2026-10-09T07:16:49.306Z",
+    "currentSeason": "2026-10-09T07:16:49.250Z",
+    "previousSeason": "2026-10-09T07:16:49.249Z"
   },
   "scoring": {
     "correct": 1,
@@ -252,7 +252,7 @@
       "playerPhoto": "Ivan.jpg",
       "pickedTeamAbbr": "CHI",
       "pickedTeamName": "Chicago Bulls",
-      "votedAt": "2026-10-09T07:14:48.045038+00:00",
+      "votedAt": "2026-10-09T07:15:55.693197+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
