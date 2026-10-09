@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T07:07:57.905026+00:00",
+  "updated_at": "2026-10-09T07:08:05.021956+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -942,6 +942,14 @@
         "picked_abbr": "DAL",
         "picked_team": "Dallas Mavericks",
         "voted_at": "2026-10-09T07:07:56.176122+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-10-09T07:08:05.021918+00:00"
       }
     },
     "401908940": {
@@ -1157,8 +1165,8 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
-      "closes_at": null,
+      "accepted_at": "2026-10-09T07:08:05.021936+00:00",
+      "closes_at": "2026-10-08T23:00:00+00:00",
       "closed": false,
       "chat_id": -1003329582837,
       "messages": {
