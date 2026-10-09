@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-09T16:17:21.332Z",
+  "updatedAt": "2026-10-09T16:59:19.950Z",
   "source": "ESPN API",
   "seasonGames": [
     {
@@ -720,37 +720,6 @@
     }
   ],
   "upcomingGames": [
-    {
-      "id": "401898395",
-      "name": "Houston Rockets at Dallas Mavericks",
-      "shortName": "HOU VS DAL",
-      "date": "2026-10-09T12:00Z",
-      "statusName": "STATUS_IN_PROGRESS",
-      "statusState": "in",
-      "statusDescription": "In Progress",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "6",
-        "name": "Dallas Mavericks",
-        "shortName": "Mavericks",
-        "abbreviation": "DAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-        "score": 83
-      },
-      "awayTeam": {
-        "id": "10",
-        "name": "Houston Rockets",
-        "shortName": "Rockets",
-        "abbreviation": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-        "score": 101
-      }
-    },
     {
       "id": "401908940",
       "name": "Memphis Grizzlies at Chicago Bulls",
