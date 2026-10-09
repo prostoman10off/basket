@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-09T07:08:20.185Z",
+  "updatedAt": "2026-10-09T07:08:56.590Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-09T07:08:20.095Z",
-    "currentSeason": "2026-10-09T07:08:20.034Z",
-    "previousSeason": "2026-10-09T07:08:20.034Z"
+    "picks": "2026-10-09T07:08:56.501Z",
+    "currentSeason": "2026-10-09T07:08:56.446Z",
+    "previousSeason": "2026-10-09T07:08:56.446Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 8,
       "correctPicks": 8,
       "wrongPicks": 15,
-      "pendingPicks": 1,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 24,
+      "totalPicks": 25,
       "gradedPicks": 23,
       "accuracy": 35,
       "place": 3
@@ -242,6 +242,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401908940_seva",
+      "gameId": "401908940",
+      "gameDate": "2026-10-10T00:00Z",
+      "gameName": "Memphis Grizzlies at Chicago Bulls",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "MEM",
+      "pickedTeamName": "Memphis Grizzlies",
+      "votedAt": "2026-10-09T07:08:24.344368+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MEM",
+      "homeTeamAbbr": "CHI"
+    },
     {
       "id": "401908940_andrei",
       "gameId": "401908940",

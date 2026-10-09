@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T07:08:20.095Z",
-  "source_updated_at": "2026-10-09T07:08:05.021956+00:00",
+  "updated_at": "2026-10-09T07:08:56.501Z",
+  "source_updated_at": "2026-10-09T07:08:25.850752+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -746,6 +746,14 @@
       }
     },
     "401908940": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-10-09T07:08:24.344368+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
