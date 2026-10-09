@@ -2,9 +2,195 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-08T16:33:56.121Z",
+  "updatedAt": "2026-10-09T07:08:20.034Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401898717",
+      "name": "Sacramento Kings at Los Angeles Lakers",
+      "shortName": "SAC @ LAL",
+      "date": "2026-10-09T02:45Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 114
+      },
+      "awayTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 110
+      }
+    },
+    {
+      "id": "401898394",
+      "name": "Atlanta Hawks at San Antonio Spurs",
+      "shortName": "ATL @ SA",
+      "date": "2026-10-09T00:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "24",
+        "name": "San Antonio Spurs",
+        "shortName": "Spurs",
+        "abbreviation": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "score": 116
+      },
+      "awayTeam": {
+        "id": "1",
+        "name": "Atlanta Hawks",
+        "shortName": "Hawks",
+        "abbreviation": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+        "score": 123
+      }
+    },
+    {
+      "id": "401898393",
+      "name": "New Orleans Pelicans at Miami Heat",
+      "shortName": "NO @ MIA",
+      "date": "2026-10-08T23:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "14",
+        "name": "Miami Heat",
+        "shortName": "Heat",
+        "abbreviation": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "score": 128
+      },
+      "awayTeam": {
+        "id": "3",
+        "name": "New Orleans Pelicans",
+        "shortName": "Pelicans",
+        "abbreviation": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "score": 118
+      }
+    },
+    {
+      "id": "401901823",
+      "name": "Philadelphia 76ers at Brooklyn Nets",
+      "shortName": "PHI @ BKN",
+      "date": "2026-10-08T23:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "17",
+        "name": "Brooklyn Nets",
+        "shortName": "Nets",
+        "abbreviation": "BKN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+        "score": 114
+      },
+      "awayTeam": {
+        "id": "20",
+        "name": "Philadelphia 76ers",
+        "shortName": "76ers",
+        "abbreviation": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+        "score": 108
+      }
+    },
+    {
+      "id": "401906508",
+      "name": "Washington Wizards at New York Knicks",
+      "shortName": "WSH @ NY",
+      "date": "2026-10-08T23:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "18",
+        "name": "New York Knicks",
+        "shortName": "Knicks",
+        "abbreviation": "NY",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+        "score": 109
+      },
+      "awayTeam": {
+        "id": "27",
+        "name": "Washington Wizards",
+        "shortName": "Wizards",
+        "abbreviation": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+        "score": 111
+      }
+    },
+    {
+      "id": "401898392",
+      "name": "Boston Celtics at Cleveland Cavaliers",
+      "shortName": "BOS @ CLE",
+      "date": "2026-10-08T23:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "5",
+        "name": "Cleveland Cavaliers",
+        "shortName": "Cavaliers",
+        "abbreviation": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+        "score": 113
+      },
+      "awayTeam": {
+        "id": "2",
+        "name": "Boston Celtics",
+        "shortName": "Celtics",
+        "abbreviation": "BOS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+        "score": 124
+      }
+    },
     {
       "id": "401914129",
       "name": "Golden State Warriors at Portland Trail Blazers",
@@ -535,192 +721,6 @@
   ],
   "upcomingGames": [
     {
-      "id": "401898392",
-      "name": "Boston Celtics at Cleveland Cavaliers",
-      "shortName": "BOS @ CLE",
-      "date": "2026-10-08T23:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "5",
-        "name": "Cleveland Cavaliers",
-        "shortName": "Cavaliers",
-        "abbreviation": "CLE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "2",
-        "name": "Boston Celtics",
-        "shortName": "Celtics",
-        "abbreviation": "BOS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401898393",
-      "name": "New Orleans Pelicans at Miami Heat",
-      "shortName": "NO @ MIA",
-      "date": "2026-10-08T23:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "14",
-        "name": "Miami Heat",
-        "shortName": "Heat",
-        "abbreviation": "MIA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "3",
-        "name": "New Orleans Pelicans",
-        "shortName": "Pelicans",
-        "abbreviation": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401901823",
-      "name": "Philadelphia 76ers at Brooklyn Nets",
-      "shortName": "PHI @ BKN",
-      "date": "2026-10-08T23:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "17",
-        "name": "Brooklyn Nets",
-        "shortName": "Nets",
-        "abbreviation": "BKN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "20",
-        "name": "Philadelphia 76ers",
-        "shortName": "76ers",
-        "abbreviation": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401906508",
-      "name": "Washington Wizards at New York Knicks",
-      "shortName": "WSH @ NY",
-      "date": "2026-10-08T23:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "18",
-        "name": "New York Knicks",
-        "shortName": "Knicks",
-        "abbreviation": "NY",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "27",
-        "name": "Washington Wizards",
-        "shortName": "Wizards",
-        "abbreviation": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401898394",
-      "name": "Atlanta Hawks at San Antonio Spurs",
-      "shortName": "ATL @ SA",
-      "date": "2026-10-09T00:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "24",
-        "name": "San Antonio Spurs",
-        "shortName": "Spurs",
-        "abbreviation": "SA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "1",
-        "name": "Atlanta Hawks",
-        "shortName": "Hawks",
-        "abbreviation": "ATL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401898717",
-      "name": "Sacramento Kings at Los Angeles Lakers",
-      "shortName": "SAC @ LAL",
-      "date": "2026-10-09T02:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "13",
-        "name": "Los Angeles Lakers",
-        "shortName": "Lakers",
-        "abbreviation": "LAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "23",
-        "name": "Sacramento Kings",
-        "shortName": "Kings",
-        "abbreviation": "SAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-        "score": 0
-      }
-    },
-    {
       "id": "401898395",
       "name": "Houston Rockets at Dallas Mavericks",
       "shortName": "HOU VS DAL",
@@ -996,6 +996,130 @@
         "shortName": "Spurs",
         "abbreviation": "SA",
         "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401898400",
+      "name": "Dallas Mavericks at Houston Rockets",
+      "shortName": "DAL VS HOU",
+      "date": "2026-10-11T10:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "10",
+        "name": "Houston Rockets",
+        "shortName": "Rockets",
+        "abbreviation": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "6",
+        "name": "Dallas Mavericks",
+        "shortName": "Mavericks",
+        "abbreviation": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401898401",
+      "name": "Orlando Magic at Cleveland Cavaliers",
+      "shortName": "ORL @ CLE",
+      "date": "2026-10-11T22:30Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "5",
+        "name": "Cleveland Cavaliers",
+        "shortName": "Cavaliers",
+        "abbreviation": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "19",
+        "name": "Orlando Magic",
+        "shortName": "Magic",
+        "abbreviation": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401901821",
+      "name": "Milwaukee Bucks at Charlotte Hornets",
+      "shortName": "MIL @ CHA",
+      "date": "2026-10-11T23:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "30",
+        "name": "Charlotte Hornets",
+        "shortName": "Hornets",
+        "abbreviation": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "15",
+        "name": "Milwaukee Bucks",
+        "shortName": "Bucks",
+        "abbreviation": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401908941",
+      "name": "Chicago Bulls at Denver Nuggets",
+      "shortName": "CHI @ DEN",
+      "date": "2026-10-12T01:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Предсезонка",
+        "className": "preseason"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "7",
+        "name": "Denver Nuggets",
+        "shortName": "Nuggets",
+        "abbreviation": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "4",
+        "name": "Chicago Bulls",
+        "shortName": "Bulls",
+        "abbreviation": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
         "score": 0
       }
     }

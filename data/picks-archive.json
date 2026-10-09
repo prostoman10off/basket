@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T16:33:56.172Z",
-  "source_updated_at": "2026-10-08T16:10:12.906330+00:00",
+  "updated_at": "2026-10-09T07:08:20.095Z",
+  "source_updated_at": "2026-10-09T07:08:05.021956+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -208,6 +208,19 @@
       "home_abbr": "CHI",
       "status": "pre",
       "status_detail": "Wed, October 7th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401908940": {
+      "event_id": "401908940",
+      "date": "2026-10-10T00:00Z",
+      "name": "Memphis Grizzlies at Chicago Bulls",
+      "short_name": "MEM @ CHI",
+      "away_team": "Memphis Grizzlies",
+      "away_abbr": "MEM",
+      "home_team": "Chicago Bulls",
+      "home_abbr": "CHI",
+      "status": "pre",
+      "status_detail": "Fri, October 9th at 8:00 PM EDT",
       "winner_abbr": null
     },
     "401908947": {
@@ -506,6 +519,22 @@
         "picked_abbr": "DAL",
         "picked_team": "Dallas Mavericks",
         "voted_at": "2026-10-08T12:31:29.436468+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-10-09T07:08:05.021918+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-10-09T07:07:56.176122+00:00"
       }
     },
     "401898716": {
@@ -714,6 +743,16 @@
         "picked_abbr": "PHX",
         "picked_team": "Phoenix Suns",
         "voted_at": "2026-10-07T06:44:05.194979+00:00"
+      }
+    },
+    "401908940": {
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CHI",
+        "picked_team": "Chicago Bulls",
+        "voted_at": "2026-10-09T07:07:57.905009+00:00"
       }
     },
     "401908947": {
