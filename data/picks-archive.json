@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T07:08:56.501Z",
-  "source_updated_at": "2026-10-09T07:08:25.850752+00:00",
+  "updated_at": "2026-10-09T07:15:02.006Z",
+  "source_updated_at": "2026-10-09T07:14:48.045064+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -746,6 +746,14 @@
       }
     },
     "401908940": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CHI",
+        "picked_team": "Chicago Bulls",
+        "voted_at": "2026-10-09T07:14:48.045038+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
