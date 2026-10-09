@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T07:08:05.021956+00:00",
+  "updated_at": "2026-10-09T07:08:24.344420+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -960,6 +960,14 @@
         "picked_abbr": "CHI",
         "picked_team": "Chicago Bulls",
         "voted_at": "2026-10-09T07:07:57.905009+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-10-09T07:08:24.344368+00:00"
       }
     }
   },
