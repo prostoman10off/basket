@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-10T04:11:09.747Z",
+  "updatedAt": "2026-10-10T04:11:53.657Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-10T04:11:09.666Z",
-    "currentSeason": "2026-10-10T04:11:09.611Z",
-    "previousSeason": "2026-10-10T04:11:09.611Z"
+    "picks": "2026-10-10T04:11:53.571Z",
+    "currentSeason": "2026-10-10T04:11:53.514Z",
+    "previousSeason": "2026-10-10T04:11:53.514Z"
   },
   "scoring": {
     "correct": 1,
@@ -282,7 +282,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "MIN",
       "pickedTeamName": "Minnesota Timberwolves",
-      "votedAt": "2026-10-10T04:10:51.640279+00:00",
+      "votedAt": "2026-10-10T04:11:15.231456+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -299,7 +299,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "PHI",
       "pickedTeamName": "Philadelphia 76ers",
-      "votedAt": "2026-10-10T04:10:54.231404+00:00",
+      "votedAt": "2026-10-10T04:11:12.783065+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -316,7 +316,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "IND",
       "pickedTeamName": "Indiana Pacers",
-      "votedAt": "2026-10-10T04:10:45.233292+00:00",
+      "votedAt": "2026-10-10T04:11:19.139521+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -333,7 +333,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "DET",
       "pickedTeamName": "Detroit Pistons",
-      "votedAt": "2026-10-10T04:10:48.356639+00:00",
+      "votedAt": "2026-10-10T04:11:17.146583+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -350,7 +350,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "TOR",
       "pickedTeamName": "Toronto Raptors",
-      "votedAt": "2026-10-10T04:10:32.327253+00:00",
+      "votedAt": "2026-10-10T04:11:29.804663+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
