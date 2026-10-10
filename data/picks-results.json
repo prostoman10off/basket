@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-10T04:10:43.449Z",
+  "updatedAt": "2026-10-10T04:11:09.747Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-10T04:10:43.396Z",
-    "currentSeason": "2026-10-10T04:10:43.356Z",
-    "previousSeason": "2026-10-10T04:10:43.356Z"
+    "picks": "2026-10-10T04:11:09.666Z",
+    "currentSeason": "2026-10-10T04:11:09.611Z",
+    "previousSeason": "2026-10-10T04:11:09.611Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 10,
       "correctPicks": 10,
       "wrongPicks": 15,
-      "pendingPicks": 1,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 26,
+      "totalPicks": 30,
       "gradedPicks": 25,
       "accuracy": 40,
       "place": 2
@@ -272,6 +272,74 @@
     }
   ],
   "results": [
+    {
+      "id": "401898397_seva",
+      "gameId": "401898397",
+      "gameDate": "2026-10-11T00:00Z",
+      "gameName": "Minnesota Timberwolves at Miami Heat",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "MIN",
+      "pickedTeamName": "Minnesota Timberwolves",
+      "votedAt": "2026-10-10T04:10:51.640279+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIN",
+      "homeTeamAbbr": "MIA"
+    },
+    {
+      "id": "401898398_seva",
+      "gameId": "401898398",
+      "gameDate": "2026-10-11T00:00Z",
+      "gameName": "Philadelphia 76ers at Boston Celtics",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "PHI",
+      "pickedTeamName": "Philadelphia 76ers",
+      "votedAt": "2026-10-10T04:10:54.231404+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "PHI",
+      "homeTeamAbbr": "BOS"
+    },
+    {
+      "id": "401898396_seva",
+      "gameId": "401898396",
+      "gameDate": "2026-10-10T23:00Z",
+      "gameName": "Atlanta Hawks at Indiana Pacers",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "IND",
+      "pickedTeamName": "Indiana Pacers",
+      "votedAt": "2026-10-10T04:10:45.233292+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ATL",
+      "homeTeamAbbr": "IND"
+    },
+    {
+      "id": "401906510_seva",
+      "gameId": "401906510",
+      "gameDate": "2026-10-10T23:00Z",
+      "gameName": "Detroit Pistons at Washington Wizards",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "DET",
+      "pickedTeamName": "Detroit Pistons",
+      "votedAt": "2026-10-10T04:10:48.356639+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "WAS"
+    },
     {
       "id": "401902645_seva",
       "gameId": "401902645",
