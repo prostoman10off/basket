@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-10T04:10:20.521Z",
+  "updatedAt": "2026-10-10T04:10:43.449Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-10T04:10:20.442Z",
-    "currentSeason": "2026-10-10T04:10:20.388Z",
-    "previousSeason": "2026-10-10T04:10:20.388Z"
+    "picks": "2026-10-10T04:10:43.396Z",
+    "currentSeason": "2026-10-10T04:10:43.356Z",
+    "previousSeason": "2026-10-10T04:10:43.356Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 10,
       "correctPicks": 10,
       "wrongPicks": 15,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 25,
+      "totalPicks": 26,
       "gradedPicks": 25,
       "accuracy": 40,
       "place": 2
@@ -272,6 +272,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401902645_seva",
+      "gameId": "401902645",
+      "gameDate": "2026-10-10T22:30Z",
+      "gameName": "LA Clippers at Toronto Raptors",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "TOR",
+      "pickedTeamName": "Toronto Raptors",
+      "votedAt": "2026-10-10T04:10:32.327253+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "LAC",
+      "homeTeamAbbr": "TOR"
+    },
     {
       "id": "401908940_ivan",
       "gameId": "401908940",
