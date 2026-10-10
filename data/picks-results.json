@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-10T06:02:25.628Z",
+  "updatedAt": "2026-10-10T06:03:07.510Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-10T06:02:25.531Z",
-    "currentSeason": "2026-10-10T06:02:25.455Z",
-    "previousSeason": "2026-10-10T06:02:25.455Z"
+    "picks": "2026-10-10T06:03:07.427Z",
+    "currentSeason": "2026-10-10T06:03:07.372Z",
+    "previousSeason": "2026-10-10T06:03:07.372Z"
   },
   "scoring": {
     "correct": 1,
@@ -299,7 +299,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "HOU",
       "pickedTeamName": "Houston Rockets",
-      "votedAt": "2026-10-10T06:02:02.065228+00:00",
+      "votedAt": "2026-10-10T06:02:43.281566+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -333,7 +333,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
-      "votedAt": "2026-10-10T06:02:09.851052+00:00",
+      "votedAt": "2026-10-10T06:02:52.234370+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -367,7 +367,7 @@
       "playerPhoto": "Seva.jpg",
       "pickedTeamAbbr": "GSW",
       "pickedTeamName": "Golden State Warriors",
-      "votedAt": "2026-10-10T06:02:11.767722+00:00",
+      "votedAt": "2026-10-10T06:02:54.885471+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
