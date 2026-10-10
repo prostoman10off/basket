@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-09T16:59:20.089Z",
+  "updatedAt": "2026-10-10T04:10:20.521Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-09T16:59:20.006Z",
-    "currentSeason": "2026-10-09T16:59:19.950Z",
-    "previousSeason": "2026-10-09T16:59:19.950Z"
+    "picks": "2026-10-10T04:10:20.442Z",
+    "currentSeason": "2026-10-10T04:10:20.388Z",
+    "previousSeason": "2026-10-10T04:10:20.388Z"
   },
   "scoring": {
     "correct": 1,
@@ -17,14 +17,30 @@
       "favoriteTeam": "Celtics",
       "points": 12,
       "correctPicks": 12,
-      "wrongPicks": 11,
-      "pendingPicks": 2,
+      "wrongPicks": 13,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 25,
-      "gradedPicks": 23,
-      "accuracy": 52,
+      "gradedPicks": 25,
+      "accuracy": 48,
       "place": 1
+    },
+    {
+      "playerId": "seva",
+      "name": "Сева",
+      "photo": "Seva.jpg",
+      "favoriteTeam": "Warriors",
+      "points": 10,
+      "correctPicks": 10,
+      "wrongPicks": 15,
+      "pendingPicks": 0,
+      "latePicks": 0,
+      "voidPicks": 0,
+      "totalPicks": 25,
+      "gradedPicks": 25,
+      "accuracy": 40,
+      "place": 2
     },
     {
       "playerId": "andrei",
@@ -33,33 +49,47 @@
       "favoriteTeam": "76ers",
       "points": 9,
       "correctPicks": 9,
-      "wrongPicks": 14,
-      "pendingPicks": 2,
+      "wrongPicks": 16,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 25,
-      "gradedPicks": 23,
-      "accuracy": 39,
-      "place": 2
-    },
-    {
-      "playerId": "seva",
-      "name": "Сева",
-      "photo": "Seva.jpg",
-      "favoriteTeam": "Warriors",
-      "points": 8,
-      "correctPicks": 8,
-      "wrongPicks": 15,
-      "pendingPicks": 2,
-      "latePicks": 0,
-      "voidPicks": 0,
-      "totalPicks": 25,
-      "gradedPicks": 23,
-      "accuracy": 35,
+      "gradedPicks": 25,
+      "accuracy": 36,
       "place": 3
     }
   ],
   "dailyTotals": [
+    {
+      "date": "2026-10-10",
+      "timeZone": "Asia/Novosibirsk",
+      "players": {
+        "ivan": {
+          "playerId": "ivan",
+          "name": "Иван",
+          "points": 0,
+          "correctPicks": 0,
+          "wrongPicks": 1,
+          "totalPicks": 1
+        },
+        "seva": {
+          "playerId": "seva",
+          "name": "Сева",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        },
+        "andrei": {
+          "playerId": "andrei",
+          "name": "Андрей",
+          "points": 0,
+          "correctPicks": 0,
+          "wrongPicks": 1,
+          "totalPicks": 1
+        }
+      }
+    },
     {
       "date": "2026-10-09",
       "timeZone": "Asia/Novosibirsk",
@@ -69,24 +99,24 @@
           "name": "Иван",
           "points": 3,
           "correctPicks": 3,
-          "wrongPicks": 3,
-          "totalPicks": 6
+          "wrongPicks": 4,
+          "totalPicks": 7
         },
         "seva": {
           "playerId": "seva",
           "name": "Сева",
-          "points": 3,
-          "correctPicks": 3,
+          "points": 4,
+          "correctPicks": 4,
           "wrongPicks": 3,
-          "totalPicks": 6
+          "totalPicks": 7
         },
         "andrei": {
           "playerId": "andrei",
           "name": "Андрей",
           "points": 1,
           "correctPicks": 1,
-          "wrongPicks": 5,
-          "totalPicks": 6
+          "wrongPicks": 6,
+          "totalPicks": 7
         }
       }
     },
@@ -253,9 +283,9 @@
       "pickedTeamAbbr": "CHI",
       "pickedTeamName": "Chicago Bulls",
       "votedAt": "2026-10-09T07:15:55.693197+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "MEM",
       "awayTeamAbbr": "MEM",
       "homeTeamAbbr": "CHI"
     },
@@ -270,9 +300,9 @@
       "pickedTeamAbbr": "MEM",
       "pickedTeamName": "Memphis Grizzlies",
       "votedAt": "2026-10-09T07:08:24.344368+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "MEM",
       "awayTeamAbbr": "MEM",
       "homeTeamAbbr": "CHI"
     },
@@ -287,9 +317,9 @@
       "pickedTeamAbbr": "CHI",
       "pickedTeamName": "Chicago Bulls",
       "votedAt": "2026-10-09T07:07:57.905009+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "MEM",
       "awayTeamAbbr": "MEM",
       "homeTeamAbbr": "CHI"
     },
@@ -304,9 +334,9 @@
       "pickedTeamAbbr": "DAL",
       "pickedTeamName": "Dallas Mavericks",
       "votedAt": "2026-10-08T12:31:29.436468+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "HOU",
       "awayTeamAbbr": "HOU",
       "homeTeamAbbr": "DAL"
     },
@@ -321,9 +351,9 @@
       "pickedTeamAbbr": "HOU",
       "pickedTeamName": "Houston Rockets",
       "votedAt": "2026-10-09T07:08:05.021918+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "HOU",
       "awayTeamAbbr": "HOU",
       "homeTeamAbbr": "DAL"
     },
@@ -338,9 +368,9 @@
       "pickedTeamAbbr": "DAL",
       "pickedTeamName": "Dallas Mavericks",
       "votedAt": "2026-10-09T07:07:56.176122+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "HOU",
       "awayTeamAbbr": "HOU",
       "homeTeamAbbr": "DAL"
     },
