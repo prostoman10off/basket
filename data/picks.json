@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T06:06:24.805711+00:00",
+  "updated_at": "2026-10-10T06:06:26.959891+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -1150,6 +1150,14 @@
         "picked_abbr": "DET",
         "picked_team": "Detroit Pistons",
         "voted_at": "2026-10-10T05:59:58.787100+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-10-10T06:06:26.959874+00:00"
       }
     },
     "401898397": {
