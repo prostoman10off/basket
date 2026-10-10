@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T05:20:26.271Z",
-  "source_updated_at": "2026-10-10T05:20:03.789534+00:00",
+  "updated_at": "2026-10-10T05:23:21.719Z",
+  "source_updated_at": "2026-10-10T05:23:06.303216+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -642,6 +642,14 @@
       }
     },
     "401898396": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "IND",
+        "picked_team": "Indiana Pacers",
+        "voted_at": "2026-10-10T05:22:58.700641+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -805,6 +813,14 @@
       }
     },
     "401902645": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-10-10T05:22:54.633547+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -841,6 +857,14 @@
       }
     },
     "401906510": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-10-10T05:23:06.303199+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",

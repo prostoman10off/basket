@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-10T05:20:26.464Z",
+  "updatedAt": "2026-10-10T05:23:21.774Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-10T05:20:26.271Z",
-    "currentSeason": "2026-10-10T05:20:25.961Z",
-    "previousSeason": "2026-10-10T05:20:25.961Z"
+    "picks": "2026-10-10T05:23:21.719Z",
+    "currentSeason": "2026-10-10T05:23:21.679Z",
+    "previousSeason": "2026-10-10T05:23:21.679Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 12,
       "correctPicks": 12,
       "wrongPicks": 13,
-      "pendingPicks": 0,
+      "pendingPicks": 3,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 25,
+      "totalPicks": 28,
       "gradedPicks": 25,
       "accuracy": 48,
       "place": 1
@@ -307,6 +307,23 @@
       "homeTeamAbbr": "BOS"
     },
     {
+      "id": "401898396_ivan",
+      "gameId": "401898396",
+      "gameDate": "2026-10-10T23:00Z",
+      "gameName": "Atlanta Hawks at Indiana Pacers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "IND",
+      "pickedTeamName": "Indiana Pacers",
+      "votedAt": "2026-10-10T05:22:58.700641+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ATL",
+      "homeTeamAbbr": "IND"
+    },
+    {
       "id": "401898396_seva",
       "gameId": "401898396",
       "gameDate": "2026-10-10T23:00Z",
@@ -324,6 +341,23 @@
       "homeTeamAbbr": "IND"
     },
     {
+      "id": "401906510_ivan",
+      "gameId": "401906510",
+      "gameDate": "2026-10-10T23:00Z",
+      "gameName": "Detroit Pistons at Washington Wizards",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DET",
+      "pickedTeamName": "Detroit Pistons",
+      "votedAt": "2026-10-10T05:23:06.303199+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "WAS"
+    },
+    {
       "id": "401906510_seva",
       "gameId": "401906510",
       "gameDate": "2026-10-10T23:00Z",
@@ -339,6 +373,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "DET",
       "homeTeamAbbr": "WAS"
+    },
+    {
+      "id": "401902645_ivan",
+      "gameId": "401902645",
+      "gameDate": "2026-10-10T22:30Z",
+      "gameName": "LA Clippers at Toronto Raptors",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "TOR",
+      "pickedTeamName": "Toronto Raptors",
+      "votedAt": "2026-10-10T05:22:54.633547+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "LAC",
+      "homeTeamAbbr": "TOR"
     },
     {
       "id": "401902645_seva",
