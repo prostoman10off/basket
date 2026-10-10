@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T06:01:35.442Z",
-  "source_updated_at": "2026-10-10T06:01:21.107861+00:00",
+  "updated_at": "2026-10-10T06:02:25.531Z",
+  "source_updated_at": "2026-10-10T06:02:11.767738+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -703,6 +703,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-10-10T06:00:16.208376+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-10-10T06:02:11.767722+00:00"
       }
     },
     "401898400": {
@@ -713,6 +721,14 @@
         "picked_abbr": "DAL",
         "picked_team": "Dallas Mavericks",
         "voted_at": "2026-10-10T06:00:29.749678+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-10-10T06:02:02.065228+00:00"
       }
     },
     "401898716": {
@@ -775,6 +791,14 @@
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-10-10T06:00:23.293774+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-10-10T06:02:09.851052+00:00"
       }
     },
     "401901820": {

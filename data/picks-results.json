@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-10T06:01:35.529Z",
+  "updatedAt": "2026-10-10T06:02:25.628Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-10T06:01:35.442Z",
-    "currentSeason": "2026-10-10T06:01:35.374Z",
-    "previousSeason": "2026-10-10T06:01:35.374Z"
+    "picks": "2026-10-10T06:02:25.531Z",
+    "currentSeason": "2026-10-10T06:02:25.455Z",
+    "previousSeason": "2026-10-10T06:02:25.455Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 10,
       "correctPicks": 10,
       "wrongPicks": 15,
-      "pendingPicks": 5,
+      "pendingPicks": 8,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 30,
+      "totalPicks": 33,
       "gradedPicks": 25,
       "accuracy": 40,
       "place": 2
@@ -290,6 +290,23 @@
       "homeTeamAbbr": "HOU"
     },
     {
+      "id": "401898400_seva",
+      "gameId": "401898400",
+      "gameDate": "2026-10-11T10:00Z",
+      "gameName": "Dallas Mavericks at Houston Rockets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-10-10T06:02:02.065228+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DAL",
+      "homeTeamAbbr": "HOU"
+    },
+    {
       "id": "401898720_ivan",
       "gameId": "401898720",
       "gameDate": "2026-10-11T02:30Z",
@@ -307,6 +324,23 @@
       "homeTeamAbbr": "PHX"
     },
     {
+      "id": "401898720_seva",
+      "gameId": "401898720",
+      "gameDate": "2026-10-11T02:30Z",
+      "gameName": "San Antonio Spurs at Phoenix Suns",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "SAS",
+      "pickedTeamName": "San Antonio Spurs",
+      "votedAt": "2026-10-10T06:02:09.851052+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "SAS",
+      "homeTeamAbbr": "PHX"
+    },
+    {
       "id": "401898399_ivan",
       "gameId": "401898399",
       "gameDate": "2026-10-11T00:30Z",
@@ -317,6 +351,23 @@
       "pickedTeamAbbr": "GSW",
       "pickedTeamName": "Golden State Warriors",
       "votedAt": "2026-10-10T06:00:16.208376+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "SAC",
+      "homeTeamAbbr": "GSW"
+    },
+    {
+      "id": "401898399_seva",
+      "gameId": "401898399",
+      "gameDate": "2026-10-11T00:30Z",
+      "gameName": "Sacramento Kings at Golden State Warriors",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "GSW",
+      "pickedTeamName": "Golden State Warriors",
+      "votedAt": "2026-10-10T06:02:11.767722+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
