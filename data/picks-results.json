@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-10T05:23:21.774Z",
+  "updatedAt": "2026-10-10T05:23:59.507Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-10T05:23:21.719Z",
-    "currentSeason": "2026-10-10T05:23:21.679Z",
-    "previousSeason": "2026-10-10T05:23:21.679Z"
+    "picks": "2026-10-10T05:23:59.431Z",
+    "currentSeason": "2026-10-10T05:23:59.377Z",
+    "previousSeason": "2026-10-10T05:23:59.377Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 12,
       "correctPicks": 12,
       "wrongPicks": 13,
-      "pendingPicks": 3,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 28,
+      "totalPicks": 30,
       "gradedPicks": 25,
       "accuracy": 48,
       "place": 1
@@ -273,6 +273,23 @@
   ],
   "results": [
     {
+      "id": "401898397_ivan",
+      "gameId": "401898397",
+      "gameDate": "2026-10-11T00:00Z",
+      "gameName": "Minnesota Timberwolves at Miami Heat",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MIN",
+      "pickedTeamName": "Minnesota Timberwolves",
+      "votedAt": "2026-10-10T05:23:31.011903+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIN",
+      "homeTeamAbbr": "MIA"
+    },
+    {
       "id": "401898397_seva",
       "gameId": "401898397",
       "gameDate": "2026-10-11T00:00Z",
@@ -288,6 +305,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "MIN",
       "homeTeamAbbr": "MIA"
+    },
+    {
+      "id": "401898398_ivan",
+      "gameId": "401898398",
+      "gameDate": "2026-10-11T00:00Z",
+      "gameName": "Philadelphia 76ers at Boston Celtics",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-10-10T05:23:34.148072+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "PHI",
+      "homeTeamAbbr": "BOS"
     },
     {
       "id": "401898398_seva",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T05:23:21.719Z",
-  "source_updated_at": "2026-10-10T05:23:06.303216+00:00",
+  "updated_at": "2026-10-10T05:23:59.431Z",
+  "source_updated_at": "2026-10-10T05:23:34.148090+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -660,6 +660,14 @@
       }
     },
     "401898397": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-10-10T05:23:31.011903+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -670,6 +678,14 @@
       }
     },
     "401898398": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-10-10T05:23:34.148072+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
