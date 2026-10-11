@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T16:59:21.918827+00:00",
+  "updated_at": "2026-10-11T05:02:14.510545+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -428,6 +428,45 @@
       "home_abbr": "HOU",
       "status": "pre",
       "status_detail": "Sun, October 11th at 6:00 AM EDT",
+      "winner_abbr": null
+    },
+    "401898401": {
+      "event_id": "401898401",
+      "date": "2026-10-11T22:30Z",
+      "name": "Orlando Magic at Cleveland Cavaliers",
+      "short_name": "ORL @ CLE",
+      "away_team": "Orlando Magic",
+      "away_abbr": "ORL",
+      "home_team": "Cleveland Cavaliers",
+      "home_abbr": "CLE",
+      "status": "pre",
+      "status_detail": "Sun, October 11th at 6:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401901821": {
+      "event_id": "401901821",
+      "date": "2026-10-11T23:00Z",
+      "name": "Milwaukee Bucks at Charlotte Hornets",
+      "short_name": "MIL @ CHA",
+      "away_team": "Milwaukee Bucks",
+      "away_abbr": "MIL",
+      "home_team": "Charlotte Hornets",
+      "home_abbr": "CHA",
+      "status": "pre",
+      "status_detail": "Sun, October 11th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401908941": {
+      "event_id": "401908941",
+      "date": "2026-10-12T01:00Z",
+      "name": "Chicago Bulls at Denver Nuggets",
+      "short_name": "CHI @ DEN",
+      "away_team": "Chicago Bulls",
+      "away_abbr": "CHI",
+      "home_team": "Denver Nuggets",
+      "home_abbr": "DEN",
+      "status": "pre",
+      "status_detail": "Sun, October 11th at 9:00 PM EDT",
       "winner_abbr": null
     }
   },
@@ -1289,7 +1328,10 @@
         "picked_team": "Houston Rockets",
         "voted_at": "2026-10-10T06:06:42.538537+00:00"
       }
-    }
+    },
+    "401898401": {},
+    "401901821": {},
+    "401908941": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -1707,6 +1749,27 @@
       "reminder_at": "2026-10-10T14:00:00+00:00",
       "reminder_sent_at": "2026-10-10T14:00:21.884659+00:00",
       "closes_at": "2026-10-10T16:59:00+00:00"
+    },
+    "2026-10-12": {
+      "date": "2026-10-12",
+      "event_ids": [
+        "401898401",
+        "401901821",
+        "401908941"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-10-11T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-10-11T16:59:00+00:00"
     }
   }
 }
