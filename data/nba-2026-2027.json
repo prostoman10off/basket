@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-11T07:16:17.648Z",
+  "updatedAt": "2026-10-11T14:00:35.042Z",
   "source": "ESPN API",
   "seasonGames": [
     {
@@ -999,37 +999,6 @@
     }
   ],
   "upcomingGames": [
-    {
-      "id": "401898400",
-      "name": "Dallas Mavericks at Houston Rockets",
-      "shortName": "DAL VS HOU",
-      "date": "2026-10-11T10:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Предсезонка",
-        "className": "preseason"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "10",
-        "name": "Houston Rockets",
-        "shortName": "Rockets",
-        "abbreviation": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "6",
-        "name": "Dallas Mavericks",
-        "shortName": "Mavericks",
-        "abbreviation": "DAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-        "score": 0
-      }
-    },
     {
       "id": "401898401",
       "name": "Orlando Magic at Cleveland Cavaliers",
