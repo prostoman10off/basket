@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-11T14:00:35.097Z",
-  "source_updated_at": "2026-10-11T14:00:21.903695+00:00",
+  "updated_at": "2026-10-11T14:16:42.024Z",
+  "source_updated_at": "2026-10-11T14:16:27.060613+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -823,9 +823,9 @@
         "user_id": 58800473,
         "username": "AmaterasuOwned",
         "full_name": "Всеволод Воробьев",
-        "picked_abbr": "ORL",
-        "picked_team": "Orlando Magic",
-        "voted_at": "2026-10-11T05:02:44.617504+00:00"
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-11T14:16:27.060595+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -953,9 +953,9 @@
         "user_id": 58800473,
         "username": "AmaterasuOwned",
         "full_name": "Всеволод Воробьев",
-        "picked_abbr": "CHA",
-        "picked_team": "Charlotte Hornets",
-        "voted_at": "2026-10-11T05:02:47.513674+00:00"
+        "picked_abbr": "MIL",
+        "picked_team": "Milwaukee Bucks",
+        "voted_at": "2026-10-11T14:16:14.911846+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
