@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-11T06:03:49.100Z",
-  "source_updated_at": "2026-10-11T06:03:37.070992+00:00",
+  "updated_at": "2026-10-11T06:44:21.421Z",
+  "source_updated_at": "2026-10-11T06:44:00.143601+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -826,6 +826,14 @@
         "picked_abbr": "ORL",
         "picked_team": "Orlando Magic",
         "voted_at": "2026-10-11T05:02:44.617504+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-11T06:43:56.265235+00:00"
       }
     },
     "401898716": {
@@ -948,6 +956,14 @@
         "picked_abbr": "CHA",
         "picked_team": "Charlotte Hornets",
         "voted_at": "2026-10-11T05:02:47.513674+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CHA",
+        "picked_team": "Charlotte Hornets",
+        "voted_at": "2026-10-11T06:43:58.585804+00:00"
       }
     },
     "401901823": {
@@ -1174,6 +1190,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-11T05:02:49.607423+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-11T06:44:00.143583+00:00"
       }
     },
     "401908947": {
