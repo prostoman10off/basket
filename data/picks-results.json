@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-11T05:03:12.128Z",
+  "updatedAt": "2026-10-11T05:17:43.228Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-11T05:03:12.043Z",
-    "currentSeason": "2026-10-11T05:03:11.987Z",
-    "previousSeason": "2026-10-11T05:03:11.987Z"
+    "picks": "2026-10-11T05:17:43.147Z",
+    "currentSeason": "2026-10-11T05:17:43.094Z",
+    "previousSeason": "2026-10-11T05:17:43.094Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 16,
       "correctPicks": 16,
       "wrongPicks": 16,
-      "pendingPicks": 1,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 33,
+      "totalPicks": 36,
       "gradedPicks": 32,
       "accuracy": 50,
       "place": 1
@@ -303,6 +303,23 @@
   ],
   "results": [
     {
+      "id": "401908941_ivan",
+      "gameId": "401908941",
+      "gameDate": "2026-10-12T01:00Z",
+      "gameName": "Chicago Bulls at Denver Nuggets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-10-11T05:17:15.247389+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHI",
+      "homeTeamAbbr": "DEN"
+    },
+    {
       "id": "401908941_seva",
       "gameId": "401908941",
       "gameDate": "2026-10-12T01:00Z",
@@ -320,6 +337,23 @@
       "homeTeamAbbr": "DEN"
     },
     {
+      "id": "401901821_ivan",
+      "gameId": "401901821",
+      "gameDate": "2026-10-11T23:00Z",
+      "gameName": "Milwaukee Bucks at Charlotte Hornets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MIL",
+      "pickedTeamName": "Milwaukee Bucks",
+      "votedAt": "2026-10-11T05:17:18.910335+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIL",
+      "homeTeamAbbr": "CHA"
+    },
+    {
       "id": "401901821_seva",
       "gameId": "401901821",
       "gameDate": "2026-10-11T23:00Z",
@@ -335,6 +369,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "MIL",
       "homeTeamAbbr": "CHA"
+    },
+    {
+      "id": "401898401_ivan",
+      "gameId": "401898401",
+      "gameDate": "2026-10-11T22:30Z",
+      "gameName": "Orlando Magic at Cleveland Cavaliers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "ORL",
+      "pickedTeamName": "Orlando Magic",
+      "votedAt": "2026-10-11T05:17:20.353042+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "CLE"
     },
     {
       "id": "401898401_seva",
