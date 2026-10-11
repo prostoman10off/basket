@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-11T05:02:41.567Z",
+  "updatedAt": "2026-10-11T05:03:12.128Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-11T05:02:41.479Z",
-    "currentSeason": "2026-10-11T05:02:41.424Z",
-    "previousSeason": "2026-10-11T05:02:41.424Z"
+    "picks": "2026-10-11T05:03:12.043Z",
+    "currentSeason": "2026-10-11T05:03:11.987Z",
+    "previousSeason": "2026-10-11T05:03:11.987Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 13,
       "correctPicks": 13,
       "wrongPicks": 19,
-      "pendingPicks": 1,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 33,
+      "totalPicks": 36,
       "gradedPicks": 32,
       "accuracy": 41,
       "place": 3
@@ -302,6 +302,57 @@
     }
   ],
   "results": [
+    {
+      "id": "401908941_seva",
+      "gameId": "401908941",
+      "gameDate": "2026-10-12T01:00Z",
+      "gameName": "Chicago Bulls at Denver Nuggets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-10-11T05:02:49.607423+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHI",
+      "homeTeamAbbr": "DEN"
+    },
+    {
+      "id": "401901821_seva",
+      "gameId": "401901821",
+      "gameDate": "2026-10-11T23:00Z",
+      "gameName": "Milwaukee Bucks at Charlotte Hornets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "CHA",
+      "pickedTeamName": "Charlotte Hornets",
+      "votedAt": "2026-10-11T05:02:47.513674+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIL",
+      "homeTeamAbbr": "CHA"
+    },
+    {
+      "id": "401898401_seva",
+      "gameId": "401898401",
+      "gameDate": "2026-10-11T22:30Z",
+      "gameName": "Orlando Magic at Cleveland Cavaliers",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "ORL",
+      "pickedTeamName": "Orlando Magic",
+      "votedAt": "2026-10-11T05:02:44.617504+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "CLE"
+    },
     {
       "id": "401898400_ivan",
       "gameId": "401898400",
