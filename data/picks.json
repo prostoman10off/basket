@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T05:32:30.238558+00:00",
+  "updated_at": "2026-10-12T05:32:32.763889+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -1592,6 +1592,14 @@
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-10-12T05:04:42.571109+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "UTAH",
+        "picked_team": "Utah Jazz",
+        "voted_at": "2026-10-12T05:32:32.763855+00:00"
       }
     }
   },
@@ -2066,7 +2074,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-10-12T05:32:32.763883+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
