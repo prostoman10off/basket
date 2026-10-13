@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-13T05:10:03.059Z",
+  "updatedAt": "2026-10-13T05:59:00.629Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-13T05:10:02.969Z",
-    "currentSeason": "2026-10-13T05:10:02.913Z",
-    "previousSeason": "2026-10-13T05:10:02.913Z"
+    "picks": "2026-10-13T05:59:00.535Z",
+    "currentSeason": "2026-10-13T05:59:00.472Z",
+    "previousSeason": "2026-10-13T05:59:00.472Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 21,
       "correctPicks": 21,
       "wrongPicks": 20,
-      "pendingPicks": 0,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 41,
+      "totalPicks": 43,
       "gradedPicks": 41,
       "accuracy": 51,
       "place": 1
@@ -465,6 +465,23 @@
       "homeTeamAbbr": "OKC"
     },
     {
+      "id": "401898403_ivan",
+      "gameId": "401898403",
+      "gameDate": "2026-10-13T23:00Z",
+      "gameName": "Cleveland Cavaliers at Orlando Magic",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-10-13T05:58:37.762278+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CLE",
+      "homeTeamAbbr": "ORL"
+    },
+    {
       "id": "401898403_seva",
       "gameId": "401898403",
       "gameDate": "2026-10-13T23:00Z",
@@ -497,6 +514,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "CLE",
       "homeTeamAbbr": "ORL"
+    },
+    {
+      "id": "401908944_ivan",
+      "gameId": "401908944",
+      "gameDate": "2026-10-13T23:00Z",
+      "gameName": "New York Knicks at Toronto Raptors",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-10-13T05:58:34.812919+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "NYK",
+      "homeTeamAbbr": "TOR"
     },
     {
       "id": "401908944_seva",

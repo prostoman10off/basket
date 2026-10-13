@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T05:10:02.969Z",
-  "source_updated_at": "2026-10-13T05:09:40.747648+00:00",
+  "updated_at": "2026-10-13T05:59:00.535Z",
+  "source_updated_at": "2026-10-13T05:58:37.762304+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -993,6 +993,14 @@
       }
     },
     "401898403": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-13T05:58:37.762278+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -1481,6 +1489,14 @@
       }
     },
     "401908944": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-10-13T05:58:34.812919+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
