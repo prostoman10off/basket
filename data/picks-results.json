@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-13T05:04:40.902Z",
+  "updatedAt": "2026-10-13T05:10:03.059Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-13T05:04:40.819Z",
-    "currentSeason": "2026-10-13T05:04:40.767Z",
-    "previousSeason": "2026-10-13T05:04:40.767Z"
+    "picks": "2026-10-13T05:10:02.969Z",
+    "currentSeason": "2026-10-13T05:10:02.913Z",
+    "previousSeason": "2026-10-13T05:10:02.913Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 19,
       "correctPicks": 19,
       "wrongPicks": 22,
-      "pendingPicks": 0,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 41,
+      "totalPicks": 46,
       "gradedPicks": 41,
       "accuracy": 46,
       "place": 2
@@ -380,6 +380,23 @@
       "homeTeamAbbr": "LAL"
     },
     {
+      "id": "401898718_andrei",
+      "gameId": "401898718",
+      "gameDate": "2026-10-14T02:00Z",
+      "gameName": "Golden State Warriors at Los Angeles Lakers",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "LAL",
+      "pickedTeamName": "Los Angeles Lakers",
+      "votedAt": "2026-10-13T05:09:39.250001+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "GSW",
+      "homeTeamAbbr": "LAL"
+    },
+    {
       "id": "401901826_seva",
       "gameId": "401901826",
       "gameDate": "2026-10-14T02:00Z",
@@ -390,6 +407,23 @@
       "pickedTeamAbbr": "POR",
       "pickedTeamName": "Portland Trail Blazers",
       "votedAt": "2026-10-13T05:04:22.626974+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "POR",
+      "homeTeamAbbr": "SAC"
+    },
+    {
+      "id": "401901826_andrei",
+      "gameId": "401901826",
+      "gameDate": "2026-10-14T02:00Z",
+      "gameName": "Portland Trail Blazers at Sacramento Kings",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-10-13T05:09:40.747631+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -414,6 +448,23 @@
       "homeTeamAbbr": "OKC"
     },
     {
+      "id": "401908621_andrei",
+      "gameId": "401908621",
+      "gameDate": "2026-10-14T00:00Z",
+      "gameName": "Indiana Pacers at Oklahoma City Thunder",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-10-13T05:09:37.764355+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "IND",
+      "homeTeamAbbr": "OKC"
+    },
+    {
       "id": "401898403_seva",
       "gameId": "401898403",
       "gameDate": "2026-10-13T23:00Z",
@@ -431,6 +482,23 @@
       "homeTeamAbbr": "ORL"
     },
     {
+      "id": "401898403_andrei",
+      "gameId": "401898403",
+      "gameDate": "2026-10-13T23:00Z",
+      "gameName": "Cleveland Cavaliers at Orlando Magic",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-10-13T05:09:33.959174+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CLE",
+      "homeTeamAbbr": "ORL"
+    },
+    {
       "id": "401908944_seva",
       "gameId": "401908944",
       "gameDate": "2026-10-13T23:00Z",
@@ -441,6 +509,23 @@
       "pickedTeamAbbr": "TOR",
       "pickedTeamName": "Toronto Raptors",
       "votedAt": "2026-10-13T05:04:15.133942+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "NYK",
+      "homeTeamAbbr": "TOR"
+    },
+    {
+      "id": "401908944_andrei",
+      "gameId": "401908944",
+      "gameDate": "2026-10-13T23:00Z",
+      "gameName": "New York Knicks at Toronto Raptors",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "TOR",
+      "pickedTeamName": "Toronto Raptors",
+      "votedAt": "2026-10-13T05:09:36.200983+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,

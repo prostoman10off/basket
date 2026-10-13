@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T05:04:40.819Z",
-  "source_updated_at": "2026-10-13T05:04:22.626990+00:00",
+  "updated_at": "2026-10-13T05:10:02.969Z",
+  "source_updated_at": "2026-10-13T05:09:40.747648+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -1000,6 +1000,14 @@
         "picked_abbr": "ORL",
         "picked_team": "Orlando Magic",
         "voted_at": "2026-10-13T05:04:11.413222+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-13T05:09:33.959174+00:00"
       }
     },
     "401898716": {
@@ -1062,6 +1070,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-10-13T05:04:20.105048+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-10-13T05:09:39.250001+00:00"
       }
     },
     "401898720": {
@@ -1228,6 +1244,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-10-13T05:04:22.626974+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-13T05:09:40.747631+00:00"
       }
     },
     "401902644": {
@@ -1368,6 +1392,14 @@
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
         "voted_at": "2026-10-13T05:04:16.839977+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-13T05:09:37.764355+00:00"
       }
     },
     "401908939": {
@@ -1456,6 +1488,14 @@
         "picked_abbr": "TOR",
         "picked_team": "Toronto Raptors",
         "voted_at": "2026-10-13T05:04:15.133942+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-10-13T05:09:36.200983+00:00"
       }
     },
     "401908947": {
