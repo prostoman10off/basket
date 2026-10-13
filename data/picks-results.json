@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-13T05:59:00.629Z",
+  "updatedAt": "2026-10-13T05:59:58.075Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-13T05:59:00.535Z",
-    "currentSeason": "2026-10-13T05:59:00.472Z",
-    "previousSeason": "2026-10-13T05:59:00.472Z"
+    "picks": "2026-10-13T05:59:57.989Z",
+    "currentSeason": "2026-10-13T05:59:57.933Z",
+    "previousSeason": "2026-10-13T05:59:57.933Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 21,
       "correctPicks": 21,
       "wrongPicks": 20,
-      "pendingPicks": 2,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 43,
+      "totalPicks": 46,
       "gradedPicks": 41,
       "accuracy": 51,
       "place": 1
@@ -363,6 +363,23 @@
   ],
   "results": [
     {
+      "id": "401898718_ivan",
+      "gameId": "401898718",
+      "gameDate": "2026-10-14T02:00Z",
+      "gameName": "Golden State Warriors at Los Angeles Lakers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "LAL",
+      "pickedTeamName": "Los Angeles Lakers",
+      "votedAt": "2026-10-13T05:59:38.971944+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "GSW",
+      "homeTeamAbbr": "LAL"
+    },
+    {
       "id": "401898718_seva",
       "gameId": "401898718",
       "gameDate": "2026-10-14T02:00Z",
@@ -397,6 +414,23 @@
       "homeTeamAbbr": "LAL"
     },
     {
+      "id": "401901826_ivan",
+      "gameId": "401901826",
+      "gameDate": "2026-10-14T02:00Z",
+      "gameName": "Portland Trail Blazers at Sacramento Kings",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-10-13T05:59:41.871305+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "POR",
+      "homeTeamAbbr": "SAC"
+    },
+    {
       "id": "401901826_seva",
       "gameId": "401901826",
       "gameDate": "2026-10-14T02:00Z",
@@ -429,6 +463,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "POR",
       "homeTeamAbbr": "SAC"
+    },
+    {
+      "id": "401908621_ivan",
+      "gameId": "401908621",
+      "gameDate": "2026-10-14T00:00Z",
+      "gameName": "Indiana Pacers at Oklahoma City Thunder",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-10-13T05:59:25.724683+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "IND",
+      "homeTeamAbbr": "OKC"
     },
     {
       "id": "401908621_seva",

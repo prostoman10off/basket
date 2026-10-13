@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T05:59:00.535Z",
-  "source_updated_at": "2026-10-13T05:58:37.762304+00:00",
+  "updated_at": "2026-10-13T05:59:57.989Z",
+  "source_updated_at": "2026-10-13T05:59:41.871338+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -1071,6 +1071,14 @@
       }
     },
     "401898718": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-10-13T05:59:38.971944+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -1245,6 +1253,14 @@
       }
     },
     "401901826": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-13T05:59:41.871305+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -1393,6 +1409,14 @@
       }
     },
     "401908621": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-13T05:59:25.724683+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
