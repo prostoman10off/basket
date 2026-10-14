@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T05:24:47.646057+00:00",
+  "updated_at": "2026-10-14T05:24:52.179967+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -1968,6 +1968,14 @@
         "picked_abbr": "CHI",
         "picked_team": "Chicago Bulls",
         "voted_at": "2026-10-14T05:06:11.848779+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIL",
+        "picked_team": "Milwaukee Bucks",
+        "voted_at": "2026-10-14T05:24:52.179949+00:00"
       }
     },
     "401914125": {
