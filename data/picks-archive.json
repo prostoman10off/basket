@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T05:06:34.280Z",
-  "source_updated_at": "2026-10-14T05:06:15.115310+00:00",
+  "updated_at": "2026-10-14T05:25:18.054Z",
+  "source_updated_at": "2026-10-14T05:24:57.722210+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -1110,6 +1110,14 @@
       }
     },
     "401898404": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-10-14T05:24:37.130052+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -1120,6 +1128,14 @@
       }
     },
     "401898405": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-10-14T05:24:41.855411+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -1260,6 +1276,14 @@
       }
     },
     "401898722": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-10-14T05:24:45.077716+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -1374,6 +1398,14 @@
       }
     },
     "401901825": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-10-14T05:24:47.646027+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -1644,6 +1676,14 @@
       }
     },
     "401908942": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIL",
+        "picked_team": "Milwaukee Bucks",
+        "voted_at": "2026-10-14T05:24:52.179949+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -1810,6 +1850,14 @@
       }
     },
     "401914125": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-10-14T05:24:56.235474+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -1950,6 +1998,14 @@
       }
     },
     "401918011": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-14T05:24:57.722196+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
