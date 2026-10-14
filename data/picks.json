@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T05:24:56.235490+00:00",
+  "updated_at": "2026-10-14T05:24:57.722210+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -2004,6 +2004,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-14T05:06:15.115295+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-14T05:24:57.722196+00:00"
       }
     }
   },
