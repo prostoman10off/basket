@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T06:04:16.170109+00:00",
+  "updated_at": "2026-10-14T06:04:23.408565+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -2060,6 +2060,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-14T05:24:57.722196+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-14T06:04:23.408537+00:00"
       }
     }
   },
@@ -2644,7 +2652,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-10-14T06:04:23.408560+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
