@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T06:03:45.058327+00:00",
+  "updated_at": "2026-10-14T06:03:57.724548+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -1956,6 +1956,14 @@
         "picked_abbr": "PHX",
         "picked_team": "Phoenix Suns",
         "voted_at": "2026-10-14T05:24:45.077716+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-10-14T06:03:57.724531+00:00"
       }
     },
     "401901825": {
