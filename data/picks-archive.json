@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T05:02:46.791Z",
-  "source_updated_at": "2026-10-15T05:02:29.936355+00:00",
+  "updated_at": "2026-10-15T05:07:17.156Z",
+  "source_updated_at": "2026-10-15T05:07:02.886196+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -1655,7 +1655,24 @@
         "voted_at": "2026-10-13T05:09:37.764355+00:00"
       }
     },
-    "401908622": {},
+    "401908622": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-15T05:07:02.886179+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-15T05:06:36.499906+00:00"
+      }
+    },
     "401908939": {
       "42552913": {
         "user_id": 42552913,
@@ -1786,7 +1803,24 @@
         "voted_at": "2026-10-13T05:09:36.200983+00:00"
       }
     },
-    "401908945": {},
+    "401908945": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-10-15T05:06:58.106594+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-10-15T05:06:33.234786+00:00"
+      }
+    },
     "401908947": {
       "42552913": {
         "user_id": 42552913,

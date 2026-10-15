@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-15T05:02:46.865Z",
+  "updatedAt": "2026-10-15T05:07:17.232Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-15T05:02:46.791Z",
-    "currentSeason": "2026-10-15T05:02:46.742Z",
-    "previousSeason": "2026-10-15T05:02:46.741Z"
+    "picks": "2026-10-15T05:07:17.156Z",
+    "currentSeason": "2026-10-15T05:07:17.104Z",
+    "previousSeason": "2026-10-15T05:07:17.104Z"
   },
   "scoring": {
     "correct": 1,
@@ -17,13 +17,13 @@
       "favoriteTeam": "76ers",
       "points": 28,
       "correctPicks": 28,
-      "wrongPicks": 24,
-      "pendingPicks": 1,
+      "wrongPicks": 25,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 53,
-      "gradedPicks": 52,
-      "accuracy": 54,
+      "gradedPicks": 53,
+      "accuracy": 53,
       "place": 1
     },
     {
@@ -33,13 +33,13 @@
       "favoriteTeam": "Celtics",
       "points": 26,
       "correctPicks": 26,
-      "wrongPicks": 26,
-      "pendingPicks": 1,
+      "wrongPicks": 27,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 53,
-      "gradedPicks": 52,
-      "accuracy": 50,
+      "totalPicks": 55,
+      "gradedPicks": 53,
+      "accuracy": 49,
       "place": 2
     },
     {
@@ -49,13 +49,13 @@
       "favoriteTeam": "Warriors",
       "points": 25,
       "correctPicks": 25,
-      "wrongPicks": 27,
-      "pendingPicks": 1,
+      "wrongPicks": 28,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 53,
-      "gradedPicks": 52,
-      "accuracy": 48,
+      "totalPicks": 55,
+      "gradedPicks": 53,
+      "accuracy": 47,
       "place": 3
     }
   ],
@@ -69,24 +69,24 @@
           "name": "Иван",
           "points": 3,
           "correctPicks": 3,
-          "wrongPicks": 3,
-          "totalPicks": 6
+          "wrongPicks": 4,
+          "totalPicks": 7
         },
         "seva": {
           "playerId": "seva",
           "name": "Сева",
           "points": 2,
           "correctPicks": 2,
-          "wrongPicks": 4,
-          "totalPicks": 6
+          "wrongPicks": 5,
+          "totalPicks": 7
         },
         "andrei": {
           "playerId": "andrei",
           "name": "Андрей",
           "points": 6,
           "correctPicks": 6,
-          "wrongPicks": 0,
-          "totalPicks": 6
+          "wrongPicks": 1,
+          "totalPicks": 7
         }
       }
     },
@@ -423,6 +423,74 @@
   ],
   "results": [
     {
+      "id": "401908622_ivan",
+      "gameId": "401908622",
+      "gameDate": "2026-10-16T00:30Z",
+      "gameName": "Oklahoma City Thunder at Houston Rockets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-10-15T05:07:02.886179+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "HOU"
+    },
+    {
+      "id": "401908622_seva",
+      "gameId": "401908622",
+      "gameDate": "2026-10-16T00:30Z",
+      "gameName": "Oklahoma City Thunder at Houston Rockets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-10-15T05:06:36.499906+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "HOU"
+    },
+    {
+      "id": "401908945_ivan",
+      "gameId": "401908945",
+      "gameDate": "2026-10-15T23:30Z",
+      "gameName": "Toronto Raptors at New York Knicks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "TOR",
+      "pickedTeamName": "Toronto Raptors",
+      "votedAt": "2026-10-15T05:06:58.106594+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "TOR",
+      "homeTeamAbbr": "NYK"
+    },
+    {
+      "id": "401908945_seva",
+      "gameId": "401908945",
+      "gameDate": "2026-10-15T23:30Z",
+      "gameName": "Toronto Raptors at New York Knicks",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "TOR",
+      "pickedTeamName": "Toronto Raptors",
+      "votedAt": "2026-10-15T05:06:33.234786+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "TOR",
+      "homeTeamAbbr": "NYK"
+    },
+    {
       "id": "401918011_ivan",
       "gameId": "401918011",
       "gameDate": "2026-10-15T02:30Z",
@@ -433,9 +501,9 @@
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
       "votedAt": "2026-10-14T06:04:23.408537+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "DEN",
       "homeTeamAbbr": "LAC"
     },
@@ -450,9 +518,9 @@
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
       "votedAt": "2026-10-14T05:24:57.722196+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "DEN",
       "homeTeamAbbr": "LAC"
     },
@@ -467,9 +535,9 @@
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
       "votedAt": "2026-10-14T05:06:15.115295+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "DEN",
       "homeTeamAbbr": "LAC"
     },
