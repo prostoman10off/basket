@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-15T05:07:17.232Z",
+  "updatedAt": "2026-10-15T05:17:56.805Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-15T05:07:17.156Z",
-    "currentSeason": "2026-10-15T05:07:17.104Z",
-    "previousSeason": "2026-10-15T05:07:17.104Z"
+    "picks": "2026-10-15T05:17:56.742Z",
+    "currentSeason": "2026-10-15T05:17:56.701Z",
+    "previousSeason": "2026-10-15T05:17:56.701Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 28,
       "correctPicks": 28,
       "wrongPicks": 25,
-      "pendingPicks": 0,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 53,
+      "totalPicks": 55,
       "gradedPicks": 53,
       "accuracy": 53,
       "place": 1
@@ -457,6 +457,23 @@
       "homeTeamAbbr": "HOU"
     },
     {
+      "id": "401908622_andrei",
+      "gameId": "401908622",
+      "gameDate": "2026-10-16T00:30Z",
+      "gameName": "Oklahoma City Thunder at Houston Rockets",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-10-15T05:17:34.572766+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "HOU"
+    },
+    {
       "id": "401908945_ivan",
       "gameId": "401908945",
       "gameDate": "2026-10-15T23:30Z",
@@ -484,6 +501,23 @@
       "pickedTeamAbbr": "TOR",
       "pickedTeamName": "Toronto Raptors",
       "votedAt": "2026-10-15T05:06:33.234786+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "TOR",
+      "homeTeamAbbr": "NYK"
+    },
+    {
+      "id": "401908945_andrei",
+      "gameId": "401908945",
+      "gameDate": "2026-10-15T23:30Z",
+      "gameName": "Toronto Raptors at New York Knicks",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-10-15T05:17:26.625392+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
