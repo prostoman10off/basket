@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T16:59:43.757Z",
-  "source_updated_at": "2026-10-14T16:59:29.667642+00:00",
+  "updated_at": "2026-10-15T05:02:46.791Z",
+  "source_updated_at": "2026-10-15T05:02:29.936355+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -470,6 +470,19 @@
       "status_detail": "Tue, October 13th at 8:00 PM EDT",
       "winner_abbr": null
     },
+    "401908622": {
+      "event_id": "401908622",
+      "date": "2026-10-16T00:30Z",
+      "name": "Oklahoma City Thunder at Houston Rockets",
+      "short_name": "OKC @ HOU",
+      "away_team": "Oklahoma City Thunder",
+      "away_abbr": "OKC",
+      "home_team": "Houston Rockets",
+      "home_abbr": "HOU",
+      "status": "pre",
+      "status_detail": "Thu, October 15th at 8:30 PM EDT",
+      "winner_abbr": null
+    },
     "401908939": {
       "event_id": "401908939",
       "date": "2026-10-08T00:00Z",
@@ -533,6 +546,19 @@
       "home_abbr": "TOR",
       "status": "pre",
       "status_detail": "Tue, October 13th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401908945": {
+      "event_id": "401908945",
+      "date": "2026-10-15T23:30Z",
+      "name": "Toronto Raptors at New York Knicks",
+      "short_name": "TOR @ NY",
+      "away_team": "Toronto Raptors",
+      "away_abbr": "TOR",
+      "home_team": "New York Knicks",
+      "home_abbr": "NY",
+      "status": "pre",
+      "status_detail": "Thu, October 15th at 7:30 PM EDT",
       "winner_abbr": null
     },
     "401908947": {
@@ -1629,6 +1655,7 @@
         "voted_at": "2026-10-13T05:09:37.764355+00:00"
       }
     },
+    "401908622": {},
     "401908939": {
       "42552913": {
         "user_id": 42552913,
@@ -1759,6 +1786,7 @@
         "voted_at": "2026-10-13T05:09:36.200983+00:00"
       }
     },
+    "401908945": {},
     "401908947": {
       "42552913": {
         "user_id": 42552913,
