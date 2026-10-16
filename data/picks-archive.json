@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T16:59:22.819Z",
-  "source_updated_at": "2026-10-15T16:59:04.062951+00:00",
+  "updated_at": "2026-10-16T05:03:46.663Z",
+  "source_updated_at": "2026-10-16T05:03:33.539245+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -236,6 +236,58 @@
       "status_detail": "Wed, October 14th at 7:30 PM EDT",
       "winner_abbr": null
     },
+    "401898406": {
+      "event_id": "401898406",
+      "date": "2026-10-16T23:00Z",
+      "name": "Miami Heat at Orlando Magic",
+      "short_name": "MIA @ ORL",
+      "away_team": "Miami Heat",
+      "away_abbr": "MIA",
+      "home_team": "Orlando Magic",
+      "home_abbr": "ORL",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401898407": {
+      "event_id": "401898407",
+      "date": "2026-10-16T23:00Z",
+      "name": "Boston Celtics at Philadelphia 76ers",
+      "short_name": "BOS @ PHI",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Philadelphia 76ers",
+      "home_abbr": "PHI",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401898408": {
+      "event_id": "401898408",
+      "date": "2026-10-17T00:00Z",
+      "name": "Atlanta Hawks at Dallas Mavericks",
+      "short_name": "ATL @ DAL",
+      "away_team": "Atlanta Hawks",
+      "away_abbr": "ATL",
+      "home_team": "Dallas Mavericks",
+      "home_abbr": "DAL",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401898409": {
+      "event_id": "401898409",
+      "date": "2026-10-17T02:00Z",
+      "name": "Portland Trail Blazers at Golden State Warriors",
+      "short_name": "POR @ GS",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "Golden State Warriors",
+      "home_abbr": "GS",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 10:00 PM EDT",
+      "winner_abbr": null
+    },
     "401898716": {
       "event_id": "401898716",
       "date": "2026-10-06T02:00Z",
@@ -273,6 +325,19 @@
       "home_abbr": "LAL",
       "status": "pre",
       "status_detail": "Tue, October 13th at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401898719": {
+      "event_id": "401898719",
+      "date": "2026-10-17T02:30Z",
+      "name": "Denver Nuggets at Los Angeles Lakers",
+      "short_name": "DEN @ LAL",
+      "away_team": "Denver Nuggets",
+      "away_abbr": "DEN",
+      "home_team": "Los Angeles Lakers",
+      "home_abbr": "LAL",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 10:30 PM EDT",
       "winner_abbr": null
     },
     "401898720": {
@@ -314,6 +379,19 @@
       "status_detail": "Wed, October 14th at 8:00 PM EDT",
       "winner_abbr": null
     },
+    "401898843": {
+      "event_id": "401898843",
+      "date": "2026-10-17T00:00Z",
+      "name": "Sacramento Kings at San Antonio Spurs",
+      "short_name": "SAC @ SA",
+      "away_team": "Sacramento Kings",
+      "away_abbr": "SAC",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
     "401901820": {
       "event_id": "401901820",
       "date": "2026-10-06T23:00Z",
@@ -338,6 +416,19 @@
       "home_abbr": "CHA",
       "status": "pre",
       "status_detail": "Sun, October 11th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401901822": {
+      "event_id": "401901822",
+      "date": "2026-10-17T00:00Z",
+      "name": "Charlotte Hornets at Memphis Grizzlies",
+      "short_name": "CHA @ MEM",
+      "away_team": "Charlotte Hornets",
+      "away_abbr": "CHA",
+      "home_team": "Memphis Grizzlies",
+      "home_abbr": "MEM",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 8:00 PM EDT",
       "winner_abbr": null
     },
     "401901823": {
@@ -429,6 +520,19 @@
       "home_abbr": "NY",
       "status": "pre",
       "status_detail": "Thu, October 8th at 7:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401906509": {
+      "event_id": "401906509",
+      "date": "2026-10-17T00:00Z",
+      "name": "Washington Wizards at New Orleans Pelicans",
+      "short_name": "WSH @ NO",
+      "away_team": "Washington Wizards",
+      "away_abbr": "WSH",
+      "home_team": "New Orleans Pelicans",
+      "home_abbr": "NO",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 8:00 PM EDT",
       "winner_abbr": null
     },
     "401906510": {
@@ -535,6 +639,19 @@
       "status_detail": "Wed, October 14th at 8:00 PM EDT",
       "winner_abbr": null
     },
+    "401908943": {
+      "event_id": "401908943",
+      "date": "2026-10-17T00:00Z",
+      "name": "Minnesota Timberwolves at Chicago Bulls",
+      "short_name": "MIN @ CHI",
+      "away_team": "Minnesota Timberwolves",
+      "away_abbr": "MIN",
+      "home_team": "Chicago Bulls",
+      "home_abbr": "CHI",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
     "401908944": {
       "event_id": "401908944",
       "date": "2026-10-13T23:00Z",
@@ -561,6 +678,19 @@
       "status_detail": "Thu, October 15th at 7:30 PM EDT",
       "winner_abbr": null
     },
+    "401908946": {
+      "event_id": "401908946",
+      "date": "2026-10-16T23:00Z",
+      "name": "Toronto Raptors at Detroit Pistons",
+      "short_name": "TOR @ DET",
+      "away_team": "Toronto Raptors",
+      "away_abbr": "TOR",
+      "home_team": "Detroit Pistons",
+      "home_abbr": "DET",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
     "401908947": {
       "event_id": "401908947",
       "date": "2026-10-05T23:00Z",
@@ -572,6 +702,19 @@
       "home_abbr": "DET",
       "status": "pre",
       "status_detail": "Mon, October 5th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401908948": {
+      "event_id": "401908948",
+      "date": "2026-10-17T02:00Z",
+      "name": "Utah Jazz at Phoenix Suns",
+      "short_name": "UTAH @ PHX",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "Phoenix Suns",
+      "home_abbr": "PHX",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 10:00 PM EDT",
       "winner_abbr": null
     },
     "401914101": {
@@ -637,6 +780,19 @@
       "home_abbr": "MIN",
       "status": "pre",
       "status_detail": "Wed, October 14th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401914126": {
+      "event_id": "401914126",
+      "date": "2026-10-16T23:00Z",
+      "name": "Milwaukee Bucks at Indiana Pacers",
+      "short_name": "MIL @ IND",
+      "away_team": "Milwaukee Bucks",
+      "away_abbr": "MIL",
+      "home_team": "Indiana Pacers",
+      "home_abbr": "IND",
+      "status": "pre",
+      "status_detail": "Fri, October 16th at 7:00 PM EDT",
       "winner_abbr": null
     },
     "401914127": {
@@ -1187,6 +1343,10 @@
         "voted_at": "2026-10-14T05:06:07.028903+00:00"
       }
     },
+    "401898406": {},
+    "401898407": {},
+    "401898408": {},
+    "401898409": {},
     "401898716": {
       "42552913": {
         "user_id": 42552913,
@@ -1265,6 +1425,7 @@
         "voted_at": "2026-10-13T05:09:39.250001+00:00"
       }
     },
+    "401898719": {},
     "401898720": {
       "42552913": {
         "user_id": 42552913,
@@ -1343,6 +1504,7 @@
         "voted_at": "2026-10-14T05:06:08.647983+00:00"
       }
     },
+    "401898843": {},
     "401901820": {
       "42552913": {
         "user_id": 42552913,
@@ -1395,6 +1557,7 @@
         "voted_at": "2026-10-11T06:43:58.585804+00:00"
       }
     },
+    "401901822": {},
     "401901823": {
       "42552913": {
         "user_id": 42552913,
@@ -1577,6 +1740,7 @@
         "voted_at": "2026-10-08T12:53:36.278509+00:00"
       }
     },
+    "401906509": {},
     "401906510": {
       "42552913": {
         "user_id": 42552913,
@@ -1785,6 +1949,7 @@
         "voted_at": "2026-10-14T05:06:11.848779+00:00"
       }
     },
+    "401908943": {},
     "401908944": {
       "42552913": {
         "user_id": 42552913,
@@ -1837,6 +2002,7 @@
         "voted_at": "2026-10-15T05:17:26.625392+00:00"
       }
     },
+    "401908946": {},
     "401908947": {
       "42552913": {
         "user_id": 42552913,
@@ -1863,6 +2029,7 @@
         "voted_at": "2026-10-05T13:01:12.960772+00:00"
       }
     },
+    "401908948": {},
     "401914101": {
       "42552913": {
         "user_id": 42552913,
@@ -1993,6 +2160,7 @@
         "voted_at": "2026-10-14T05:06:13.571037+00:00"
       }
     },
+    "401914126": {},
     "401914127": {
       "42552913": {
         "user_id": 42552913,
