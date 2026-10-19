@@ -25,6 +25,16 @@ const PREVIOUS_SEASON_FILE = path.join(
 
 const DISPLAY_TIME_ZONE = "Asia/Novosibirsk";
 
+/*
+  Начало официального зачёта:
+  20 октября 2026 года, 00:00 по Новосибирску.
+
+  Учитываем дату начала матча, а не дату голосования.
+*/
+const SCORING_START_AT = new Date(
+  "2026-10-20T00:00:00+07:00"
+).getTime();
+
 const SCORING = {
   correct: 1,
   wrong: 0
@@ -505,16 +515,41 @@ function calculateAllPicks(
           }
 
           const game =
-            gamesById.get(String(gameId));
+  gamesById.get(String(gameId));
 
-          const result = calculateSinglePick({
-            gameId: String(gameId),
-            rawPick,
-            player,
-            game
-          });
+/*
+  Без даты матча нельзя определить,
+  входит ли прогноз в официальный зачёт.
+*/
+         const gameTimestamp = game?.date
+  ? new Date(game.date).getTime()
+  : NaN;
 
-          results.push(result);
+if (!Number.isFinite(gameTimestamp)) {
+  warnings.push(
+    `Game ${gameId}: missing or invalid date; ` +
+    `pick excluded from season scoring`
+  );
+
+  return;
+}
+
+/*
+  Все матчи до 20.10.2026, 00:00 НСК
+  считаем тестовыми и не включаем в рейтинг.
+*/
+if (gameTimestamp < SCORING_START_AT) {
+  return;
+}
+
+const result = calculateSinglePick({
+  gameId: String(gameId),
+  rawPick,
+  player,
+  game
+});
+
+results.push(result);
         }
       );
     }
