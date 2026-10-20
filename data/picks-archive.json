@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19T16:30:54.237Z",
-  "source_updated_at": "2026-10-16T16:59:04.038178+00:00",
+  "updated_at": "2026-10-20T05:05:04.549Z",
+  "source_updated_at": "2026-10-20T05:04:49.070886+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -715,6 +715,45 @@
       "home_abbr": "PHX",
       "status": "pre",
       "status_detail": "Fri, October 16th at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909088": {
+      "event_id": "401909088",
+      "date": "2026-10-20T19:00Z",
+      "name": "Boston Celtics at Detroit Pistons",
+      "short_name": "BOS @ DET",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Detroit Pistons",
+      "home_abbr": "DET",
+      "status": "pre",
+      "status_detail": "Tue, October 20th at 3:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909089": {
+      "event_id": "401909089",
+      "date": "2026-10-20T23:00Z",
+      "name": "Philadelphia 76ers at New York Knicks",
+      "short_name": "PHI @ NY",
+      "away_team": "Philadelphia 76ers",
+      "away_abbr": "PHI",
+      "home_team": "New York Knicks",
+      "home_abbr": "NY",
+      "status": "pre",
+      "status_detail": "Tue, October 20th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909090": {
+      "event_id": "401909090",
+      "date": "2026-10-21T01:30Z",
+      "name": "Oklahoma City Thunder at San Antonio Spurs",
+      "short_name": "OKC @ SA",
+      "away_team": "Oklahoma City Thunder",
+      "away_abbr": "OKC",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Tue, October 20th at 9:30 PM EDT",
       "winner_abbr": null
     },
     "401914101": {
@@ -2303,6 +2342,60 @@
         "picked_abbr": "PHX",
         "picked_team": "Phoenix Suns",
         "voted_at": "2026-10-16T05:23:46.041905+00:00"
+      }
+    },
+    "401909088": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-10-20T05:04:38.426234+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-10-20T05:04:36.442917+00:00"
+      }
+    },
+    "401909089": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-10-20T05:04:42.689935+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-10-20T05:04:32.469759+00:00"
+      }
+    },
+    "401909090": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-20T05:04:49.070872+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-20T05:04:34.327264+00:00"
       }
     },
     "401914101": {

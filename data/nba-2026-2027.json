@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-19T16:30:54.176Z",
+  "updatedAt": "2026-10-20T05:05:04.492Z",
   "source": "ESPN API",
   "seasonGames": [
     {
@@ -2515,6 +2515,68 @@
         "shortName": "Kings",
         "abbreviation": "SAC",
         "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401909093",
+      "name": "Cleveland Cavaliers at Philadelphia 76ers",
+      "shortName": "CLE @ PHI",
+      "date": "2026-10-22T23:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "20",
+        "name": "Philadelphia 76ers",
+        "shortName": "76ers",
+        "abbreviation": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "5",
+        "name": "Cleveland Cavaliers",
+        "shortName": "Cavaliers",
+        "abbreviation": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401909094",
+      "name": "Denver Nuggets at Oklahoma City Thunder",
+      "shortName": "DEN @ OKC",
+      "date": "2026-10-23T01:30Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "shortName": "Thunder",
+        "abbreviation": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "7",
+        "name": "Denver Nuggets",
+        "shortName": "Nuggets",
+        "abbreviation": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
         "score": 0
       }
     }
