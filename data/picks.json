@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T07:00:02.407633+00:00",
+  "updated_at": "2026-10-20T07:00:21.135388+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -2671,6 +2671,14 @@
         "picked_abbr": "BOS",
         "picked_team": "Boston Celtics",
         "voted_at": "2026-10-20T05:04:38.426234+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-10-20T07:00:21.135366+00:00"
       }
     },
     "401909089": {
