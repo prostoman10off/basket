@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:59:04.038178+00:00",
+  "updated_at": "2026-10-20T05:04:18.495123+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -870,6 +870,45 @@
       "home_abbr": "LAL",
       "status": "pre",
       "status_detail": "Fri, October 16th at 10:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909088": {
+      "event_id": "401909088",
+      "date": "2026-10-20T19:00Z",
+      "name": "Boston Celtics at Detroit Pistons",
+      "short_name": "BOS @ DET",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Detroit Pistons",
+      "home_abbr": "DET",
+      "status": "pre",
+      "status_detail": "Tue, October 20th at 3:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909089": {
+      "event_id": "401909089",
+      "date": "2026-10-20T23:00Z",
+      "name": "Philadelphia 76ers at New York Knicks",
+      "short_name": "PHI @ NY",
+      "away_team": "Philadelphia 76ers",
+      "away_abbr": "PHI",
+      "home_team": "New York Knicks",
+      "home_abbr": "NY",
+      "status": "pre",
+      "status_detail": "Tue, October 20th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909090": {
+      "event_id": "401909090",
+      "date": "2026-10-21T01:30Z",
+      "name": "Oklahoma City Thunder at San Antonio Spurs",
+      "short_name": "OKC @ SA",
+      "away_team": "Oklahoma City Thunder",
+      "away_abbr": "OKC",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Tue, October 20th at 9:30 PM EDT",
       "winner_abbr": null
     }
   },
@@ -2615,7 +2654,10 @@
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-16T05:23:48.196034+00:00"
       }
-    }
+    },
+    "401909088": {},
+    "401909089": {},
+    "401909090": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -3385,6 +3427,27 @@
       "reminder_at": "2026-10-16T14:00:00+00:00",
       "reminder_sent_at": "2026-10-16T14:00:04.029469+00:00",
       "closes_at": "2026-10-16T16:59:00+00:00"
+    },
+    "2026-10-21": {
+      "date": "2026-10-21",
+      "event_ids": [
+        "401909088",
+        "401909089",
+        "401909090"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-10-20T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-10-20T16:59:00+00:00"
     }
   }
 }
