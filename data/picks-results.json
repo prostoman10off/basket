@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-20T07:00:17.143Z",
+  "updatedAt": "2026-10-20T07:00:49.466Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-20T07:00:17.085Z",
-    "currentSeason": "2026-10-20T07:00:17.037Z",
-    "previousSeason": "2026-10-20T07:00:17.037Z"
+    "picks": "2026-10-20T07:00:49.395Z",
+    "currentSeason": "2026-10-20T07:00:49.337Z",
+    "previousSeason": "2026-10-20T07:00:49.337Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 0,
       "correctPicks": 0,
       "wrongPicks": 0,
-      "pendingPicks": 0,
+      "pendingPicks": 3,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 0,
+      "totalPicks": 3,
       "gradedPicks": 0,
       "accuracy": 0,
       "place": 3
@@ -72,6 +72,23 @@
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
       "votedAt": "2026-10-20T05:04:49.070872+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "SAS"
+    },
+    {
+      "id": "401909090_seva",
+      "gameId": "401909090",
+      "gameDate": "2026-10-21T01:30Z",
+      "gameName": "Oklahoma City Thunder at San Antonio Spurs",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "SAS",
+      "pickedTeamName": "San Antonio Spurs",
+      "votedAt": "2026-10-20T07:00:29.954158+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -113,6 +130,23 @@
       "homeTeamAbbr": "NYK"
     },
     {
+      "id": "401909089_seva",
+      "gameId": "401909089",
+      "gameDate": "2026-10-20T23:00Z",
+      "gameName": "Philadelphia 76ers at New York Knicks",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "PHI",
+      "pickedTeamName": "Philadelphia 76ers",
+      "votedAt": "2026-10-20T07:00:25.088029+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "PHI",
+      "homeTeamAbbr": "NYK"
+    },
+    {
       "id": "401909089_andrei",
       "gameId": "401909089",
       "gameDate": "2026-10-20T23:00Z",
@@ -140,6 +174,23 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-10-20T05:04:38.426234+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BOS",
+      "homeTeamAbbr": "DET"
+    },
+    {
+      "id": "401909088_seva",
+      "gameId": "401909088",
+      "gameDate": "2026-10-20T19:00Z",
+      "gameName": "Boston Celtics at Detroit Pistons",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-10-20T07:00:21.135366+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,

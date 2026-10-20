@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20T07:00:17.085Z",
-  "source_updated_at": "2026-10-20T07:00:02.407633+00:00",
+  "updated_at": "2026-10-20T07:00:49.395Z",
+  "source_updated_at": "2026-10-20T07:00:29.954179+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -2353,6 +2353,14 @@
         "picked_team": "Boston Celtics",
         "voted_at": "2026-10-20T05:04:38.426234+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-10-20T07:00:21.135366+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -2371,6 +2379,14 @@
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-10-20T05:04:42.689935+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-10-20T07:00:25.088029+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -2388,6 +2404,14 @@
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
         "voted_at": "2026-10-20T05:04:49.070872+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-10-20T07:00:29.954158+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
