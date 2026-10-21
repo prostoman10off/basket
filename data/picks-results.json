@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-20T16:59:20.210Z",
+  "updatedAt": "2026-10-21T05:04:15.294Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-20T16:59:20.141Z",
-    "currentSeason": "2026-10-20T16:59:20.080Z",
-    "previousSeason": "2026-10-20T16:59:20.080Z"
+    "picks": "2026-10-21T05:04:15.213Z",
+    "currentSeason": "2026-10-21T05:04:15.149Z",
+    "previousSeason": "2026-10-21T05:04:15.149Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,15 +15,15 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 0,
-      "correctPicks": 0,
-      "wrongPicks": 0,
-      "pendingPicks": 3,
+      "points": 2,
+      "correctPicks": 2,
+      "wrongPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 3,
-      "gradedPicks": 0,
-      "accuracy": 0,
+      "gradedPicks": 3,
+      "accuracy": 67,
       "place": 1
     },
     {
@@ -31,15 +31,15 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 0,
-      "correctPicks": 0,
-      "wrongPicks": 0,
-      "pendingPicks": 3,
+      "points": 2,
+      "correctPicks": 2,
+      "wrongPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 3,
-      "gradedPicks": 0,
-      "accuracy": 0,
+      "gradedPicks": 3,
+      "accuracy": 67,
       "place": 2
     },
     {
@@ -47,24 +47,55 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 0,
-      "correctPicks": 0,
-      "wrongPicks": 0,
-      "pendingPicks": 3,
+      "points": 1,
+      "correctPicks": 1,
+      "wrongPicks": 2,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 3,
-      "gradedPicks": 0,
-      "accuracy": 0,
+      "gradedPicks": 3,
+      "accuracy": 33,
       "place": 3
     }
   ],
-  "dailyTotals": [],
+  "dailyTotals": [
+    {
+      "date": "2026-10-21",
+      "timeZone": "Asia/Novosibirsk",
+      "players": {
+        "ivan": {
+          "playerId": "ivan",
+          "name": "Иван",
+          "points": 2,
+          "correctPicks": 2,
+          "wrongPicks": 1,
+          "totalPicks": 3
+        },
+        "seva": {
+          "playerId": "seva",
+          "name": "Сева",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 2,
+          "totalPicks": 3
+        },
+        "andrei": {
+          "playerId": "andrei",
+          "name": "Андрей",
+          "points": 2,
+          "correctPicks": 2,
+          "wrongPicks": 1,
+          "totalPicks": 3
+        }
+      }
+    }
+  ],
   "results": [
     {
       "id": "401909090_ivan",
       "gameId": "401909090",
-      "gameDate": "2026-10-21T01:30Z",
+      "gameDate": "2026-10-21T01:50Z",
       "gameName": "Oklahoma City Thunder at San Antonio Spurs",
       "playerId": "ivan",
       "playerName": "Иван",
@@ -72,16 +103,16 @@
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
       "votedAt": "2026-10-20T05:04:49.070872+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "OKC",
       "awayTeamAbbr": "OKC",
       "homeTeamAbbr": "SAS"
     },
     {
       "id": "401909090_seva",
       "gameId": "401909090",
-      "gameDate": "2026-10-21T01:30Z",
+      "gameDate": "2026-10-21T01:50Z",
       "gameName": "Oklahoma City Thunder at San Antonio Spurs",
       "playerId": "seva",
       "playerName": "Сева",
@@ -89,16 +120,16 @@
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
       "votedAt": "2026-10-20T07:00:29.954158+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "OKC",
       "awayTeamAbbr": "OKC",
       "homeTeamAbbr": "SAS"
     },
     {
       "id": "401909090_andrei",
       "gameId": "401909090",
-      "gameDate": "2026-10-21T01:30Z",
+      "gameDate": "2026-10-21T01:50Z",
       "gameName": "Oklahoma City Thunder at San Antonio Spurs",
       "playerId": "andrei",
       "playerName": "Андрей",
@@ -106,9 +137,9 @@
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
       "votedAt": "2026-10-20T05:04:34.327264+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "OKC",
       "awayTeamAbbr": "OKC",
       "homeTeamAbbr": "SAS"
     },
@@ -123,9 +154,9 @@
       "pickedTeamAbbr": "PHI",
       "pickedTeamName": "Philadelphia 76ers",
       "votedAt": "2026-10-20T05:04:42.689935+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "PHI",
       "awayTeamAbbr": "PHI",
       "homeTeamAbbr": "NYK"
     },
@@ -140,9 +171,9 @@
       "pickedTeamAbbr": "PHI",
       "pickedTeamName": "Philadelphia 76ers",
       "votedAt": "2026-10-20T07:00:25.088029+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "PHI",
       "awayTeamAbbr": "PHI",
       "homeTeamAbbr": "NYK"
     },
@@ -157,9 +188,9 @@
       "pickedTeamAbbr": "NYK",
       "pickedTeamName": "New York Knicks",
       "votedAt": "2026-10-20T05:04:32.469759+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "PHI",
       "awayTeamAbbr": "PHI",
       "homeTeamAbbr": "NYK"
     },
@@ -174,9 +205,9 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-10-20T05:04:38.426234+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "DET",
       "awayTeamAbbr": "BOS",
       "homeTeamAbbr": "DET"
     },
@@ -191,9 +222,9 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-10-20T07:00:21.135366+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "DET",
       "awayTeamAbbr": "BOS",
       "homeTeamAbbr": "DET"
     },
@@ -208,9 +239,9 @@
       "pickedTeamAbbr": "DET",
       "pickedTeamName": "Detroit Pistons",
       "votedAt": "2026-10-20T05:04:36.442917+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "DET",
       "awayTeamAbbr": "BOS",
       "homeTeamAbbr": "DET"
     }
