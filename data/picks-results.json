@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-21T05:16:54.892Z",
+  "updatedAt": "2026-10-21T05:19:22.545Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-21T05:16:54.805Z",
-    "currentSeason": "2026-10-21T05:16:54.738Z",
-    "previousSeason": "2026-10-21T05:16:54.738Z"
+    "picks": "2026-10-21T05:19:22.460Z",
+    "currentSeason": "2026-10-21T05:19:22.160Z",
+    "previousSeason": "2026-10-21T05:19:22.160Z"
   },
   "scoring": {
     "correct": 1,
@@ -408,7 +408,7 @@
       "playerPhoto": "Ivan.jpg",
       "pickedTeamAbbr": "ATL",
       "pickedTeamName": "Atlanta Hawks",
-      "votedAt": "2026-10-21T05:15:11.172428+00:00",
+      "votedAt": "2026-10-21T05:19:10.423057+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
