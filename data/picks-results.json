@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-22T05:05:13.381Z",
+  "updatedAt": "2026-10-22T05:09:36.510Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-22T05:05:13.318Z",
-    "currentSeason": "2026-10-22T05:05:13.273Z",
-    "previousSeason": "2026-10-22T05:05:13.273Z"
+    "picks": "2026-10-22T05:09:36.425Z",
+    "currentSeason": "2026-10-22T05:09:36.367Z",
+    "previousSeason": "2026-10-22T05:09:36.367Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,15 +15,15 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 8,
-      "correctPicks": 8,
+      "points": 10,
+      "correctPicks": 10,
       "wrongPicks": 4,
-      "pendingPicks": 2,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 14,
-      "gradedPicks": 12,
-      "accuracy": 67,
+      "gradedPicks": 14,
+      "accuracy": 71,
       "place": 1
     },
     {
@@ -31,15 +31,15 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 7,
-      "correctPicks": 7,
+      "points": 9,
+      "correctPicks": 9,
       "wrongPicks": 5,
       "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 14,
-      "gradedPicks": 12,
-      "accuracy": 58,
+      "totalPicks": 16,
+      "gradedPicks": 14,
+      "accuracy": 64,
       "place": 2
     },
     {
@@ -47,14 +47,14 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 6,
-      "correctPicks": 6,
-      "wrongPicks": 6,
-      "pendingPicks": 2,
+      "points": 7,
+      "correctPicks": 7,
+      "wrongPicks": 7,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 14,
-      "gradedPicks": 12,
+      "gradedPicks": 14,
       "accuracy": 50,
       "place": 3
     }
@@ -67,26 +67,26 @@
         "ivan": {
           "playerId": "ivan",
           "name": "Иван",
-          "points": 5,
-          "correctPicks": 5,
+          "points": 7,
+          "correctPicks": 7,
           "wrongPicks": 4,
-          "totalPicks": 9
+          "totalPicks": 11
         },
         "seva": {
           "playerId": "seva",
           "name": "Сева",
-          "points": 5,
-          "correctPicks": 5,
-          "wrongPicks": 4,
-          "totalPicks": 9
+          "points": 6,
+          "correctPicks": 6,
+          "wrongPicks": 5,
+          "totalPicks": 11
         },
         "andrei": {
           "playerId": "andrei",
           "name": "Андрей",
-          "points": 6,
-          "correctPicks": 6,
+          "points": 8,
+          "correctPicks": 8,
           "wrongPicks": 3,
-          "totalPicks": 9
+          "totalPicks": 11
         }
       }
     },
@@ -123,6 +123,40 @@
   ],
   "results": [
     {
+      "id": "401909094_ivan",
+      "gameId": "401909094",
+      "gameDate": "2026-10-23T01:30Z",
+      "gameName": "Denver Nuggets at Oklahoma City Thunder",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-10-22T05:09:15.205527+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DEN",
+      "homeTeamAbbr": "OKC"
+    },
+    {
+      "id": "401909093_ivan",
+      "gameId": "401909093",
+      "gameDate": "2026-10-22T23:00Z",
+      "gameName": "Cleveland Cavaliers at Philadelphia 76ers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "PHI",
+      "pickedTeamName": "Philadelphia 76ers",
+      "votedAt": "2026-10-22T05:09:11.822783+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CLE",
+      "homeTeamAbbr": "PHI"
+    },
+    {
       "id": "401909842_ivan",
       "gameId": "401909842",
       "gameDate": "2026-10-22T02:30Z",
@@ -133,9 +167,9 @@
       "pickedTeamAbbr": "LAC",
       "pickedTeamName": "LA Clippers",
       "votedAt": "2026-10-21T05:16:29.003361+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "SAC",
       "homeTeamAbbr": "LAC"
     },
@@ -150,9 +184,9 @@
       "pickedTeamAbbr": "SAC",
       "pickedTeamName": "Sacramento Kings",
       "votedAt": "2026-10-21T05:06:25.197313+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "SAC",
       "homeTeamAbbr": "LAC"
     },
@@ -167,9 +201,9 @@
       "pickedTeamAbbr": "LAC",
       "pickedTeamName": "LA Clippers",
       "votedAt": "2026-10-21T05:24:28.911570+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAC",
       "awayTeamAbbr": "SAC",
       "homeTeamAbbr": "LAC"
     },
@@ -184,9 +218,9 @@
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
       "votedAt": "2026-10-21T05:16:11.776813+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAL",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "LAL"
     },
@@ -201,9 +235,9 @@
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
       "votedAt": "2026-10-21T05:06:17.468040+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAL",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "LAL"
     },
@@ -218,9 +252,9 @@
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
       "votedAt": "2026-10-21T05:24:10.790945+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAL",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "LAL"
     },
