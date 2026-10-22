@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T16:59:16.684Z",
-  "source_updated_at": "2026-10-21T16:59:04.060916+00:00",
+  "updated_at": "2026-10-22T05:05:13.318Z",
+  "source_updated_at": "2026-10-22T05:04:52.191993+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -780,6 +780,32 @@
       "home_abbr": "LAL",
       "status": "pre",
       "status_detail": "Wed, October 21st at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909093": {
+      "event_id": "401909093",
+      "date": "2026-10-22T23:00Z",
+      "name": "Cleveland Cavaliers at Philadelphia 76ers",
+      "short_name": "CLE @ PHI",
+      "away_team": "Cleveland Cavaliers",
+      "away_abbr": "CLE",
+      "home_team": "Philadelphia 76ers",
+      "home_abbr": "PHI",
+      "status": "pre",
+      "status_detail": "Thu, October 22nd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909094": {
+      "event_id": "401909094",
+      "date": "2026-10-23T01:30Z",
+      "name": "Denver Nuggets at Oklahoma City Thunder",
+      "short_name": "DEN @ OKC",
+      "away_team": "Denver Nuggets",
+      "away_abbr": "DEN",
+      "home_team": "Oklahoma City Thunder",
+      "home_abbr": "OKC",
+      "status": "pre",
+      "status_detail": "Thu, October 22nd at 9:30 PM EDT",
       "winner_abbr": null
     },
     "401909834": {
@@ -2617,6 +2643,8 @@
         "voted_at": "2026-10-21T05:24:10.790945+00:00"
       }
     },
+    "401909093": {},
+    "401909094": {},
     "401909834": {
       "42552913": {
         "user_id": 42552913,
