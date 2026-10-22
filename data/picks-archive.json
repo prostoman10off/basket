@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T05:09:36.425Z",
-  "source_updated_at": "2026-10-22T05:09:15.205542+00:00",
+  "updated_at": "2026-10-22T05:52:12.584Z",
+  "source_updated_at": "2026-10-22T05:51:50.410909+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -2651,6 +2651,14 @@
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-10-22T05:09:11.822783+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-10-22T05:51:47.763835+00:00"
       }
     },
     "401909094": {
@@ -2661,6 +2669,14 @@
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
         "voted_at": "2026-10-22T05:09:15.205527+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-10-22T05:51:50.410891+00:00"
       }
     },
     "401909834": {
