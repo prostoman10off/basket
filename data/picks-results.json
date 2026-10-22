@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-22T05:52:12.652Z",
+  "updatedAt": "2026-10-22T05:52:57.953Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-22T05:52:12.584Z",
-    "currentSeason": "2026-10-22T05:52:12.525Z",
-    "previousSeason": "2026-10-22T05:52:12.525Z"
+    "picks": "2026-10-22T05:52:57.892Z",
+    "currentSeason": "2026-10-22T05:52:57.849Z",
+    "previousSeason": "2026-10-22T05:52:57.849Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 10,
       "correctPicks": 10,
       "wrongPicks": 4,
-      "pendingPicks": 0,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 14,
+      "totalPicks": 16,
       "gradedPicks": 14,
       "accuracy": 71,
       "place": 1
@@ -157,6 +157,23 @@
       "homeTeamAbbr": "OKC"
     },
     {
+      "id": "401909094_andrei",
+      "gameId": "401909094",
+      "gameDate": "2026-10-23T01:30Z",
+      "gameName": "Denver Nuggets at Oklahoma City Thunder",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-10-22T05:52:30.310766+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DEN",
+      "homeTeamAbbr": "OKC"
+    },
+    {
       "id": "401909093_ivan",
       "gameId": "401909093",
       "gameDate": "2026-10-22T23:00Z",
@@ -184,6 +201,23 @@
       "pickedTeamAbbr": "PHI",
       "pickedTeamName": "Philadelphia 76ers",
       "votedAt": "2026-10-22T05:51:47.763835+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CLE",
+      "homeTeamAbbr": "PHI"
+    },
+    {
+      "id": "401909093_andrei",
+      "gameId": "401909093",
+      "gameDate": "2026-10-22T23:00Z",
+      "gameName": "Cleveland Cavaliers at Philadelphia 76ers",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "PHI",
+      "pickedTeamName": "Philadelphia 76ers",
+      "votedAt": "2026-10-22T05:52:27.477544+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
