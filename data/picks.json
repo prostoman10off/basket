@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T16:59:04.060916+00:00",
+  "updated_at": "2026-10-22T05:04:43.334492+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -1052,6 +1052,32 @@
       "home_abbr": "LAC",
       "status": "pre",
       "status_detail": "Wed, October 21st at 10:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909093": {
+      "event_id": "401909093",
+      "date": "2026-10-22T23:00Z",
+      "name": "Cleveland Cavaliers at Philadelphia 76ers",
+      "short_name": "CLE @ PHI",
+      "away_team": "Cleveland Cavaliers",
+      "away_abbr": "CLE",
+      "home_team": "Philadelphia 76ers",
+      "home_abbr": "PHI",
+      "status": "pre",
+      "status_detail": "Thu, October 22nd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909094": {
+      "event_id": "401909094",
+      "date": "2026-10-23T01:30Z",
+      "name": "Denver Nuggets at Oklahoma City Thunder",
+      "short_name": "DEN @ OKC",
+      "away_team": "Denver Nuggets",
+      "away_abbr": "DEN",
+      "home_team": "Oklahoma City Thunder",
+      "home_abbr": "OKC",
+      "status": "pre",
+      "status_detail": "Thu, October 22nd at 9:30 PM EDT",
       "winner_abbr": null
     }
   },
@@ -3161,7 +3187,9 @@
         "picked_team": "LA Clippers",
         "voted_at": "2026-10-21T05:24:28.911570+00:00"
       }
-    }
+    },
+    "401909093": {},
+    "401909094": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -4067,6 +4095,26 @@
       "reminder_at": "2026-10-21T14:00:00+00:00",
       "reminder_sent_at": "2026-10-21T14:00:04.226464+00:00",
       "closes_at": "2026-10-21T16:59:00+00:00"
+    },
+    "2026-10-23": {
+      "date": "2026-10-23",
+      "event_ids": [
+        "401909093",
+        "401909094"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-10-22T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-10-22T16:59:00+00:00"
     }
   }
 }
