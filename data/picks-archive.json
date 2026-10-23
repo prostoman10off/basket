@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T05:14:45.701Z",
-  "source_updated_at": "2026-10-23T05:14:31.892307+00:00",
+  "updated_at": "2026-10-23T05:15:35.111Z",
+  "source_updated_at": "2026-10-23T05:15:07.680639+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -3230,6 +3230,14 @@
       }
     },
     "401909849": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "UTAH",
+        "picked_team": "Utah Jazz",
+        "voted_at": "2026-10-23T05:14:52.999966+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -3240,6 +3248,14 @@
       }
     },
     "401909850": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-10-23T05:14:56.778015+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -3250,6 +3266,14 @@
       }
     },
     "401909851": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-10-23T05:15:02.725366+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -3260,6 +3284,14 @@
       }
     },
     "401909852": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-23T05:15:07.680620+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
