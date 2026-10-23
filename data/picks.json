@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T05:15:02.725380+00:00",
+  "updated_at": "2026-10-23T05:15:07.680639+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -3602,6 +3602,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-10-23T05:08:06.740262+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-23T05:15:07.680620+00:00"
       }
     }
   },
