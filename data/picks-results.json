@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-23T05:14:25.784Z",
+  "updatedAt": "2026-10-23T05:14:45.786Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-23T05:14:25.708Z",
-    "currentSeason": "2026-10-23T05:14:25.660Z",
-    "previousSeason": "2026-10-23T05:14:25.660Z"
+    "picks": "2026-10-23T05:14:45.701Z",
+    "currentSeason": "2026-10-23T05:14:45.645Z",
+    "previousSeason": "2026-10-23T05:14:45.645Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 11,
       "correctPicks": 11,
       "wrongPicks": 5,
-      "pendingPicks": 7,
+      "pendingPicks": 8,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 23,
+      "totalPicks": 24,
       "gradedPicks": 16,
       "accuracy": 69,
       "place": 2
@@ -202,6 +202,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "POR",
       "homeTeamAbbr": "SAC"
+    },
+    {
+      "id": "401909096_ivan",
+      "gameId": "401909096",
+      "gameDate": "2026-10-24T01:30Z",
+      "gameName": "Houston Rockets at San Antonio Spurs",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-10-23T05:14:31.892285+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "HOU",
+      "homeTeamAbbr": "SAS"
     },
     {
       "id": "401909096_seva",
