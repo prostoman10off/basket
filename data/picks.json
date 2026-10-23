@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T05:13:35.475132+00:00",
+  "updated_at": "2026-10-23T05:13:41.248350+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -3440,6 +3440,14 @@
         "picked_abbr": "ATL",
         "picked_team": "Atlanta Hawks",
         "voted_at": "2026-10-23T05:07:33.801718+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "ATL",
+        "picked_team": "Atlanta Hawks",
+        "voted_at": "2026-10-23T05:13:41.248332+00:00"
       }
     },
     "401909844": {
