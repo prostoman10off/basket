@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T14:32:54.121Z",
-  "source_updated_at": "2026-10-22T14:00:04.118281+00:00",
+  "updated_at": "2026-10-23T05:01:26.078Z",
+  "source_updated_at": "2026-10-23T05:01:11.452104+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -808,6 +808,32 @@
       "status_detail": "Thu, October 22nd at 9:30 PM EDT",
       "winner_abbr": null
     },
+    "401909095": {
+      "event_id": "401909095",
+      "date": "2026-10-23T23:00Z",
+      "name": "New York Knicks at Boston Celtics",
+      "short_name": "NY @ BOS",
+      "away_team": "New York Knicks",
+      "away_abbr": "NY",
+      "home_team": "Boston Celtics",
+      "home_abbr": "BOS",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909096": {
+      "event_id": "401909096",
+      "date": "2026-10-24T01:30Z",
+      "name": "Houston Rockets at San Antonio Spurs",
+      "short_name": "HOU @ SA",
+      "away_team": "Houston Rockets",
+      "away_abbr": "HOU",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 9:30 PM EDT",
+      "winner_abbr": null
+    },
     "401909834": {
       "event_id": "401909834",
       "date": "2026-10-21T23:00Z",
@@ -923,6 +949,136 @@
       "home_abbr": "LAC",
       "status": "pre",
       "status_detail": "Wed, October 21st at 10:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909843": {
+      "event_id": "401909843",
+      "date": "2026-10-23T23:00Z",
+      "name": "Atlanta Hawks at Charlotte Hornets",
+      "short_name": "ATL @ CHA",
+      "away_team": "Atlanta Hawks",
+      "away_abbr": "ATL",
+      "home_team": "Charlotte Hornets",
+      "home_abbr": "CHA",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909844": {
+      "event_id": "401909844",
+      "date": "2026-10-23T23:00Z",
+      "name": "Dallas Mavericks at Indiana Pacers",
+      "short_name": "DAL @ IND",
+      "away_team": "Dallas Mavericks",
+      "away_abbr": "DAL",
+      "home_team": "Indiana Pacers",
+      "home_abbr": "IND",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909845": {
+      "event_id": "401909845",
+      "date": "2026-10-23T23:00Z",
+      "name": "Minnesota Timberwolves at Orlando Magic",
+      "short_name": "MIN @ ORL",
+      "away_team": "Minnesota Timberwolves",
+      "away_abbr": "MIN",
+      "home_team": "Orlando Magic",
+      "home_abbr": "ORL",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909846": {
+      "event_id": "401909846",
+      "date": "2026-10-23T23:00Z",
+      "name": "Toronto Raptors at Washington Wizards",
+      "short_name": "TOR @ WSH",
+      "away_team": "Toronto Raptors",
+      "away_abbr": "TOR",
+      "home_team": "Washington Wizards",
+      "home_abbr": "WSH",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909847": {
+      "event_id": "401909847",
+      "date": "2026-10-24T00:00Z",
+      "name": "Detroit Pistons at Miami Heat",
+      "short_name": "DET @ MIA",
+      "away_team": "Detroit Pistons",
+      "away_abbr": "DET",
+      "home_team": "Miami Heat",
+      "home_abbr": "MIA",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909848": {
+      "event_id": "401909848",
+      "date": "2026-10-23T20:00Z",
+      "name": "Chicago Bulls at Milwaukee Bucks",
+      "short_name": "CHI @ MIL",
+      "away_team": "Chicago Bulls",
+      "away_abbr": "CHI",
+      "home_team": "Milwaukee Bucks",
+      "home_abbr": "MIL",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 4:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909849": {
+      "event_id": "401909849",
+      "date": "2026-10-24T01:30Z",
+      "name": "New Orleans Pelicans at Utah Jazz",
+      "short_name": "NO @ UTAH",
+      "away_team": "New Orleans Pelicans",
+      "away_abbr": "NO",
+      "home_team": "Utah Jazz",
+      "home_abbr": "UTAH",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 9:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909850": {
+      "event_id": "401909850",
+      "date": "2026-10-24T02:00Z",
+      "name": "Memphis Grizzlies at Golden State Warriors",
+      "short_name": "MEM @ GS",
+      "away_team": "Memphis Grizzlies",
+      "away_abbr": "MEM",
+      "home_team": "Golden State Warriors",
+      "home_abbr": "GS",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909851": {
+      "event_id": "401909851",
+      "date": "2026-10-24T02:00Z",
+      "name": "LA Clippers at Los Angeles Lakers",
+      "short_name": "LAC @ LAL",
+      "away_team": "LA Clippers",
+      "away_abbr": "LAC",
+      "home_team": "Los Angeles Lakers",
+      "home_abbr": "LAL",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909852": {
+      "event_id": "401909852",
+      "date": "2026-10-24T02:00Z",
+      "name": "Portland Trail Blazers at Sacramento Kings",
+      "short_name": "POR @ SAC",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "Sacramento Kings",
+      "home_abbr": "SAC",
+      "status": "pre",
+      "status_detail": "Fri, October 23rd at 10:00 PM EDT",
       "winner_abbr": null
     },
     "401914101": {
@@ -2695,6 +2851,8 @@
         "voted_at": "2026-10-22T05:52:30.310766+00:00"
       }
     },
+    "401909095": {},
+    "401909096": {},
     "401909834": {
       "42552913": {
         "user_id": 42552913,
@@ -2929,6 +3087,16 @@
         "voted_at": "2026-10-21T05:24:28.911570+00:00"
       }
     },
+    "401909843": {},
+    "401909844": {},
+    "401909845": {},
+    "401909846": {},
+    "401909847": {},
+    "401909848": {},
+    "401909849": {},
+    "401909850": {},
+    "401909851": {},
+    "401909852": {},
     "401914101": {
       "42552913": {
         "user_id": 42552913,

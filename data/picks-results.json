@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-22T14:32:54.214Z",
+  "updatedAt": "2026-10-23T05:01:26.149Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-22T14:32:54.121Z",
-    "currentSeason": "2026-10-22T14:32:53.676Z",
-    "previousSeason": "2026-10-22T14:32:53.676Z"
+    "picks": "2026-10-23T05:01:26.078Z",
+    "currentSeason": "2026-10-23T05:01:26.026Z",
+    "previousSeason": "2026-10-23T05:01:26.026Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,15 +15,15 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 10,
-      "correctPicks": 10,
+      "points": 11,
+      "correctPicks": 11,
       "wrongPicks": 4,
-      "pendingPicks": 2,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 16,
-      "gradedPicks": 14,
-      "accuracy": 71,
+      "gradedPicks": 15,
+      "accuracy": 73,
       "place": 1
     },
     {
@@ -31,15 +31,15 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 9,
-      "correctPicks": 9,
+      "points": 10,
+      "correctPicks": 10,
       "wrongPicks": 5,
-      "pendingPicks": 2,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 16,
-      "gradedPicks": 14,
-      "accuracy": 64,
+      "gradedPicks": 15,
+      "accuracy": 67,
       "place": 2
     },
     {
@@ -47,19 +47,49 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 7,
-      "correctPicks": 7,
+      "points": 8,
+      "correctPicks": 8,
       "wrongPicks": 7,
-      "pendingPicks": 2,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 16,
-      "gradedPicks": 14,
-      "accuracy": 50,
+      "gradedPicks": 15,
+      "accuracy": 53,
       "place": 3
     }
   ],
   "dailyTotals": [
+    {
+      "date": "2026-10-23",
+      "timeZone": "Asia/Novosibirsk",
+      "players": {
+        "ivan": {
+          "playerId": "ivan",
+          "name": "Иван",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        },
+        "seva": {
+          "playerId": "seva",
+          "name": "Сева",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        },
+        "andrei": {
+          "playerId": "andrei",
+          "name": "Андрей",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        }
+      }
+    },
     {
       "date": "2026-10-22",
       "timeZone": "Asia/Novosibirsk",
@@ -184,9 +214,9 @@
       "pickedTeamAbbr": "PHI",
       "pickedTeamName": "Philadelphia 76ers",
       "votedAt": "2026-10-22T05:09:11.822783+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "PHI",
       "awayTeamAbbr": "CLE",
       "homeTeamAbbr": "PHI"
     },
@@ -201,9 +231,9 @@
       "pickedTeamAbbr": "PHI",
       "pickedTeamName": "Philadelphia 76ers",
       "votedAt": "2026-10-22T05:51:47.763835+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "PHI",
       "awayTeamAbbr": "CLE",
       "homeTeamAbbr": "PHI"
     },
@@ -218,9 +248,9 @@
       "pickedTeamAbbr": "PHI",
       "pickedTeamName": "Philadelphia 76ers",
       "votedAt": "2026-10-22T05:52:27.477544+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "PHI",
       "awayTeamAbbr": "CLE",
       "homeTeamAbbr": "PHI"
     },
