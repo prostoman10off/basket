@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-23T05:01:26.149Z",
+  "updatedAt": "2026-10-23T05:02:09.751Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-23T05:01:26.078Z",
-    "currentSeason": "2026-10-23T05:01:26.026Z",
-    "previousSeason": "2026-10-23T05:01:26.026Z"
+    "picks": "2026-10-23T05:02:09.697Z",
+    "currentSeason": "2026-10-23T05:02:09.656Z",
+    "previousSeason": "2026-10-23T05:02:09.656Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,15 +15,15 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 11,
-      "correctPicks": 11,
+      "points": 12,
+      "correctPicks": 12,
       "wrongPicks": 4,
-      "pendingPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 16,
-      "gradedPicks": 15,
-      "accuracy": 73,
+      "gradedPicks": 16,
+      "accuracy": 75,
       "place": 1
     },
     {
@@ -31,15 +31,15 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 10,
-      "correctPicks": 10,
+      "points": 11,
+      "correctPicks": 11,
       "wrongPicks": 5,
-      "pendingPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 16,
-      "gradedPicks": 15,
-      "accuracy": 67,
+      "gradedPicks": 16,
+      "accuracy": 69,
       "place": 2
     },
     {
@@ -47,15 +47,15 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 8,
-      "correctPicks": 8,
+      "points": 9,
+      "correctPicks": 9,
       "wrongPicks": 7,
-      "pendingPicks": 1,
+      "pendingPicks": 0,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 16,
-      "gradedPicks": 15,
-      "accuracy": 53,
+      "gradedPicks": 16,
+      "accuracy": 56,
       "place": 3
     }
   ],
@@ -67,26 +67,26 @@
         "ivan": {
           "playerId": "ivan",
           "name": "Иван",
-          "points": 1,
-          "correctPicks": 1,
+          "points": 2,
+          "correctPicks": 2,
           "wrongPicks": 0,
-          "totalPicks": 1
+          "totalPicks": 2
         },
         "seva": {
           "playerId": "seva",
           "name": "Сева",
-          "points": 1,
-          "correctPicks": 1,
+          "points": 2,
+          "correctPicks": 2,
           "wrongPicks": 0,
-          "totalPicks": 1
+          "totalPicks": 2
         },
         "andrei": {
           "playerId": "andrei",
           "name": "Андрей",
-          "points": 1,
-          "correctPicks": 1,
+          "points": 2,
+          "correctPicks": 2,
           "wrongPicks": 0,
-          "totalPicks": 1
+          "totalPicks": 2
         }
       }
     },
@@ -163,9 +163,9 @@
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
       "votedAt": "2026-10-22T05:09:15.205527+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "OKC",
       "awayTeamAbbr": "DEN",
       "homeTeamAbbr": "OKC"
     },
@@ -180,9 +180,9 @@
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
       "votedAt": "2026-10-22T05:51:50.410891+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "OKC",
       "awayTeamAbbr": "DEN",
       "homeTeamAbbr": "OKC"
     },
@@ -197,9 +197,9 @@
       "pickedTeamAbbr": "OKC",
       "pickedTeamName": "Oklahoma City Thunder",
       "votedAt": "2026-10-22T05:52:30.310766+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "OKC",
       "awayTeamAbbr": "DEN",
       "homeTeamAbbr": "OKC"
     },

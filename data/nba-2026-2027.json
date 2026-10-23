@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-23T05:01:26.026Z",
+  "updatedAt": "2026-10-23T05:02:09.656Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909094",
+      "name": "Denver Nuggets at Oklahoma City Thunder",
+      "shortName": "DEN @ OKC",
+      "date": "2026-10-23T01:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "shortName": "Thunder",
+        "abbreviation": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "score": 96
+      },
+      "awayTeam": {
+        "id": "7",
+        "name": "Denver Nuggets",
+        "shortName": "Nuggets",
+        "abbreviation": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "score": 84
+      }
+    },
     {
       "id": "401909093",
       "name": "Cleveland Cavaliers at Philadelphia 76ers",
