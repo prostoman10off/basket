@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T05:11:53.379Z",
-  "source_updated_at": "2026-10-24T05:11:23.097511+00:00",
+  "updated_at": "2026-10-24T05:18:34.688Z",
+  "source_updated_at": "2026-10-24T05:18:17.786123+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -3509,6 +3509,14 @@
         "picked_abbr": "CHA",
         "picked_team": "Charlotte Hornets",
         "voted_at": "2026-10-24T05:10:46.289139+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-10-24T05:17:54.723989+00:00"
       }
     },
     "401909854": {
@@ -3519,6 +3527,14 @@
         "picked_abbr": "CLE",
         "picked_team": "Cleveland Cavaliers",
         "voted_at": "2026-10-24T05:10:50.145538+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-24T05:18:00.912007+00:00"
       }
     },
     "401909855": {
@@ -3529,6 +3545,14 @@
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-10-24T05:10:55.537104+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-10-24T05:18:04.514330+00:00"
       }
     },
     "401909856": {
@@ -3539,6 +3563,14 @@
         "picked_abbr": "HOU",
         "picked_team": "Houston Rockets",
         "voted_at": "2026-10-24T05:11:13.684412+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-10-24T05:18:11.482669+00:00"
       }
     },
     "401909857": {
@@ -3549,6 +3581,14 @@
         "picked_abbr": "WSH",
         "picked_team": "Washington Wizards",
         "voted_at": "2026-10-24T05:10:59.976983+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "WSH",
+        "picked_team": "Washington Wizards",
+        "voted_at": "2026-10-24T05:18:07.012660+00:00"
       }
     },
     "401909858": {
@@ -3559,6 +3599,14 @@
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-10-24T05:11:07.580396+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-10-24T05:18:09.415241+00:00"
       }
     },
     "401909859": {
@@ -3569,6 +3617,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-24T05:11:19.105154+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-24T05:18:13.585886+00:00"
       }
     },
     "401909860": {
@@ -3579,6 +3635,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-10-24T05:11:23.097482+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-10-24T05:18:17.786108+00:00"
       }
     },
     "401914101": {
