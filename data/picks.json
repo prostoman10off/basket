@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T14:00:04.054325+00:00",
+  "updated_at": "2026-10-24T14:05:29.694528+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -3828,6 +3828,14 @@
         "picked_abbr": "MIA",
         "picked_team": "Miami Heat",
         "voted_at": "2026-10-24T05:17:54.723989+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-10-24T14:05:29.694486+00:00"
       }
     },
     "401909854": {
