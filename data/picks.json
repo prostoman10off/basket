@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T14:05:47.878132+00:00",
+  "updated_at": "2026-10-24T14:05:50.062012+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -4010,6 +4010,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-10-24T05:18:17.786108+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-10-24T14:05:50.061989+00:00"
       }
     }
   },
@@ -5071,7 +5079,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-10-24T14:05:50.062008+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
