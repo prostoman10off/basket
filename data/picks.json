@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T05:18:00.912024+00:00",
+  "updated_at": "2026-10-24T05:18:04.514346+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -3856,6 +3856,14 @@
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-10-24T05:10:55.537104+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-10-24T05:18:04.514330+00:00"
       }
     },
     "401909857": {
