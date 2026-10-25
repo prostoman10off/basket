@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T14:00:04.175784+00:00",
+  "updated_at": "2026-10-25T15:49:36.971114+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -4127,6 +4127,14 @@
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-10-25T05:27:26.805045+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "UTAH",
+        "picked_team": "Utah Jazz",
+        "voted_at": "2026-10-25T15:49:36.971079+00:00"
       }
     },
     "401909862": {
