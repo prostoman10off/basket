@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T05:27:38.093880+00:00",
+  "updated_at": "2026-10-25T05:27:45.651743+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -4173,6 +4173,14 @@
         "picked_abbr": "TOR",
         "picked_team": "Toronto Raptors",
         "voted_at": "2026-10-25T05:05:59.321115+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-10-25T05:27:45.651682+00:00"
       }
     },
     "401909865": {
