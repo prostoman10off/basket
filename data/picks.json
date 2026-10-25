@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T05:27:26.805062+00:00",
+  "updated_at": "2026-10-25T05:27:30.839160+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -4137,6 +4137,14 @@
         "picked_abbr": "IND",
         "picked_team": "Indiana Pacers",
         "voted_at": "2026-10-25T05:05:54.498007+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "IND",
+        "picked_team": "Indiana Pacers",
+        "voted_at": "2026-10-25T05:27:30.839141+00:00"
       }
     },
     "401909863": {
