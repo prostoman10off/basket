@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-26T05:04:50.296Z",
+  "updatedAt": "2026-10-26T05:07:16.737Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-26T05:04:50.197Z",
-    "currentSeason": "2026-10-26T05:04:50.135Z",
-    "previousSeason": "2026-10-26T05:04:50.134Z"
+    "picks": "2026-10-26T05:07:16.680Z",
+    "currentSeason": "2026-10-26T05:07:16.640Z",
+    "previousSeason": "2026-10-26T05:07:16.640Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 24,
       "correctPicks": 24,
       "wrongPicks": 19,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 43,
+      "totalPicks": 44,
       "gradedPicks": 43,
       "accuracy": 56,
       "place": 3
@@ -242,6 +242,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401909869_seva",
+      "gameId": "401909869",
+      "gameDate": "2026-10-26T23:00Z",
+      "gameName": "Minnesota Timberwolves at Cleveland Cavaliers",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-10-26T05:07:04.695022+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIN",
+      "homeTeamAbbr": "CLE"
+    },
     {
       "id": "401909867_ivan",
       "gameId": "401909867",
