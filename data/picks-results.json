@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-26T05:07:16.737Z",
+  "updatedAt": "2026-10-26T05:07:58.204Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-26T05:07:16.680Z",
-    "currentSeason": "2026-10-26T05:07:16.640Z",
-    "previousSeason": "2026-10-26T05:07:16.640Z"
+    "picks": "2026-10-26T05:07:58.121Z",
+    "currentSeason": "2026-10-26T05:07:58.070Z",
+    "previousSeason": "2026-10-26T05:07:58.070Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 24,
       "correctPicks": 24,
       "wrongPicks": 19,
-      "pendingPicks": 1,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 44,
+      "totalPicks": 45,
       "gradedPicks": 43,
       "accuracy": 56,
       "place": 3
@@ -242,6 +242,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401909868_seva",
+      "gameId": "401909868",
+      "gameDate": "2026-10-26T23:00Z",
+      "gameName": "Washington Wizards at Charlotte Hornets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "WAS",
+      "pickedTeamName": "Washington Wizards",
+      "votedAt": "2026-10-26T05:07:45.183108+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "WAS",
+      "homeTeamAbbr": "CHA"
+    },
     {
       "id": "401909869_seva",
       "gameId": "401909869",
