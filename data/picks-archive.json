@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-26T05:09:40.517Z",
-  "source_updated_at": "2026-10-26T05:09:14.010681+00:00",
+  "updated_at": "2026-10-26T05:11:23.722Z",
+  "source_updated_at": "2026-10-26T05:10:54.428628+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -4104,9 +4104,9 @@
         "user_id": 58800473,
         "username": "AmaterasuOwned",
         "full_name": "Всеволод Воробьев",
-        "picked_abbr": "WSH",
-        "picked_team": "Washington Wizards",
-        "voted_at": "2026-10-26T05:07:45.183108+00:00"
+        "picked_abbr": "CHA",
+        "picked_team": "Charlotte Hornets",
+        "voted_at": "2026-10-26T05:10:15.199419+00:00"
       }
     },
     "401909869": {
@@ -4116,7 +4116,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "CLE",
         "picked_team": "Cleveland Cavaliers",
-        "voted_at": "2026-10-26T05:07:04.695022+00:00"
+        "voted_at": "2026-10-26T05:10:11.215008+00:00"
       }
     },
     "401909870": {
@@ -4126,7 +4126,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "BOS",
         "picked_team": "Boston Celtics",
-        "voted_at": "2026-10-26T05:08:17.055240+00:00"
+        "voted_at": "2026-10-26T05:10:34.841101+00:00"
       }
     },
     "401909871": {
@@ -4136,7 +4136,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "MIA",
         "picked_team": "Miami Heat",
-        "voted_at": "2026-10-26T05:08:04.600876+00:00"
+        "voted_at": "2026-10-26T05:10:23.354414+00:00"
       }
     },
     "401909872": {
@@ -4146,7 +4146,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "IND",
         "picked_team": "Indiana Pacers",
-        "voted_at": "2026-10-26T05:08:24.802121+00:00"
+        "voted_at": "2026-10-26T05:10:39.285539+00:00"
       }
     },
     "401909873": {
@@ -4156,7 +4156,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
-        "voted_at": "2026-10-26T05:08:41.761935+00:00"
+        "voted_at": "2026-10-26T05:10:42.135537+00:00"
       }
     },
     "401909874": {
@@ -4166,7 +4166,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "HOU",
         "picked_team": "Houston Rockets",
-        "voted_at": "2026-10-26T05:08:46.950726+00:00"
+        "voted_at": "2026-10-26T05:10:45.268207+00:00"
       }
     },
     "401909875": {
@@ -4176,7 +4176,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "MEM",
         "picked_team": "Memphis Grizzlies",
-        "voted_at": "2026-10-26T05:09:09.154347+00:00"
+        "voted_at": "2026-10-26T05:10:49.645640+00:00"
       }
     },
     "401909876": {
@@ -4186,7 +4186,7 @@
         "full_name": "Всеволод Воробьев",
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
-        "voted_at": "2026-10-26T05:09:14.010661+00:00"
+        "voted_at": "2026-10-26T05:10:54.428589+00:00"
       }
     },
     "401914101": {
