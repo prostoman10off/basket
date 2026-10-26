@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-26T05:09:04.165Z",
+  "updatedAt": "2026-10-26T05:09:40.612Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-26T05:09:04.068Z",
-    "currentSeason": "2026-10-26T05:09:04.001Z",
-    "previousSeason": "2026-10-26T05:09:04.001Z"
+    "picks": "2026-10-26T05:09:40.517Z",
+    "currentSeason": "2026-10-26T05:09:40.330Z",
+    "previousSeason": "2026-10-26T05:09:40.330Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 24,
       "correctPicks": 24,
       "wrongPicks": 19,
-      "pendingPicks": 7,
+      "pendingPicks": 9,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 50,
+      "totalPicks": 52,
       "gradedPicks": 43,
       "accuracy": 56,
       "place": 3
@@ -242,6 +242,40 @@
     }
   ],
   "results": [
+    {
+      "id": "401909876_seva",
+      "gameId": "401909876",
+      "gameDate": "2026-10-27T02:00Z",
+      "gameName": "Golden State Warriors at Denver Nuggets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-10-26T05:09:14.010661+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "GSW",
+      "homeTeamAbbr": "DEN"
+    },
+    {
+      "id": "401909875_seva",
+      "gameId": "401909875",
+      "gameDate": "2026-10-27T01:00Z",
+      "gameName": "Memphis Grizzlies at Utah Jazz",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "MEM",
+      "pickedTeamName": "Memphis Grizzlies",
+      "votedAt": "2026-10-26T05:09:09.154347+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MEM",
+      "homeTeamAbbr": "UTA"
+    },
     {
       "id": "401909874_seva",
       "gameId": "401909874",
