@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-26T05:11:23.824Z",
+  "updatedAt": "2026-10-26T05:16:14.448Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-26T05:11:23.722Z",
-    "currentSeason": "2026-10-26T05:11:23.662Z",
-    "previousSeason": "2026-10-26T05:11:23.662Z"
+    "picks": "2026-10-26T05:16:14.374Z",
+    "currentSeason": "2026-10-26T05:16:14.326Z",
+    "previousSeason": "2026-10-26T05:16:14.326Z"
   },
   "scoring": {
     "correct": 1,
@@ -369,9 +369,9 @@
       "playerId": "seva",
       "playerName": "Сева",
       "playerPhoto": "Seva.jpg",
-      "pickedTeamAbbr": "CHA",
-      "pickedTeamName": "Charlotte Hornets",
-      "votedAt": "2026-10-26T05:10:15.199419+00:00",
+      "pickedTeamAbbr": "WAS",
+      "pickedTeamName": "Washington Wizards",
+      "votedAt": "2026-10-26T05:15:58.491962+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-26T05:11:23.722Z",
-  "source_updated_at": "2026-10-26T05:10:54.428628+00:00",
+  "updated_at": "2026-10-26T05:16:14.374Z",
+  "source_updated_at": "2026-10-26T05:15:58.491984+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -4104,9 +4104,9 @@
         "user_id": 58800473,
         "username": "AmaterasuOwned",
         "full_name": "Всеволод Воробьев",
-        "picked_abbr": "CHA",
-        "picked_team": "Charlotte Hornets",
-        "voted_at": "2026-10-26T05:10:15.199419+00:00"
+        "picked_abbr": "WSH",
+        "picked_team": "Washington Wizards",
+        "voted_at": "2026-10-26T05:15:58.491962+00:00"
       }
     },
     "401909869": {
