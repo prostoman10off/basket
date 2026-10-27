@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-27T06:21:28.324Z",
+  "updatedAt": "2026-10-27T06:30:58.691Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-27T06:21:28.231Z",
-    "currentSeason": "2026-10-27T06:21:28.174Z",
-    "previousSeason": "2026-10-27T06:21:28.174Z"
+    "picks": "2026-10-27T06:30:58.596Z",
+    "currentSeason": "2026-10-27T06:30:58.542Z",
+    "previousSeason": "2026-10-27T06:30:58.542Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 34,
       "correctPicks": 34,
       "wrongPicks": 18,
-      "pendingPicks": 0,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 52,
+      "totalPicks": 56,
       "gradedPicks": 52,
       "accuracy": 65,
       "place": 2
@@ -307,6 +307,23 @@
       "homeTeamAbbr": "LAL"
     },
     {
+      "id": "401909880_andrei",
+      "gameId": "401909880",
+      "gameDate": "2026-10-28T03:00Z",
+      "gameName": "Portland Trail Blazers at Los Angeles Lakers",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-10-27T06:30:27.983452+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "POR",
+      "homeTeamAbbr": "LAL"
+    },
+    {
       "id": "401909878_ivan",
       "gameId": "401909878",
       "gameDate": "2026-10-28T00:00Z",
@@ -334,6 +351,23 @@
       "pickedTeamAbbr": "DET",
       "pickedTeamName": "Detroit Pistons",
       "votedAt": "2026-10-27T05:27:42.496212+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "NYK"
+    },
+    {
+      "id": "401909878_andrei",
+      "gameId": "401909878",
+      "gameDate": "2026-10-28T00:00Z",
+      "gameName": "Detroit Pistons at New York Knicks",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-10-27T06:30:15.595072+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -375,6 +409,23 @@
       "homeTeamAbbr": "SAS"
     },
     {
+      "id": "401909879_andrei",
+      "gameId": "401909879",
+      "gameDate": "2026-10-28T00:00Z",
+      "gameName": "Sacramento Kings at San Antonio Spurs",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "SAS",
+      "pickedTeamName": "San Antonio Spurs",
+      "votedAt": "2026-10-27T06:30:17.458679+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "SAC",
+      "homeTeamAbbr": "SAS"
+    },
+    {
       "id": "401909877_ivan",
       "gameId": "401909877",
       "gameDate": "2026-10-27T23:30Z",
@@ -402,6 +453,23 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-10-27T05:27:34.467197+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "BOS"
+    },
+    {
+      "id": "401909877_andrei",
+      "gameId": "401909877",
+      "gameDate": "2026-10-27T23:30Z",
+      "gameName": "Brooklyn Nets at Boston Celtics",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-10-27T06:30:13.203799+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
