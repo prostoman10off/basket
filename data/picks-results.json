@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-27T05:03:07.266Z",
+  "updatedAt": "2026-10-27T05:03:41.140Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-27T05:03:07.165Z",
-    "currentSeason": "2026-10-27T05:03:07.107Z",
-    "previousSeason": "2026-10-27T05:03:07.107Z"
+    "picks": "2026-10-27T05:03:41.052Z",
+    "currentSeason": "2026-10-27T05:03:41.005Z",
+    "previousSeason": "2026-10-27T05:03:41.005Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 38,
       "correctPicks": 38,
       "wrongPicks": 14,
-      "pendingPicks": 1,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 53,
+      "totalPicks": 56,
       "gradedPicks": 52,
       "accuracy": 73,
       "place": 1
@@ -272,6 +272,57 @@
     }
   ],
   "results": [
+    {
+      "id": "401909880_ivan",
+      "gameId": "401909880",
+      "gameDate": "2026-10-28T03:00Z",
+      "gameName": "Portland Trail Blazers at Los Angeles Lakers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-10-27T05:03:22.448209+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "POR",
+      "homeTeamAbbr": "LAL"
+    },
+    {
+      "id": "401909878_ivan",
+      "gameId": "401909878",
+      "gameDate": "2026-10-28T00:00Z",
+      "gameName": "Detroit Pistons at New York Knicks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-10-27T05:03:12.818866+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "NYK"
+    },
+    {
+      "id": "401909879_ivan",
+      "gameId": "401909879",
+      "gameDate": "2026-10-28T00:00Z",
+      "gameName": "Sacramento Kings at San Antonio Spurs",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "SAS",
+      "pickedTeamName": "San Antonio Spurs",
+      "votedAt": "2026-10-27T05:03:18.857341+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "SAC",
+      "homeTeamAbbr": "SAS"
+    },
     {
       "id": "401909877_ivan",
       "gameId": "401909877",
