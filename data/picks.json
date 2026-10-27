@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T05:27:34.467228+00:00",
+  "updated_at": "2026-10-27T05:27:36.962477+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -4732,6 +4732,14 @@
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-10-27T05:03:18.857341+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-10-27T05:27:36.962460+00:00"
       }
     },
     "401909880": {
