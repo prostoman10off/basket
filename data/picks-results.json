@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-27T05:01:21.181Z",
+  "updatedAt": "2026-10-27T05:03:07.266Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-27T05:01:21.103Z",
-    "currentSeason": "2026-10-27T05:01:21.056Z",
-    "previousSeason": "2026-10-27T05:01:21.056Z"
+    "picks": "2026-10-27T05:03:07.165Z",
+    "currentSeason": "2026-10-27T05:03:07.107Z",
+    "previousSeason": "2026-10-27T05:03:07.107Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 38,
       "correctPicks": 38,
       "wrongPicks": 14,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 52,
+      "totalPicks": 53,
       "gradedPicks": 52,
       "accuracy": 73,
       "place": 1
@@ -272,6 +272,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401909877_ivan",
+      "gameId": "401909877",
+      "gameDate": "2026-10-27T23:30Z",
+      "gameName": "Brooklyn Nets at Boston Celtics",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-10-27T05:02:52.615423+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "BOS"
+    },
     {
       "id": "401909876_ivan",
       "gameId": "401909876",
