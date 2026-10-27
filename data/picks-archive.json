@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27T05:03:41.052Z",
-  "source_updated_at": "2026-10-27T05:03:22.448232+00:00",
+  "updated_at": "2026-10-27T05:28:01.320Z",
+  "source_updated_at": "2026-10-27T05:27:42.496228+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -4393,6 +4393,14 @@
         "picked_abbr": "BOS",
         "picked_team": "Boston Celtics",
         "voted_at": "2026-10-27T05:02:52.615423+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-10-27T05:27:34.467197+00:00"
       }
     },
     "401909878": {
@@ -4403,6 +4411,14 @@
         "picked_abbr": "NY",
         "picked_team": "New York Knicks",
         "voted_at": "2026-10-27T05:03:12.818866+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-10-27T05:27:42.496212+00:00"
       }
     },
     "401909879": {
@@ -4413,6 +4429,14 @@
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-10-27T05:03:18.857341+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-10-27T05:27:36.962460+00:00"
       }
     },
     "401909880": {
@@ -4423,6 +4447,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-10-27T05:03:22.448209+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-10-27T05:27:40.267212+00:00"
       }
     },
     "401914101": {
