@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-27T16:59:19.030Z",
+  "updatedAt": "2026-10-28T05:02:44.541Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-27T16:59:18.939Z",
-    "currentSeason": "2026-10-27T16:59:18.886Z",
-    "previousSeason": "2026-10-27T16:59:18.886Z"
+    "picks": "2026-10-28T05:02:44.442Z",
+    "currentSeason": "2026-10-28T05:02:44.384Z",
+    "previousSeason": "2026-10-28T05:02:44.384Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,15 +15,15 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 38,
-      "correctPicks": 38,
+      "points": 41,
+      "correctPicks": 41,
       "wrongPicks": 14,
-      "pendingPicks": 4,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 56,
-      "gradedPicks": 52,
-      "accuracy": 73,
+      "gradedPicks": 55,
+      "accuracy": 75,
       "place": 1
     },
     {
@@ -31,15 +31,15 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 34,
-      "correctPicks": 34,
+      "points": 37,
+      "correctPicks": 37,
       "wrongPicks": 18,
-      "pendingPicks": 4,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 56,
-      "gradedPicks": 52,
-      "accuracy": 65,
+      "gradedPicks": 55,
+      "accuracy": 67,
       "place": 2
     },
     {
@@ -47,19 +47,49 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 29,
-      "correctPicks": 29,
-      "wrongPicks": 23,
-      "pendingPicks": 4,
+      "points": 31,
+      "correctPicks": 31,
+      "wrongPicks": 24,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 56,
-      "gradedPicks": 52,
+      "gradedPicks": 55,
       "accuracy": 56,
       "place": 3
     }
   ],
   "dailyTotals": [
+    {
+      "date": "2026-10-28",
+      "timeZone": "Asia/Novosibirsk",
+      "players": {
+        "ivan": {
+          "playerId": "ivan",
+          "name": "Иван",
+          "points": 3,
+          "correctPicks": 3,
+          "wrongPicks": 0,
+          "totalPicks": 3
+        },
+        "seva": {
+          "playerId": "seva",
+          "name": "Сева",
+          "points": 2,
+          "correctPicks": 2,
+          "wrongPicks": 1,
+          "totalPicks": 3
+        },
+        "andrei": {
+          "playerId": "andrei",
+          "name": "Андрей",
+          "points": 3,
+          "correctPicks": 3,
+          "wrongPicks": 0,
+          "totalPicks": 3
+        }
+      }
+    },
     {
       "date": "2026-10-27",
       "timeZone": "Asia/Novosibirsk",
@@ -334,9 +364,9 @@
       "pickedTeamAbbr": "NYK",
       "pickedTeamName": "New York Knicks",
       "votedAt": "2026-10-27T05:03:12.818866+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "NYK",
       "awayTeamAbbr": "DET",
       "homeTeamAbbr": "NYK"
     },
@@ -351,9 +381,9 @@
       "pickedTeamAbbr": "DET",
       "pickedTeamName": "Detroit Pistons",
       "votedAt": "2026-10-27T05:27:42.496212+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "NYK",
       "awayTeamAbbr": "DET",
       "homeTeamAbbr": "NYK"
     },
@@ -368,9 +398,9 @@
       "pickedTeamAbbr": "NYK",
       "pickedTeamName": "New York Knicks",
       "votedAt": "2026-10-27T06:30:15.595072+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "NYK",
       "awayTeamAbbr": "DET",
       "homeTeamAbbr": "NYK"
     },
@@ -385,9 +415,9 @@
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
       "votedAt": "2026-10-27T05:03:18.857341+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "SAS",
       "awayTeamAbbr": "SAC",
       "homeTeamAbbr": "SAS"
     },
@@ -402,9 +432,9 @@
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
       "votedAt": "2026-10-27T05:27:36.962460+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "SAS",
       "awayTeamAbbr": "SAC",
       "homeTeamAbbr": "SAS"
     },
@@ -419,9 +449,9 @@
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
       "votedAt": "2026-10-27T06:30:17.458679+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "SAS",
       "awayTeamAbbr": "SAC",
       "homeTeamAbbr": "SAS"
     },
@@ -436,9 +466,9 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-10-27T05:02:52.615423+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "BOS",
       "awayTeamAbbr": "BKN",
       "homeTeamAbbr": "BOS"
     },
@@ -453,9 +483,9 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-10-27T05:27:34.467197+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "BOS",
       "awayTeamAbbr": "BKN",
       "homeTeamAbbr": "BOS"
     },
@@ -470,9 +500,9 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-10-27T06:30:13.203799+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "BOS",
       "awayTeamAbbr": "BKN",
       "homeTeamAbbr": "BOS"
     },
