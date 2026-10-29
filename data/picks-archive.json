@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T07:10:56.192Z",
-  "source_updated_at": "2026-10-29T06:14:06.611859+00:00",
+  "updated_at": "2026-10-29T12:23:04.177Z",
+  "source_updated_at": "2026-10-29T12:22:50.381646+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -4997,6 +4997,14 @@
       }
     },
     "401909893": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-29T12:22:34.923100+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -5015,6 +5023,14 @@
       }
     },
     "401909894": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "NO",
+        "picked_team": "New Orleans Pelicans",
+        "voted_at": "2026-10-29T12:22:45.001477+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -5033,6 +5049,14 @@
       }
     },
     "401909895": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-29T12:22:50.381631+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
