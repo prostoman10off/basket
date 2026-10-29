@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-29T05:01:44.836Z",
+  "updatedAt": "2026-10-29T06:14:27.497Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-29T05:01:44.735Z",
-    "currentSeason": "2026-10-29T05:01:44.677Z",
-    "previousSeason": "2026-10-29T05:01:44.677Z"
+    "picks": "2026-10-29T06:14:27.435Z",
+    "currentSeason": "2026-10-29T06:14:27.398Z",
+    "previousSeason": "2026-10-29T06:14:27.398Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 47,
       "correctPicks": 47,
       "wrongPicks": 20,
-      "pendingPicks": 1,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 68,
+      "totalPicks": 71,
       "gradedPicks": 67,
       "accuracy": 70,
       "place": 2
@@ -350,6 +350,23 @@
       "homeTeamAbbr": "POR"
     },
     {
+      "id": "401909895_andrei",
+      "gameId": "401909895",
+      "gameDate": "2026-10-30T02:00Z",
+      "gameName": "Memphis Grizzlies at Portland Trail Blazers",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-10-29T06:14:06.611845+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MEM",
+      "homeTeamAbbr": "POR"
+    },
+    {
       "id": "401909893_seva",
       "gameId": "401909893",
       "gameDate": "2026-10-30T00:00Z",
@@ -367,6 +384,23 @@
       "homeTeamAbbr": "ATL"
     },
     {
+      "id": "401909893_andrei",
+      "gameId": "401909893",
+      "gameDate": "2026-10-30T00:00Z",
+      "gameName": "Cleveland Cavaliers at Atlanta Hawks",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-10-29T06:14:01.510844+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CLE",
+      "homeTeamAbbr": "ATL"
+    },
+    {
       "id": "401909894_seva",
       "gameId": "401909894",
       "gameDate": "2026-10-30T00:00Z",
@@ -377,6 +411,23 @@
       "pickedTeamAbbr": "NOP",
       "pickedTeamName": "New Orleans Pelicans",
       "votedAt": "2026-10-29T05:01:17.566905+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "SAC",
+      "homeTeamAbbr": "NOP"
+    },
+    {
+      "id": "401909894_andrei",
+      "gameId": "401909894",
+      "gameDate": "2026-10-30T00:00Z",
+      "gameName": "Sacramento Kings at New Orleans Pelicans",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "NOP",
+      "pickedTeamName": "New Orleans Pelicans",
+      "votedAt": "2026-10-29T06:14:04.299510+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,

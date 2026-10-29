@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T05:01:44.735Z",
-  "source_updated_at": "2026-10-29T05:01:20.808924+00:00",
+  "updated_at": "2026-10-29T06:14:27.435Z",
+  "source_updated_at": "2026-10-29T06:14:06.611859+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -5004,6 +5004,14 @@
         "picked_abbr": "CLE",
         "picked_team": "Cleveland Cavaliers",
         "voted_at": "2026-10-29T05:01:14.994293+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-29T06:14:01.510844+00:00"
       }
     },
     "401909894": {
@@ -5014,6 +5022,14 @@
         "picked_abbr": "NO",
         "picked_team": "New Orleans Pelicans",
         "voted_at": "2026-10-29T05:01:17.566905+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "NO",
+        "picked_team": "New Orleans Pelicans",
+        "voted_at": "2026-10-29T06:14:04.299510+00:00"
       }
     },
     "401909895": {
@@ -5024,6 +5040,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-10-29T05:01:20.808907+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-29T06:14:06.611845+00:00"
       }
     },
     "401914101": {
