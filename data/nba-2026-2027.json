@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-10-29T06:14:27.398Z",
+  "updatedAt": "2026-10-29T07:10:56.138Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909892",
+      "name": "Los Angeles Lakers at LA Clippers",
+      "shortName": "LAL @ LAC",
+      "date": "2026-10-29T02:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "12",
+        "name": "LA Clippers",
+        "shortName": "Clippers",
+        "abbreviation": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+        "score": 87
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 103
+      }
+    },
     {
       "id": "401909891",
       "name": "Oklahoma City Thunder at Dallas Mavericks",
