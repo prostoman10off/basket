@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T05:01:06.191Z",
-  "source_updated_at": "2026-10-29T05:00:45.998251+00:00",
+  "updated_at": "2026-10-29T05:01:44.735Z",
+  "source_updated_at": "2026-10-29T05:01:20.808924+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -4996,9 +4996,36 @@
         "voted_at": "2026-10-28T05:10:43.501191+00:00"
       }
     },
-    "401909893": {},
-    "401909894": {},
-    "401909895": {},
+    "401909893": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-29T05:01:14.994293+00:00"
+      }
+    },
+    "401909894": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "NO",
+        "picked_team": "New Orleans Pelicans",
+        "voted_at": "2026-10-29T05:01:17.566905+00:00"
+      }
+    },
+    "401909895": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-29T05:01:20.808907+00:00"
+      }
+    },
     "401914101": {
       "42552913": {
         "user_id": 42552913,

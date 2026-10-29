@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-29T05:01:06.283Z",
+  "updatedAt": "2026-10-29T05:01:44.836Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-29T05:01:06.191Z",
-    "currentSeason": "2026-10-29T05:01:06.138Z",
-    "previousSeason": "2026-10-29T05:01:06.137Z"
+    "picks": "2026-10-29T05:01:44.735Z",
+    "currentSeason": "2026-10-29T05:01:44.677Z",
+    "previousSeason": "2026-10-29T05:01:44.677Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 39,
       "correctPicks": 39,
       "wrongPicks": 28,
-      "pendingPicks": 1,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 68,
+      "totalPicks": 71,
       "gradedPicks": 67,
       "accuracy": 58,
       "place": 3
@@ -332,6 +332,57 @@
     }
   ],
   "results": [
+    {
+      "id": "401909895_seva",
+      "gameId": "401909895",
+      "gameDate": "2026-10-30T02:00Z",
+      "gameName": "Memphis Grizzlies at Portland Trail Blazers",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-10-29T05:01:20.808907+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MEM",
+      "homeTeamAbbr": "POR"
+    },
+    {
+      "id": "401909893_seva",
+      "gameId": "401909893",
+      "gameDate": "2026-10-30T00:00Z",
+      "gameName": "Cleveland Cavaliers at Atlanta Hawks",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-10-29T05:01:14.994293+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CLE",
+      "homeTeamAbbr": "ATL"
+    },
+    {
+      "id": "401909894_seva",
+      "gameId": "401909894",
+      "gameDate": "2026-10-30T00:00Z",
+      "gameName": "Sacramento Kings at New Orleans Pelicans",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "NOP",
+      "pickedTeamName": "New Orleans Pelicans",
+      "votedAt": "2026-10-29T05:01:17.566905+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "SAC",
+      "homeTeamAbbr": "NOP"
+    },
     {
       "id": "401909892_ivan",
       "gameId": "401909892",
