@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T06:14:06.611859+00:00",
+  "updated_at": "2026-10-29T12:22:34.924396+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -5323,6 +5323,14 @@
         "picked_abbr": "CLE",
         "picked_team": "Cleveland Cavaliers",
         "voted_at": "2026-10-29T06:14:01.510844+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-10-29T12:22:34.923100+00:00"
       }
     },
     "401909894": {
