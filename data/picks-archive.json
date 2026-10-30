@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T16:59:21.269Z",
-  "source_updated_at": "2026-10-29T16:59:04.073009+00:00",
+  "updated_at": "2026-10-30T05:05:04.072Z",
+  "source_updated_at": "2026-10-30T05:04:48.723133+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -832,6 +832,136 @@
       "home_abbr": "SA",
       "status": "pre",
       "status_detail": "Fri, October 23rd at 9:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909277": {
+      "event_id": "401909277",
+      "date": "2026-10-30T23:00Z",
+      "name": "Charlotte Hornets at Washington Wizards",
+      "short_name": "CHA @ WSH",
+      "away_team": "Charlotte Hornets",
+      "away_abbr": "CHA",
+      "home_team": "Washington Wizards",
+      "home_abbr": "WSH",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 7:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909278": {
+      "event_id": "401909278",
+      "date": "2026-10-30T23:30Z",
+      "name": "Chicago Bulls at Boston Celtics",
+      "short_name": "CHI @ BOS",
+      "away_team": "Chicago Bulls",
+      "away_abbr": "CHI",
+      "home_team": "Boston Celtics",
+      "home_abbr": "BOS",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 7:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909279": {
+      "event_id": "401909279",
+      "date": "2026-10-30T23:30Z",
+      "name": "Detroit Pistons at Brooklyn Nets",
+      "short_name": "DET @ BKN",
+      "away_team": "Detroit Pistons",
+      "away_abbr": "DET",
+      "home_team": "Brooklyn Nets",
+      "home_abbr": "BKN",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 7:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909280": {
+      "event_id": "401909280",
+      "date": "2026-10-30T23:30Z",
+      "name": "New York Knicks at Philadelphia 76ers",
+      "short_name": "NY @ PHI",
+      "away_team": "New York Knicks",
+      "away_abbr": "NY",
+      "home_team": "Philadelphia 76ers",
+      "home_abbr": "PHI",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 7:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909281": {
+      "event_id": "401909281",
+      "date": "2026-10-30T23:30Z",
+      "name": "Orlando Magic at Toronto Raptors",
+      "short_name": "ORL @ TOR",
+      "away_team": "Orlando Magic",
+      "away_abbr": "ORL",
+      "home_team": "Toronto Raptors",
+      "home_abbr": "TOR",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 7:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909282": {
+      "event_id": "401909282",
+      "date": "2026-10-31T00:00Z",
+      "name": "Indiana Pacers at Miami Heat",
+      "short_name": "IND @ MIA",
+      "away_team": "Indiana Pacers",
+      "away_abbr": "IND",
+      "home_team": "Miami Heat",
+      "home_abbr": "MIA",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909283": {
+      "event_id": "401909283",
+      "date": "2026-10-31T00:00Z",
+      "name": "Houston Rockets at Dallas Mavericks",
+      "short_name": "HOU @ DAL",
+      "away_team": "Houston Rockets",
+      "away_abbr": "HOU",
+      "home_team": "Dallas Mavericks",
+      "home_abbr": "DAL",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909284": {
+      "event_id": "401909284",
+      "date": "2026-10-31T00:00Z",
+      "name": "LA Clippers at Minnesota Timberwolves",
+      "short_name": "LAC @ MIN",
+      "away_team": "LA Clippers",
+      "away_abbr": "LAC",
+      "home_team": "Minnesota Timberwolves",
+      "home_abbr": "MIN",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 8:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909285": {
+      "event_id": "401909285",
+      "date": "2026-10-31T02:00Z",
+      "name": "Los Angeles Lakers at Golden State Warriors",
+      "short_name": "LAL @ GS",
+      "away_team": "Los Angeles Lakers",
+      "away_abbr": "LAL",
+      "home_team": "Golden State Warriors",
+      "home_abbr": "GS",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909286": {
+      "event_id": "401909286",
+      "date": "2026-10-31T02:00Z",
+      "name": "Denver Nuggets at Phoenix Suns",
+      "short_name": "DEN @ PHX",
+      "away_team": "Denver Nuggets",
+      "away_abbr": "DEN",
+      "home_team": "Phoenix Suns",
+      "home_abbr": "PHX",
+      "status": "pre",
+      "status_detail": "Fri, October 30th at 10:00 PM EDT",
       "winner_abbr": null
     },
     "401909834": {
@@ -3462,6 +3592,16 @@
         "voted_at": "2026-10-23T06:34:20.107002+00:00"
       }
     },
+    "401909277": {},
+    "401909278": {},
+    "401909279": {},
+    "401909280": {},
+    "401909281": {},
+    "401909282": {},
+    "401909283": {},
+    "401909284": {},
+    "401909285": {},
+    "401909286": {},
     "401909834": {
       "42552913": {
         "user_id": 42552913,
