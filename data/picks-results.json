@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-30T05:19:23.031Z",
+  "updatedAt": "2026-10-30T05:38:19.560Z",
   "sourceUpdatedAt": {
-    "picks": "2026-10-30T05:19:22.935Z",
-    "currentSeason": "2026-10-30T05:19:22.877Z",
-    "previousSeason": "2026-10-30T05:19:22.877Z"
+    "picks": "2026-10-30T05:38:19.477Z",
+    "currentSeason": "2026-10-30T05:38:19.430Z",
+    "previousSeason": "2026-10-30T05:38:19.430Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 41,
       "correctPicks": 41,
       "wrongPicks": 30,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 71,
+      "totalPicks": 72,
       "gradedPicks": 71,
       "accuracy": 58,
       "place": 3
@@ -390,6 +390,23 @@
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
       "votedAt": "2026-10-30T05:19:02.754335+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DEN",
+      "homeTeamAbbr": "PHX"
+    },
+    {
+      "id": "401909286_seva",
+      "gameId": "401909286",
+      "gameDate": "2026-10-31T02:00Z",
+      "gameName": "Denver Nuggets at Phoenix Suns",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-10-30T05:38:05.953646+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
