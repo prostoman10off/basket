@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T05:42:07.957142+00:00",
+  "updated_at": "2026-10-30T05:42:14.932183+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -5595,6 +5595,14 @@
         "picked_abbr": "ORL",
         "picked_team": "Orlando Magic",
         "voted_at": "2026-10-30T05:18:35.457071+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-10-30T05:42:14.932161+00:00"
       }
     },
     "401909282": {
