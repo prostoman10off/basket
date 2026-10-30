@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T06:16:18.859851+00:00",
+  "updated_at": "2026-10-30T06:16:20.912406+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -5765,6 +5765,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-10-30T05:42:39.582622+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-10-30T06:16:20.912368+00:00"
       }
     }
   },
@@ -7243,7 +7251,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-10-30T06:16:20.912401+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
