@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T05:47:34.435134+00:00",
+  "updated_at": "2026-10-31T10:49:48.133471+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -5882,6 +5882,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-10-31T05:46:49.273231+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-31T10:49:48.132567+00:00"
       }
     },
     "401909897": {
