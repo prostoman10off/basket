@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T05:05:01.042Z",
-  "source_updated_at": "2026-10-31T05:04:47.550163+00:00",
+  "updated_at": "2026-10-31T05:46:16.887Z",
+  "source_updated_at": "2026-10-31T05:45:56.621428+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -5556,6 +5556,14 @@
       }
     },
     "401909896": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-10-31T05:45:56.621404+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
