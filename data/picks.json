@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T16:59:04.045076+00:00",
+  "updated_at": "2026-11-01T05:01:14.594322+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -2014,6 +2014,58 @@
       "home_abbr": "HOU",
       "status": "pre",
       "status_detail": "Sat, October 31st at 8:30 PM EDT",
+      "winner_abbr": null
+    },
+    "401909903": {
+      "event_id": "401909903",
+      "date": "2026-11-01T20:30Z",
+      "name": "Boston Celtics at Orlando Magic",
+      "short_name": "BOS @ ORL",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Orlando Magic",
+      "home_abbr": "ORL",
+      "status": "pre",
+      "status_detail": "Sun, November 1st at 3:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909904": {
+      "event_id": "401909904",
+      "date": "2026-11-01T22:00Z",
+      "name": "Brooklyn Nets at Indiana Pacers",
+      "short_name": "BKN @ IND",
+      "away_team": "Brooklyn Nets",
+      "away_abbr": "BKN",
+      "home_team": "Indiana Pacers",
+      "home_abbr": "IND",
+      "status": "pre",
+      "status_detail": "Sun, November 1st at 5:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909905": {
+      "event_id": "401909905",
+      "date": "2026-11-02T01:30Z",
+      "name": "LA Clippers at Golden State Warriors",
+      "short_name": "LAC @ GS",
+      "away_team": "LA Clippers",
+      "away_abbr": "LAC",
+      "home_team": "Golden State Warriors",
+      "home_abbr": "GS",
+      "status": "pre",
+      "status_detail": "Sun, November 1st at 8:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909906": {
+      "event_id": "401909906",
+      "date": "2026-11-02T02:00Z",
+      "name": "Toronto Raptors at Los Angeles Lakers",
+      "short_name": "TOR @ LAL",
+      "away_team": "Toronto Raptors",
+      "away_abbr": "TOR",
+      "home_team": "Los Angeles Lakers",
+      "home_abbr": "LAL",
+      "status": "pre",
+      "status_detail": "Sun, November 1st at 9:00 PM EST",
       "winner_abbr": null
     }
   },
@@ -6047,7 +6099,11 @@
         "picked_team": "Houston Rockets",
         "voted_at": "2026-10-31T10:50:14.571610+00:00"
       }
-    }
+    },
+    "401909903": {},
+    "401909904": {},
+    "401909905": {},
+    "401909906": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -7661,6 +7717,28 @@
       "reminder_at": "2026-10-31T14:00:00+00:00",
       "reminder_sent_at": "2026-10-31T14:00:04.050133+00:00",
       "closes_at": "2026-10-31T16:59:00+00:00"
+    },
+    "2026-11-02": {
+      "date": "2026-11-02",
+      "event_ids": [
+        "401909903",
+        "401909904",
+        "401909905",
+        "401909906"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-11-01T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-11-01T16:59:00+00:00"
     }
   }
 }
