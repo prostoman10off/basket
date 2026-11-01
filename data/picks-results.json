@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-01T05:15:37.772Z",
+  "updatedAt": "2026-11-01T07:22:08.334Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-01T05:15:37.669Z",
-    "currentSeason": "2026-11-01T05:15:37.608Z",
-    "previousSeason": "2026-11-01T05:15:37.608Z"
+    "picks": "2026-11-01T07:22:08.234Z",
+    "currentSeason": "2026-11-01T07:22:08.182Z",
+    "previousSeason": "2026-11-01T07:22:08.181Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 53,
       "correctPicks": 53,
       "wrongPicks": 35,
-      "pendingPicks": 0,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 88,
+      "totalPicks": 92,
       "gradedPicks": 88,
       "accuracy": 60,
       "place": 3
@@ -440,6 +440,23 @@
       "homeTeamAbbr": "LAL"
     },
     {
+      "id": "401909906_seva",
+      "gameId": "401909906",
+      "gameDate": "2026-11-02T02:00Z",
+      "gameName": "Toronto Raptors at Los Angeles Lakers",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "LAL",
+      "pickedTeamName": "Los Angeles Lakers",
+      "votedAt": "2026-11-01T07:21:49.742913+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "TOR",
+      "homeTeamAbbr": "LAL"
+    },
+    {
       "id": "401909905_ivan",
       "gameId": "401909905",
       "gameDate": "2026-11-02T01:30Z",
@@ -450,6 +467,23 @@
       "pickedTeamAbbr": "GSW",
       "pickedTeamName": "Golden State Warriors",
       "votedAt": "2026-11-01T05:15:14.803561+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "LAC",
+      "homeTeamAbbr": "GSW"
+    },
+    {
+      "id": "401909905_seva",
+      "gameId": "401909905",
+      "gameDate": "2026-11-02T01:30Z",
+      "gameName": "LA Clippers at Golden State Warriors",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "GSW",
+      "pickedTeamName": "Golden State Warriors",
+      "votedAt": "2026-11-01T07:21:45.971469+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -474,6 +508,23 @@
       "homeTeamAbbr": "IND"
     },
     {
+      "id": "401909904_seva",
+      "gameId": "401909904",
+      "gameDate": "2026-11-01T22:00Z",
+      "gameName": "Brooklyn Nets at Indiana Pacers",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "IND",
+      "pickedTeamName": "Indiana Pacers",
+      "votedAt": "2026-11-01T07:21:42.560520+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "IND"
+    },
+    {
       "id": "401909903_ivan",
       "gameId": "401909903",
       "gameDate": "2026-11-01T20:30Z",
@@ -484,6 +535,23 @@
       "pickedTeamAbbr": "BOS",
       "pickedTeamName": "Boston Celtics",
       "votedAt": "2026-11-01T05:14:54.074832+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BOS",
+      "homeTeamAbbr": "ORL"
+    },
+    {
+      "id": "401909903_seva",
+      "gameId": "401909903",
+      "gameDate": "2026-11-01T20:30Z",
+      "gameName": "Boston Celtics at Orlando Magic",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-11-01T07:21:40.093709+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
