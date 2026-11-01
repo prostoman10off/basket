@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T07:21:42.560544+00:00",
+  "updated_at": "2026-11-01T07:21:45.971488+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -6144,6 +6144,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-11-01T05:15:14.803561+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-01T07:21:45.971469+00:00"
       }
     },
     "401909906": {
