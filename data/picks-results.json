@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-01T05:01:45.056Z",
+  "updatedAt": "2026-11-01T05:15:37.772Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-01T05:01:44.952Z",
-    "currentSeason": "2026-11-01T05:01:44.896Z",
-    "previousSeason": "2026-11-01T05:01:44.896Z"
+    "picks": "2026-11-01T05:15:37.669Z",
+    "currentSeason": "2026-11-01T05:15:37.608Z",
+    "previousSeason": "2026-11-01T05:15:37.608Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 64,
       "correctPicks": 64,
       "wrongPicks": 24,
-      "pendingPicks": 0,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 88,
+      "totalPicks": 92,
       "gradedPicks": 88,
       "accuracy": 73,
       "place": 1
@@ -422,6 +422,74 @@
     }
   ],
   "results": [
+    {
+      "id": "401909906_ivan",
+      "gameId": "401909906",
+      "gameDate": "2026-11-02T02:00Z",
+      "gameName": "Toronto Raptors at Los Angeles Lakers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "TOR",
+      "pickedTeamName": "Toronto Raptors",
+      "votedAt": "2026-11-01T05:15:20.568667+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "TOR",
+      "homeTeamAbbr": "LAL"
+    },
+    {
+      "id": "401909905_ivan",
+      "gameId": "401909905",
+      "gameDate": "2026-11-02T01:30Z",
+      "gameName": "LA Clippers at Golden State Warriors",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "GSW",
+      "pickedTeamName": "Golden State Warriors",
+      "votedAt": "2026-11-01T05:15:14.803561+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "LAC",
+      "homeTeamAbbr": "GSW"
+    },
+    {
+      "id": "401909904_ivan",
+      "gameId": "401909904",
+      "gameDate": "2026-11-01T22:00Z",
+      "gameName": "Brooklyn Nets at Indiana Pacers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "IND",
+      "pickedTeamName": "Indiana Pacers",
+      "votedAt": "2026-11-01T05:15:01.036558+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "IND"
+    },
+    {
+      "id": "401909903_ivan",
+      "gameId": "401909903",
+      "gameDate": "2026-11-01T20:30Z",
+      "gameName": "Boston Celtics at Orlando Magic",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-11-01T05:14:54.074832+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BOS",
+      "homeTeamAbbr": "ORL"
+    },
     {
       "id": "401909902_ivan",
       "gameId": "401909902",
