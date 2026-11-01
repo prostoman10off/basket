@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T07:37:00.549Z",
-  "source_updated_at": "2026-11-01T07:21:49.742928+00:00",
+  "updated_at": "2026-11-01T07:42:57.456Z",
+  "source_updated_at": "2026-11-01T07:42:39.846677+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -5805,6 +5805,14 @@
         "picked_abbr": "BOS",
         "picked_team": "Boston Celtics",
         "voted_at": "2026-11-01T07:21:40.093709+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-01T07:42:33.215757+00:00"
       }
     },
     "401909904": {
@@ -5823,6 +5831,14 @@
         "picked_abbr": "IND",
         "picked_team": "Indiana Pacers",
         "voted_at": "2026-11-01T07:21:42.560520+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "IND",
+        "picked_team": "Indiana Pacers",
+        "voted_at": "2026-11-01T07:42:35.730228+00:00"
       }
     },
     "401909905": {
@@ -5841,6 +5857,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-11-01T07:21:45.971469+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-01T07:42:37.619590+00:00"
       }
     },
     "401909906": {
@@ -5859,6 +5883,14 @@
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-11-01T07:21:49.742913+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-11-01T07:42:39.846645+00:00"
       }
     },
     "401914101": {
