@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:18:55.089096+00:00",
+  "updated_at": "2026-11-02T06:18:57.923982+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -6533,6 +6533,14 @@
         "picked_abbr": "MEM",
         "picked_team": "Memphis Grizzlies",
         "voted_at": "2026-11-02T05:02:45.525413+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "NO",
+        "picked_team": "New Orleans Pelicans",
+        "voted_at": "2026-11-02T06:18:57.923964+00:00"
       }
     },
     "401909915": {
