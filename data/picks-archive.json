@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T05:03:21.081Z",
-  "source_updated_at": "2026-11-02T05:02:58.960236+00:00",
+  "updated_at": "2026-11-02T05:04:06.741Z",
+  "source_updated_at": "2026-11-02T05:03:39.723280+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -6198,10 +6198,46 @@
         "voted_at": "2026-11-02T05:02:58.960208+00:00"
       }
     },
-    "401909918": {},
-    "401909919": {},
-    "401909920": {},
-    "401909921": {},
+    "401909918": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-11-02T05:03:26.223876+00:00"
+      }
+    },
+    "401909919": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-02T05:03:31.410661+00:00"
+      }
+    },
+    "401909920": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-11-02T05:03:35.301472+00:00"
+      }
+    },
+    "401909921": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-11-02T05:03:39.723266+00:00"
+      }
+    },
     "401914101": {
       "42552913": {
         "user_id": 42552913,
