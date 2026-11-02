@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:22:34.345365+00:00",
+  "updated_at": "2026-11-02T06:22:39.640827+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -6779,6 +6779,14 @@
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-11-02T06:19:22.714340+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-02T06:22:39.640806+00:00"
       }
     }
   },
@@ -8466,7 +8474,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-11-02T06:22:39.640823+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
