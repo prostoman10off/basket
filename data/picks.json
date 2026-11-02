@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:22:07.784097+00:00",
+  "updated_at": "2026-11-02T06:22:11.905715+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -6649,6 +6649,14 @@
         "picked_abbr": "HOU",
         "picked_team": "Houston Rockets",
         "voted_at": "2026-11-02T06:19:02.550347+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-11-02T06:22:11.905695+00:00"
       }
     },
     "401909917": {
