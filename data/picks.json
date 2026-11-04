@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T16:59:04.060493+00:00",
+  "updated_at": "2026-11-04T05:00:17.669268+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -2261,6 +2261,188 @@
       "home_abbr": "LAL",
       "status": "pre",
       "status_detail": "Mon, November 2nd at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909922": {
+      "event_id": "401909922",
+      "date": "2026-11-05T00:00Z",
+      "name": "Philadelphia 76ers at Detroit Pistons",
+      "short_name": "PHI @ DET",
+      "away_team": "Philadelphia 76ers",
+      "away_abbr": "PHI",
+      "home_team": "Detroit Pistons",
+      "home_abbr": "DET",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909923": {
+      "event_id": "401909923",
+      "date": "2026-11-05T00:00Z",
+      "name": "Atlanta Hawks at Washington Wizards",
+      "short_name": "ATL @ WSH",
+      "away_team": "Atlanta Hawks",
+      "away_abbr": "ATL",
+      "home_team": "Washington Wizards",
+      "home_abbr": "WSH",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909924": {
+      "event_id": "401909924",
+      "date": "2026-11-05T00:30Z",
+      "name": "Milwaukee Bucks at Boston Celtics",
+      "short_name": "MIL @ BOS",
+      "away_team": "Milwaukee Bucks",
+      "away_abbr": "MIL",
+      "home_team": "Boston Celtics",
+      "home_abbr": "BOS",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 7:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909925": {
+      "event_id": "401909925",
+      "date": "2026-11-05T00:30Z",
+      "name": "Charlotte Hornets at Brooklyn Nets",
+      "short_name": "CHA @ BKN",
+      "away_team": "Charlotte Hornets",
+      "away_abbr": "CHA",
+      "home_team": "Brooklyn Nets",
+      "home_abbr": "BKN",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 7:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909926": {
+      "event_id": "401909926",
+      "date": "2026-11-05T00:30Z",
+      "name": "Chicago Bulls at New York Knicks",
+      "short_name": "CHI @ NY",
+      "away_team": "Chicago Bulls",
+      "away_abbr": "CHI",
+      "home_team": "New York Knicks",
+      "home_abbr": "NY",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 7:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909927": {
+      "event_id": "401909927",
+      "date": "2026-11-05T01:00Z",
+      "name": "Indiana Pacers at Memphis Grizzlies",
+      "short_name": "IND @ MEM",
+      "away_team": "Indiana Pacers",
+      "away_abbr": "IND",
+      "home_team": "Memphis Grizzlies",
+      "home_abbr": "MEM",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909928": {
+      "event_id": "401909928",
+      "date": "2026-11-05T01:00Z",
+      "name": "Utah Jazz at New Orleans Pelicans",
+      "short_name": "UTAH @ NO",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "New Orleans Pelicans",
+      "home_abbr": "NO",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909929": {
+      "event_id": "401909929",
+      "date": "2026-11-05T01:00Z",
+      "name": "Cleveland Cavaliers at Oklahoma City Thunder",
+      "short_name": "CLE @ OKC",
+      "away_team": "Cleveland Cavaliers",
+      "away_abbr": "CLE",
+      "home_team": "Oklahoma City Thunder",
+      "home_abbr": "OKC",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909930": {
+      "event_id": "401909930",
+      "date": "2026-11-05T01:30Z",
+      "name": "Minnesota Timberwolves at Houston Rockets",
+      "short_name": "MIN @ HOU",
+      "away_team": "Minnesota Timberwolves",
+      "away_abbr": "MIN",
+      "home_team": "Houston Rockets",
+      "home_abbr": "HOU",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 8:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909931": {
+      "event_id": "401909931",
+      "date": "2026-11-05T02:00Z",
+      "name": "Toronto Raptors at Denver Nuggets",
+      "short_name": "TOR @ DEN",
+      "away_team": "Toronto Raptors",
+      "away_abbr": "TOR",
+      "home_team": "Denver Nuggets",
+      "home_abbr": "DEN",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 9:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909932": {
+      "event_id": "401909932",
+      "date": "2026-11-05T02:00Z",
+      "name": "Portland Trail Blazers at Phoenix Suns",
+      "short_name": "POR @ PHX",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "Phoenix Suns",
+      "home_abbr": "PHX",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 9:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909933": {
+      "event_id": "401909933",
+      "date": "2026-11-05T02:30Z",
+      "name": "Dallas Mavericks at San Antonio Spurs",
+      "short_name": "DAL @ SA",
+      "away_team": "Dallas Mavericks",
+      "away_abbr": "DAL",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 9:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909934": {
+      "event_id": "401909934",
+      "date": "2026-11-05T03:00Z",
+      "name": "Los Angeles Lakers at Sacramento Kings",
+      "short_name": "LAL @ SAC",
+      "away_team": "Los Angeles Lakers",
+      "away_abbr": "LAL",
+      "home_team": "Sacramento Kings",
+      "home_abbr": "SAC",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909935": {
+      "event_id": "401909935",
+      "date": "2026-11-05T03:30Z",
+      "name": "Miami Heat at LA Clippers",
+      "short_name": "MIA @ LAC",
+      "away_team": "Miami Heat",
+      "away_abbr": "MIA",
+      "home_team": "LA Clippers",
+      "home_abbr": "LAC",
+      "status": "pre",
+      "status_detail": "Wed, November 4th at 10:30 PM EST",
       "winner_abbr": null
     }
   },
@@ -6788,7 +6970,21 @@
         "picked_team": "Miami Heat",
         "voted_at": "2026-11-02T06:22:39.640806+00:00"
       }
-    }
+    },
+    "401909922": {},
+    "401909923": {},
+    "401909924": {},
+    "401909925": {},
+    "401909926": {},
+    "401909927": {},
+    "401909928": {},
+    "401909929": {},
+    "401909930": {},
+    "401909931": {},
+    "401909932": {},
+    "401909933": {},
+    "401909934": {},
+    "401909935": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -8573,6 +8769,38 @@
       "reminder_at": "2026-11-02T14:00:00+00:00",
       "reminder_sent_at": "2026-11-02T14:00:04.097128+00:00",
       "closes_at": "2026-11-02T16:59:00+00:00"
+    },
+    "2026-11-05": {
+      "date": "2026-11-05",
+      "event_ids": [
+        "401909922",
+        "401909923",
+        "401909924",
+        "401909925",
+        "401909926",
+        "401909927",
+        "401909928",
+        "401909929",
+        "401909930",
+        "401909931",
+        "401909932",
+        "401909933",
+        "401909934",
+        "401909935"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-11-04T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-11-04T16:59:00+00:00"
     }
   }
 }
