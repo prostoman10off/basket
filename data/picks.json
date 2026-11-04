@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T05:03:11.280379+00:00",
+  "updated_at": "2026-11-04T05:03:18.328867+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -7213,6 +7213,14 @@
         "picked_abbr": "MIA",
         "picked_team": "Miami Heat",
         "voted_at": "2026-11-04T05:01:37.808813+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-04T05:03:18.328848+00:00"
       }
     }
   },
