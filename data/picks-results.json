@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-05T05:38:42.600Z",
+  "updatedAt": "2026-11-05T05:41:27.834Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-05T05:38:42.491Z",
-    "currentSeason": "2026-11-05T05:38:42.437Z",
-    "previousSeason": "2026-11-05T05:38:42.437Z"
+    "picks": "2026-11-05T05:41:27.639Z",
+    "currentSeason": "2026-11-05T05:41:27.538Z",
+    "previousSeason": "2026-11-05T05:41:27.538Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 75,
       "correctPicks": 75,
       "wrongPicks": 44,
-      "pendingPicks": 2,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 121,
+      "totalPicks": 123,
       "gradedPicks": 119,
       "accuracy": 63,
       "place": 3
@@ -530,6 +530,23 @@
       "homeTeamAbbr": "GSW"
     },
     {
+      "id": "401909937_seva",
+      "gameId": "401909937",
+      "gameDate": "2026-11-06T03:00Z",
+      "gameName": "Miami Heat at Golden State Warriors",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "GSW",
+      "pickedTeamName": "Golden State Warriors",
+      "votedAt": "2026-11-05T05:41:03.933465+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIA",
+      "homeTeamAbbr": "GSW"
+    },
+    {
       "id": "401909937_andrei",
       "gameId": "401909937",
       "gameDate": "2026-11-06T03:00Z",
@@ -557,6 +574,23 @@
       "pickedTeamAbbr": "ORL",
       "pickedTeamName": "Orlando Magic",
       "votedAt": "2026-11-05T05:38:13.335949+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "PHX"
+    },
+    {
+      "id": "401909936_seva",
+      "gameId": "401909936",
+      "gameDate": "2026-11-06T02:00Z",
+      "gameName": "Orlando Magic at Phoenix Suns",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "PHX",
+      "pickedTeamName": "Phoenix Suns",
+      "votedAt": "2026-11-05T05:40:57.955472+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,

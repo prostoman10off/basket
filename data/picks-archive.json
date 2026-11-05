@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T05:38:42.491Z",
-  "source_updated_at": "2026-11-05T05:38:21.553624+00:00",
+  "updated_at": "2026-11-05T05:41:27.639Z",
+  "source_updated_at": "2026-11-05T05:41:03.933465+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7059,6 +7059,14 @@
         "picked_team": "Orlando Magic",
         "voted_at": "2026-11-05T05:38:13.335949+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-05T05:40:57.955472+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -7076,6 +7084,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-11-05T05:38:21.553624+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-05T05:41:03.933465+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
