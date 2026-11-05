@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T05:35:00.296340+00:00",
+  "updated_at": "2026-11-05T05:35:04.264333+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -2443,6 +2443,32 @@
       "home_abbr": "LAC",
       "status": "pre",
       "status_detail": "Wed, November 4th at 10:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909936": {
+      "event_id": "401909936",
+      "date": "2026-11-06T02:00Z",
+      "name": "Orlando Magic at Phoenix Suns",
+      "short_name": "ORL @ PHX",
+      "away_team": "Orlando Magic",
+      "away_abbr": "ORL",
+      "home_team": "Phoenix Suns",
+      "home_abbr": "PHX",
+      "status": "pre",
+      "status_detail": "Thu, November 5th at 9:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909937": {
+      "event_id": "401909937",
+      "date": "2026-11-06T03:00Z",
+      "name": "Miami Heat at Golden State Warriors",
+      "short_name": "MIA @ GS",
+      "away_team": "Miami Heat",
+      "away_abbr": "MIA",
+      "home_team": "Golden State Warriors",
+      "home_abbr": "GS",
+      "status": "pre",
+      "status_detail": "Thu, November 5th at 10:00 PM EST",
       "winner_abbr": null
     }
   },
@@ -7334,7 +7360,9 @@
         "picked_team": "Miami Heat",
         "voted_at": "2026-11-04T07:06:39.697124+00:00"
       }
-    }
+    },
+    "401909936": {},
+    "401909937": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -9236,6 +9264,26 @@
       "reminder_at": "2026-11-04T14:00:00+00:00",
       "reminder_sent_at": null,
       "closes_at": "2026-11-04T16:59:00+00:00"
+    },
+    "2026-11-06": {
+      "date": "2026-11-06",
+      "event_ids": [
+        "401909936",
+        "401909937"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-11-05T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-11-05T16:59:00+00:00"
     }
   }
 }
