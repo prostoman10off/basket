@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T17:19:34.160Z",
-  "source_updated_at": "2026-11-04T07:06:39.697142+00:00",
+  "updated_at": "2026-11-05T05:35:59.498Z",
+  "source_updated_at": "2026-11-05T05:35:37.018660+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -2288,6 +2288,32 @@
       "home_abbr": "LAC",
       "status": "pre",
       "status_detail": "Wed, November 4th at 10:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909936": {
+      "event_id": "401909936",
+      "date": "2026-11-06T02:00Z",
+      "name": "Orlando Magic at Phoenix Suns",
+      "short_name": "ORL @ PHX",
+      "away_team": "Orlando Magic",
+      "away_abbr": "ORL",
+      "home_team": "Phoenix Suns",
+      "home_abbr": "PHX",
+      "status": "pre",
+      "status_detail": "Thu, November 5th at 9:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909937": {
+      "event_id": "401909937",
+      "date": "2026-11-06T03:00Z",
+      "name": "Miami Heat at Golden State Warriors",
+      "short_name": "MIA @ GS",
+      "away_team": "Miami Heat",
+      "away_abbr": "MIA",
+      "home_team": "Golden State Warriors",
+      "home_abbr": "GS",
+      "status": "pre",
+      "status_detail": "Thu, November 5th at 10:00 PM EST",
       "winner_abbr": null
     },
     "401914101": {
@@ -7024,6 +7050,8 @@
         "voted_at": "2026-11-04T07:06:39.697124+00:00"
       }
     },
+    "401909936": {},
+    "401909937": {},
     "401914101": {
       "42552913": {
         "user_id": 42552913,
