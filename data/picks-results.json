@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-05T05:35:59.612Z",
+  "updatedAt": "2026-11-05T05:36:31.773Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-05T05:35:59.498Z",
-    "currentSeason": "2026-11-05T05:35:59.444Z",
-    "previousSeason": "2026-11-05T05:35:59.444Z"
+    "picks": "2026-11-05T05:36:31.671Z",
+    "currentSeason": "2026-11-05T05:36:31.622Z",
+    "previousSeason": "2026-11-05T05:36:31.622Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 82,
       "correctPicks": 82,
       "wrongPicks": 37,
-      "pendingPicks": 2,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 121,
+      "totalPicks": 123,
       "gradedPicks": 119,
       "accuracy": 69,
       "place": 1
@@ -512,6 +512,40 @@
     }
   ],
   "results": [
+    {
+      "id": "401909937_andrei",
+      "gameId": "401909937",
+      "gameDate": "2026-11-06T03:00Z",
+      "gameName": "Miami Heat at Golden State Warriors",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "MIA",
+      "pickedTeamName": "Miami Heat",
+      "votedAt": "2026-11-05T05:36:08.159807+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIA",
+      "homeTeamAbbr": "GSW"
+    },
+    {
+      "id": "401909936_andrei",
+      "gameId": "401909936",
+      "gameDate": "2026-11-06T02:00Z",
+      "gameName": "Orlando Magic at Phoenix Suns",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "PHX",
+      "pickedTeamName": "Phoenix Suns",
+      "votedAt": "2026-11-05T05:36:03.466430+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "PHX"
+    },
     {
       "id": "401909935_ivan",
       "gameId": "401909935",
