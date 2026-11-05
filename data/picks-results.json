@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-05T05:41:27.834Z",
+  "updatedAt": "2026-11-05T07:56:30.255Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-05T05:41:27.639Z",
-    "currentSeason": "2026-11-05T05:41:27.538Z",
-    "previousSeason": "2026-11-05T05:41:27.538Z"
+    "picks": "2026-11-05T07:56:30.143Z",
+    "currentSeason": "2026-11-05T07:56:30.084Z",
+    "previousSeason": "2026-11-05T07:56:30.084Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,14 +15,14 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 82,
-      "correctPicks": 82,
+      "points": 84,
+      "correctPicks": 84,
       "wrongPicks": 37,
-      "pendingPicks": 4,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 123,
-      "gradedPicks": 119,
+      "gradedPicks": 121,
       "accuracy": 69,
       "place": 1
     },
@@ -31,14 +31,14 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 82,
-      "correctPicks": 82,
+      "points": 84,
+      "correctPicks": 84,
       "wrongPicks": 37,
-      "pendingPicks": 4,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 123,
-      "gradedPicks": 119,
+      "gradedPicks": 121,
       "accuracy": 69,
       "place": 2
     },
@@ -47,15 +47,15 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 75,
-      "correctPicks": 75,
+      "points": 77,
+      "correctPicks": 77,
       "wrongPicks": 44,
-      "pendingPicks": 4,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 123,
-      "gradedPicks": 119,
-      "accuracy": 63,
+      "gradedPicks": 121,
+      "accuracy": 64,
       "place": 3
     }
   ],
@@ -67,26 +67,26 @@
         "ivan": {
           "playerId": "ivan",
           "name": "Иван",
-          "points": 6,
-          "correctPicks": 6,
+          "points": 8,
+          "correctPicks": 8,
           "wrongPicks": 6,
-          "totalPicks": 12
+          "totalPicks": 14
         },
         "seva": {
           "playerId": "seva",
           "name": "Сева",
-          "points": 8,
-          "correctPicks": 8,
+          "points": 10,
+          "correctPicks": 10,
           "wrongPicks": 4,
-          "totalPicks": 12
+          "totalPicks": 14
         },
         "andrei": {
           "playerId": "andrei",
           "name": "Андрей",
-          "points": 8,
-          "correctPicks": 8,
+          "points": 10,
+          "correctPicks": 10,
           "wrongPicks": 4,
-          "totalPicks": 12
+          "totalPicks": 14
         }
       }
     },
@@ -625,9 +625,9 @@
       "pickedTeamAbbr": "MIA",
       "pickedTeamName": "Miami Heat",
       "votedAt": "2026-11-04T05:03:18.328848+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "MIA",
       "awayTeamAbbr": "MIA",
       "homeTeamAbbr": "LAC"
     },
@@ -642,9 +642,9 @@
       "pickedTeamAbbr": "MIA",
       "pickedTeamName": "Miami Heat",
       "votedAt": "2026-11-04T05:04:32.822333+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "MIA",
       "awayTeamAbbr": "MIA",
       "homeTeamAbbr": "LAC"
     },
@@ -659,9 +659,9 @@
       "pickedTeamAbbr": "MIA",
       "pickedTeamName": "Miami Heat",
       "votedAt": "2026-11-04T07:06:39.697124+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "MIA",
       "awayTeamAbbr": "MIA",
       "homeTeamAbbr": "LAC"
     },
@@ -676,9 +676,9 @@
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
       "votedAt": "2026-11-04T05:03:11.280362+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAL",
       "awayTeamAbbr": "LAL",
       "homeTeamAbbr": "SAC"
     },
@@ -693,9 +693,9 @@
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
       "votedAt": "2026-11-04T05:04:35.487849+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAL",
       "awayTeamAbbr": "LAL",
       "homeTeamAbbr": "SAC"
     },
@@ -710,9 +710,9 @@
       "pickedTeamAbbr": "LAL",
       "pickedTeamName": "Los Angeles Lakers",
       "votedAt": "2026-11-04T07:06:37.820913+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "LAL",
       "awayTeamAbbr": "LAL",
       "homeTeamAbbr": "SAC"
     },
