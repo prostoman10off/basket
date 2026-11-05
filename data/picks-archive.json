@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T05:36:31.671Z",
-  "source_updated_at": "2026-11-05T05:36:08.159807+00:00",
+  "updated_at": "2026-11-05T05:38:42.491Z",
+  "source_updated_at": "2026-11-05T05:38:21.553624+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7051,6 +7051,14 @@
       }
     },
     "401909936": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "ORL",
+        "picked_team": "Orlando Magic",
+        "voted_at": "2026-11-05T05:38:13.335949+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -7061,6 +7069,14 @@
       }
     },
     "401909937": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-05T05:38:21.553624+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
