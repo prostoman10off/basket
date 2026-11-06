@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:29:37.547556+00:00",
+  "updated_at": "2026-11-06T05:29:47.372590+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -7574,6 +7574,14 @@
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-11-06T05:28:13.812876+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-06T05:29:47.372590+00:00"
       }
     },
     "401909290": {
