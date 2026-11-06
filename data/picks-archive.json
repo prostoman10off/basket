@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T02:17:31.260Z",
-  "source_updated_at": "2026-11-06T02:17:17.809360+00:00",
+  "updated_at": "2026-11-06T05:21:04.539Z",
+  "source_updated_at": "2026-11-06T05:20:50.738608+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -962,6 +962,123 @@
       "home_abbr": "PHX",
       "status": "pre",
       "status_detail": "Fri, October 30th at 10:00 PM EDT",
+      "winner_abbr": null
+    },
+    "401909287": {
+      "event_id": "401909287",
+      "date": "2026-11-07T00:00Z",
+      "name": "Washington Wizards at Atlanta Hawks",
+      "short_name": "WSH @ ATL",
+      "away_team": "Washington Wizards",
+      "away_abbr": "WSH",
+      "home_team": "Atlanta Hawks",
+      "home_abbr": "ATL",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909288": {
+      "event_id": "401909288",
+      "date": "2026-11-07T00:00Z",
+      "name": "Boston Celtics at Charlotte Hornets",
+      "short_name": "BOS @ CHA",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Charlotte Hornets",
+      "home_abbr": "CHA",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909289": {
+      "event_id": "401909289",
+      "date": "2026-11-07T00:30Z",
+      "name": "Philadelphia 76ers at Cleveland Cavaliers",
+      "short_name": "PHI @ CLE",
+      "away_team": "Philadelphia 76ers",
+      "away_abbr": "PHI",
+      "home_team": "Cleveland Cavaliers",
+      "home_abbr": "CLE",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 7:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909290": {
+      "event_id": "401909290",
+      "date": "2026-11-07T01:00Z",
+      "name": "Utah Jazz at Dallas Mavericks",
+      "short_name": "UTAH @ DAL",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "Dallas Mavericks",
+      "home_abbr": "DAL",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909291": {
+      "event_id": "401909291",
+      "date": "2026-11-07T01:00Z",
+      "name": "Oklahoma City Thunder at Memphis Grizzlies",
+      "short_name": "OKC @ MEM",
+      "away_team": "Oklahoma City Thunder",
+      "away_abbr": "OKC",
+      "home_team": "Memphis Grizzlies",
+      "home_abbr": "MEM",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909292": {
+      "event_id": "401909292",
+      "date": "2026-11-07T01:00Z",
+      "name": "Toronto Raptors at Milwaukee Bucks",
+      "short_name": "TOR @ MIL",
+      "away_team": "Toronto Raptors",
+      "away_abbr": "TOR",
+      "home_team": "Milwaukee Bucks",
+      "home_abbr": "MIL",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909293": {
+      "event_id": "401909293",
+      "date": "2026-11-07T01:00Z",
+      "name": "Minnesota Timberwolves at New Orleans Pelicans",
+      "short_name": "MIN @ NO",
+      "away_team": "Minnesota Timberwolves",
+      "away_abbr": "MIN",
+      "home_team": "New Orleans Pelicans",
+      "home_abbr": "NO",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909294": {
+      "event_id": "401909294",
+      "date": "2026-11-07T03:00Z",
+      "name": "Portland Trail Blazers at Los Angeles Lakers",
+      "short_name": "POR @ LAL",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "Los Angeles Lakers",
+      "home_abbr": "LAL",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909295": {
+      "event_id": "401909295",
+      "date": "2026-11-07T03:00Z",
+      "name": "San Antonio Spurs at Sacramento Kings",
+      "short_name": "SA @ SAC",
+      "away_team": "San Antonio Spurs",
+      "away_abbr": "SA",
+      "home_team": "Sacramento Kings",
+      "home_abbr": "SAC",
+      "status": "pre",
+      "status_detail": "Fri, November 6th at 10:00 PM EST",
       "winner_abbr": null
     },
     "401909834": {
@@ -4398,6 +4515,15 @@
         "voted_at": "2026-10-30T06:16:20.912368+00:00"
       }
     },
+    "401909287": {},
+    "401909288": {},
+    "401909289": {},
+    "401909290": {},
+    "401909291": {},
+    "401909292": {},
+    "401909293": {},
+    "401909294": {},
+    "401909295": {},
     "401909834": {
       "42552913": {
         "user_id": 42552913,

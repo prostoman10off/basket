@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T02:17:31.346Z",
+  "updatedAt": "2026-11-06T05:21:04.611Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-06T02:17:31.260Z",
-    "currentSeason": "2026-11-06T02:17:31.213Z",
-    "previousSeason": "2026-11-06T02:17:31.213Z"
+    "picks": "2026-11-06T05:21:04.539Z",
+    "currentSeason": "2026-11-06T05:21:04.495Z",
+    "previousSeason": "2026-11-06T05:21:04.495Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,15 +15,15 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 84,
-      "correctPicks": 84,
+      "points": 85,
+      "correctPicks": 85,
       "wrongPicks": 37,
-      "pendingPicks": 2,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 123,
-      "gradedPicks": 121,
-      "accuracy": 69,
+      "gradedPicks": 122,
+      "accuracy": 70,
       "place": 1
     },
     {
@@ -33,12 +33,12 @@
       "favoriteTeam": "Celtics",
       "points": 84,
       "correctPicks": 84,
-      "wrongPicks": 37,
-      "pendingPicks": 2,
+      "wrongPicks": 38,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 123,
-      "gradedPicks": 121,
+      "gradedPicks": 122,
       "accuracy": 69,
       "place": 2
     },
@@ -47,19 +47,49 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 77,
-      "correctPicks": 77,
+      "points": 78,
+      "correctPicks": 78,
       "wrongPicks": 44,
-      "pendingPicks": 2,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 123,
-      "gradedPicks": 121,
+      "gradedPicks": 122,
       "accuracy": 64,
       "place": 3
     }
   ],
   "dailyTotals": [
+    {
+      "date": "2026-11-06",
+      "timeZone": "Asia/Novosibirsk",
+      "players": {
+        "ivan": {
+          "playerId": "ivan",
+          "name": "Иван",
+          "points": 0,
+          "correctPicks": 0,
+          "wrongPicks": 1,
+          "totalPicks": 1
+        },
+        "seva": {
+          "playerId": "seva",
+          "name": "Сева",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        },
+        "andrei": {
+          "playerId": "andrei",
+          "name": "Андрей",
+          "points": 1,
+          "correctPicks": 1,
+          "wrongPicks": 0,
+          "totalPicks": 1
+        }
+      }
+    },
     {
       "date": "2026-11-05",
       "timeZone": "Asia/Novosibirsk",
@@ -574,9 +604,9 @@
       "pickedTeamAbbr": "ORL",
       "pickedTeamName": "Orlando Magic",
       "votedAt": "2026-11-05T05:38:13.335949+00:00",
-      "status": "pending",
+      "status": "wrong",
       "points": 0,
-      "winnerTeamAbbr": null,
+      "winnerTeamAbbr": "PHX",
       "awayTeamAbbr": "ORL",
       "homeTeamAbbr": "PHX"
     },
@@ -591,9 +621,9 @@
       "pickedTeamAbbr": "PHX",
       "pickedTeamName": "Phoenix Suns",
       "votedAt": "2026-11-05T05:40:57.955472+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "PHX",
       "awayTeamAbbr": "ORL",
       "homeTeamAbbr": "PHX"
     },
@@ -608,9 +638,9 @@
       "pickedTeamAbbr": "PHX",
       "pickedTeamName": "Phoenix Suns",
       "votedAt": "2026-11-05T05:36:03.466430+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "PHX",
       "awayTeamAbbr": "ORL",
       "homeTeamAbbr": "PHX"
     },
