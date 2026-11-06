@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-06T05:30:49.306Z",
+  "updatedAt": "2026-11-06T06:48:38.626Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909937",
+      "name": "Miami Heat at Golden State Warriors",
+      "shortName": "MIA @ GS",
+      "date": "2026-11-06T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "9",
+        "name": "Golden State Warriors",
+        "shortName": "Warriors",
+        "abbreviation": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+        "score": 120
+      },
+      "awayTeam": {
+        "id": "14",
+        "name": "Miami Heat",
+        "shortName": "Heat",
+        "abbreviation": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "score": 100
+      }
+    },
     {
       "id": "401909936",
       "name": "Orlando Magic at Phoenix Suns",
