@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-06T05:21:42.667Z",
-  "source_updated_at": "2026-11-06T05:21:27.979584+00:00",
+  "updated_at": "2026-11-06T05:27:04.906Z",
+  "source_updated_at": "2026-11-06T05:26:40.550872+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -4516,14 +4516,86 @@
       }
     },
     "401909287": {},
-    "401909288": {},
-    "401909289": {},
-    "401909290": {},
-    "401909291": {},
-    "401909292": {},
-    "401909293": {},
-    "401909294": {},
-    "401909295": {},
+    "401909288": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-06T05:26:40.550872+00:00"
+      }
+    },
+    "401909289": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-06T05:26:32.395390+00:00"
+      }
+    },
+    "401909290": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-06T05:26:25.249419+00:00"
+      }
+    },
+    "401909291": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-06T05:26:18.833497+00:00"
+      }
+    },
+    "401909292": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-11-06T05:26:11.779123+00:00"
+      }
+    },
+    "401909293": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-06T05:26:03.837049+00:00"
+      }
+    },
+    "401909294": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "LAL",
+        "picked_team": "Los Angeles Lakers",
+        "voted_at": "2026-11-06T05:25:55.916540+00:00"
+      }
+    },
+    "401909295": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-06T05:25:49.590376+00:00"
+      }
+    },
     "401909834": {
       "42552913": {
         "user_id": 42552913,
