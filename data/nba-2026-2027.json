@@ -2,9 +2,71 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-07T05:24:39.161Z",
+  "updatedAt": "2026-11-07T07:15:05.241Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909294",
+      "name": "Portland Trail Blazers at Los Angeles Lakers",
+      "shortName": "POR @ LAL",
+      "date": "2026-11-07T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 124
+      },
+      "awayTeam": {
+        "id": "22",
+        "name": "Portland Trail Blazers",
+        "shortName": "Trail Blazers",
+        "abbreviation": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+        "score": 118
+      }
+    },
+    {
+      "id": "401909295",
+      "name": "San Antonio Spurs at Sacramento Kings",
+      "shortName": "SA @ SAC",
+      "date": "2026-11-07T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 109
+      },
+      "awayTeam": {
+        "id": "24",
+        "name": "San Antonio Spurs",
+        "shortName": "Spurs",
+        "abbreviation": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "score": 124
+      }
+    },
     {
       "id": "401909290",
       "name": "Utah Jazz at Dallas Mavericks",
