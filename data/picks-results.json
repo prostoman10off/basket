@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-07T05:23:53.612Z",
+  "updatedAt": "2026-11-07T05:24:23.064Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-07T05:23:53.518Z",
-    "currentSeason": "2026-11-07T05:23:53.464Z",
-    "previousSeason": "2026-11-07T05:23:53.464Z"
+    "picks": "2026-11-07T05:24:22.929Z",
+    "currentSeason": "2026-11-07T05:24:22.863Z",
+    "previousSeason": "2026-11-07T05:24:22.863Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 90,
       "correctPicks": 90,
       "wrongPicks": 40,
-      "pendingPicks": 6,
+      "pendingPicks": 8,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 136,
+      "totalPicks": 138,
       "gradedPicks": 130,
       "accuracy": 69,
       "place": 2
@@ -590,6 +590,23 @@
       "homeTeamAbbr": "POR"
     },
     {
+      "id": "401909943_ivan",
+      "gameId": "401909943",
+      "gameDate": "2026-11-08T02:00Z",
+      "gameName": "Houston Rockets at Phoenix Suns",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-11-07T05:24:05.293653+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "HOU",
+      "homeTeamAbbr": "PHX"
+    },
+    {
       "id": "401909943_seva",
       "gameId": "401909943",
       "gameDate": "2026-11-08T02:00Z",
@@ -605,6 +622,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "HOU",
       "homeTeamAbbr": "PHX"
+    },
+    {
+      "id": "401909942_ivan",
+      "gameId": "401909942",
+      "gameDate": "2026-11-08T01:30Z",
+      "gameName": "Orlando Magic at Golden State Warriors",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "GSW",
+      "pickedTeamName": "Golden State Warriors",
+      "votedAt": "2026-11-07T05:23:52.805736+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "GSW"
     },
     {
       "id": "401909942_seva",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T05:23:53.518Z",
-  "source_updated_at": "2026-11-07T05:23:39.112741+00:00",
+  "updated_at": "2026-11-07T05:24:22.929Z",
+  "source_updated_at": "2026-11-07T05:24:05.293653+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7617,6 +7617,14 @@
       }
     },
     "401909942": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-07T05:23:52.805736+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7627,6 +7635,14 @@
       }
     },
     "401909943": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-11-07T05:24:05.293653+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
