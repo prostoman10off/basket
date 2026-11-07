@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-07T05:22:13.505Z",
+  "updatedAt": "2026-11-07T05:23:39.910Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-07T05:22:13.390Z",
-    "currentSeason": "2026-11-07T05:22:13.327Z",
-    "previousSeason": "2026-11-07T05:22:13.327Z"
+    "picks": "2026-11-07T05:23:39.791Z",
+    "currentSeason": "2026-11-07T05:23:39.731Z",
+    "previousSeason": "2026-11-07T05:23:39.731Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 90,
       "correctPicks": 90,
       "wrongPicks": 40,
-      "pendingPicks": 2,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 132,
+      "totalPicks": 135,
       "gradedPicks": 130,
       "accuracy": 69,
       "place": 2
@@ -641,6 +641,23 @@
       "homeTeamAbbr": "CLE"
     },
     {
+      "id": "401909941_ivan",
+      "gameId": "401909941",
+      "gameDate": "2026-11-08T01:00Z",
+      "gameName": "Washington Wizards at Oklahoma City Thunder",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-11-07T05:23:21.107780+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "WAS",
+      "homeTeamAbbr": "OKC"
+    },
+    {
       "id": "401909941_seva",
       "gameId": "401909941",
       "gameDate": "2026-11-08T01:00Z",
@@ -658,6 +675,23 @@
       "homeTeamAbbr": "OKC"
     },
     {
+      "id": "401909939_ivan",
+      "gameId": "401909939",
+      "gameDate": "2026-11-08T00:30Z",
+      "gameName": "Brooklyn Nets at Atlanta Hawks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "ATL",
+      "pickedTeamName": "Atlanta Hawks",
+      "votedAt": "2026-11-07T05:23:03.154626+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "ATL"
+    },
+    {
       "id": "401909939_seva",
       "gameId": "401909939",
       "gameDate": "2026-11-08T00:30Z",
@@ -673,6 +707,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "BKN",
       "homeTeamAbbr": "ATL"
+    },
+    {
+      "id": "401909938_ivan",
+      "gameId": "401909938",
+      "gameDate": "2026-11-07T22:00Z",
+      "gameName": "Denver Nuggets at Indiana Pacers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-11-07T05:22:53.408727+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DEN",
+      "homeTeamAbbr": "IND"
     },
     {
       "id": "401909938_seva",

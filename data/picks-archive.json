@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T05:22:13.390Z",
-  "source_updated_at": "2026-11-07T05:21:47.819826+00:00",
+  "updated_at": "2026-11-07T05:23:39.791Z",
+  "source_updated_at": "2026-11-07T05:23:21.107780+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7545,6 +7545,14 @@
       }
     },
     "401909938": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-07T05:22:53.408727+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7555,6 +7563,14 @@
       }
     },
     "401909939": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "ATL",
+        "picked_team": "Atlanta Hawks",
+        "voted_at": "2026-11-07T05:23:03.154626+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7575,6 +7591,14 @@
       }
     },
     "401909941": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-07T05:23:21.107780+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
