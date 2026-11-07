@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T05:23:39.112741+00:00",
+  "updated_at": "2026-11-07T05:23:52.805736+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -7935,6 +7935,14 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-11-07T05:21:30.817925+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-07T05:23:52.805736+00:00"
       }
     },
     "401909943": {
