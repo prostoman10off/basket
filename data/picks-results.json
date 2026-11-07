@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-07T05:23:39.910Z",
+  "updatedAt": "2026-11-07T05:23:53.612Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-07T05:23:39.791Z",
-    "currentSeason": "2026-11-07T05:23:39.731Z",
-    "previousSeason": "2026-11-07T05:23:39.731Z"
+    "picks": "2026-11-07T05:23:53.518Z",
+    "currentSeason": "2026-11-07T05:23:53.464Z",
+    "previousSeason": "2026-11-07T05:23:53.464Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 90,
       "correctPicks": 90,
       "wrongPicks": 40,
-      "pendingPicks": 5,
+      "pendingPicks": 6,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 135,
+      "totalPicks": 136,
       "gradedPicks": 130,
       "accuracy": 69,
       "place": 2
@@ -622,6 +622,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "ORL",
       "homeTeamAbbr": "GSW"
+    },
+    {
+      "id": "401909940_ivan",
+      "gameId": "401909940",
+      "gameDate": "2026-11-08T01:00Z",
+      "gameName": "New York Knicks at Cleveland Cavaliers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-11-07T05:23:39.112741+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "NYK",
+      "homeTeamAbbr": "CLE"
     },
     {
       "id": "401909940_seva",
