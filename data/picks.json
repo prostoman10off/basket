@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:04:46.574878+00:00",
+  "updated_at": "2026-11-08T05:04:55.036365+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -8226,6 +8226,14 @@
         "picked_abbr": "NO",
         "picked_team": "New Orleans Pelicans",
         "voted_at": "2026-11-08T05:03:56.000088+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "LAC",
+        "picked_team": "LA Clippers",
+        "voted_at": "2026-11-08T05:04:55.036365+00:00"
       }
     },
     "401909951": {
