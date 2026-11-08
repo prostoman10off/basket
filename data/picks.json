@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:16:15.779525+00:00",
+  "updated_at": "2026-11-08T05:16:20.679606+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -8300,6 +8300,14 @@
         "picked_abbr": "SAC",
         "picked_team": "Sacramento Kings",
         "voted_at": "2026-11-08T05:05:02.911866+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-08T05:16:20.679606+00:00"
       }
     }
   },
@@ -10403,7 +10411,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-11-08T05:16:20.679606+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
