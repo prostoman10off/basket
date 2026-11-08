@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T05:03:09.310Z",
-  "source_updated_at": "2026-11-08T05:02:55.085999+00:00",
+  "updated_at": "2026-11-08T05:05:21.575Z",
+  "source_updated_at": "2026-11-08T05:05:02.911866+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7817,13 +7817,132 @@
         "voted_at": "2026-11-07T10:22:12.262107+00:00"
       }
     },
-    "401909945": {},
-    "401909946": {},
-    "401909947": {},
-    "401909948": {},
-    "401909949": {},
-    "401909950": {},
-    "401909951": {},
+    "401909945": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-08T05:04:06.703392+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-08T05:03:31.653552+00:00"
+      }
+    },
+    "401909946": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-08T05:04:20.688149+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-08T05:03:36.447943+00:00"
+      }
+    },
+    "401909947": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-08T05:04:27.526273+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-08T05:03:41.477123+00:00"
+      }
+    },
+    "401909948": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-08T05:04:40.185720+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-08T05:03:46.237070+00:00"
+      }
+    },
+    "401909949": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-08T05:04:46.574878+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-08T05:03:51.531414+00:00"
+      }
+    },
+    "401909950": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "LAC",
+        "picked_team": "LA Clippers",
+        "voted_at": "2026-11-08T05:04:55.036365+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "NO",
+        "picked_team": "New Orleans Pelicans",
+        "voted_at": "2026-11-08T05:03:56.000088+00:00"
+      }
+    },
+    "401909951": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "SAC",
+        "picked_team": "Sacramento Kings",
+        "voted_at": "2026-11-08T05:05:02.911866+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-08T05:04:01.953788+00:00"
+      }
+    },
     "401914101": {
       "42552913": {
         "user_id": 42552913,
