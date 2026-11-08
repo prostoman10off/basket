@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T16:59:00.277380+00:00",
+  "updated_at": "2026-11-08T05:02:55.085999+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -2677,6 +2677,97 @@
       "home_abbr": "POR",
       "status": "pre",
       "status_detail": "Sat, November 7th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909945": {
+      "event_id": "401909945",
+      "date": "2026-11-08T20:30Z",
+      "name": "Philadelphia 76ers at Chicago Bulls",
+      "short_name": "PHI @ CHI",
+      "away_team": "Philadelphia 76ers",
+      "away_abbr": "PHI",
+      "home_team": "Chicago Bulls",
+      "home_abbr": "CHI",
+      "status": "pre",
+      "status_detail": "Sun, November 8th at 3:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909946": {
+      "event_id": "401909946",
+      "date": "2026-11-08T23:00Z",
+      "name": "Los Angeles Lakers at Detroit Pistons",
+      "short_name": "LAL @ DET",
+      "away_team": "Los Angeles Lakers",
+      "away_abbr": "LAL",
+      "home_team": "Detroit Pistons",
+      "home_abbr": "DET",
+      "status": "pre",
+      "status_detail": "Sun, November 8th at 6:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909947": {
+      "event_id": "401909947",
+      "date": "2026-11-09T00:00Z",
+      "name": "Utah Jazz at Minnesota Timberwolves",
+      "short_name": "UTAH @ MIN",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "Minnesota Timberwolves",
+      "home_abbr": "MIN",
+      "status": "pre",
+      "status_detail": "Sun, November 8th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909948": {
+      "event_id": "401909948",
+      "date": "2026-11-09T00:30Z",
+      "name": "Brooklyn Nets at Dallas Mavericks",
+      "short_name": "BKN @ DAL",
+      "away_team": "Brooklyn Nets",
+      "away_abbr": "BKN",
+      "home_team": "Dallas Mavericks",
+      "home_abbr": "DAL",
+      "status": "pre",
+      "status_detail": "Sun, November 8th at 7:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909949": {
+      "event_id": "401909949",
+      "date": "2026-11-09T01:00Z",
+      "name": "Boston Celtics at Milwaukee Bucks",
+      "short_name": "BOS @ MIL",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Milwaukee Bucks",
+      "home_abbr": "MIL",
+      "status": "pre",
+      "status_detail": "Sun, November 8th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909950": {
+      "event_id": "401909950",
+      "date": "2026-11-09T02:00Z",
+      "name": "New Orleans Pelicans at LA Clippers",
+      "short_name": "NO @ LAC",
+      "away_team": "New Orleans Pelicans",
+      "away_abbr": "NO",
+      "home_team": "LA Clippers",
+      "home_abbr": "LAC",
+      "status": "pre",
+      "status_detail": "Sun, November 8th at 9:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909951": {
+      "event_id": "401909951",
+      "date": "2026-11-09T02:00Z",
+      "name": "Miami Heat at Sacramento Kings",
+      "short_name": "MIA @ SAC",
+      "away_team": "Miami Heat",
+      "away_abbr": "MIA",
+      "home_team": "Sacramento Kings",
+      "home_abbr": "SAC",
+      "status": "pre",
+      "status_detail": "Sun, November 8th at 9:00 PM EST",
       "winner_abbr": null
     }
   },
@@ -8036,7 +8127,14 @@
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-11-07T10:22:12.262107+00:00"
       }
-    }
+    },
+    "401909945": {},
+    "401909946": {},
+    "401909947": {},
+    "401909948": {},
+    "401909949": {},
+    "401909950": {},
+    "401909951": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -10121,6 +10219,31 @@
       "reminder_at": "2026-11-07T14:00:00+00:00",
       "reminder_sent_at": "2026-11-07T14:00:00.575267+00:00",
       "closes_at": "2026-11-07T16:59:00+00:00"
+    },
+    "2026-11-09": {
+      "date": "2026-11-09",
+      "event_ids": [
+        "401909945",
+        "401909946",
+        "401909947",
+        "401909948",
+        "401909949",
+        "401909950",
+        "401909951"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-11-08T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-11-08T16:59:00+00:00"
     }
   }
 }
