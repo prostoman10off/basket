@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:16:10.703969+00:00",
+  "updated_at": "2026-11-08T05:16:15.779525+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -8274,6 +8274,14 @@
         "picked_abbr": "LAC",
         "picked_team": "LA Clippers",
         "voted_at": "2026-11-08T05:04:55.036365+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "LAC",
+        "picked_team": "LA Clippers",
+        "voted_at": "2026-11-08T05:16:15.779525+00:00"
       }
     },
     "401909951": {
