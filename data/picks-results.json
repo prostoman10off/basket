@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-10T08:27:27.057Z",
+  "updatedAt": "2026-11-10T14:00:41.376Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-10T08:27:26.948Z",
-    "currentSeason": "2026-11-10T08:27:26.896Z",
-    "previousSeason": "2026-11-10T08:27:26.896Z"
+    "picks": "2026-11-10T14:00:41.253Z",
+    "currentSeason": "2026-11-10T14:00:41.190Z",
+    "previousSeason": "2026-11-10T14:00:41.190Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,14 +15,14 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 110,
-      "correctPicks": 110,
+      "points": 111,
+      "correctPicks": 111,
       "wrongPicks": 43,
-      "pendingPicks": 7,
+      "pendingPicks": 6,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 160,
-      "gradedPicks": 153,
+      "gradedPicks": 154,
       "accuracy": 72,
       "place": 1
     },
@@ -31,14 +31,14 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 106,
-      "correctPicks": 106,
+      "points": 107,
+      "correctPicks": 107,
       "wrongPicks": 47,
-      "pendingPicks": 7,
+      "pendingPicks": 6,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 160,
-      "gradedPicks": 153,
+      "gradedPicks": 154,
       "accuracy": 69,
       "place": 2
     },
@@ -47,14 +47,14 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 102,
-      "correctPicks": 102,
+      "points": 103,
+      "correctPicks": 103,
       "wrongPicks": 51,
-      "pendingPicks": 7,
+      "pendingPicks": 6,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 160,
-      "gradedPicks": 153,
+      "gradedPicks": 154,
       "accuracy": 67,
       "place": 3
     }
@@ -67,26 +67,26 @@
         "ivan": {
           "playerId": "ivan",
           "name": "Иван",
-          "points": 5,
-          "correctPicks": 5,
+          "points": 6,
+          "correctPicks": 6,
           "wrongPicks": 2,
-          "totalPicks": 7
+          "totalPicks": 8
         },
         "seva": {
           "playerId": "seva",
           "name": "Сева",
-          "points": 5,
-          "correctPicks": 5,
+          "points": 6,
+          "correctPicks": 6,
           "wrongPicks": 2,
-          "totalPicks": 7
+          "totalPicks": 8
         },
         "andrei": {
           "playerId": "andrei",
           "name": "Андрей",
-          "points": 5,
-          "correctPicks": 5,
+          "points": 6,
+          "correctPicks": 6,
           "wrongPicks": 2,
-          "totalPicks": 7
+          "totalPicks": 8
         }
       }
     },
@@ -979,9 +979,9 @@
       "pickedTeamAbbr": "GSW",
       "pickedTeamName": "Golden State Warriors",
       "votedAt": "2026-11-09T05:24:27.366603+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "GSW",
       "awayTeamAbbr": "NOP",
       "homeTeamAbbr": "GSW"
     },
@@ -996,9 +996,9 @@
       "pickedTeamAbbr": "GSW",
       "pickedTeamName": "Golden State Warriors",
       "votedAt": "2026-11-09T05:23:17.503451+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "GSW",
       "awayTeamAbbr": "NOP",
       "homeTeamAbbr": "GSW"
     },
@@ -1013,9 +1013,9 @@
       "pickedTeamAbbr": "GSW",
       "pickedTeamName": "Golden State Warriors",
       "votedAt": "2026-11-09T07:04:15.015336+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "GSW",
       "awayTeamAbbr": "NOP",
       "homeTeamAbbr": "GSW"
     },

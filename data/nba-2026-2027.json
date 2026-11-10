@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-10T08:27:26.896Z",
+  "updatedAt": "2026-11-10T14:00:41.190Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909959",
+      "name": "New Orleans Pelicans at Golden State Warriors",
+      "shortName": "NO @ GS",
+      "date": "2026-11-10T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "9",
+        "name": "Golden State Warriors",
+        "shortName": "Warriors",
+        "abbreviation": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+        "score": 138
+      },
+      "awayTeam": {
+        "id": "3",
+        "name": "New Orleans Pelicans",
+        "shortName": "Pelicans",
+        "abbreviation": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "score": 87
+      }
+    },
     {
       "id": "401909958",
       "name": "San Antonio Spurs at Phoenix Suns",
