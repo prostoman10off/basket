@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:07:33.576945+00:00",
+  "updated_at": "2026-11-10T05:07:38.309211+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -8798,6 +8798,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-11-10T05:06:16.011772+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-11-10T05:07:38.309211+00:00"
       }
     }
   },
