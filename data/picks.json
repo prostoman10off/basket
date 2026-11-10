@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:07:28.540208+00:00",
+  "updated_at": "2026-11-10T05:07:33.576945+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -8780,6 +8780,14 @@
         "picked_abbr": "ORL",
         "picked_team": "Orlando Magic",
         "voted_at": "2026-11-10T05:06:10.606808+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "ORL",
+        "picked_team": "Orlando Magic",
+        "voted_at": "2026-11-10T05:07:33.576945+00:00"
       }
     },
     "401909965": {
