@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:07:17.625225+00:00",
+  "updated_at": "2026-11-10T05:07:22.217214+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -8744,6 +8744,14 @@
         "picked_abbr": "PHX",
         "picked_team": "Phoenix Suns",
         "voted_at": "2026-11-10T05:06:00.178285+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-10T05:07:22.217214+00:00"
       }
     },
     "401909963": {
