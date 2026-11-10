@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T05:06:38.880Z",
-  "source_updated_at": "2026-11-10T05:06:16.011772+00:00",
+  "updated_at": "2026-11-10T05:08:55.840Z",
+  "source_updated_at": "2026-11-10T05:08:39.918933+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -8390,6 +8390,22 @@
       }
     },
     "401909960": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-11-10T05:07:54.817769+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-11-10T05:07:10.858438+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -8400,6 +8416,22 @@
       }
     },
     "401909961": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-10T05:08:06.503844+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-10T05:07:17.625225+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -8410,6 +8442,22 @@
       }
     },
     "401909962": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-10T05:08:19.075413+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-10T05:07:22.217214+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -8420,6 +8468,22 @@
       }
     },
     "401909963": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-10T05:08:25.942535+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-10T05:07:28.540208+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -8430,6 +8494,22 @@
       }
     },
     "401909964": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "ORL",
+        "picked_team": "Orlando Magic",
+        "voted_at": "2026-11-10T05:08:33.162039+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "ORL",
+        "picked_team": "Orlando Magic",
+        "voted_at": "2026-11-10T05:07:33.576945+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -8440,6 +8520,22 @@
       }
     },
     "401909965": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-10T05:08:39.918933+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-10T05:07:43.045599+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
