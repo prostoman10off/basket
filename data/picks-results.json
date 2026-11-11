@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11T14:06:41.215Z",
+  "updatedAt": "2026-11-11T14:07:18.635Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-11T14:06:41.136Z",
-    "currentSeason": "2026-11-11T14:06:41.070Z",
-    "previousSeason": "2026-11-11T14:06:41.070Z"
+    "picks": "2026-11-11T14:07:18.504Z",
+    "currentSeason": "2026-11-11T14:07:18.445Z",
+    "previousSeason": "2026-11-11T14:07:18.445Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 112,
       "correctPicks": 112,
       "wrongPicks": 48,
-      "pendingPicks": 5,
+      "pendingPicks": 7,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 165,
+      "totalPicks": 167,
       "gradedPicks": 160,
       "accuracy": 70,
       "place": 2
@@ -897,6 +897,23 @@
       "homeTeamAbbr": "MEM"
     },
     {
+      "id": "401909971_ivan",
+      "gameId": "401909971",
+      "gameDate": "2026-11-12T01:00Z",
+      "gameName": "Los Angeles Lakers at Milwaukee Bucks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "LAL",
+      "pickedTeamName": "Los Angeles Lakers",
+      "votedAt": "2026-11-11T14:06:42.057315+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "LAL",
+      "homeTeamAbbr": "MIL"
+    },
+    {
       "id": "401909971_seva",
       "gameId": "401909971",
       "gameDate": "2026-11-12T01:00Z",
@@ -929,6 +946,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "LAL",
       "homeTeamAbbr": "MIL"
+    },
+    {
+      "id": "401909972_ivan",
+      "gameId": "401909972",
+      "gameDate": "2026-11-12T01:00Z",
+      "gameName": "Brooklyn Nets at New Orleans Pelicans",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "NOP",
+      "pickedTeamName": "New Orleans Pelicans",
+      "votedAt": "2026-11-11T14:06:52.475258+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "NOP"
     },
     {
       "id": "401909972_seva",
