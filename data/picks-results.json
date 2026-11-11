@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11T14:08:14.784Z",
+  "updatedAt": "2026-11-11T14:08:37.178Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-11T14:08:14.652Z",
-    "currentSeason": "2026-11-11T14:08:14.591Z",
-    "previousSeason": "2026-11-11T14:08:14.591Z"
+    "picks": "2026-11-11T14:08:37.055Z",
+    "currentSeason": "2026-11-11T14:08:36.994Z",
+    "previousSeason": "2026-11-11T14:08:36.994Z"
   },
   "scoring": {
     "correct": 1,
@@ -770,7 +770,7 @@
       "playerPhoto": "Ivan.jpg",
       "pickedTeamAbbr": "ORL",
       "pickedTeamName": "Orlando Magic",
-      "votedAt": "2026-11-11T14:07:51.349185+00:00",
+      "votedAt": "2026-11-11T14:08:22.589602+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
