@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:43:44.258094+00:00",
+  "updated_at": "2026-11-11T05:43:49.023745+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -9156,6 +9156,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-11-11T05:04:48.594005+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-11T05:43:49.023745+00:00"
       }
     }
   },
