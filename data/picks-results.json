@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11T14:10:55.277Z",
+  "updatedAt": "2026-11-11T14:11:43.172Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-11T14:10:55.180Z",
-    "currentSeason": "2026-11-11T14:10:55.127Z",
-    "previousSeason": "2026-11-11T14:10:55.126Z"
+    "picks": "2026-11-11T14:11:43.034Z",
+    "currentSeason": "2026-11-11T14:11:42.973Z",
+    "previousSeason": "2026-11-11T14:11:42.973Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 112,
       "correctPicks": 112,
       "wrongPicks": 48,
-      "pendingPicks": 9,
+      "pendingPicks": 10,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 169,
+      "totalPicks": 170,
       "gradedPicks": 160,
       "accuracy": 70,
       "place": 2
@@ -692,6 +692,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401909975_ivan",
+      "gameId": "401909975",
+      "gameDate": "2026-11-12T03:00Z",
+      "gameName": "Oklahoma City Thunder at Portland Trail Blazers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-11-11T14:11:28.281134+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "POR"
+    },
     {
       "id": "401909975_seva",
       "gameId": "401909975",
