@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-11T05:06:05.574Z",
+  "updatedAt": "2026-11-11T05:44:14.030Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909964",
+      "name": "Orlando Magic at Sacramento Kings",
+      "shortName": "ORL @ SAC",
+      "date": "2026-11-11T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 100
+      },
+      "awayTeam": {
+        "id": "19",
+        "name": "Orlando Magic",
+        "shortName": "Magic",
+        "abbreviation": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+        "score": 107
+      }
+    },
     {
       "id": "401909962",
       "name": "LA Clippers at Phoenix Suns",
