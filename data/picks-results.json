@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11T14:08:37.178Z",
+  "updatedAt": "2026-11-11T14:10:55.277Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-11T14:08:37.055Z",
-    "currentSeason": "2026-11-11T14:08:36.994Z",
-    "previousSeason": "2026-11-11T14:08:36.994Z"
+    "picks": "2026-11-11T14:10:55.180Z",
+    "currentSeason": "2026-11-11T14:10:55.127Z",
+    "previousSeason": "2026-11-11T14:10:55.126Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 112,
       "correctPicks": 112,
       "wrongPicks": 48,
-      "pendingPicks": 8,
+      "pendingPicks": 9,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 168,
+      "totalPicks": 169,
       "gradedPicks": 160,
       "accuracy": 70,
       "place": 2
@@ -725,6 +725,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "OKC",
       "homeTeamAbbr": "POR"
+    },
+    {
+      "id": "401909974_ivan",
+      "gameId": "401909974",
+      "gameDate": "2026-11-12T02:30Z",
+      "gameName": "Golden State Warriors at Houston Rockets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-11-11T14:10:38.537974+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "GSW",
+      "homeTeamAbbr": "HOU"
     },
     {
       "id": "401909974_seva",
