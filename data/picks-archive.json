@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T17:13:24.387Z",
-  "source_updated_at": "2026-11-11T16:59:23.084900+00:00",
+  "updated_at": "2026-11-12T05:01:56.079Z",
+  "source_updated_at": "2026-11-12T05:01:40.790494+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -2925,6 +2925,58 @@
       "home_abbr": "POR",
       "status": "pre",
       "status_detail": "Wed, November 11th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909976": {
+      "event_id": "401909976",
+      "date": "2026-11-13T00:00Z",
+      "name": "Toronto Raptors at Philadelphia 76ers",
+      "short_name": "TOR @ PHI",
+      "away_team": "Toronto Raptors",
+      "away_abbr": "TOR",
+      "home_team": "Philadelphia 76ers",
+      "home_abbr": "PHI",
+      "status": "pre",
+      "status_detail": "Thu, November 12th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909977": {
+      "event_id": "401909977",
+      "date": "2026-11-13T00:00Z",
+      "name": "Detroit Pistons at Washington Wizards",
+      "short_name": "DET @ WSH",
+      "away_team": "Detroit Pistons",
+      "away_abbr": "DET",
+      "home_team": "Washington Wizards",
+      "home_abbr": "WSH",
+      "status": "pre",
+      "status_detail": "Thu, November 12th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909978": {
+      "event_id": "401909978",
+      "date": "2026-11-13T01:00Z",
+      "name": "Dallas Mavericks at Minnesota Timberwolves",
+      "short_name": "DAL @ MIN",
+      "away_team": "Dallas Mavericks",
+      "away_abbr": "DAL",
+      "home_team": "Minnesota Timberwolves",
+      "home_abbr": "MIN",
+      "status": "pre",
+      "status_detail": "Thu, November 12th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909979": {
+      "event_id": "401909979",
+      "date": "2026-11-13T02:00Z",
+      "name": "Charlotte Hornets at Phoenix Suns",
+      "short_name": "CHA @ PHX",
+      "away_team": "Charlotte Hornets",
+      "away_abbr": "CHA",
+      "home_team": "Phoenix Suns",
+      "home_abbr": "PHX",
+      "status": "pre",
+      "status_detail": "Thu, November 12th at 9:00 PM EST",
       "winner_abbr": null
     },
     "401914101": {
@@ -8935,6 +8987,10 @@
         "voted_at": "2026-11-11T05:43:49.023745+00:00"
       }
     },
+    "401909976": {},
+    "401909977": {},
+    "401909978": {},
+    "401909979": {},
     "401914101": {
       "42552913": {
         "user_id": 42552913,
