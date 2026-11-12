@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T05:18:46.390Z",
-  "source_updated_at": "2026-11-12T05:18:20.232578+00:00",
+  "updated_at": "2026-11-12T05:33:27.673Z",
+  "source_updated_at": "2026-11-12T05:33:04.103764+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -8988,6 +8988,14 @@
       }
     },
     "401909976": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-12T05:33:04.103764+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -8998,6 +9006,14 @@
       }
     },
     "401909977": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-12T05:32:58.813918+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -9008,6 +9024,14 @@
       }
     },
     "401909978": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-12T05:32:49.226419+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -9018,6 +9042,14 @@
       }
     },
     "401909979": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-12T05:32:39.998989+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
