@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:47:25.734822+00:00",
+  "updated_at": "2026-11-13T06:47:31.480667+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -9743,6 +9743,14 @@
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
         "voted_at": "2026-11-13T05:19:21.514215+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-13T06:47:31.480667+00:00"
       }
     }
   },
@@ -12188,7 +12196,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-11-13T06:47:31.480667+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
