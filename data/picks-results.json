@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T05:18:16.634Z",
+  "updatedAt": "2026-11-13T05:18:39.268Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-13T05:18:16.517Z",
-    "currentSeason": "2026-11-13T05:18:16.463Z",
-    "previousSeason": "2026-11-13T05:18:16.463Z"
+    "picks": "2026-11-13T05:18:39.170Z",
+    "currentSeason": "2026-11-13T05:18:39.113Z",
+    "previousSeason": "2026-11-13T05:18:39.113Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 124,
       "correctPicks": 124,
       "wrongPicks": 50,
-      "pendingPicks": 4,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 178,
+      "totalPicks": 179,
       "gradedPicks": 174,
       "accuracy": 71,
       "place": 2
@@ -819,6 +819,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "UTA",
       "homeTeamAbbr": "HOU"
+    },
+    {
+      "id": "401909298_ivan",
+      "gameId": "401909298",
+      "gameDate": "2026-11-14T01:00Z",
+      "gameName": "Cleveland Cavaliers at Miami Heat",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-11-13T05:18:24.648207+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CLE",
+      "homeTeamAbbr": "MIA"
     },
     {
       "id": "401909298_seva",
