@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T05:06:49.116Z",
+  "updatedAt": "2026-11-13T05:17:27.662Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-13T05:06:48.989Z",
-    "currentSeason": "2026-11-13T05:06:48.924Z",
-    "previousSeason": "2026-11-13T05:06:48.924Z"
+    "picks": "2026-11-13T05:17:27.532Z",
+    "currentSeason": "2026-11-13T05:17:27.476Z",
+    "previousSeason": "2026-11-13T05:17:27.476Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 124,
       "correctPicks": 124,
       "wrongPicks": 50,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 174,
+      "totalPicks": 175,
       "gradedPicks": 174,
       "accuracy": 71,
       "place": 2
@@ -887,6 +887,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "NYK",
       "homeTeamAbbr": "IND"
+    },
+    {
+      "id": "401909297_ivan",
+      "gameId": "401909297",
+      "gameDate": "2026-11-14T00:00Z",
+      "gameName": "Milwaukee Bucks at Orlando Magic",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "ORL",
+      "pickedTeamName": "Orlando Magic",
+      "votedAt": "2026-11-13T05:17:12.081878+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIL",
+      "homeTeamAbbr": "ORL"
     },
     {
       "id": "401909297_seva",
