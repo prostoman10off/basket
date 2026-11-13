@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T17:37:38.050Z",
-  "source_updated_at": "2026-11-12T16:59:23.263292+00:00",
+  "updated_at": "2026-11-13T05:02:52.840Z",
+  "source_updated_at": "2026-11-13T05:02:32.339385+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -1079,6 +1079,123 @@
       "home_abbr": "SAC",
       "status": "pre",
       "status_detail": "Fri, November 6th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909296": {
+      "event_id": "401909296",
+      "date": "2026-11-14T00:00Z",
+      "name": "New York Knicks at Indiana Pacers",
+      "short_name": "NY @ IND",
+      "away_team": "New York Knicks",
+      "away_abbr": "NY",
+      "home_team": "Indiana Pacers",
+      "home_abbr": "IND",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909297": {
+      "event_id": "401909297",
+      "date": "2026-11-14T00:00Z",
+      "name": "Milwaukee Bucks at Orlando Magic",
+      "short_name": "MIL @ ORL",
+      "away_team": "Milwaukee Bucks",
+      "away_abbr": "MIL",
+      "home_team": "Orlando Magic",
+      "home_abbr": "ORL",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909298": {
+      "event_id": "401909298",
+      "date": "2026-11-14T01:00Z",
+      "name": "Cleveland Cavaliers at Miami Heat",
+      "short_name": "CLE @ MIA",
+      "away_team": "Cleveland Cavaliers",
+      "away_abbr": "CLE",
+      "home_team": "Miami Heat",
+      "home_abbr": "MIA",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909299": {
+      "event_id": "401909299",
+      "date": "2026-11-14T01:00Z",
+      "name": "Atlanta Hawks at Chicago Bulls",
+      "short_name": "ATL @ CHI",
+      "away_team": "Atlanta Hawks",
+      "away_abbr": "ATL",
+      "home_team": "Chicago Bulls",
+      "home_abbr": "CHI",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909300": {
+      "event_id": "401909300",
+      "date": "2026-11-14T01:00Z",
+      "name": "Memphis Grizzlies at New Orleans Pelicans",
+      "short_name": "MEM @ NO",
+      "away_team": "Memphis Grizzlies",
+      "away_abbr": "MEM",
+      "home_team": "New Orleans Pelicans",
+      "home_abbr": "NO",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909301": {
+      "event_id": "401909301",
+      "date": "2026-11-14T01:30Z",
+      "name": "Utah Jazz at Houston Rockets",
+      "short_name": "UTAH @ HOU",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "Houston Rockets",
+      "home_abbr": "HOU",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 8:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909302": {
+      "event_id": "401909302",
+      "date": "2026-11-14T02:30Z",
+      "name": "Golden State Warriors at San Antonio Spurs",
+      "short_name": "GS @ SA",
+      "away_team": "Golden State Warriors",
+      "away_abbr": "GS",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 9:30 PM EST",
+      "winner_abbr": null
+    },
+    "401909303": {
+      "event_id": "401909303",
+      "date": "2026-11-14T03:00Z",
+      "name": "Portland Trail Blazers at Sacramento Kings",
+      "short_name": "POR @ SAC",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "Sacramento Kings",
+      "home_abbr": "SAC",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909304": {
+      "event_id": "401909304",
+      "date": "2026-11-14T03:30Z",
+      "name": "Oklahoma City Thunder at LA Clippers",
+      "short_name": "OKC @ LAC",
+      "away_team": "Oklahoma City Thunder",
+      "away_abbr": "OKC",
+      "home_team": "LA Clippers",
+      "home_abbr": "LAC",
+      "status": "pre",
+      "status_detail": "Fri, November 13th at 10:30 PM EST",
       "winner_abbr": null
     },
     "401909834": {
@@ -5295,6 +5412,15 @@
         "voted_at": "2026-11-06T06:51:00.459623+00:00"
       }
     },
+    "401909296": {},
+    "401909297": {},
+    "401909298": {},
+    "401909299": {},
+    "401909300": {},
+    "401909301": {},
+    "401909302": {},
+    "401909303": {},
+    "401909304": {},
     "401909834": {
       "42552913": {
         "user_id": 42552913,
