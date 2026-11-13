@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T05:17:27.662Z",
+  "updatedAt": "2026-11-13T05:17:43.100Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-13T05:17:27.532Z",
-    "currentSeason": "2026-11-13T05:17:27.476Z",
-    "previousSeason": "2026-11-13T05:17:27.476Z"
+    "picks": "2026-11-13T05:17:42.977Z",
+    "currentSeason": "2026-11-13T05:17:42.911Z",
+    "previousSeason": "2026-11-13T05:17:42.910Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 124,
       "correctPicks": 124,
       "wrongPicks": 50,
-      "pendingPicks": 1,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 175,
+      "totalPicks": 176,
       "gradedPicks": 174,
       "accuracy": 71,
       "place": 2
@@ -870,6 +870,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "MEM",
       "homeTeamAbbr": "NOP"
+    },
+    {
+      "id": "401909296_ivan",
+      "gameId": "401909296",
+      "gameDate": "2026-11-14T00:00Z",
+      "gameName": "New York Knicks at Indiana Pacers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-11-13T05:17:28.885767+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "NYK",
+      "homeTeamAbbr": "IND"
     },
     {
       "id": "401909296_seva",
