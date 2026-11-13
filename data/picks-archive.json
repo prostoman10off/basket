@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T05:17:42.977Z",
-  "source_updated_at": "2026-11-13T05:17:28.885767+00:00",
+  "updated_at": "2026-11-13T05:18:16.517Z",
+  "source_updated_at": "2026-11-13T05:17:58.136224+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -5459,6 +5459,14 @@
       }
     },
     "401909299": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "ATL",
+        "picked_team": "Atlanta Hawks",
+        "voted_at": "2026-11-13T05:17:58.136224+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -5469,6 +5477,14 @@
       }
     },
     "401909300": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-11-13T05:17:43.885531+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",

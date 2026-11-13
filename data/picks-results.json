@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T05:17:43.100Z",
+  "updatedAt": "2026-11-13T05:18:16.634Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-13T05:17:42.977Z",
-    "currentSeason": "2026-11-13T05:17:42.911Z",
-    "previousSeason": "2026-11-13T05:17:42.910Z"
+    "picks": "2026-11-13T05:18:16.517Z",
+    "currentSeason": "2026-11-13T05:18:16.463Z",
+    "previousSeason": "2026-11-13T05:18:16.463Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 124,
       "correctPicks": 124,
       "wrongPicks": 50,
-      "pendingPicks": 2,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 176,
+      "totalPicks": 178,
       "gradedPicks": 174,
       "accuracy": 71,
       "place": 2
@@ -838,6 +838,23 @@
       "homeTeamAbbr": "MIA"
     },
     {
+      "id": "401909299_ivan",
+      "gameId": "401909299",
+      "gameDate": "2026-11-14T01:00Z",
+      "gameName": "Atlanta Hawks at Chicago Bulls",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "ATL",
+      "pickedTeamName": "Atlanta Hawks",
+      "votedAt": "2026-11-13T05:17:58.136224+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ATL",
+      "homeTeamAbbr": "CHI"
+    },
+    {
       "id": "401909299_seva",
       "gameId": "401909299",
       "gameDate": "2026-11-14T01:00Z",
@@ -853,6 +870,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "ATL",
       "homeTeamAbbr": "CHI"
+    },
+    {
+      "id": "401909300_ivan",
+      "gameId": "401909300",
+      "gameDate": "2026-11-14T01:00Z",
+      "gameName": "Memphis Grizzlies at New Orleans Pelicans",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MEM",
+      "pickedTeamName": "Memphis Grizzlies",
+      "votedAt": "2026-11-13T05:17:43.885531+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MEM",
+      "homeTeamAbbr": "NOP"
     },
     {
       "id": "401909300_seva",
