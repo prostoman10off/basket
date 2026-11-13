@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T05:18:39.170Z",
-  "source_updated_at": "2026-11-13T05:18:24.648207+00:00",
+  "updated_at": "2026-11-13T05:19:43.673Z",
+  "source_updated_at": "2026-11-13T05:19:21.514215+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -5503,6 +5503,14 @@
       }
     },
     "401909301": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-11-13T05:18:43.124132+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -5513,6 +5521,14 @@
       }
     },
     "401909302": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-13T05:18:56.032773+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -5523,6 +5539,14 @@
       }
     },
     "401909303": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-11-13T05:19:02.941162+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -5533,6 +5557,14 @@
       }
     },
     "401909304": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-13T05:19:21.514215+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
