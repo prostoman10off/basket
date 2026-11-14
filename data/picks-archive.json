@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-14T05:06:37.198Z",
-  "source_updated_at": "2026-11-14T05:06:18.499514+00:00",
+  "updated_at": "2026-11-14T05:09:20.738Z",
+  "source_updated_at": "2026-11-14T05:08:57.372494+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -9515,6 +9515,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-11-14T05:05:17.194861+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-14T05:08:29.297384+00:00"
       }
     },
     "401909981": {
@@ -9525,6 +9533,14 @@
         "picked_abbr": "CLE",
         "picked_team": "Cleveland Cavaliers",
         "voted_at": "2026-11-14T05:05:23.677087+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-11-14T05:08:37.559905+00:00"
       }
     },
     "401909982": {
@@ -9535,6 +9551,14 @@
         "picked_abbr": "DET",
         "picked_team": "Detroit Pistons",
         "voted_at": "2026-11-14T05:06:05.347727+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-14T05:08:46.333931+00:00"
       }
     },
     "401909983": {
@@ -9545,6 +9569,14 @@
         "picked_abbr": "MEM",
         "picked_team": "Memphis Grizzlies",
         "voted_at": "2026-11-14T05:06:11.359568+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-11-14T05:08:52.197192+00:00"
       }
     },
     "401909984": {
@@ -9555,6 +9587,14 @@
         "picked_abbr": "MIN",
         "picked_team": "Minnesota Timberwolves",
         "voted_at": "2026-11-14T05:06:18.499514+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-14T05:08:57.372494+00:00"
       }
     },
     "401914101": {

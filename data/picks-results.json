@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T05:06:37.336Z",
+  "updatedAt": "2026-11-14T05:09:20.911Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-14T05:06:37.198Z",
-    "currentSeason": "2026-11-14T05:06:37.136Z",
-    "previousSeason": "2026-11-14T05:06:37.136Z"
+    "picks": "2026-11-14T05:09:20.738Z",
+    "currentSeason": "2026-11-14T05:09:20.624Z",
+    "previousSeason": "2026-11-14T05:09:20.624Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 129,
       "correctPicks": 129,
       "wrongPicks": 52,
-      "pendingPicks": 2,
+      "pendingPicks": 7,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 183,
+      "totalPicks": 188,
       "gradedPicks": 181,
       "accuracy": 71,
       "place": 1
@@ -800,6 +800,23 @@
       "homeTeamAbbr": "MIA"
     },
     {
+      "id": "401909982_andrei",
+      "gameId": "401909982",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Detroit Pistons at Miami Heat",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "DET",
+      "pickedTeamName": "Detroit Pistons",
+      "votedAt": "2026-11-14T05:08:46.333931+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "MIA"
+    },
+    {
       "id": "401909983_seva",
       "gameId": "401909983",
       "gameDate": "2026-11-15T01:00Z",
@@ -810,6 +827,23 @@
       "pickedTeamAbbr": "MEM",
       "pickedTeamName": "Memphis Grizzlies",
       "votedAt": "2026-11-14T05:06:11.359568+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "MEM"
+    },
+    {
+      "id": "401909983_andrei",
+      "gameId": "401909983",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Brooklyn Nets at Memphis Grizzlies",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "MEM",
+      "pickedTeamName": "Memphis Grizzlies",
+      "votedAt": "2026-11-14T05:08:52.197192+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -834,6 +868,23 @@
       "homeTeamAbbr": "MIN"
     },
     {
+      "id": "401909984_andrei",
+      "gameId": "401909984",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Chicago Bulls at Minnesota Timberwolves",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "MIN",
+      "pickedTeamName": "Minnesota Timberwolves",
+      "votedAt": "2026-11-14T05:08:57.372494+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHI",
+      "homeTeamAbbr": "MIN"
+    },
+    {
       "id": "401909981_seva",
       "gameId": "401909981",
       "gameDate": "2026-11-15T00:30Z",
@@ -851,6 +902,23 @@
       "homeTeamAbbr": "CLE"
     },
     {
+      "id": "401909981_andrei",
+      "gameId": "401909981",
+      "gameDate": "2026-11-15T00:30Z",
+      "gameName": "Dallas Mavericks at Cleveland Cavaliers",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-11-14T05:08:37.559905+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DAL",
+      "homeTeamAbbr": "CLE"
+    },
+    {
       "id": "401909980_seva",
       "gameId": "401909980",
       "gameDate": "2026-11-15T00:00Z",
@@ -861,6 +929,23 @@
       "pickedTeamAbbr": "DEN",
       "pickedTeamName": "Denver Nuggets",
       "votedAt": "2026-11-14T05:05:17.194861+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DEN",
+      "homeTeamAbbr": "NOP"
+    },
+    {
+      "id": "401909980_andrei",
+      "gameId": "401909980",
+      "gameDate": "2026-11-15T00:00Z",
+      "gameName": "Denver Nuggets at New Orleans Pelicans",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-11-14T05:08:29.297384+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
