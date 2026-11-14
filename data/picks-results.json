@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T07:38:16.816Z",
+  "updatedAt": "2026-11-14T07:41:40.358Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-14T07:38:16.661Z",
-    "currentSeason": "2026-11-14T07:38:16.609Z",
-    "previousSeason": "2026-11-14T07:38:16.609Z"
+    "picks": "2026-11-14T07:41:40.256Z",
+    "currentSeason": "2026-11-14T07:41:40.204Z",
+    "previousSeason": "2026-11-14T07:41:40.204Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 129,
       "correctPicks": 129,
       "wrongPicks": 54,
-      "pendingPicks": 0,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 183,
+      "totalPicks": 188,
       "gradedPicks": 183,
       "accuracy": 70,
       "place": 2
@@ -783,6 +783,23 @@
   ],
   "results": [
     {
+      "id": "401909982_ivan",
+      "gameId": "401909982",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Detroit Pistons at Miami Heat",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DET",
+      "pickedTeamName": "Detroit Pistons",
+      "votedAt": "2026-11-14T07:41:00.769537+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "MIA"
+    },
+    {
       "id": "401909982_seva",
       "gameId": "401909982",
       "gameDate": "2026-11-15T01:00Z",
@@ -815,6 +832,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "DET",
       "homeTeamAbbr": "MIA"
+    },
+    {
+      "id": "401909983_ivan",
+      "gameId": "401909983",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Brooklyn Nets at Memphis Grizzlies",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MEM",
+      "pickedTeamName": "Memphis Grizzlies",
+      "votedAt": "2026-11-14T07:41:10.973950+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "MEM"
     },
     {
       "id": "401909983_seva",
@@ -851,6 +885,23 @@
       "homeTeamAbbr": "MEM"
     },
     {
+      "id": "401909984_ivan",
+      "gameId": "401909984",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Chicago Bulls at Minnesota Timberwolves",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MIN",
+      "pickedTeamName": "Minnesota Timberwolves",
+      "votedAt": "2026-11-14T07:41:17.586001+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHI",
+      "homeTeamAbbr": "MIN"
+    },
+    {
       "id": "401909984_seva",
       "gameId": "401909984",
       "gameDate": "2026-11-15T01:00Z",
@@ -885,6 +936,23 @@
       "homeTeamAbbr": "MIN"
     },
     {
+      "id": "401909981_ivan",
+      "gameId": "401909981",
+      "gameDate": "2026-11-15T00:30Z",
+      "gameName": "Dallas Mavericks at Cleveland Cavaliers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-11-14T07:40:51.780231+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DAL",
+      "homeTeamAbbr": "CLE"
+    },
+    {
       "id": "401909981_seva",
       "gameId": "401909981",
       "gameDate": "2026-11-15T00:30Z",
@@ -917,6 +985,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "DAL",
       "homeTeamAbbr": "CLE"
+    },
+    {
+      "id": "401909980_ivan",
+      "gameId": "401909980",
+      "gameDate": "2026-11-15T00:00Z",
+      "gameName": "Denver Nuggets at New Orleans Pelicans",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-11-14T07:40:40.175190+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DEN",
+      "homeTeamAbbr": "NOP"
     },
     {
       "id": "401909980_seva",

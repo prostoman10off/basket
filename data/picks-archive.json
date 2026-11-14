@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-14T07:38:16.661Z",
-  "source_updated_at": "2026-11-14T05:08:57.372494+00:00",
+  "updated_at": "2026-11-14T07:41:40.256Z",
+  "source_updated_at": "2026-11-14T07:41:17.586001+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -9508,6 +9508,14 @@
       }
     },
     "401909980": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-14T07:40:40.175190+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -9526,6 +9534,14 @@
       }
     },
     "401909981": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-11-14T07:40:51.780231+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -9544,6 +9560,14 @@
       }
     },
     "401909982": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-14T07:41:00.769537+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -9562,6 +9586,14 @@
       }
     },
     "401909983": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-11-14T07:41:10.973950+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -9580,6 +9612,14 @@
       }
     },
     "401909984": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-14T07:41:17.586001+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
