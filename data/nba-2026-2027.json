@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-14T04:33:48.217Z",
+  "updatedAt": "2026-11-14T05:04:15.993Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909301",
+      "name": "Utah Jazz at Houston Rockets",
+      "shortName": "UTAH @ HOU",
+      "date": "2026-11-14T01:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "10",
+        "name": "Houston Rockets",
+        "shortName": "Rockets",
+        "abbreviation": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "score": 125
+      },
+      "awayTeam": {
+        "id": "26",
+        "name": "Utah Jazz",
+        "shortName": "Jazz",
+        "abbreviation": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "score": 118
+      }
+    },
     {
       "id": "401909298",
       "name": "Cleveland Cavaliers at Miami Heat",
