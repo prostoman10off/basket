@@ -2,9 +2,71 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-14T05:09:20.624Z",
+  "updatedAt": "2026-11-14T07:38:16.609Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909304",
+      "name": "Oklahoma City Thunder at LA Clippers",
+      "shortName": "OKC @ LAC",
+      "date": "2026-11-14T03:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "12",
+        "name": "LA Clippers",
+        "shortName": "Clippers",
+        "abbreviation": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+        "score": 113
+      },
+      "awayTeam": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "shortName": "Thunder",
+        "abbreviation": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "score": 112
+      }
+    },
+    {
+      "id": "401909303",
+      "name": "Portland Trail Blazers at Sacramento Kings",
+      "shortName": "POR @ SAC",
+      "date": "2026-11-14T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 107
+      },
+      "awayTeam": {
+        "id": "22",
+        "name": "Portland Trail Blazers",
+        "shortName": "Trail Blazers",
+        "abbreviation": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+        "score": 120
+      }
+    },
     {
       "id": "401909302",
       "name": "Golden State Warriors at San Antonio Spurs",
