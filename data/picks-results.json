@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T05:04:39.806Z",
+  "updatedAt": "2026-11-14T05:05:47.579Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-14T05:04:39.672Z",
-    "currentSeason": "2026-11-14T05:04:39.613Z",
-    "previousSeason": "2026-11-14T05:04:39.613Z"
+    "picks": "2026-11-14T05:05:47.447Z",
+    "currentSeason": "2026-11-14T05:05:47.386Z",
+    "previousSeason": "2026-11-14T05:05:47.386Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 121,
       "correctPicks": 121,
       "wrongPicks": 60,
-      "pendingPicks": 2,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 183,
+      "totalPicks": 185,
       "gradedPicks": 181,
       "accuracy": 67,
       "place": 3
@@ -782,6 +782,40 @@
     }
   ],
   "results": [
+    {
+      "id": "401909981_seva",
+      "gameId": "401909981",
+      "gameDate": "2026-11-15T00:30Z",
+      "gameName": "Dallas Mavericks at Cleveland Cavaliers",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-11-14T05:05:23.677087+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DAL",
+      "homeTeamAbbr": "CLE"
+    },
+    {
+      "id": "401909980_seva",
+      "gameId": "401909980",
+      "gameDate": "2026-11-15T00:00Z",
+      "gameName": "Denver Nuggets at New Orleans Pelicans",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-11-14T05:05:17.194861+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DEN",
+      "homeTeamAbbr": "NOP"
+    },
     {
       "id": "401909304_ivan",
       "gameId": "401909304",
