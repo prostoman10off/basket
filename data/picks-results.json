@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T05:05:47.579Z",
+  "updatedAt": "2026-11-14T05:06:37.336Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-14T05:05:47.447Z",
-    "currentSeason": "2026-11-14T05:05:47.386Z",
-    "previousSeason": "2026-11-14T05:05:47.386Z"
+    "picks": "2026-11-14T05:06:37.198Z",
+    "currentSeason": "2026-11-14T05:06:37.136Z",
+    "previousSeason": "2026-11-14T05:06:37.136Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 121,
       "correctPicks": 121,
       "wrongPicks": 60,
-      "pendingPicks": 4,
+      "pendingPicks": 7,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 185,
+      "totalPicks": 188,
       "gradedPicks": 181,
       "accuracy": 67,
       "place": 3
@@ -782,6 +782,57 @@
     }
   ],
   "results": [
+    {
+      "id": "401909982_seva",
+      "gameId": "401909982",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Detroit Pistons at Miami Heat",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "DET",
+      "pickedTeamName": "Detroit Pistons",
+      "votedAt": "2026-11-14T05:06:05.347727+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "MIA"
+    },
+    {
+      "id": "401909983_seva",
+      "gameId": "401909983",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Brooklyn Nets at Memphis Grizzlies",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "MEM",
+      "pickedTeamName": "Memphis Grizzlies",
+      "votedAt": "2026-11-14T05:06:11.359568+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "MEM"
+    },
+    {
+      "id": "401909984_seva",
+      "gameId": "401909984",
+      "gameDate": "2026-11-15T01:00Z",
+      "gameName": "Chicago Bulls at Minnesota Timberwolves",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "MIN",
+      "pickedTeamName": "Minnesota Timberwolves",
+      "votedAt": "2026-11-14T05:06:18.499514+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHI",
+      "homeTeamAbbr": "MIN"
+    },
     {
       "id": "401909981_seva",
       "gameId": "401909981",

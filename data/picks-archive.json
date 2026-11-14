@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-14T05:05:47.447Z",
-  "source_updated_at": "2026-11-14T05:05:23.677087+00:00",
+  "updated_at": "2026-11-14T05:06:37.198Z",
+  "source_updated_at": "2026-11-14T05:06:18.499514+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -9527,9 +9527,36 @@
         "voted_at": "2026-11-14T05:05:23.677087+00:00"
       }
     },
-    "401909982": {},
-    "401909983": {},
-    "401909984": {},
+    "401909982": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-14T05:06:05.347727+00:00"
+      }
+    },
+    "401909983": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-11-14T05:06:11.359568+00:00"
+      }
+    },
+    "401909984": {
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-14T05:06:18.499514+00:00"
+      }
+    },
     "401914101": {
       "42552913": {
         "user_id": 42552913,
