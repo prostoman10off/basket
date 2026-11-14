@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-14T05:04:15.993Z",
+  "updatedAt": "2026-11-14T05:04:39.613Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909302",
+      "name": "Golden State Warriors at San Antonio Spurs",
+      "shortName": "GS @ SA",
+      "date": "2026-11-14T02:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "24",
+        "name": "San Antonio Spurs",
+        "shortName": "Spurs",
+        "abbreviation": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "score": 123
+      },
+      "awayTeam": {
+        "id": "9",
+        "name": "Golden State Warriors",
+        "shortName": "Warriors",
+        "abbreviation": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+        "score": 85
+      }
+    },
     {
       "id": "401909301",
       "name": "Utah Jazz at Houston Rockets",

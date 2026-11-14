@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T05:04:16.191Z",
+  "updatedAt": "2026-11-14T05:04:39.806Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-14T05:04:16.052Z",
-    "currentSeason": "2026-11-14T05:04:15.993Z",
-    "previousSeason": "2026-11-14T05:04:15.993Z"
+    "picks": "2026-11-14T05:04:39.672Z",
+    "currentSeason": "2026-11-14T05:04:39.613Z",
+    "previousSeason": "2026-11-14T05:04:39.613Z"
   },
   "scoring": {
     "correct": 1,
@@ -15,14 +15,14 @@
       "name": "Андрей",
       "photo": "Andrei.jpg",
       "favoriteTeam": "76ers",
-      "points": 128,
-      "correctPicks": 128,
+      "points": 129,
+      "correctPicks": 129,
       "wrongPicks": 52,
-      "pendingPicks": 3,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 183,
-      "gradedPicks": 180,
+      "gradedPicks": 181,
       "accuracy": 71,
       "place": 1
     },
@@ -31,14 +31,14 @@
       "name": "Иван",
       "photo": "Ivan.jpg",
       "favoriteTeam": "Celtics",
-      "points": 127,
-      "correctPicks": 127,
+      "points": 128,
+      "correctPicks": 128,
       "wrongPicks": 53,
-      "pendingPicks": 3,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 183,
-      "gradedPicks": 180,
+      "gradedPicks": 181,
       "accuracy": 71,
       "place": 2
     },
@@ -47,14 +47,14 @@
       "name": "Сева",
       "photo": "Seva.jpg",
       "favoriteTeam": "Warriors",
-      "points": 120,
-      "correctPicks": 120,
+      "points": 121,
+      "correctPicks": 121,
       "wrongPicks": 60,
-      "pendingPicks": 3,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
       "totalPicks": 183,
-      "gradedPicks": 180,
+      "gradedPicks": 181,
       "accuracy": 67,
       "place": 3
     }
@@ -67,26 +67,26 @@
         "ivan": {
           "playerId": "ivan",
           "name": "Иван",
-          "points": 3,
-          "correctPicks": 3,
+          "points": 4,
+          "correctPicks": 4,
           "wrongPicks": 3,
-          "totalPicks": 6
+          "totalPicks": 7
         },
         "seva": {
           "playerId": "seva",
           "name": "Сева",
-          "points": 3,
-          "correctPicks": 3,
+          "points": 4,
+          "correctPicks": 4,
           "wrongPicks": 3,
-          "totalPicks": 6
+          "totalPicks": 7
         },
         "andrei": {
           "playerId": "andrei",
           "name": "Андрей",
-          "points": 3,
-          "correctPicks": 3,
+          "points": 4,
+          "correctPicks": 4,
           "wrongPicks": 3,
-          "totalPicks": 6
+          "totalPicks": 7
         }
       }
     },
@@ -895,9 +895,9 @@
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
       "votedAt": "2026-11-13T05:18:56.032773+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "SAS",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "SAS"
     },
@@ -912,9 +912,9 @@
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
       "votedAt": "2026-11-13T05:06:11.443995+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "SAS",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "SAS"
     },
@@ -929,9 +929,9 @@
       "pickedTeamAbbr": "SAS",
       "pickedTeamName": "San Antonio Spurs",
       "votedAt": "2026-11-13T06:47:18.556148+00:00",
-      "status": "pending",
-      "points": 0,
-      "winnerTeamAbbr": null,
+      "status": "correct",
+      "points": 1,
+      "winnerTeamAbbr": "SAS",
       "awayTeamAbbr": "GSW",
       "homeTeamAbbr": "SAS"
     },
