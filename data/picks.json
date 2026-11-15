@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T07:07:43.106831+00:00",
+  "updated_at": "2026-11-15T07:07:48.563483+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -10263,6 +10263,14 @@
         "picked_abbr": "ATL",
         "picked_team": "Atlanta Hawks",
         "voted_at": "2026-11-15T06:25:35.203325+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "ATL",
+        "picked_team": "Atlanta Hawks",
+        "voted_at": "2026-11-15T07:07:48.563483+00:00"
       }
     },
     "401909993": {
