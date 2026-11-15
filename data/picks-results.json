@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-15T06:23:47.010Z",
+  "updatedAt": "2026-11-15T06:26:08.963Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-15T06:23:46.936Z",
-    "currentSeason": "2026-11-15T06:23:46.892Z",
-    "previousSeason": "2026-11-15T06:23:46.892Z"
+    "picks": "2026-11-15T06:26:08.858Z",
+    "currentSeason": "2026-11-15T06:26:08.806Z",
+    "previousSeason": "2026-11-15T06:26:08.806Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 132,
       "correctPicks": 132,
       "wrongPicks": 56,
-      "pendingPicks": 1,
+      "pendingPicks": 9,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 189,
+      "totalPicks": 197,
       "gradedPicks": 188,
       "accuracy": 70,
       "place": 2
@@ -813,6 +813,23 @@
   ],
   "results": [
     {
+      "id": "401909993_ivan",
+      "gameId": "401909993",
+      "gameDate": "2026-11-16T02:00Z",
+      "gameName": "Oklahoma City Thunder at Sacramento Kings",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-11-15T06:25:42.502128+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "SAC"
+    },
+    {
       "id": "401909993_seva",
       "gameId": "401909993",
       "gameDate": "2026-11-16T02:00Z",
@@ -828,6 +845,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "OKC",
       "homeTeamAbbr": "SAC"
+    },
+    {
+      "id": "401909992_ivan",
+      "gameId": "401909992",
+      "gameDate": "2026-11-16T01:00Z",
+      "gameName": "Atlanta Hawks at Milwaukee Bucks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "ATL",
+      "pickedTeamName": "Atlanta Hawks",
+      "votedAt": "2026-11-15T06:25:35.203325+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ATL",
+      "homeTeamAbbr": "MIL"
     },
     {
       "id": "401909992_seva",
@@ -847,6 +881,23 @@
       "homeTeamAbbr": "MIL"
     },
     {
+      "id": "401909991_ivan",
+      "gameId": "401909991",
+      "gameDate": "2026-11-16T00:00Z",
+      "gameName": "Houston Rockets at Washington Wizards",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-11-15T06:25:09.163906+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "HOU",
+      "homeTeamAbbr": "WAS"
+    },
+    {
       "id": "401909991_seva",
       "gameId": "401909991",
       "gameDate": "2026-11-16T00:00Z",
@@ -862,6 +913,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "HOU",
       "homeTeamAbbr": "WAS"
+    },
+    {
+      "id": "401909989_ivan",
+      "gameId": "401909989",
+      "gameDate": "2026-11-15T23:00Z",
+      "gameName": "Dallas Mavericks at Boston Celtics",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-11-15T06:24:42.040701+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DAL",
+      "homeTeamAbbr": "BOS"
     },
     {
       "id": "401909989_seva",
@@ -881,6 +949,23 @@
       "homeTeamAbbr": "BOS"
     },
     {
+      "id": "401909990_ivan",
+      "gameId": "401909990",
+      "gameDate": "2026-11-15T23:00Z",
+      "gameName": "New York Knicks at Toronto Raptors",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-11-15T06:25:00.314751+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "NYK",
+      "homeTeamAbbr": "TOR"
+    },
+    {
       "id": "401909990_seva",
       "gameId": "401909990",
       "gameDate": "2026-11-15T23:00Z",
@@ -896,6 +981,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "NYK",
       "homeTeamAbbr": "TOR"
+    },
+    {
+      "id": "401909988_ivan",
+      "gameId": "401909988",
+      "gameDate": "2026-11-15T22:00Z",
+      "gameName": "San Antonio Spurs at Utah Jazz",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "SAS",
+      "pickedTeamName": "San Antonio Spurs",
+      "votedAt": "2026-11-15T06:24:21.426157+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "SAS",
+      "homeTeamAbbr": "UTA"
     },
     {
       "id": "401909988_seva",
@@ -915,6 +1017,23 @@
       "homeTeamAbbr": "UTA"
     },
     {
+      "id": "401909987_ivan",
+      "gameId": "401909987",
+      "gameDate": "2026-11-15T21:30Z",
+      "gameName": "Charlotte Hornets at LA Clippers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "LAC",
+      "pickedTeamName": "LA Clippers",
+      "votedAt": "2026-11-15T06:24:12.394631+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHA",
+      "homeTeamAbbr": "LAC"
+    },
+    {
       "id": "401909987_seva",
       "gameId": "401909987",
       "gameDate": "2026-11-15T21:30Z",
@@ -930,6 +1049,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "CHA",
       "homeTeamAbbr": "LAC"
+    },
+    {
+      "id": "401909986_ivan",
+      "gameId": "401909986",
+      "gameDate": "2026-11-15T21:00Z",
+      "gameName": "Los Angeles Lakers at Phoenix Suns",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "LAL",
+      "pickedTeamName": "Los Angeles Lakers",
+      "votedAt": "2026-11-15T06:24:01.515662+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "LAL",
+      "homeTeamAbbr": "PHX"
     },
     {
       "id": "401909986_seva",
