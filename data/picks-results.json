@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-15T06:21:24.575Z",
+  "updatedAt": "2026-11-15T06:23:47.010Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-15T06:21:24.457Z",
-    "currentSeason": "2026-11-15T06:21:24.401Z",
-    "previousSeason": "2026-11-15T06:21:24.400Z"
+    "picks": "2026-11-15T06:23:46.936Z",
+    "currentSeason": "2026-11-15T06:23:46.892Z",
+    "previousSeason": "2026-11-15T06:23:46.892Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 132,
       "correctPicks": 132,
       "wrongPicks": 56,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 188,
+      "totalPicks": 189,
       "gradedPicks": 188,
       "accuracy": 70,
       "place": 2
@@ -947,6 +947,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "LAL",
       "homeTeamAbbr": "PHX"
+    },
+    {
+      "id": "401909985_ivan",
+      "gameId": "401909985",
+      "gameDate": "2026-11-15T18:00Z",
+      "gameName": "Indiana Pacers at Philadelphia 76ers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "PHI",
+      "pickedTeamName": "Philadelphia 76ers",
+      "votedAt": "2026-11-15T06:23:34.053736+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "IND",
+      "homeTeamAbbr": "PHI"
     },
     {
       "id": "401909985_seva",
