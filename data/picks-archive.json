@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T07:00:20.446Z",
-  "source_updated_at": "2026-11-16T07:00:00.029888+00:00",
+  "updated_at": "2026-11-16T07:11:56.518Z",
+  "source_updated_at": "2026-11-16T07:11:27.240559+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -10101,6 +10101,14 @@
         "picked_team": "Boston Celtics",
         "voted_at": "2026-11-16T06:53:43.559983+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-16T07:10:11.108887+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -10118,6 +10126,14 @@
         "picked_abbr": "CLE",
         "picked_team": "Cleveland Cavaliers",
         "voted_at": "2026-11-16T06:53:54.718376+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-11-16T07:10:26.915955+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -10137,6 +10153,14 @@
         "picked_team": "Memphis Grizzlies",
         "voted_at": "2026-11-16T06:54:13.590301+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "WSH",
+        "picked_team": "Washington Wizards",
+        "voted_at": "2026-11-16T07:10:38.920347+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -10154,6 +10178,14 @@
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-11-16T06:54:27.413202+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-16T07:10:55.175328+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -10173,6 +10205,14 @@
         "picked_team": "Houston Rockets",
         "voted_at": "2026-11-16T06:54:51.375313+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-11-16T07:11:03.786459+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -10190,6 +10230,14 @@
         "picked_abbr": "MIN",
         "picked_team": "Minnesota Timberwolves",
         "voted_at": "2026-11-16T06:55:04.521276+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-11-16T07:11:12.173055+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
@@ -10209,6 +10257,14 @@
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-11-16T06:55:24.001047+00:00"
       },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "NO",
+        "picked_team": "New Orleans Pelicans",
+        "voted_at": "2026-11-16T07:11:18.960238+00:00"
+      },
       "5280657145": {
         "user_id": 5280657145,
         "username": "Garlan23",
@@ -10226,6 +10282,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-11-16T06:55:34.888232+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-16T07:11:27.240559+00:00"
       },
       "5280657145": {
         "user_id": 5280657145,
