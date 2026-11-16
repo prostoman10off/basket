@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T06:53:11.439Z",
+  "updatedAt": "2026-11-16T06:54:47.964Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-16T06:53:11.298Z",
-    "currentSeason": "2026-11-16T06:53:11.231Z",
-    "previousSeason": "2026-11-16T06:53:11.231Z"
+    "picks": "2026-11-16T06:54:47.880Z",
+    "currentSeason": "2026-11-16T06:54:47.837Z",
+    "previousSeason": "2026-11-16T06:54:47.837Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 141,
       "correctPicks": 141,
       "wrongPicks": 56,
-      "pendingPicks": 0,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 197,
+      "totalPicks": 201,
       "gradedPicks": 197,
       "accuracy": 72,
       "place": 2
@@ -842,6 +842,74 @@
     }
   ],
   "results": [
+    {
+      "id": "401909997_ivan",
+      "gameId": "401909997",
+      "gameDate": "2026-11-17T00:30Z",
+      "gameName": "Philadelphia 76ers at Brooklyn Nets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "PHI",
+      "pickedTeamName": "Philadelphia 76ers",
+      "votedAt": "2026-11-16T06:54:27.413202+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "PHI",
+      "homeTeamAbbr": "BKN"
+    },
+    {
+      "id": "401909994_ivan",
+      "gameId": "401909994",
+      "gameDate": "2026-11-17T00:00Z",
+      "gameName": "Orlando Magic at Boston Celtics",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-11-16T06:53:43.559983+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "BOS"
+    },
+    {
+      "id": "401909995_ivan",
+      "gameId": "401909995",
+      "gameDate": "2026-11-17T00:00Z",
+      "gameName": "Chicago Bulls at Cleveland Cavaliers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-11-16T06:53:54.718376+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHI",
+      "homeTeamAbbr": "CLE"
+    },
+    {
+      "id": "401909996_ivan",
+      "gameId": "401909996",
+      "gameDate": "2026-11-17T00:00Z",
+      "gameName": "Memphis Grizzlies at Washington Wizards",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MEM",
+      "pickedTeamName": "Memphis Grizzlies",
+      "votedAt": "2026-11-16T06:54:13.590301+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MEM",
+      "homeTeamAbbr": "WAS"
+    },
     {
       "id": "401909993_ivan",
       "gameId": "401909993",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T06:53:11.298Z",
-  "source_updated_at": "2026-11-16T06:52:55.330087+00:00",
+  "updated_at": "2026-11-16T06:54:47.880Z",
+  "source_updated_at": "2026-11-16T06:54:27.413202+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -10092,10 +10092,46 @@
         "voted_at": "2026-11-15T07:07:57.403761+00:00"
       }
     },
-    "401909994": {},
-    "401909995": {},
-    "401909996": {},
-    "401909997": {},
+    "401909994": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-16T06:53:43.559983+00:00"
+      }
+    },
+    "401909995": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-11-16T06:53:54.718376+00:00"
+      }
+    },
+    "401909996": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-11-16T06:54:13.590301+00:00"
+      }
+    },
+    "401909997": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-16T06:54:27.413202+00:00"
+      }
+    },
     "401909998": {},
     "401909999": {},
     "401910000": {},
