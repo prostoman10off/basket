@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T07:11:56.603Z",
+  "updatedAt": "2026-11-16T07:12:40.457Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-16T07:11:56.518Z",
-    "currentSeason": "2026-11-16T07:11:56.473Z",
-    "previousSeason": "2026-11-16T07:11:56.473Z"
+    "picks": "2026-11-16T07:12:40.354Z",
+    "currentSeason": "2026-11-16T07:12:40.303Z",
+    "previousSeason": "2026-11-16T07:12:40.303Z"
   },
   "scoring": {
     "correct": 1,
@@ -969,9 +969,9 @@
       "playerId": "seva",
       "playerName": "Сева",
       "playerPhoto": "Seva.jpg",
-      "pickedTeamAbbr": "NOP",
-      "pickedTeamName": "New Orleans Pelicans",
-      "votedAt": "2026-11-16T07:11:18.960238+00:00",
+      "pickedTeamAbbr": "GSW",
+      "pickedTeamName": "Golden State Warriors",
+      "votedAt": "2026-11-16T07:12:23.633873+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
