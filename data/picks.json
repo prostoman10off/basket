@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T06:59:34.139836+00:00",
+  "updated_at": "2026-11-16T06:59:43.079990+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -10501,6 +10501,14 @@
         "picked_abbr": "MIN",
         "picked_team": "Minnesota Timberwolves",
         "voted_at": "2026-11-16T06:55:04.521276+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-16T06:59:43.079990+00:00"
       }
     },
     "401910000": {
