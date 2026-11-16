@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T06:54:47.964Z",
+  "updatedAt": "2026-11-16T06:55:21.742Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-16T06:54:47.880Z",
-    "currentSeason": "2026-11-16T06:54:47.837Z",
-    "previousSeason": "2026-11-16T06:54:47.837Z"
+    "picks": "2026-11-16T06:55:21.644Z",
+    "currentSeason": "2026-11-16T06:55:21.594Z",
+    "previousSeason": "2026-11-16T06:55:21.594Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 141,
       "correctPicks": 141,
       "wrongPicks": 56,
-      "pendingPicks": 4,
+      "pendingPicks": 6,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 201,
+      "totalPicks": 203,
       "gradedPicks": 197,
       "accuracy": 72,
       "place": 2
@@ -843,6 +843,23 @@
   ],
   "results": [
     {
+      "id": "401909999_ivan",
+      "gameId": "401909999",
+      "gameDate": "2026-11-17T01:00Z",
+      "gameName": "Portland Trail Blazers at Minnesota Timberwolves",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "MIN",
+      "pickedTeamName": "Minnesota Timberwolves",
+      "votedAt": "2026-11-16T06:55:04.521276+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "POR",
+      "homeTeamAbbr": "MIN"
+    },
+    {
       "id": "401909997_ivan",
       "gameId": "401909997",
       "gameDate": "2026-11-17T00:30Z",
@@ -858,6 +875,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "PHI",
       "homeTeamAbbr": "BKN"
+    },
+    {
+      "id": "401909998_ivan",
+      "gameId": "401909998",
+      "gameDate": "2026-11-17T00:30Z",
+      "gameName": "Houston Rockets at Miami Heat",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-11-16T06:54:51.375313+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "HOU",
+      "homeTeamAbbr": "MIA"
     },
     {
       "id": "401909994_ivan",
