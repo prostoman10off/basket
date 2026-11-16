@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T06:55:21.742Z",
+  "updatedAt": "2026-11-16T06:55:50.227Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-16T06:55:21.644Z",
-    "currentSeason": "2026-11-16T06:55:21.594Z",
-    "previousSeason": "2026-11-16T06:55:21.594Z"
+    "picks": "2026-11-16T06:55:50.148Z",
+    "currentSeason": "2026-11-16T06:55:50.101Z",
+    "previousSeason": "2026-11-16T06:55:50.101Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 141,
       "correctPicks": 141,
       "wrongPicks": 56,
-      "pendingPicks": 6,
+      "pendingPicks": 8,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 203,
+      "totalPicks": 205,
       "gradedPicks": 197,
       "accuracy": 72,
       "place": 2
@@ -843,6 +843,23 @@
   ],
   "results": [
     {
+      "id": "401910001_ivan",
+      "gameId": "401910001",
+      "gameDate": "2026-11-17T02:00Z",
+      "gameName": "Phoenix Suns at Denver Nuggets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-11-16T06:55:34.888232+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "PHX",
+      "homeTeamAbbr": "DEN"
+    },
+    {
       "id": "401909999_ivan",
       "gameId": "401909999",
       "gameDate": "2026-11-17T01:00Z",
@@ -858,6 +875,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "POR",
       "homeTeamAbbr": "MIN"
+    },
+    {
+      "id": "401910000_ivan",
+      "gameId": "401910000",
+      "gameDate": "2026-11-17T01:00Z",
+      "gameName": "Golden State Warriors at New Orleans Pelicans",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "GSW",
+      "pickedTeamName": "Golden State Warriors",
+      "votedAt": "2026-11-16T06:55:24.001047+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "GSW",
+      "homeTeamAbbr": "NOP"
     },
     {
       "id": "401909997_ivan",
