@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-17T05:08:24.306Z",
+  "updatedAt": "2026-11-17T05:17:38.887Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-17T05:08:24.186Z",
-    "currentSeason": "2026-11-17T05:08:24.131Z",
-    "previousSeason": "2026-11-17T05:08:24.131Z"
+    "picks": "2026-11-17T05:17:38.779Z",
+    "currentSeason": "2026-11-17T05:17:38.727Z",
+    "previousSeason": "2026-11-17T05:17:38.727Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 146,
       "correctPicks": 146,
       "wrongPicks": 59,
-      "pendingPicks": 0,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 205,
+      "totalPicks": 210,
       "gradedPicks": 205,
       "accuracy": 71,
       "place": 1
@@ -907,6 +907,23 @@
       "homeTeamAbbr": "LAL"
     },
     {
+      "id": "401910005_andrei",
+      "gameId": "401910005",
+      "gameDate": "2026-11-18T04:00Z",
+      "gameName": "Charlotte Hornets at Los Angeles Lakers",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "LAL",
+      "pickedTeamName": "Los Angeles Lakers",
+      "votedAt": "2026-11-17T05:17:12.302405+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHA",
+      "homeTeamAbbr": "LAL"
+    },
+    {
       "id": "401910006_ivan",
       "gameId": "401910006",
       "gameDate": "2026-11-18T03:30Z",
@@ -934,6 +951,23 @@
       "pickedTeamAbbr": "LAC",
       "pickedTeamName": "LA Clippers",
       "votedAt": "2026-11-17T05:04:04.355147+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "UTA",
+      "homeTeamAbbr": "LAC"
+    },
+    {
+      "id": "401910006_andrei",
+      "gameId": "401910006",
+      "gameDate": "2026-11-18T03:30Z",
+      "gameName": "Utah Jazz at LA Clippers",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "LAC",
+      "pickedTeamName": "LA Clippers",
+      "votedAt": "2026-11-17T05:17:07.278722+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -975,6 +1009,23 @@
       "homeTeamAbbr": "MIN"
     },
     {
+      "id": "401910003_andrei",
+      "gameId": "401910003",
+      "gameDate": "2026-11-18T01:00Z",
+      "gameName": "Portland Trail Blazers at Minnesota Timberwolves",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-11-17T05:16:57.403477+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "POR",
+      "homeTeamAbbr": "MIN"
+    },
+    {
       "id": "401910004_ivan",
       "gameId": "401910004",
       "gameDate": "2026-11-18T01:00Z",
@@ -1009,6 +1060,23 @@
       "homeTeamAbbr": "SAS"
     },
     {
+      "id": "401910004_andrei",
+      "gameId": "401910004",
+      "gameDate": "2026-11-18T01:00Z",
+      "gameName": "Detroit Pistons at San Antonio Spurs",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "SAS",
+      "pickedTeamName": "San Antonio Spurs",
+      "votedAt": "2026-11-17T05:17:02.251825+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "SAS"
+    },
+    {
       "id": "401910002_ivan",
       "gameId": "401910002",
       "gameDate": "2026-11-18T00:30Z",
@@ -1036,6 +1104,23 @@
       "pickedTeamAbbr": "NYK",
       "pickedTeamName": "New York Knicks",
       "votedAt": "2026-11-17T05:03:47.940907+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "NYK",
+      "homeTeamAbbr": "TOR"
+    },
+    {
+      "id": "401910002_andrei",
+      "gameId": "401910002",
+      "gameDate": "2026-11-18T00:30Z",
+      "gameName": "New York Knicks at Toronto Raptors",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-11-17T05:16:52.145369+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
