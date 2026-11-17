@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T16:59:19.949759+00:00",
+  "updated_at": "2026-11-17T05:02:35.345376+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -3535,6 +3535,71 @@
       "home_abbr": "DEN",
       "status": "pre",
       "status_detail": "Mon, November 16th at 9:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910002": {
+      "event_id": "401910002",
+      "date": "2026-11-18T00:30Z",
+      "name": "New York Knicks at Toronto Raptors",
+      "short_name": "NY @ TOR",
+      "away_team": "New York Knicks",
+      "away_abbr": "NY",
+      "home_team": "Toronto Raptors",
+      "home_abbr": "TOR",
+      "status": "pre",
+      "status_detail": "Tue, November 17th at 7:30 PM EST",
+      "winner_abbr": null
+    },
+    "401910003": {
+      "event_id": "401910003",
+      "date": "2026-11-18T01:00Z",
+      "name": "Portland Trail Blazers at Minnesota Timberwolves",
+      "short_name": "POR @ MIN",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "Minnesota Timberwolves",
+      "home_abbr": "MIN",
+      "status": "pre",
+      "status_detail": "Tue, November 17th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910004": {
+      "event_id": "401910004",
+      "date": "2026-11-18T01:00Z",
+      "name": "Detroit Pistons at San Antonio Spurs",
+      "short_name": "DET @ SA",
+      "away_team": "Detroit Pistons",
+      "away_abbr": "DET",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Tue, November 17th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910006": {
+      "event_id": "401910006",
+      "date": "2026-11-18T03:30Z",
+      "name": "Utah Jazz at LA Clippers",
+      "short_name": "UTAH @ LAC",
+      "away_team": "Utah Jazz",
+      "away_abbr": "UTAH",
+      "home_team": "LA Clippers",
+      "home_abbr": "LAC",
+      "status": "pre",
+      "status_detail": "Tue, November 17th at 10:30 PM EST",
+      "winner_abbr": null
+    },
+    "401910005": {
+      "event_id": "401910005",
+      "date": "2026-11-18T04:00Z",
+      "name": "Charlotte Hornets at Los Angeles Lakers",
+      "short_name": "CHA @ LAL",
+      "away_team": "Charlotte Hornets",
+      "away_abbr": "CHA",
+      "home_team": "Los Angeles Lakers",
+      "home_abbr": "LAL",
+      "status": "pre",
+      "status_detail": "Tue, November 17th at 11:00 PM EST",
       "winner_abbr": null
     }
   },
@@ -10610,7 +10675,12 @@
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-11-16T07:11:27.240559+00:00"
       }
-    }
+    },
+    "401910002": {},
+    "401910003": {},
+    "401910004": {},
+    "401910006": {},
+    "401910005": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -13328,6 +13398,29 @@
       "reminder_at": "2026-11-16T14:00:00+00:00",
       "reminder_sent_at": "2026-11-16T14:00:20.228820+00:00",
       "closes_at": "2026-11-16T16:59:00+00:00"
+    },
+    "2026-11-18": {
+      "date": "2026-11-18",
+      "event_ids": [
+        "401910002",
+        "401910003",
+        "401910004",
+        "401910006",
+        "401910005"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-11-17T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-11-17T16:59:00+00:00"
     }
   }
 }
