@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:13:25.261638+00:00",
+  "updated_at": "2026-11-18T07:13:46.635179+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11004,6 +11004,14 @@
         "picked_abbr": "HOU",
         "picked_team": "Houston Rockets",
         "voted_at": "2026-11-18T06:00:37.028505+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-11-18T07:13:46.635179+00:00"
       }
     },
     "401910009": {
