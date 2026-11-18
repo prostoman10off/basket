@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-18T05:30:50.227Z",
+  "updatedAt": "2026-11-18T06:02:08.289Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401910006",
+      "name": "Utah Jazz at LA Clippers",
+      "shortName": "UTAH @ LAC",
+      "date": "2026-11-18T03:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "12",
+        "name": "LA Clippers",
+        "shortName": "Clippers",
+        "abbreviation": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+        "score": 107
+      },
+      "awayTeam": {
+        "id": "26",
+        "name": "Utah Jazz",
+        "shortName": "Jazz",
+        "abbreviation": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "score": 132
+      }
+    },
     {
       "id": "401910003",
       "name": "Portland Trail Blazers at Minnesota Timberwolves",
