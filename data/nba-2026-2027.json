@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-18T07:13:39.780Z",
+  "updatedAt": "2026-11-18T07:14:00.519Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401910005",
+      "name": "Charlotte Hornets at Los Angeles Lakers",
+      "shortName": "CHA @ LAL",
+      "date": "2026-11-18T04:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 118
+      },
+      "awayTeam": {
+        "id": "30",
+        "name": "Charlotte Hornets",
+        "shortName": "Hornets",
+        "abbreviation": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "score": 114
+      }
+    },
     {
       "id": "401910006",
       "name": "Utah Jazz at LA Clippers",
