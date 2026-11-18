@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:15:34.330349+00:00",
+  "updated_at": "2026-11-18T07:15:41.268722+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11264,6 +11264,14 @@
         "picked_abbr": "PHX",
         "picked_team": "Phoenix Suns",
         "voted_at": "2026-11-18T06:01:40.343558+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-18T07:15:41.268722+00:00"
       }
     }
   },
@@ -14059,7 +14067,7 @@
         "58800473",
         "5280657145"
       ],
-      "accepted_at": null,
+      "accepted_at": "2026-11-18T07:15:41.268722+00:00",
       "closed": false,
       "closed_at": null,
       "chat_id": -1003329582837,
