@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T06:01:00.320764+00:00",
+  "updated_at": "2026-11-18T06:01:06.121072+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11078,6 +11078,14 @@
         "picked_abbr": "DET",
         "picked_team": "Detroit Pistons",
         "voted_at": "2026-11-18T05:29:59.593914+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-18T06:01:06.121072+00:00"
       }
     },
     "401910014": {
