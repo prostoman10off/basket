@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T06:00:47.801713+00:00",
+  "updated_at": "2026-11-18T06:00:54.772995+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11042,6 +11042,14 @@
         "picked_abbr": "CHI",
         "picked_team": "Chicago Bulls",
         "voted_at": "2026-11-18T05:29:47.889500+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "BKN",
+        "picked_team": "Brooklyn Nets",
+        "voted_at": "2026-11-18T06:00:54.772995+00:00"
       }
     },
     "401910012": {
