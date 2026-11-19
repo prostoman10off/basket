@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T05:39:32.736675+00:00",
+  "updated_at": "2026-11-19T06:13:57.039330+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11378,6 +11378,14 @@
         "picked_abbr": "NY",
         "picked_team": "New York Knicks",
         "voted_at": "2026-11-19T05:39:23.073313+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-11-19T06:13:57.039330+00:00"
       }
     },
     "401910022": {
