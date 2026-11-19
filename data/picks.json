@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T16:59:21.067963+00:00",
+  "updated_at": "2026-11-19T05:03:03.894702+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -3756,6 +3756,58 @@
       "home_abbr": "SAC",
       "status": "pre",
       "status_detail": "Wed, November 18th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910019": {
+      "event_id": "401910019",
+      "date": "2026-11-20T01:00Z",
+      "name": "Golden State Warriors at Memphis Grizzlies",
+      "short_name": "GS @ MEM",
+      "away_team": "Golden State Warriors",
+      "away_abbr": "GS",
+      "home_team": "Memphis Grizzlies",
+      "home_abbr": "MEM",
+      "status": "pre",
+      "status_detail": "Thu, November 19th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910020": {
+      "event_id": "401910020",
+      "date": "2026-11-20T01:00Z",
+      "name": "Portland Trail Blazers at Milwaukee Bucks",
+      "short_name": "POR @ MIL",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "Milwaukee Bucks",
+      "home_abbr": "MIL",
+      "status": "pre",
+      "status_detail": "Thu, November 19th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910021": {
+      "event_id": "401910021",
+      "date": "2026-11-20T01:00Z",
+      "name": "New York Knicks at Minnesota Timberwolves",
+      "short_name": "NY @ MIN",
+      "away_team": "New York Knicks",
+      "away_abbr": "NY",
+      "home_team": "Minnesota Timberwolves",
+      "home_abbr": "MIN",
+      "status": "pre",
+      "status_detail": "Thu, November 19th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910022": {
+      "event_id": "401910022",
+      "date": "2026-11-20T01:00Z",
+      "name": "LA Clippers at San Antonio Spurs",
+      "short_name": "LAC @ SA",
+      "away_team": "LA Clippers",
+      "away_abbr": "LAC",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Thu, November 19th at 8:00 PM EST",
       "winner_abbr": null
     }
   },
@@ -11273,7 +11325,11 @@
         "picked_team": "Phoenix Suns",
         "voted_at": "2026-11-18T07:15:41.268722+00:00"
       }
-    }
+    },
+    "401910019": {},
+    "401910020": {},
+    "401910021": {},
+    "401910022": {}
   },
   "rounds": {
     "2026-10-06": {
@@ -14148,6 +14204,28 @@
       "reminder_at": "2026-11-18T14:00:00+00:00",
       "reminder_sent_at": "2026-11-18T14:00:38.969391+00:00",
       "closes_at": "2026-11-18T16:59:00+00:00"
+    },
+    "2026-11-20": {
+      "date": "2026-11-20",
+      "event_ids": [
+        "401910019",
+        "401910020",
+        "401910021",
+        "401910022"
+      ],
+      "participant_ids": [
+        "42552913",
+        "58800473",
+        "5280657145"
+      ],
+      "accepted_at": null,
+      "closed": false,
+      "closed_at": null,
+      "chat_id": -1003329582837,
+      "messages": {},
+      "reminder_at": "2026-11-19T14:00:00+00:00",
+      "reminder_sent_at": null,
+      "closes_at": "2026-11-19T16:59:00+00:00"
     }
   }
 }
