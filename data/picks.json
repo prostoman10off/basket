@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T05:25:03.772545+00:00",
+  "updated_at": "2026-11-19T05:25:09.000825+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11363,6 +11363,14 @@
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-11-19T05:03:52.066063+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-19T05:25:09.000825+00:00"
       }
     }
   },
