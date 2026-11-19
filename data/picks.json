@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T05:39:16.194420+00:00",
+  "updated_at": "2026-11-19T05:39:23.073313+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11362,6 +11362,14 @@
         "picked_abbr": "NY",
         "picked_team": "New York Knicks",
         "voted_at": "2026-11-19T05:25:03.772545+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-11-19T05:39:23.073313+00:00"
       }
     },
     "401910022": {
