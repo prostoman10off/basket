@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-19T05:03:41.521Z",
+  "updatedAt": "2026-11-19T05:04:18.476Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-19T05:03:41.387Z",
-    "currentSeason": "2026-11-19T05:03:41.332Z",
-    "previousSeason": "2026-11-19T05:03:41.331Z"
+    "picks": "2026-11-19T05:04:18.354Z",
+    "currentSeason": "2026-11-19T05:04:18.297Z",
+    "previousSeason": "2026-11-19T05:04:18.297Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 145,
       "correctPicks": 145,
       "wrongPicks": 74,
-      "pendingPicks": 3,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 222,
+      "totalPicks": 224,
       "gradedPicks": 219,
       "accuracy": 66,
       "place": 3
@@ -932,6 +932,40 @@
     }
   ],
   "results": [
+    {
+      "id": "401910020_seva",
+      "gameId": "401910020",
+      "gameDate": "2026-11-20T01:00Z",
+      "gameName": "Portland Trail Blazers at Milwaukee Bucks",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "POR",
+      "pickedTeamName": "Portland Trail Blazers",
+      "votedAt": "2026-11-19T05:03:43.550605+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "POR",
+      "homeTeamAbbr": "MIL"
+    },
+    {
+      "id": "401910022_seva",
+      "gameId": "401910022",
+      "gameDate": "2026-11-20T01:00Z",
+      "gameName": "LA Clippers at San Antonio Spurs",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "SAS",
+      "pickedTeamName": "San Antonio Spurs",
+      "votedAt": "2026-11-19T05:03:52.066063+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "LAC",
+      "homeTeamAbbr": "SAS"
+    },
     {
       "id": "401910017_ivan",
       "gameId": "401910017",
