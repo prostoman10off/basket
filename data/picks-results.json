@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-20T08:38:10.280Z",
+  "updatedAt": "2026-11-20T08:41:42.266Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-20T08:38:10.167Z",
-    "currentSeason": "2026-11-20T08:38:10.114Z",
-    "previousSeason": "2026-11-20T08:38:10.113Z"
+    "picks": "2026-11-20T08:41:42.143Z",
+    "currentSeason": "2026-11-20T08:41:42.078Z",
+    "previousSeason": "2026-11-20T08:41:42.078Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 158,
       "correctPicks": 158,
       "wrongPicks": 68,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 226,
+      "totalPicks": 227,
       "gradedPicks": 226,
       "accuracy": 70,
       "place": 2
@@ -1233,6 +1233,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "TOR",
       "homeTeamAbbr": "DET"
+    },
+    {
+      "id": "401909305_ivan",
+      "gameId": "401909305",
+      "gameDate": "2026-11-21T00:00Z",
+      "gameName": "Charlotte Hornets at Atlanta Hawks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "ATL",
+      "pickedTeamName": "Atlanta Hawks",
+      "votedAt": "2026-11-20T08:41:28.056499+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "CHA",
+      "homeTeamAbbr": "ATL"
     },
     {
       "id": "401909305_seva",
