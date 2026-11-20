@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T05:28:40.197406+00:00",
+  "updated_at": "2026-11-20T05:28:46.918788+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11681,6 +11681,14 @@
         "picked_abbr": "HOU",
         "picked_team": "Houston Rockets",
         "voted_at": "2026-11-20T05:06:48.696048+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-20T05:28:46.918788+00:00"
       }
     },
     "401909313": {
