@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-20T08:43:18.739Z",
+  "updatedAt": "2026-11-20T08:43:41.654Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-20T08:43:18.646Z",
-    "currentSeason": "2026-11-20T08:43:18.601Z",
-    "previousSeason": "2026-11-20T08:43:18.601Z"
+    "picks": "2026-11-20T08:43:41.526Z",
+    "currentSeason": "2026-11-20T08:43:41.463Z",
+    "previousSeason": "2026-11-20T08:43:41.463Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 158,
       "correctPicks": 158,
       "wrongPicks": 68,
-      "pendingPicks": 8,
+      "pendingPicks": 9,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 234,
+      "totalPicks": 235,
       "gradedPicks": 226,
       "accuracy": 70,
       "place": 2
@@ -962,6 +962,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401909312_ivan",
+      "gameId": "401909312",
+      "gameDate": "2026-11-21T03:00Z",
+      "gameName": "Houston Rockets at Denver Nuggets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-11-20T08:43:27.007703+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "HOU",
+      "homeTeamAbbr": "DEN"
+    },
     {
       "id": "401909312_seva",
       "gameId": "401909312",
