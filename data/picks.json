@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T05:28:06.039867+00:00",
+  "updated_at": "2026-11-20T05:28:12.737546+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11591,6 +11591,14 @@
         "picked_abbr": "CLE",
         "picked_team": "Cleveland Cavaliers",
         "voted_at": "2026-11-20T05:06:14.263458+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-11-20T05:28:12.737546+00:00"
       }
     },
     "401909308": {
