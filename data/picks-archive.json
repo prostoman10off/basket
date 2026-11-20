@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20T08:41:42.143Z",
-  "source_updated_at": "2026-11-20T08:41:28.056499+00:00",
+  "updated_at": "2026-11-20T08:42:21.942Z",
+  "source_updated_at": "2026-11-20T08:42:04.608849+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -6349,6 +6349,14 @@
       }
     },
     "401909306": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "ORL",
+        "picked_team": "Orlando Magic",
+        "voted_at": "2026-11-20T08:41:58.361605+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -6367,6 +6375,14 @@
       }
     },
     "401909307": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "CLE",
+        "picked_team": "Cleveland Cavaliers",
+        "voted_at": "2026-11-20T08:42:04.608849+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -6385,6 +6401,14 @@
       }
     },
     "401909308": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-20T08:41:51.638211+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",

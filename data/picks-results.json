@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-20T08:41:42.266Z",
+  "updatedAt": "2026-11-20T08:42:22.021Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-20T08:41:42.143Z",
-    "currentSeason": "2026-11-20T08:41:42.078Z",
-    "previousSeason": "2026-11-20T08:41:42.078Z"
+    "picks": "2026-11-20T08:42:21.942Z",
+    "currentSeason": "2026-11-20T08:42:21.902Z",
+    "previousSeason": "2026-11-20T08:42:21.902Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 158,
       "correctPicks": 158,
       "wrongPicks": 68,
-      "pendingPicks": 1,
+      "pendingPicks": 4,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 227,
+      "totalPicks": 230,
       "gradedPicks": 226,
       "accuracy": 70,
       "place": 2
@@ -1133,6 +1133,23 @@
       "homeTeamAbbr": "OKC"
     },
     {
+      "id": "401909306_ivan",
+      "gameId": "401909306",
+      "gameDate": "2026-11-21T00:30Z",
+      "gameName": "Orlando Magic at Brooklyn Nets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "ORL",
+      "pickedTeamName": "Orlando Magic",
+      "votedAt": "2026-11-20T08:41:58.361605+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "BKN"
+    },
+    {
       "id": "401909306_seva",
       "gameId": "401909306",
       "gameDate": "2026-11-21T00:30Z",
@@ -1167,6 +1184,23 @@
       "homeTeamAbbr": "BKN"
     },
     {
+      "id": "401909307_ivan",
+      "gameId": "401909307",
+      "gameDate": "2026-11-21T00:30Z",
+      "gameName": "Indiana Pacers at Cleveland Cavaliers",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CLE",
+      "pickedTeamName": "Cleveland Cavaliers",
+      "votedAt": "2026-11-20T08:42:04.608849+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "IND",
+      "homeTeamAbbr": "CLE"
+    },
+    {
       "id": "401909307_seva",
       "gameId": "401909307",
       "gameDate": "2026-11-21T00:30Z",
@@ -1199,6 +1233,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "IND",
       "homeTeamAbbr": "CLE"
+    },
+    {
+      "id": "401909308_ivan",
+      "gameId": "401909308",
+      "gameDate": "2026-11-21T00:30Z",
+      "gameName": "Toronto Raptors at Detroit Pistons",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "DET",
+      "pickedTeamName": "Detroit Pistons",
+      "votedAt": "2026-11-20T08:41:51.638211+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "TOR",
+      "homeTeamAbbr": "DET"
     },
     {
       "id": "401909308_seva",
