@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-19T18:20:56.909Z",
+  "updatedAt": "2026-11-20T01:04:10.773Z",
   "source": "ESPN API",
   "seasonGames": [
     {
@@ -8967,130 +8967,6 @@
   ],
   "upcomingGames": [
     {
-      "id": "401910019",
-      "name": "Golden State Warriors at Memphis Grizzlies",
-      "shortName": "GS @ MEM",
-      "date": "2026-11-20T01:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "29",
-        "name": "Memphis Grizzlies",
-        "shortName": "Grizzlies",
-        "abbreviation": "MEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "9",
-        "name": "Golden State Warriors",
-        "shortName": "Warriors",
-        "abbreviation": "GS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910020",
-      "name": "Portland Trail Blazers at Milwaukee Bucks",
-      "shortName": "POR @ MIL",
-      "date": "2026-11-20T01:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "15",
-        "name": "Milwaukee Bucks",
-        "shortName": "Bucks",
-        "abbreviation": "MIL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "22",
-        "name": "Portland Trail Blazers",
-        "shortName": "Trail Blazers",
-        "abbreviation": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910021",
-      "name": "New York Knicks at Minnesota Timberwolves",
-      "shortName": "NY @ MIN",
-      "date": "2026-11-20T01:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "16",
-        "name": "Minnesota Timberwolves",
-        "shortName": "Timberwolves",
-        "abbreviation": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "18",
-        "name": "New York Knicks",
-        "shortName": "Knicks",
-        "abbreviation": "NY",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910022",
-      "name": "LA Clippers at San Antonio Spurs",
-      "shortName": "LAC @ SA",
-      "date": "2026-11-20T01:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "24",
-        "name": "San Antonio Spurs",
-        "shortName": "Spurs",
-        "abbreviation": "SA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "12",
-        "name": "LA Clippers",
-        "shortName": "Clippers",
-        "abbreviation": "LAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-        "score": 0
-      }
-    },
-    {
       "id": "401909305",
       "name": "Charlotte Hornets at Atlanta Hawks",
       "shortName": "CHA @ ATL",
@@ -9544,6 +9420,223 @@
         "shortName": "Kings",
         "abbreviation": "SAC",
         "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "2",
+        "name": "Boston Celtics",
+        "shortName": "Celtics",
+        "abbreviation": "BOS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401910029",
+      "name": "Detroit Pistons at Atlanta Hawks",
+      "shortName": "DET @ ATL",
+      "date": "2026-11-22T20:30Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "1",
+        "name": "Atlanta Hawks",
+        "shortName": "Hawks",
+        "abbreviation": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "8",
+        "name": "Detroit Pistons",
+        "shortName": "Pistons",
+        "abbreviation": "DET",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401910030",
+      "name": "Oklahoma City Thunder at Miami Heat",
+      "shortName": "OKC @ MIA",
+      "date": "2026-11-22T23:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "14",
+        "name": "Miami Heat",
+        "shortName": "Heat",
+        "abbreviation": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "shortName": "Thunder",
+        "abbreviation": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401910031",
+      "name": "Orlando Magic at Washington Wizards",
+      "shortName": "ORL @ WSH",
+      "date": "2026-11-23T00:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "27",
+        "name": "Washington Wizards",
+        "shortName": "Wizards",
+        "abbreviation": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "19",
+        "name": "Orlando Magic",
+        "shortName": "Magic",
+        "abbreviation": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401910032",
+      "name": "Denver Nuggets at Chicago Bulls",
+      "shortName": "DEN @ CHI",
+      "date": "2026-11-23T00:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "4",
+        "name": "Chicago Bulls",
+        "shortName": "Bulls",
+        "abbreviation": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "7",
+        "name": "Denver Nuggets",
+        "shortName": "Nuggets",
+        "abbreviation": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401910033",
+      "name": "Dallas Mavericks at Utah Jazz",
+      "shortName": "DAL @ UTAH",
+      "date": "2026-11-23T00:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "26",
+        "name": "Utah Jazz",
+        "shortName": "Jazz",
+        "abbreviation": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "6",
+        "name": "Dallas Mavericks",
+        "shortName": "Mavericks",
+        "abbreviation": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401910034",
+      "name": "Indiana Pacers at New York Knicks",
+      "shortName": "IND @ NY",
+      "date": "2026-11-23T01:00Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "18",
+        "name": "New York Knicks",
+        "shortName": "Knicks",
+        "abbreviation": "NY",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+        "score": 0
+      },
+      "awayTeam": {
+        "id": "11",
+        "name": "Indiana Pacers",
+        "shortName": "Pacers",
+        "abbreviation": "IND",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+        "score": 0
+      }
+    },
+    {
+      "id": "401910035",
+      "name": "Boston Celtics at Golden State Warriors",
+      "shortName": "BOS @ GS",
+      "date": "2026-11-23T01:30Z",
+      "statusName": "STATUS_SCHEDULED",
+      "statusState": "pre",
+      "statusDescription": "Scheduled",
+      "isCompleted": false,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "9",
+        "name": "Golden State Warriors",
+        "shortName": "Warriors",
+        "abbreviation": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
         "score": 0
       },
       "awayTeam": {
