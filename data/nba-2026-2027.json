@@ -2,9 +2,102 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-21T05:03:37.841Z",
+  "updatedAt": "2026-11-21T05:40:37.174Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401909312",
+      "name": "Houston Rockets at Denver Nuggets",
+      "shortName": "HOU @ DEN",
+      "date": "2026-11-21T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "7",
+        "name": "Denver Nuggets",
+        "shortName": "Nuggets",
+        "abbreviation": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "score": 133
+      },
+      "awayTeam": {
+        "id": "10",
+        "name": "Houston Rockets",
+        "shortName": "Rockets",
+        "abbreviation": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "score": 124
+      }
+    },
+    {
+      "id": "401909313",
+      "name": "Sacramento Kings at Los Angeles Lakers",
+      "shortName": "SAC @ LAL",
+      "date": "2026-11-21T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 106
+      },
+      "awayTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 104
+      }
+    },
+    {
+      "id": "401909311",
+      "name": "Phoenix Suns at Utah Jazz",
+      "shortName": "PHX @ UTAH",
+      "date": "2026-11-21T02:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "26",
+        "name": "Utah Jazz",
+        "shortName": "Jazz",
+        "abbreviation": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "score": 101
+      },
+      "awayTeam": {
+        "id": "21",
+        "name": "Phoenix Suns",
+        "shortName": "Suns",
+        "abbreviation": "PHX",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+        "score": 111
+      }
+    },
     {
       "id": "401909309",
       "name": "Washington Wizards at Chicago Bulls",

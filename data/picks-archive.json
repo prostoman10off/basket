@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-21T05:03:37.903Z",
-  "source_updated_at": "2026-11-21T05:03:24.173185+00:00",
+  "updated_at": "2026-11-21T05:40:37.229Z",
+  "source_updated_at": "2026-11-21T05:40:10.505423+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -11548,12 +11548,66 @@
         "voted_at": "2026-11-19T05:25:09.000825+00:00"
       }
     },
-    "401910023": {},
-    "401910024": {},
-    "401910025": {},
-    "401910026": {},
-    "401910027": {},
-    "401910028": {},
+    "401910023": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-21T05:39:06.693512+00:00"
+      }
+    },
+    "401910024": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-11-21T05:39:20.743255+00:00"
+      }
+    },
+    "401910025": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-21T05:39:51.731322+00:00"
+      }
+    },
+    "401910026": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-21T05:39:31.462136+00:00"
+      }
+    },
+    "401910027": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-21T05:40:02.678386+00:00"
+      }
+    },
+    "401910028": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-21T05:40:10.505423+00:00"
+      }
+    },
     "401914101": {
       "42552913": {
         "user_id": 42552913,
