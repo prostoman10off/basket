@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T10:35:23.867855+00:00",
+  "updated_at": "2026-11-21T10:35:30.829693+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11953,6 +11953,14 @@
         "picked_abbr": "MIN",
         "picked_team": "Minnesota Timberwolves",
         "voted_at": "2026-11-21T05:44:12.075826+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-21T10:35:30.829693+00:00"
       }
     },
     "401910027": {
