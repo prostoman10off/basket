@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T10:35:18.325494+00:00",
+  "updated_at": "2026-11-21T10:35:23.867855+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -11927,6 +11927,14 @@
         "picked_abbr": "DAL",
         "picked_team": "Dallas Mavericks",
         "voted_at": "2026-11-21T05:44:06.890969+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-21T10:35:23.867855+00:00"
       }
     },
     "401910026": {
