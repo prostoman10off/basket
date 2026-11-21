@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20T17:51:32.633Z",
-  "source_updated_at": "2026-11-20T16:59:20.184793+00:00",
+  "updated_at": "2026-11-21T05:03:13.011Z",
+  "source_updated_at": "2026-11-21T05:02:56.911031+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -3770,6 +3770,84 @@
       "home_abbr": "SA",
       "status": "pre",
       "status_detail": "Thu, November 19th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910023": {
+      "event_id": "401910023",
+      "date": "2026-11-21T18:00Z",
+      "name": "Milwaukee Bucks at Philadelphia 76ers",
+      "short_name": "MIL @ PHI",
+      "away_team": "Milwaukee Bucks",
+      "away_abbr": "MIL",
+      "home_team": "Philadelphia 76ers",
+      "home_abbr": "PHI",
+      "status": "pre",
+      "status_detail": "Sat, November 21st at 1:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910024": {
+      "event_id": "401910024",
+      "date": "2026-11-22T00:30Z",
+      "name": "Portland Trail Blazers at New York Knicks",
+      "short_name": "POR @ NY",
+      "away_team": "Portland Trail Blazers",
+      "away_abbr": "POR",
+      "home_team": "New York Knicks",
+      "home_abbr": "NY",
+      "status": "pre",
+      "status_detail": "Sat, November 21st at 7:30 PM EST",
+      "winner_abbr": null
+    },
+    "401910025": {
+      "event_id": "401910025",
+      "date": "2026-11-22T01:00Z",
+      "name": "LA Clippers at Dallas Mavericks",
+      "short_name": "LAC @ DAL",
+      "away_team": "LA Clippers",
+      "away_abbr": "LAC",
+      "home_team": "Dallas Mavericks",
+      "home_abbr": "DAL",
+      "status": "pre",
+      "status_detail": "Sat, November 21st at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910026": {
+      "event_id": "401910026",
+      "date": "2026-11-22T01:00Z",
+      "name": "Memphis Grizzlies at Minnesota Timberwolves",
+      "short_name": "MEM @ MIN",
+      "away_team": "Memphis Grizzlies",
+      "away_abbr": "MEM",
+      "home_team": "Minnesota Timberwolves",
+      "home_abbr": "MIN",
+      "status": "pre",
+      "status_detail": "Sat, November 21st at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910027": {
+      "event_id": "401910027",
+      "date": "2026-11-22T01:00Z",
+      "name": "New Orleans Pelicans at San Antonio Spurs",
+      "short_name": "NO @ SA",
+      "away_team": "New Orleans Pelicans",
+      "away_abbr": "NO",
+      "home_team": "San Antonio Spurs",
+      "home_abbr": "SA",
+      "status": "pre",
+      "status_detail": "Sat, November 21st at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910028": {
+      "event_id": "401910028",
+      "date": "2026-11-22T03:00Z",
+      "name": "Boston Celtics at Sacramento Kings",
+      "short_name": "BOS @ SAC",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Sacramento Kings",
+      "home_abbr": "SAC",
+      "status": "pre",
+      "status_detail": "Sat, November 21st at 10:00 PM EST",
       "winner_abbr": null
     },
     "401914101": {
@@ -11470,6 +11548,12 @@
         "voted_at": "2026-11-19T05:25:09.000825+00:00"
       }
     },
+    "401910023": {},
+    "401910024": {},
+    "401910025": {},
+    "401910026": {},
+    "401910027": {},
+    "401910028": {},
     "401914101": {
       "42552913": {
         "user_id": 42552913,
