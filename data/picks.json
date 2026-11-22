@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T05:40:31.221872+00:00",
+  "updated_at": "2026-11-22T05:40:35.939599+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -12150,6 +12150,14 @@
         "picked_abbr": "WSH",
         "picked_team": "Washington Wizards",
         "voted_at": "2026-11-22T05:40:06.139050+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "ORL",
+        "picked_team": "Orlando Magic",
+        "voted_at": "2026-11-22T05:40:35.939599+00:00"
       }
     },
     "401910032": {
