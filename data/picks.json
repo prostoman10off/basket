@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T05:40:43.725748+00:00",
+  "updated_at": "2026-11-22T05:40:50.912688+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -12186,6 +12186,14 @@
         "picked_abbr": "DAL",
         "picked_team": "Dallas Mavericks",
         "voted_at": "2026-11-22T05:40:21.757172+00:00"
+      },
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-22T05:40:50.912688+00:00"
       }
     },
     "401910034": {
