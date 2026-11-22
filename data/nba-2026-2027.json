@@ -2,9 +2,40 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-22T05:39:12.172Z",
+  "updatedAt": "2026-11-22T05:41:30.198Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401910028",
+      "name": "Boston Celtics at Sacramento Kings",
+      "shortName": "BOS @ SAC",
+      "date": "2026-11-22T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 97
+      },
+      "awayTeam": {
+        "id": "2",
+        "name": "Boston Celtics",
+        "shortName": "Celtics",
+        "abbreviation": "BOS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+        "score": 96
+      }
+    },
     {
       "id": "401910025",
       "name": "LA Clippers at Dallas Mavericks",
