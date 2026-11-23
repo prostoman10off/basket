@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:10:23.692521+00:00",
+  "updated_at": "2026-11-23T10:10:28.647279+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -12590,6 +12590,14 @@
         "picked_abbr": "PHX",
         "picked_team": "Phoenix Suns",
         "voted_at": "2026-11-23T05:20:55.421148+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-23T10:10:28.647279+00:00"
       }
     },
     "401910043": {
