@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T07:28:04.405Z",
-  "source_updated_at": "2026-11-24T07:27:49.716777+00:00",
+  "updated_at": "2026-11-24T07:47:36.557Z",
+  "source_updated_at": "2026-11-24T07:47:19.069425+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -6895,6 +6895,14 @@
       }
     },
     "401909314": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-24T07:47:01.300604+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -6913,6 +6921,14 @@
       }
     },
     "401909315": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-24T07:47:08.862024+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -6931,6 +6947,14 @@
       }
     },
     "401909316": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-24T07:47:19.069425+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
