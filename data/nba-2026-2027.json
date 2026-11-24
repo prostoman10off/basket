@@ -2,9 +2,71 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-24T06:03:54.807Z",
+  "updatedAt": "2026-11-24T06:33:31.512Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401910044",
+      "name": "Utah Jazz at Los Angeles Lakers",
+      "shortName": "UTAH @ LAL",
+      "date": "2026-11-24T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "13",
+        "name": "Los Angeles Lakers",
+        "shortName": "Lakers",
+        "abbreviation": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "score": 109
+      },
+      "awayTeam": {
+        "id": "26",
+        "name": "Utah Jazz",
+        "shortName": "Jazz",
+        "abbreviation": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "score": 94
+      }
+    },
+    {
+      "id": "401910045",
+      "name": "San Antonio Spurs at Sacramento Kings",
+      "shortName": "SA @ SAC",
+      "date": "2026-11-24T03:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "23",
+        "name": "Sacramento Kings",
+        "shortName": "Kings",
+        "abbreviation": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "score": 107
+      },
+      "awayTeam": {
+        "id": "24",
+        "name": "San Antonio Spurs",
+        "shortName": "Spurs",
+        "abbreviation": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "score": 123
+      }
+    },
     {
       "id": "401910043",
       "name": "LA Clippers at Houston Rockets",
