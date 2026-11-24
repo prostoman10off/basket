@@ -2,9 +2,257 @@
   "season": "2026-2027",
   "seasonStart": "2026-10-01",
   "seasonEnd": "2027-10-01",
-  "updatedAt": "2026-11-23T21:29:36.444Z",
+  "updatedAt": "2026-11-24T06:03:54.807Z",
   "source": "ESPN API",
   "seasonGames": [
+    {
+      "id": "401910043",
+      "name": "LA Clippers at Houston Rockets",
+      "shortName": "LAC @ HOU",
+      "date": "2026-11-24T01:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "10",
+        "name": "Houston Rockets",
+        "shortName": "Rockets",
+        "abbreviation": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "score": 116
+      },
+      "awayTeam": {
+        "id": "12",
+        "name": "LA Clippers",
+        "shortName": "Clippers",
+        "abbreviation": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+        "score": 104
+      }
+    },
+    {
+      "id": "401910041",
+      "name": "Cleveland Cavaliers at Chicago Bulls",
+      "shortName": "CLE @ CHI",
+      "date": "2026-11-24T01:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "4",
+        "name": "Chicago Bulls",
+        "shortName": "Bulls",
+        "abbreviation": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+        "score": 122
+      },
+      "awayTeam": {
+        "id": "5",
+        "name": "Cleveland Cavaliers",
+        "shortName": "Cavaliers",
+        "abbreviation": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+        "score": 108
+      }
+    },
+    {
+      "id": "401910042",
+      "name": "Phoenix Suns at New Orleans Pelicans",
+      "shortName": "PHX @ NO",
+      "date": "2026-11-24T01:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "3",
+        "name": "New Orleans Pelicans",
+        "shortName": "Pelicans",
+        "abbreviation": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "score": 119
+      },
+      "awayTeam": {
+        "id": "21",
+        "name": "Phoenix Suns",
+        "shortName": "Suns",
+        "abbreviation": "PHX",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+        "score": 123
+      }
+    },
+    {
+      "id": "401910038",
+      "name": "Oklahoma City Thunder at Indiana Pacers",
+      "shortName": "OKC @ IND",
+      "date": "2026-11-24T00:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "11",
+        "name": "Indiana Pacers",
+        "shortName": "Pacers",
+        "abbreviation": "IND",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+        "score": 125
+      },
+      "awayTeam": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "shortName": "Thunder",
+        "abbreviation": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "score": 120
+      }
+    },
+    {
+      "id": "401910039",
+      "name": "Milwaukee Bucks at Toronto Raptors",
+      "shortName": "MIL @ TOR",
+      "date": "2026-11-24T00:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "28",
+        "name": "Toronto Raptors",
+        "shortName": "Raptors",
+        "abbreviation": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+        "score": 111
+      },
+      "awayTeam": {
+        "id": "15",
+        "name": "Milwaukee Bucks",
+        "shortName": "Bucks",
+        "abbreviation": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+        "score": 116
+      }
+    },
+    {
+      "id": "401910040",
+      "name": "Brooklyn Nets at Minnesota Timberwolves",
+      "shortName": "BKN @ MIN",
+      "date": "2026-11-24T00:30Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "16",
+        "name": "Minnesota Timberwolves",
+        "shortName": "Timberwolves",
+        "abbreviation": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+        "score": 142
+      },
+      "awayTeam": {
+        "id": "17",
+        "name": "Brooklyn Nets",
+        "shortName": "Nets",
+        "abbreviation": "BKN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+        "score": 116
+      }
+    },
+    {
+      "id": "401910036",
+      "name": "Memphis Grizzlies at Charlotte Hornets",
+      "shortName": "MEM @ CHA",
+      "date": "2026-11-24T00:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "30",
+        "name": "Charlotte Hornets",
+        "shortName": "Hornets",
+        "abbreviation": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "score": 111
+      },
+      "awayTeam": {
+        "id": "29",
+        "name": "Memphis Grizzlies",
+        "shortName": "Grizzlies",
+        "abbreviation": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+        "score": 117
+      }
+    },
+    {
+      "id": "401910037",
+      "name": "Portland Trail Blazers at Philadelphia 76ers",
+      "shortName": "POR @ PHI",
+      "date": "2026-11-24T00:00Z",
+      "statusName": "STATUS_FINAL",
+      "statusState": "post",
+      "statusDescription": "Final",
+      "isCompleted": true,
+      "stage": {
+        "label": "Регулярка",
+        "className": "regular"
+      },
+      "seriesText": "",
+      "homeTeam": {
+        "id": "20",
+        "name": "Philadelphia 76ers",
+        "shortName": "76ers",
+        "abbreviation": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+        "score": 111
+      },
+      "awayTeam": {
+        "id": "22",
+        "name": "Portland Trail Blazers",
+        "shortName": "Trail Blazers",
+        "abbreviation": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+        "score": 128
+      }
+    },
     {
       "id": "401910035",
       "name": "Boston Celtics at Golden State Warriors",
@@ -9772,316 +10020,6 @@
     }
   ],
   "upcomingGames": [
-    {
-      "id": "401910036",
-      "name": "Memphis Grizzlies at Charlotte Hornets",
-      "shortName": "MEM @ CHA",
-      "date": "2026-11-24T00:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "30",
-        "name": "Charlotte Hornets",
-        "shortName": "Hornets",
-        "abbreviation": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "29",
-        "name": "Memphis Grizzlies",
-        "shortName": "Grizzlies",
-        "abbreviation": "MEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910037",
-      "name": "Portland Trail Blazers at Philadelphia 76ers",
-      "shortName": "POR @ PHI",
-      "date": "2026-11-24T00:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "20",
-        "name": "Philadelphia 76ers",
-        "shortName": "76ers",
-        "abbreviation": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "22",
-        "name": "Portland Trail Blazers",
-        "shortName": "Trail Blazers",
-        "abbreviation": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910038",
-      "name": "Oklahoma City Thunder at Indiana Pacers",
-      "shortName": "OKC @ IND",
-      "date": "2026-11-24T00:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "11",
-        "name": "Indiana Pacers",
-        "shortName": "Pacers",
-        "abbreviation": "IND",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "25",
-        "name": "Oklahoma City Thunder",
-        "shortName": "Thunder",
-        "abbreviation": "OKC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910039",
-      "name": "Milwaukee Bucks at Toronto Raptors",
-      "shortName": "MIL @ TOR",
-      "date": "2026-11-24T00:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "28",
-        "name": "Toronto Raptors",
-        "shortName": "Raptors",
-        "abbreviation": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "15",
-        "name": "Milwaukee Bucks",
-        "shortName": "Bucks",
-        "abbreviation": "MIL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910040",
-      "name": "Brooklyn Nets at Minnesota Timberwolves",
-      "shortName": "BKN @ MIN",
-      "date": "2026-11-24T00:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "16",
-        "name": "Minnesota Timberwolves",
-        "shortName": "Timberwolves",
-        "abbreviation": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "17",
-        "name": "Brooklyn Nets",
-        "shortName": "Nets",
-        "abbreviation": "BKN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910041",
-      "name": "Cleveland Cavaliers at Chicago Bulls",
-      "shortName": "CLE @ CHI",
-      "date": "2026-11-24T01:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "4",
-        "name": "Chicago Bulls",
-        "shortName": "Bulls",
-        "abbreviation": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "5",
-        "name": "Cleveland Cavaliers",
-        "shortName": "Cavaliers",
-        "abbreviation": "CLE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910042",
-      "name": "Phoenix Suns at New Orleans Pelicans",
-      "shortName": "PHX @ NO",
-      "date": "2026-11-24T01:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "3",
-        "name": "New Orleans Pelicans",
-        "shortName": "Pelicans",
-        "abbreviation": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "21",
-        "name": "Phoenix Suns",
-        "shortName": "Suns",
-        "abbreviation": "PHX",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910043",
-      "name": "LA Clippers at Houston Rockets",
-      "shortName": "LAC @ HOU",
-      "date": "2026-11-24T01:30Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "10",
-        "name": "Houston Rockets",
-        "shortName": "Rockets",
-        "abbreviation": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "12",
-        "name": "LA Clippers",
-        "shortName": "Clippers",
-        "abbreviation": "LAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910044",
-      "name": "Utah Jazz at Los Angeles Lakers",
-      "shortName": "UTAH @ LAL",
-      "date": "2026-11-24T03:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "13",
-        "name": "Los Angeles Lakers",
-        "shortName": "Lakers",
-        "abbreviation": "LAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "26",
-        "name": "Utah Jazz",
-        "shortName": "Jazz",
-        "abbreviation": "UTAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-        "score": 0
-      }
-    },
-    {
-      "id": "401910045",
-      "name": "San Antonio Spurs at Sacramento Kings",
-      "shortName": "SA @ SAC",
-      "date": "2026-11-24T03:00Z",
-      "statusName": "STATUS_SCHEDULED",
-      "statusState": "pre",
-      "statusDescription": "Scheduled",
-      "isCompleted": false,
-      "stage": {
-        "label": "Регулярка",
-        "className": "regular"
-      },
-      "seriesText": "",
-      "homeTeam": {
-        "id": "23",
-        "name": "Sacramento Kings",
-        "shortName": "Kings",
-        "abbreviation": "SAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-        "score": 0
-      },
-      "awayTeam": {
-        "id": "24",
-        "name": "San Antonio Spurs",
-        "shortName": "Spurs",
-        "abbreviation": "SA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-        "score": 0
-      }
-    },
     {
       "id": "401909314",
       "name": "Detroit Pistons at Orlando Magic",

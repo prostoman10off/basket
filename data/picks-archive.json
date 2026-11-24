@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-23T21:29:36.486Z",
-  "source_updated_at": "2026-11-23T16:59:09.306780+00:00",
+  "updated_at": "2026-11-24T06:03:54.857Z",
+  "source_updated_at": "2026-11-24T06:03:37.413566+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -1313,6 +1313,45 @@
       "home_abbr": "LAL",
       "status": "pre",
       "status_detail": "Fri, November 20th at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909314": {
+      "event_id": "401909314",
+      "date": "2026-11-25T00:00Z",
+      "name": "Detroit Pistons at Orlando Magic",
+      "short_name": "DET @ ORL",
+      "away_team": "Detroit Pistons",
+      "away_abbr": "DET",
+      "home_team": "Orlando Magic",
+      "home_abbr": "ORL",
+      "status": "pre",
+      "status_detail": "Tue, November 24th at 7:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909315": {
+      "event_id": "401909315",
+      "date": "2026-11-25T01:00Z",
+      "name": "Boston Celtics at Washington Wizards",
+      "short_name": "BOS @ WSH",
+      "away_team": "Boston Celtics",
+      "away_abbr": "BOS",
+      "home_team": "Washington Wizards",
+      "home_abbr": "WSH",
+      "status": "pre",
+      "status_detail": "Tue, November 24th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401909316": {
+      "event_id": "401909316",
+      "date": "2026-11-25T03:00Z",
+      "name": "Dallas Mavericks at Denver Nuggets",
+      "short_name": "DAL @ DEN",
+      "away_team": "Dallas Mavericks",
+      "away_abbr": "DAL",
+      "home_team": "Denver Nuggets",
+      "home_abbr": "DEN",
+      "status": "pre",
+      "status_detail": "Tue, November 24th at 10:00 PM EST",
       "winner_abbr": null
     },
     "401909834": {
@@ -6855,6 +6894,9 @@
         "voted_at": "2026-11-20T05:28:54.923821+00:00"
       }
     },
+    "401909314": {},
+    "401909315": {},
+    "401909316": {},
     "401909834": {
       "42552913": {
         "user_id": 42552913,
