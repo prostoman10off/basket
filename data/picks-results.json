@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-24T06:33:31.691Z",
+  "updatedAt": "2026-11-24T07:28:04.560Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-24T06:33:31.568Z",
-    "currentSeason": "2026-11-24T06:33:31.512Z",
-    "previousSeason": "2026-11-24T06:33:31.512Z"
+    "picks": "2026-11-24T07:28:04.405Z",
+    "currentSeason": "2026-11-24T07:28:04.346Z",
+    "previousSeason": "2026-11-24T07:28:04.346Z"
   },
   "scoring": {
     "correct": 1,
@@ -18,10 +18,10 @@
       "points": 182,
       "correctPicks": 182,
       "wrongPicks": 76,
-      "pendingPicks": 0,
+      "pendingPicks": 3,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 258,
+      "totalPicks": 261,
       "gradedPicks": 258,
       "accuracy": 71,
       "place": 1
@@ -1100,6 +1100,23 @@
       "homeTeamAbbr": "DEN"
     },
     {
+      "id": "401909316_andrei",
+      "gameId": "401909316",
+      "gameDate": "2026-11-25T03:00Z",
+      "gameName": "Dallas Mavericks at Denver Nuggets",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "DEN",
+      "pickedTeamName": "Denver Nuggets",
+      "votedAt": "2026-11-24T07:27:49.716777+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DAL",
+      "homeTeamAbbr": "DEN"
+    },
+    {
       "id": "401909315_seva",
       "gameId": "401909315",
       "gameDate": "2026-11-25T01:00Z",
@@ -1117,6 +1134,23 @@
       "homeTeamAbbr": "WAS"
     },
     {
+      "id": "401909315_andrei",
+      "gameId": "401909315",
+      "gameDate": "2026-11-25T01:00Z",
+      "gameName": "Boston Celtics at Washington Wizards",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "BOS",
+      "pickedTeamName": "Boston Celtics",
+      "votedAt": "2026-11-24T07:27:43.961910+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BOS",
+      "homeTeamAbbr": "WAS"
+    },
+    {
       "id": "401909314_seva",
       "gameId": "401909314",
       "gameDate": "2026-11-25T00:00Z",
@@ -1127,6 +1161,23 @@
       "pickedTeamAbbr": "DET",
       "pickedTeamName": "Detroit Pistons",
       "votedAt": "2026-11-24T06:33:02.168382+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "DET",
+      "homeTeamAbbr": "ORL"
+    },
+    {
+      "id": "401909314_andrei",
+      "gameId": "401909314",
+      "gameDate": "2026-11-25T00:00Z",
+      "gameName": "Detroit Pistons at Orlando Magic",
+      "playerId": "andrei",
+      "playerName": "Андрей",
+      "playerPhoto": "Andrei.jpg",
+      "pickedTeamAbbr": "DET",
+      "pickedTeamName": "Detroit Pistons",
+      "votedAt": "2026-11-24T07:27:37.116578+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
