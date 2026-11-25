@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T06:10:08.091Z",
-  "source_updated_at": "2026-11-25T06:09:47.758013+00:00",
+  "updated_at": "2026-11-25T06:12:04.711Z",
+  "source_updated_at": "2026-11-25T06:11:44.264007+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7105,6 +7105,14 @@
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-11-25T06:04:34.908107+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-25T06:10:20.913247+00:00"
       }
     },
     "401909318": {
@@ -7123,6 +7131,14 @@
         "picked_abbr": "CHA",
         "picked_team": "Charlotte Hornets",
         "voted_at": "2026-11-25T06:04:41.980159+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "CHI",
+        "picked_team": "Chicago Bulls",
+        "voted_at": "2026-11-25T06:10:30.903365+00:00"
       }
     },
     "401909319": {
@@ -7141,6 +7157,14 @@
         "picked_abbr": "NY",
         "picked_team": "New York Knicks",
         "voted_at": "2026-11-25T06:04:58.108996+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "NY",
+        "picked_team": "New York Knicks",
+        "voted_at": "2026-11-25T06:10:35.738918+00:00"
       }
     },
     "401909320": {
@@ -7159,6 +7183,14 @@
         "picked_abbr": "MIN",
         "picked_team": "Minnesota Timberwolves",
         "voted_at": "2026-11-25T06:05:03.725930+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-25T06:10:42.471732+00:00"
       }
     },
     "401909321": {
@@ -7177,6 +7209,14 @@
         "picked_abbr": "MEM",
         "picked_team": "Memphis Grizzlies",
         "voted_at": "2026-11-25T06:05:09.046339+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MEM",
+        "picked_team": "Memphis Grizzlies",
+        "voted_at": "2026-11-25T06:10:52.099682+00:00"
       }
     },
     "401909322": {
@@ -7195,9 +7235,25 @@
         "picked_abbr": "BKN",
         "picked_team": "Brooklyn Nets",
         "voted_at": "2026-11-25T06:05:16.393416+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "BKN",
+        "picked_team": "Brooklyn Nets",
+        "voted_at": "2026-11-25T06:10:57.004242+00:00"
       }
     },
     "401909323": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-11-25T06:10:15.952409+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7205,9 +7261,25 @@
         "picked_abbr": "HOU",
         "picked_team": "Houston Rockets",
         "voted_at": "2026-11-25T06:05:22.507308+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "HOU",
+        "picked_team": "Houston Rockets",
+        "voted_at": "2026-11-25T06:11:02.031696+00:00"
       }
     },
     "401909324": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-25T06:11:34.521041+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7215,9 +7287,25 @@
         "picked_abbr": "GS",
         "picked_team": "Golden State Warriors",
         "voted_at": "2026-11-25T06:05:28.085831+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "GS",
+        "picked_team": "Golden State Warriors",
+        "voted_at": "2026-11-25T06:11:08.387864+00:00"
       }
     },
     "401909325": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-25T06:11:44.264007+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7225,6 +7313,14 @@
         "picked_abbr": "SA",
         "picked_team": "San Antonio Spurs",
         "voted_at": "2026-11-25T06:05:33.595718+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-25T06:11:16.406821+00:00"
       }
     },
     "401909834": {
