@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T05:27:31.933Z",
-  "source_updated_at": "2026-11-27T05:27:19.136349+00:00",
+  "updated_at": "2026-11-27T05:30:10.619Z",
+  "source_updated_at": "2026-11-27T05:29:44.978260+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7485,6 +7485,14 @@
       }
     },
     "401909327": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-27T05:27:39.669188+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7495,6 +7503,14 @@
       }
     },
     "401909328": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-27T05:27:53.800152+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7505,6 +7521,14 @@
       }
     },
     "401909329": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-11-27T05:27:47.356322+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7515,6 +7539,14 @@
       }
     },
     "401909330": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-27T05:28:08.949364+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7525,6 +7557,14 @@
       }
     },
     "401909331": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-27T05:28:15.534128+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7535,6 +7575,14 @@
       }
     },
     "401909332": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DAL",
+        "picked_team": "Dallas Mavericks",
+        "voted_at": "2026-11-27T05:28:34.749954+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7545,6 +7593,14 @@
       }
     },
     "401909333": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-27T05:29:21.421244+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7555,6 +7611,14 @@
       }
     },
     "401909334": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-27T05:29:28.098976+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7565,6 +7629,14 @@
       }
     },
     "401909335": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "LAC",
+        "picked_team": "LA Clippers",
+        "voted_at": "2026-11-27T05:29:38.160498+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
@@ -7575,6 +7647,14 @@
       }
     },
     "401909336": {
+      "42552913": {
+        "user_id": 42552913,
+        "username": "Ivan10off",
+        "full_name": "Иван Чириков",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-11-27T05:29:44.978260+00:00"
+      },
       "58800473": {
         "user_id": 58800473,
         "username": "AmaterasuOwned",
