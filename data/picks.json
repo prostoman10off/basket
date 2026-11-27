@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T05:38:46.337155+00:00",
+  "updated_at": "2026-11-27T05:38:51.471837+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -13383,6 +13383,14 @@
         "picked_abbr": "TOR",
         "picked_team": "Toronto Raptors",
         "voted_at": "2026-11-27T05:27:47.356322+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-11-27T05:38:51.471837+00:00"
       }
     },
     "401909330": {
