@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T05:30:10.619Z",
-  "source_updated_at": "2026-11-27T05:29:44.978260+00:00",
+  "updated_at": "2026-11-27T05:39:49.842Z",
+  "source_updated_at": "2026-11-27T05:39:28.466230+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -7482,6 +7482,14 @@
         "picked_abbr": "NY",
         "picked_team": "New York Knicks",
         "voted_at": "2026-11-27T05:24:24.192012+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIA",
+        "picked_team": "Miami Heat",
+        "voted_at": "2026-11-27T05:38:34.336429+00:00"
       }
     },
     "401909327": {
@@ -7500,6 +7508,14 @@
         "picked_abbr": "DET",
         "picked_team": "Detroit Pistons",
         "voted_at": "2026-11-27T05:24:29.276715+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DET",
+        "picked_team": "Detroit Pistons",
+        "voted_at": "2026-11-27T05:38:40.962875+00:00"
       }
     },
     "401909328": {
@@ -7518,6 +7534,14 @@
         "picked_abbr": "PHI",
         "picked_team": "Philadelphia 76ers",
         "voted_at": "2026-11-27T05:24:34.284786+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "PHI",
+        "picked_team": "Philadelphia 76ers",
+        "voted_at": "2026-11-27T05:38:46.337155+00:00"
       }
     },
     "401909329": {
@@ -7536,6 +7560,14 @@
         "picked_abbr": "TOR",
         "picked_team": "Toronto Raptors",
         "voted_at": "2026-11-27T05:24:40.634930+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "TOR",
+        "picked_team": "Toronto Raptors",
+        "voted_at": "2026-11-27T05:38:51.471837+00:00"
       }
     },
     "401909330": {
@@ -7554,6 +7586,14 @@
         "picked_abbr": "BOS",
         "picked_team": "Boston Celtics",
         "voted_at": "2026-11-27T05:24:46.492096+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "BOS",
+        "picked_team": "Boston Celtics",
+        "voted_at": "2026-11-27T05:38:56.370835+00:00"
       }
     },
     "401909331": {
@@ -7572,6 +7612,14 @@
         "picked_abbr": "MEM",
         "picked_team": "Memphis Grizzlies",
         "voted_at": "2026-11-27T05:24:51.203402+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "MIN",
+        "picked_team": "Minnesota Timberwolves",
+        "voted_at": "2026-11-27T05:39:01.520106+00:00"
       }
     },
     "401909332": {
@@ -7590,6 +7638,14 @@
         "picked_abbr": "DAL",
         "picked_team": "Dallas Mavericks",
         "voted_at": "2026-11-27T05:24:57.629084+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "PHX",
+        "picked_team": "Phoenix Suns",
+        "voted_at": "2026-11-27T05:39:08.094783+00:00"
       }
     },
     "401909333": {
@@ -7608,6 +7664,14 @@
         "picked_abbr": "LAL",
         "picked_team": "Los Angeles Lakers",
         "voted_at": "2026-11-27T05:25:04.114096+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "SA",
+        "picked_team": "San Antonio Spurs",
+        "voted_at": "2026-11-27T05:39:13.174548+00:00"
       }
     },
     "401909334": {
@@ -7626,6 +7690,14 @@
         "picked_abbr": "DEN",
         "picked_team": "Denver Nuggets",
         "voted_at": "2026-11-27T05:25:10.388679+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "DEN",
+        "picked_team": "Denver Nuggets",
+        "voted_at": "2026-11-27T05:39:18.372971+00:00"
       }
     },
     "401909335": {
@@ -7644,6 +7716,14 @@
         "picked_abbr": "NO",
         "picked_team": "New Orleans Pelicans",
         "voted_at": "2026-11-27T05:25:20.509247+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "LAC",
+        "picked_team": "LA Clippers",
+        "voted_at": "2026-11-27T05:39:23.662837+00:00"
       }
     },
     "401909336": {
@@ -7662,6 +7742,14 @@
         "picked_abbr": "POR",
         "picked_team": "Portland Trail Blazers",
         "voted_at": "2026-11-27T05:25:15.322454+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "POR",
+        "picked_team": "Portland Trail Blazers",
+        "voted_at": "2026-11-27T05:39:28.466230+00:00"
       }
     },
     "401909834": {
