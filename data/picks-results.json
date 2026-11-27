@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-27T05:25:42.378Z",
+  "updatedAt": "2026-11-27T05:27:32.027Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-27T05:25:42.070Z",
-    "currentSeason": "2026-11-27T05:25:42.026Z",
-    "previousSeason": "2026-11-27T05:25:42.026Z"
+    "picks": "2026-11-27T05:27:31.933Z",
+    "currentSeason": "2026-11-27T05:27:31.888Z",
+    "previousSeason": "2026-11-27T05:27:31.888Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 187,
       "correctPicks": 187,
       "wrongPicks": 83,
-      "pendingPicks": 0,
+      "pendingPicks": 1,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 270,
+      "totalPicks": 271,
       "gradedPicks": 270,
       "accuracy": 69,
       "place": 2
@@ -1311,6 +1311,23 @@
       "winnerTeamAbbr": null,
       "awayTeamAbbr": "BKN",
       "homeTeamAbbr": "TOR"
+    },
+    {
+      "id": "401909326_ivan",
+      "gameId": "401909326",
+      "gameDate": "2026-11-28T00:00Z",
+      "gameName": "Miami Heat at New York Knicks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "NYK",
+      "pickedTeamName": "New York Knicks",
+      "votedAt": "2026-11-27T05:27:19.136349+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "MIA",
+      "homeTeamAbbr": "NYK"
     },
     {
       "id": "401909326_seva",
