@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T08:26:41.056417+00:00",
+  "updated_at": "2026-11-28T08:29:16.809325+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -13656,6 +13656,14 @@
         "picked_abbr": "WSH",
         "picked_team": "Washington Wizards",
         "voted_at": "2026-11-28T08:26:10.692055+00:00"
+      },
+      "5280657145": {
+        "user_id": 5280657145,
+        "username": "Garlan23",
+        "full_name": "Andrey",
+        "picked_abbr": "ORL",
+        "picked_team": "Orlando Magic",
+        "voted_at": "2026-11-28T08:29:16.809325+00:00"
       }
     },
     "401910047": {
