@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T08:26:10.692055+00:00",
+  "updated_at": "2026-11-28T08:26:15.859467+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -13666,6 +13666,14 @@
         "picked_abbr": "CHA",
         "picked_team": "Charlotte Hornets",
         "voted_at": "2026-11-28T08:23:42.641572+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "CHA",
+        "picked_team": "Charlotte Hornets",
+        "voted_at": "2026-11-28T08:26:15.859467+00:00"
       }
     },
     "401910048": {
