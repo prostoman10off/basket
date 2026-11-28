@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T08:24:28.226120+00:00",
+  "updated_at": "2026-11-28T08:26:10.692055+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -13648,6 +13648,14 @@
         "picked_abbr": "ORL",
         "picked_team": "Orlando Magic",
         "voted_at": "2026-11-28T08:23:06.877102+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "WSH",
+        "picked_team": "Washington Wizards",
+        "voted_at": "2026-11-28T08:26:10.692055+00:00"
       }
     },
     "401910047": {
