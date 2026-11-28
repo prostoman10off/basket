@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T08:26:21.276106+00:00",
+  "updated_at": "2026-11-28T08:26:27.656390+00:00",
   "games": {
     "401902644": {
       "event_id": "401902644",
@@ -13702,6 +13702,14 @@
         "picked_abbr": "OKC",
         "picked_team": "Oklahoma City Thunder",
         "voted_at": "2026-11-28T08:24:10.766760+00:00"
+      },
+      "58800473": {
+        "user_id": 58800473,
+        "username": "AmaterasuOwned",
+        "full_name": "Всеволод Воробьев",
+        "picked_abbr": "OKC",
+        "picked_team": "Oklahoma City Thunder",
+        "voted_at": "2026-11-28T08:26:27.656390+00:00"
       }
     },
     "401910050": {
