@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-28T08:23:55.876Z",
+  "updatedAt": "2026-11-28T08:24:43.552Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-28T08:23:55.784Z",
-    "currentSeason": "2026-11-28T08:23:55.614Z",
-    "previousSeason": "2026-11-28T08:23:55.614Z"
+    "picks": "2026-11-28T08:24:43.459Z",
+    "currentSeason": "2026-11-28T08:24:43.414Z",
+    "previousSeason": "2026-11-28T08:24:43.414Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 194,
       "correctPicks": 194,
       "wrongPicks": 87,
-      "pendingPicks": 2,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 283,
+      "totalPicks": 286,
       "gradedPicks": 281,
       "accuracy": 69,
       "place": 2
@@ -1172,6 +1172,57 @@
     }
   ],
   "results": [
+    {
+      "id": "401910050_ivan",
+      "gameId": "401910050",
+      "gameDate": "2026-11-29T01:30Z",
+      "gameName": "Philadelphia 76ers at Houston Rockets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-11-28T08:24:28.226120+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "PHI",
+      "homeTeamAbbr": "HOU"
+    },
+    {
+      "id": "401910048_ivan",
+      "gameId": "401910048",
+      "gameDate": "2026-11-29T01:00Z",
+      "gameName": "Indiana Pacers at Chicago Bulls",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CHI",
+      "pickedTeamName": "Chicago Bulls",
+      "votedAt": "2026-11-28T08:24:03.048012+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "IND",
+      "homeTeamAbbr": "CHI"
+    },
+    {
+      "id": "401910049_ivan",
+      "gameId": "401910049",
+      "gameDate": "2026-11-29T01:00Z",
+      "gameName": "Oklahoma City Thunder at Milwaukee Bucks",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-11-28T08:24:10.766760+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "MIL"
+    },
     {
       "id": "401910047_ivan",
       "gameId": "401910047",
