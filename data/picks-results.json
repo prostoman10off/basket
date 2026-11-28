@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-28T08:23:24.845Z",
+  "updatedAt": "2026-11-28T08:23:55.876Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-28T08:23:24.741Z",
-    "currentSeason": "2026-11-28T08:23:24.694Z",
-    "previousSeason": "2026-11-28T08:23:24.694Z"
+    "picks": "2026-11-28T08:23:55.784Z",
+    "currentSeason": "2026-11-28T08:23:55.614Z",
+    "previousSeason": "2026-11-28T08:23:55.614Z"
   },
   "scoring": {
     "correct": 1,
@@ -34,10 +34,10 @@
       "points": 194,
       "correctPicks": 194,
       "wrongPicks": 87,
-      "pendingPicks": 1,
+      "pendingPicks": 2,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 282,
+      "totalPicks": 283,
       "gradedPicks": 281,
       "accuracy": 69,
       "place": 2
@@ -1172,6 +1172,23 @@
     }
   ],
   "results": [
+    {
+      "id": "401910047_ivan",
+      "gameId": "401910047",
+      "gameDate": "2026-11-28T23:00Z",
+      "gameName": "Brooklyn Nets at Charlotte Hornets",
+      "playerId": "ivan",
+      "playerName": "Иван",
+      "playerPhoto": "Ivan.jpg",
+      "pickedTeamAbbr": "CHA",
+      "pickedTeamName": "Charlotte Hornets",
+      "votedAt": "2026-11-28T08:23:42.641572+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "CHA"
+    },
     {
       "id": "401910046_ivan",
       "gameId": "401910046",
