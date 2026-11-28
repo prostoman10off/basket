@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T22:02:38.510Z",
-  "source_updated_at": "2026-11-27T06:04:31.524314+00:00",
+  "updated_at": "2026-11-28T08:22:36.563Z",
+  "source_updated_at": "2026-11-28T08:22:15.248608+00:00",
   "games": {
     "401898388": {
       "event_id": "401898388",
@@ -4368,6 +4368,71 @@
       "home_abbr": "SAC",
       "status": "pre",
       "status_detail": "Mon, November 23rd at 10:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910046": {
+      "event_id": "401910046",
+      "date": "2026-11-28T22:00Z",
+      "name": "Orlando Magic at Washington Wizards",
+      "short_name": "ORL @ WSH",
+      "away_team": "Orlando Magic",
+      "away_abbr": "ORL",
+      "home_team": "Washington Wizards",
+      "home_abbr": "WSH",
+      "status": "pre",
+      "status_detail": "Sat, November 28th at 5:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910047": {
+      "event_id": "401910047",
+      "date": "2026-11-28T23:00Z",
+      "name": "Brooklyn Nets at Charlotte Hornets",
+      "short_name": "BKN @ CHA",
+      "away_team": "Brooklyn Nets",
+      "away_abbr": "BKN",
+      "home_team": "Charlotte Hornets",
+      "home_abbr": "CHA",
+      "status": "pre",
+      "status_detail": "Sat, November 28th at 6:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910048": {
+      "event_id": "401910048",
+      "date": "2026-11-29T01:00Z",
+      "name": "Indiana Pacers at Chicago Bulls",
+      "short_name": "IND @ CHI",
+      "away_team": "Indiana Pacers",
+      "away_abbr": "IND",
+      "home_team": "Chicago Bulls",
+      "home_abbr": "CHI",
+      "status": "pre",
+      "status_detail": "Sat, November 28th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910049": {
+      "event_id": "401910049",
+      "date": "2026-11-29T01:00Z",
+      "name": "Oklahoma City Thunder at Milwaukee Bucks",
+      "short_name": "OKC @ MIL",
+      "away_team": "Oklahoma City Thunder",
+      "away_abbr": "OKC",
+      "home_team": "Milwaukee Bucks",
+      "home_abbr": "MIL",
+      "status": "pre",
+      "status_detail": "Sat, November 28th at 8:00 PM EST",
+      "winner_abbr": null
+    },
+    "401910050": {
+      "event_id": "401910050",
+      "date": "2026-11-29T01:30Z",
+      "name": "Philadelphia 76ers at Houston Rockets",
+      "short_name": "PHI @ HOU",
+      "away_team": "Philadelphia 76ers",
+      "away_abbr": "PHI",
+      "home_team": "Houston Rockets",
+      "home_abbr": "HOU",
+      "status": "pre",
+      "status_detail": "Sat, November 28th at 8:30 PM EST",
       "winner_abbr": null
     },
     "401914101": {
@@ -13264,6 +13329,11 @@
         "voted_at": "2026-11-23T10:10:44.862167+00:00"
       }
     },
+    "401910046": {},
+    "401910047": {},
+    "401910048": {},
+    "401910049": {},
+    "401910050": {},
     "401914101": {
       "42552913": {
         "user_id": 42552913,
