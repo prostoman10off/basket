@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-28T08:24:43.552Z",
+  "updatedAt": "2026-11-28T08:26:56.512Z",
   "sourceUpdatedAt": {
-    "picks": "2026-11-28T08:24:43.459Z",
-    "currentSeason": "2026-11-28T08:24:43.414Z",
-    "previousSeason": "2026-11-28T08:24:43.414Z"
+    "picks": "2026-11-28T08:26:56.392Z",
+    "currentSeason": "2026-11-28T08:26:56.334Z",
+    "previousSeason": "2026-11-28T08:26:56.334Z"
   },
   "scoring": {
     "correct": 1,
@@ -50,10 +50,10 @@
       "points": 188,
       "correctPicks": 188,
       "wrongPicks": 93,
-      "pendingPicks": 0,
+      "pendingPicks": 5,
       "latePicks": 0,
       "voidPicks": 0,
-      "totalPicks": 281,
+      "totalPicks": 286,
       "gradedPicks": 281,
       "accuracy": 67,
       "place": 3
@@ -1190,6 +1190,23 @@
       "homeTeamAbbr": "HOU"
     },
     {
+      "id": "401910050_seva",
+      "gameId": "401910050",
+      "gameDate": "2026-11-29T01:30Z",
+      "gameName": "Philadelphia 76ers at Houston Rockets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "HOU",
+      "pickedTeamName": "Houston Rockets",
+      "votedAt": "2026-11-28T08:26:41.056417+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "PHI",
+      "homeTeamAbbr": "HOU"
+    },
+    {
       "id": "401910048_ivan",
       "gameId": "401910048",
       "gameDate": "2026-11-29T01:00Z",
@@ -1200,6 +1217,23 @@
       "pickedTeamAbbr": "CHI",
       "pickedTeamName": "Chicago Bulls",
       "votedAt": "2026-11-28T08:24:03.048012+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "IND",
+      "homeTeamAbbr": "CHI"
+    },
+    {
+      "id": "401910048_seva",
+      "gameId": "401910048",
+      "gameDate": "2026-11-29T01:00Z",
+      "gameName": "Indiana Pacers at Chicago Bulls",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "IND",
+      "pickedTeamName": "Indiana Pacers",
+      "votedAt": "2026-11-28T08:26:21.276106+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
@@ -1224,6 +1258,23 @@
       "homeTeamAbbr": "MIL"
     },
     {
+      "id": "401910049_seva",
+      "gameId": "401910049",
+      "gameDate": "2026-11-29T01:00Z",
+      "gameName": "Oklahoma City Thunder at Milwaukee Bucks",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "OKC",
+      "pickedTeamName": "Oklahoma City Thunder",
+      "votedAt": "2026-11-28T08:26:27.656390+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "OKC",
+      "homeTeamAbbr": "MIL"
+    },
+    {
       "id": "401910047_ivan",
       "gameId": "401910047",
       "gameDate": "2026-11-28T23:00Z",
@@ -1241,6 +1292,23 @@
       "homeTeamAbbr": "CHA"
     },
     {
+      "id": "401910047_seva",
+      "gameId": "401910047",
+      "gameDate": "2026-11-28T23:00Z",
+      "gameName": "Brooklyn Nets at Charlotte Hornets",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "CHA",
+      "pickedTeamName": "Charlotte Hornets",
+      "votedAt": "2026-11-28T08:26:15.859467+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "BKN",
+      "homeTeamAbbr": "CHA"
+    },
+    {
       "id": "401910046_ivan",
       "gameId": "401910046",
       "gameDate": "2026-11-28T22:00Z",
@@ -1251,6 +1319,23 @@
       "pickedTeamAbbr": "ORL",
       "pickedTeamName": "Orlando Magic",
       "votedAt": "2026-11-28T08:23:06.877102+00:00",
+      "status": "pending",
+      "points": 0,
+      "winnerTeamAbbr": null,
+      "awayTeamAbbr": "ORL",
+      "homeTeamAbbr": "WAS"
+    },
+    {
+      "id": "401910046_seva",
+      "gameId": "401910046",
+      "gameDate": "2026-11-28T22:00Z",
+      "gameName": "Orlando Magic at Washington Wizards",
+      "playerId": "seva",
+      "playerName": "Сева",
+      "playerPhoto": "Seva.jpg",
+      "pickedTeamAbbr": "WAS",
+      "pickedTeamName": "Washington Wizards",
+      "votedAt": "2026-11-28T08:26:10.692055+00:00",
       "status": "pending",
       "points": 0,
       "winnerTeamAbbr": null,
